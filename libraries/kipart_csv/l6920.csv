@@ -1,0 +1,10 @@
+L6920,,,
+Pin,Name,Type,Side
+1,FB,in,left
+2,LBI,in,left
+3,LBO,out,left
+4,REF,out,left
+5,SHDN,in,right
+6,GND,pwr,right
+7,LX,in,right
+8,OUT,out,right
