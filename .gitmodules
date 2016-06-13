@@ -1,0 +1,30 @@
+[submodule "libraries/footprints/mysensors_radios.pretty"]
+	path = libraries/footprints/mysensors_radios.pretty
+	url = https://github.com/mysensors-kicad/mysensors_radios.pretty
+[submodule "libraries/packages3d/mysensors.3dshapes"]
+	path = libraries/packages3d/mysensors.3dshapes
+	url = https://github.com/mysensors-kicad/mysensors.3dshapes.git
+[submodule "libraries/footprints/mysensors_connectors.pretty"]
+	path = libraries/footprints/mysensors_connectors.pretty
+	url = https://github.com/mysensors-kicad/mysensors_connectors.pretty
+[submodule "libraries/footprints/mysensors_arduino.pretty"]
+	path = libraries/footprints/mysensors_arduino.pretty
+	url = https://github.com/mysensors-kicad/mysensors_arduino.pretty.git
+[submodule "libraries/footprints/mysensors_network.pretty"]
+	path = libraries/footprints/mysensors_network.pretty
+	url = https://github.com/mysensors-kicad/mysensors_network.pretty.git
+[submodule "libraries/footprints/mysensors_handsoldering.pretty"]
+	path = libraries/footprints/mysensors_handsoldering.pretty
+	url = https://github.com/mysensors-kicad/mysensors_handsoldering.pretty.git
+[submodule "libraries/footprints/mysensors_leds.pretty"]
+	path = libraries/footprints/mysensors_leds.pretty
+	url = https://github.com/mysensors-kicad/mysensors_leds.pretty
+[submodule "libraries/footprints/mysensors_obscurities.pretty"]
+	path = libraries/footprints/mysensors_obscurities.pretty
+	url = https://github.com/mysensors-kicad/mysensors_obscurities.pretty
+[submodule "libraries/footprints/mysensors_buttons.pretty"]
+	path = libraries/footprints/mysensors_buttons.pretty
+	url = https://github.com/mysensors-kicad/mysensors_buttons.pretty
+[submodule "libraries/symbols/mysensors_symbols"]
+	path = libraries/symbols/mysensors_symbols
+	url = https://github.com/mysensors-kicad/mysensors_symbols.git
