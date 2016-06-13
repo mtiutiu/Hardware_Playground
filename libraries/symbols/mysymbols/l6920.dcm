@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L6920
+D The L6920 is a high efficiency step-up controller requiring only three external components to realize the conversion from the battery voltage to the selected output voltage.
+$ENDCMP
+#
+#End Doc Library
