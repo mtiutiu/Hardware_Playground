@@ -1,10 +1,10 @@
-update=Thu 09 Jun 2016 06:21:47 PM EEST
+update=Mon 13 Jun 2016 12:19:12 PM EEST
 last_client=kicad
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=../../libraries
+LibDir=../../libraries/symbols/mysymbols
 [eeschema/libraries]
 LibName1=atmel
 LibName2=ch340

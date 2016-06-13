@@ -257,7 +257,7 @@ U 1 1 575A7CCB
 P 8600 2000
 F 0 "F1" V 8575 1850 50  0000 L CNN
 F 1 "MF-SMDF050" V 8700 1475 50  0000 L CNN
-F 2 "myfootprints:mf-smdf050" H 8600 2000 50  0001 C CNN
+F 2 "myfootprints:MF-SMDF050" H 8600 2000 50  0001 C CNN
 F 3 "https://www.bourns.com/pdfs/mfsmdf2.pdf" H 8600 2000 50  0001 C CNN
 	1    8600 2000
 	0    1    1    0   

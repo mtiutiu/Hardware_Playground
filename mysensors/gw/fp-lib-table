@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name myfootprints)(type KiCad)(uri /home/mtiutiu/Work/kicad/libraries/footprints/myfootprints.pretty)(options "")(descr ""))
+)
