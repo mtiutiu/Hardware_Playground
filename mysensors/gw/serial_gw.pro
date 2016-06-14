@@ -1,5 +1,5 @@
-update=Mon 13 Jun 2016 01:21:37 PM EEST
-last_client=kicad
+update=Tue 14 Jun 2016 11:54:55 AM EEST
+last_client=eeschema
 [general]
 version=1
 [eeschema]
@@ -91,3 +91,14 @@ LibName82=xilinx
 LibName83=Zilog
 LibName84=mysensors_radios
 LibName85=AMS1117-3.3
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
