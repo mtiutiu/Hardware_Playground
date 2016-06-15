@@ -1,5 +1,5 @@
-update=Tue 14 Jun 2016 11:54:55 AM EEST
-last_client=eeschema
+update=Wed 15 Jun 2016 10:39:08 AM EEST
+last_client=kicad
 [general]
 version=1
 [eeschema]
@@ -97,7 +97,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=pdf/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
