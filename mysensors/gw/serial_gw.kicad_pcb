@@ -3,7 +3,7 @@
   (general
     (links 92)
     (no_connects 0)
-    (area 113.442999 56.052 166.826001 117.99882)
+    (area 113.716999 56.947999 166.826001 116.915001)
     (thickness 1.6)
     (drawings 12)
     (tracks 343)
@@ -1606,6 +1606,11 @@
       (net 2 GND))
     (pad 2 smd rect (at 1.95 0 180) (size 0.8 5.1) (layers F.Cu F.Paste F.Mask)
       (net 20 "Net-(IC1-Pad7)"))
+    (model ../../../../../home/mtiutiu/Work/kicad/libraries/packages3d/mypackages.3dshapes/ceramic_res.wrl
+      (at (xyz -0.08 0.093 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module myfootprints:ZTTCS-3 (layer F.Cu) (tedit 57613F11) (tstamp 575A7003)
@@ -1627,6 +1632,11 @@
       (net 2 GND))
     (pad 2 smd rect (at 1.95 0 270) (size 0.8 5.1) (layers F.Cu F.Paste F.Mask)
       (net 44 "Net-(U2-Pad8)"))
+    (model ../../../../../home/mtiutiu/Work/kicad/libraries/packages3d/mypackages.3dshapes/ceramic_res.wrl
+      (at (xyz -0.08 0.093 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (gr_text MISO (at 122.555 94.107 90) (layer F.SilkS) (tstamp 575FE633)
