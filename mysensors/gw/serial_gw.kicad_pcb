@@ -3,7 +3,7 @@
   (general
     (links 92)
     (no_connects 0)
-    (area 113.716999 56.947999 166.826001 116.915001)
+    (area 113.442999 56.052 166.826001 117.99882)
     (thickness 1.6)
     (drawings 12)
     (tracks 343)
@@ -1326,11 +1326,6 @@
       (net 10 "Net-(F1-Pad1)"))
     (pad 2 smd rect (at 0 -2.15 270) (size 4.84 1.46) (layers F.Cu F.Paste F.Mask)
       (net 59 "Net-(C1-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_2010_HandSoldering.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 575FAE48) (tstamp 575FB140)
