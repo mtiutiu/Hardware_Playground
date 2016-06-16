@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2+e4-6225~38~ubuntu14.04.1-stable)
 
   (general
-    (links 92)
+    (links 96)
     (no_connects 0)
     (area 113.442999 56.052 166.826001 117.99882)
     (thickness 1.6)
@@ -1331,7 +1331,7 @@
       (net 59 "Net-(C1-Pad1)"))
   )
 
-  (module Connect:1pin (layer F.Cu) (tedit 57623F92) (tstamp 575FB140)
+  (module Connect:1pin (layer F.Cu) (tedit 57624056) (tstamp 575FB140)
     (at 116.967 60.325)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
@@ -1342,7 +1342,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
-    (pad "" thru_hole circle (at 0 0) (size 4.5 4.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at 0 0) (size 4.5 4.5) (drill 3.5) (layers *.Cu *.Mask)
       (net 2 GND))
   )
 
