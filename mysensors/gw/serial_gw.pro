@@ -1,4 +1,4 @@
-update=Wed 15 Jun 2016 11:39:59 AM EEST
+update=Fri 17 Jun 2016 11:03:19 AM EEST
 last_client=kicad
 [general]
 version=1
@@ -15,21 +15,21 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=../../libraries/symbols/mysymbols;../../libraries/symbols/mysensors_symbols
+LibDir=../../libraries/symbols/mysensors_symbols;../../libraries/symbols/mysymbols
 [eeschema/libraries]
-LibName1=AMS1117-3.3
-LibName2=ch340
-LibName3=l6920
-LibName4=mysensors_arduino
-LibName5=mysensors_connectors
-LibName6=mysensors_logic
-LibName7=mysensors_mcu
-LibName8=mysensors_memories
-LibName9=mysensors_network
-LibName10=mysensors_radios
-LibName11=mysensors_regulators
-LibName12=mysensors_security
-LibName13=mysensors_sensors
+LibName1=mysensors_arduino
+LibName2=mysensors_connectors
+LibName3=mysensors_logic
+LibName4=mysensors_mcu
+LibName5=mysensors_memories
+LibName6=mysensors_network
+LibName7=mysensors_radios
+LibName8=mysensors_regulators
+LibName9=mysensors_security
+LibName10=mysensors_sensors
+LibName11=AMS1117-3.3
+LibName12=ch340
+LibName13=l6920
 LibName14=74xgxx
 LibName15=74xx
 LibName16=ac-dc

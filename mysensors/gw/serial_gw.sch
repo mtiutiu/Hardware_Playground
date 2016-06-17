@@ -1,7 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:AMS1117-3.3
-LIBS:ch340
-LIBS:l6920
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic
@@ -12,6 +9,9 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
+LIBS:AMS1117-3.3
+LIBS:ch340
+LIBS:l6920
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
