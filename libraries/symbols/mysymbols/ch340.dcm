@@ -1,7 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP CH340G
-D CH340 is a USB bus convert chip and it can realize USB convert to serial interface.
-$ENDCMP
-#
-#End Doc Library
