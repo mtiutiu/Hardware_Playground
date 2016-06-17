@@ -3,7 +3,7 @@
   (general
     (links 89)
     (no_connects 89)
-    (area 91.1458 51.6308 199.858041 123.5636)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -1567,7 +1567,7 @@
     (fp_text reference VR1 (at 3.75 5.7 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value JVR10N471K (at 3.75 -2.6 270) (layer F.Fab)
+    (fp_text value VAR10-300 (at 3.75 -2.6 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.5 4.95) (end 10 4.95) (layer F.CrtYd) (width 0.05))
