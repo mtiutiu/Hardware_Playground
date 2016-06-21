@@ -1017,7 +1017,7 @@ Wire Wire Line
 Wire Wire Line
 	10175 3575 10275 3575
 Wire Wire Line
-	5425 5475 5425 5425
+	5425 5100 5425 5475
 Connection ~ 5425 5425
 Wire Wire Line
 	5425 6075 5425 6125
@@ -1259,4 +1259,6 @@ Wire Wire Line
 Wire Wire Line
 	8025 1650 8025 1900
 Connection ~ 8900 1900
+Wire Wire Line
+	5425 5100 6075 5100
 $EndSCHEMATC
