@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2+e4-6225~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606210817+6944~45~ubuntu14.04.1-product)
 
   (general
     (links 89)
     (no_connects 89)
-    (area 138.284095 53.514999 214.766 128.298)
+    (area 138.284095 53.324499 214.8835 128.4155)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -75,7 +75,6 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
-      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -1302,7 +1301,7 @@
       (net 40 "Net-(R4-Pad1)"))
     (pad 16 smd rect (at 18.3 0 270) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
       (net 48 "Net-(U1-Pad16)"))
-    (model ${MYSLOCAL}/mysensors.3dshapes/mysensors_radios.3dshapes/rfm69hw.wrl
+    (model ${KIPRJMOD}/../../../libraries/packages3d/mysensors.3dshapes/mysensors_radios.3dshapes/rfm69hw.wrl
       (at (xyz 0.332 -0.275 0.03))
       (scale (xyz 0.395 0.395 0.395))
       (rotate (xyz 0 0 180))

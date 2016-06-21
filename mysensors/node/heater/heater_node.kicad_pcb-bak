@@ -1545,7 +1545,7 @@
   )
 
   (module Varistors:RV_Disc_D12_W6.3_P7.5 (layer F.Cu) (tedit 5529CAF8) (tstamp 5763FC72)
-    (at 196.723 61.4045 180)
+    (at 195.333 61.4565 180)
     (tags "varistor SIOV")
     (path /57640B8C)
     (fp_text reference VR1 (at 3.75 5.7 180) (layer F.SilkS)
