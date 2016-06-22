@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606210817+6944~45~ubuntu14.04.1-product)
 
   (general
-    (links 109)
+    (links 110)
     (no_connects 0)
     (area 97.745499 46.312 179.6417 132.282001)
     (thickness 1.6)
-    (drawings 54)
+    (drawings 55)
     (tracks 387)
     (zones 0)
-    (modules 47)
+    (modules 48)
     (nets 54)
   )
 
@@ -215,6 +215,21 @@
     (add_net "Net-(U2-Pad2)")
   )
 
+  (module Connect:1pin (layer F.Cu) (tedit 57695A27) (tstamp 576A7067)
+    (at 174.117 128.397)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.15))
+    (pad "" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 3.2) (layers *.Cu *.Mask)
+      (net 2 GND) (zone_connect 2))
+  )
+
   (module Connect:1pin (layer F.Cu) (tedit 57695A16) (tstamp 576A5984)
     (at 101.727 80.0735)
     (descr "module 1 pin (ou trou mecanique de percage)")
@@ -246,7 +261,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57695A27) (tstamp 576953EE)
-    (at 131.318 127)
+    (at 130.175 128.27)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
@@ -261,7 +276,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57695A22) (tstamp 576953DA)
-    (at 174.0535 96.9645)
+    (at 174.117 96.9645)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
@@ -1796,6 +1811,7 @@
     )
   )
 
+  (gr_circle (center 139.6365 101.854) (end 139.8905 102.0445) (layer F.SilkS) (width 0.2))
   (gr_text "Antenna Length:\n433 MHz -> 165 mm\n868 MHz ->  82 mm\n915 MHz ->  78 mm" (at 103.505 98.425 90) (layer B.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)) (justify mirror))
   )
@@ -1823,10 +1839,10 @@
   (gr_text C6 (at 105.41 131.0005) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "Designed with care for B. Tanasoiu" (at 152.273 129.4765) (layer F.SilkS) (tstamp 576A4BDC)
+  (gr_text "Designed with care for B. Tanasoiu" (at 153.035 127.5715) (layer F.SilkS) (tstamp 576A4BDC)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
-  (gr_text "Mysensors RFM69 Heater Node" (at 152.146 127.4445) (layer F.SilkS)
+  (gr_text "Mysensors RFM69 Heater Node Rev 1.0" (at 152.7175 129.8575) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (gr_line (start 169.164 50.038) (end 134.5565 50.038) (layer F.SilkS) (width 0.2) (tstamp 576A39C0))

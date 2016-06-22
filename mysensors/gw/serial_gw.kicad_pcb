@@ -1579,9 +1579,7 @@
     (fp_line (start 3.2592 -0.0762) (end 0.9906 -0.0762) (layer B.SilkS) (width 0.5))
   )
 
-  (gr_text o (at 128.524 96.901) (layer F.SilkS) (tstamp 57624C7C)
-    (effects (font (size 0.8 0.8) (thickness 0.2)))
-  )
+  (gr_circle (center 128.397 97.028) (end 128.5875 97.2185) (layer F.SilkS) (width 0.2))
   (gr_text + (at 164.1094 108.5342) (layer F.SilkS) (tstamp 57624C79)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
