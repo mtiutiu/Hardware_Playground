@@ -459,7 +459,7 @@ L R_Small R6
 U 1 1 575ECDD9
 P 8775 3575
 F 0 "R6" V 8700 3550 50  0000 C CNN
-F 1 "10K" V 8625 3550 50  0000 C CNN
+F 1 "470" V 8625 3550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8671 3575 50  0001 C CNN
 F 3 "" H 8775 3575 50  0000 C CNN
 	1    8775 3575
@@ -612,14 +612,7 @@ MISO
 Text Label 6075 5100 0    60   ~ 0
 RST
 NoConn ~ 1550 1600
-NoConn ~ 4225 3975
-NoConn ~ 4225 4075
 NoConn ~ 4225 5325
-NoConn ~ 4225 5875
-NoConn ~ 4225 5975
-NoConn ~ 4225 6075
-NoConn ~ 4225 6175
-NoConn ~ 4225 6275
 NoConn ~ 2325 5325
 NoConn ~ 2325 5425
 $Comp
@@ -1022,7 +1015,7 @@ Connection ~ 5425 5425
 Wire Wire Line
 	5425 6075 5425 6125
 Wire Notes Line
-	5250 475  5250 2700
+	5250 475  5250 4350
 Wire Wire Line
 	4225 5125 4950 5125
 Wire Wire Line
@@ -1261,4 +1254,112 @@ Wire Wire Line
 Connection ~ 8900 1900
 Wire Wire Line
 	5425 5100 6075 5100
+$Comp
+L SW_DIP_x8 S1
+U 1 1 576A41FD
+P 6350 3250
+F 0 "S1" H 6350 2775 50  0000 C CNN
+F 1 "Node ID" H 6350 2675 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_DIP_x8_Slide" H 6300 3250 50  0001 C CNN
+F 3 "" H 6300 3250 50  0000 C CNN
+	1    6350 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2900 5700 2900
+Wire Wire Line
+	6050 3000 5700 3000
+Wire Wire Line
+	6050 3100 5700 3100
+Wire Wire Line
+	6050 3200 5700 3200
+Wire Wire Line
+	6050 3300 5700 3300
+Wire Wire Line
+	6050 3400 5700 3400
+Wire Wire Line
+	6050 3500 5700 3500
+NoConn ~ 6050 3600
+Wire Wire Line
+	6650 2900 6800 2900
+Wire Wire Line
+	6800 2900 6800 3750
+Wire Wire Line
+	6650 3000 6800 3000
+Connection ~ 6800 3000
+Wire Wire Line
+	6650 3100 6800 3100
+Connection ~ 6800 3100
+Wire Wire Line
+	6650 3200 6800 3200
+Connection ~ 6800 3200
+Wire Wire Line
+	6650 3300 6800 3300
+Connection ~ 6800 3300
+Wire Wire Line
+	6650 3400 6800 3400
+Connection ~ 6800 3400
+Wire Wire Line
+	6650 3500 6800 3500
+Connection ~ 6800 3500
+Wire Wire Line
+	6650 3600 6800 3600
+Connection ~ 6800 3600
+$Comp
+L GND #PWR032
+U 1 1 576A50E7
+P 6800 3750
+F 0 "#PWR032" H 6800 3500 50  0001 C CNN
+F 1 "GND" H 6805 3577 50  0000 C CNN
+F 2 "" H 6800 3750 50  0000 C CNN
+F 3 "" H 6800 3750 50  0000 C CNN
+	1    6800 3750
+	1    0    0    -1  
+$EndComp
+Text Label 5700 2900 2    60   ~ 0
+C0
+Text Label 5700 3000 2    60   ~ 0
+C1
+Text Label 5700 3100 2    60   ~ 0
+C2
+Text Label 5700 3200 2    60   ~ 0
+C3
+Text Label 5700 3300 2    60   ~ 0
+C4
+Text Label 5700 3400 2    60   ~ 0
+C5
+Text Label 5700 3500 2    60   ~ 0
+C6
+Wire Wire Line
+	4225 3975 4400 3975
+Wire Wire Line
+	4225 5875 4400 5875
+Wire Wire Line
+	4225 5975 4400 5975
+Wire Wire Line
+	4225 6075 4400 6075
+Wire Wire Line
+	4225 6175 4400 6175
+Wire Wire Line
+	4225 6275 4400 6275
+Text Label 4400 5875 0    60   ~ 0
+C0
+Text Label 4400 5975 0    60   ~ 0
+C1
+Text Label 4400 6075 0    60   ~ 0
+C2
+Text Label 4400 6175 0    60   ~ 0
+C3
+Text Label 4400 6275 0    60   ~ 0
+C4
+Text Label 4400 3975 0    60   ~ 0
+C5
+Text Label 4400 4075 0    60   ~ 0
+C6
+Wire Wire Line
+	4225 4075 4400 4075
+Wire Notes Line
+	5250 4350 7225 4350
+Text Notes 5350 4275 0    67   ~ 13
+Node ID configuration switch
 $EndSCHEMATC
