@@ -1421,7 +1421,7 @@
       (net 1 +5V))
     (pad 2 smd rect (at 1.635 0 90) (size 0.91 1.22) (layers F.Cu F.Paste F.Mask)
       (net 56 "Net-(C1-Pad1)"))
-    (model ${KIPRJMOD}/../../../libraries/packages3d/mypackages.3dshapes/sod123.wrl
+    (model ${KIPRJMOD}/../../libraries/packages3d/mypackages.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
