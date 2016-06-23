@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/mtiutiu/Work/kicad/mysensors/gw/serial_gw.sch)
-    (date "Thu 16 Jun 2016 09:18:45 AM EEST")
-    (tool "Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable")
+    (date "Thu 23 Jun 2016 11:51:46 AM EEST")
+    (tool "Eeschema 4.1.0-alpha+201606220816+6945~45~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -28,7 +28,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 575996BE))
     (comp (ref P1)
-      (value USB_OTG)
+      (value USB)
       (footprint Connect:USB_Mini-B)
       (libsource (lib conn) (part USB_OTG))
       (sheetpath (names /) (tstamps /))
@@ -85,7 +85,7 @@
     (comp (ref SW1)
       (value SW_RESET)
       (footprint Buttons_Switches_ThroughHole:SW_PUSH_SMALL)
-      (libsource (lib serial_gw-cache) (part SW_PUSH_SMALL_H))
+      (libsource (lib device) (part SW_PUSH_SMALL_H))
       (sheetpath (names /) (tstamps /))
       (tstamp 575EA702))
     (comp (ref C7)
@@ -137,7 +137,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 575EBBAD))
     (comp (ref R6)
-      (value 10K)
+      (value 470)
       (footprint Resistors_SMD:R_0805_HandSoldering)
       (libsource (lib device) (part R_Small))
       (sheetpath (names /) (tstamps /))
@@ -314,7 +314,6 @@
         (pin (num 9) (name ~) (type passive))
         (pin (num 10) (name ~) (type passive))))
     (libpart (lib ch340) (part CH340G)
-      (description "CH340 is a USB bus convert chip and it can realize USB convert to serial interface.")
       (fields
         (field (name Reference) U)
         (field (name Value) CH340G))
@@ -336,7 +335,7 @@
         (pin (num 15) (name R232) (type input))
         (pin (num 16) (name VCC) (type power_in))))
     (libpart (lib conn) (part CONN_01X01)
-      (description "Connector 01x01")
+      (description "Connector, single row, 01x01")
       (footprints
         (fp Pin_Header_Straight_1X01)
         (fp Pin_Header_Angled_1X01)
@@ -351,7 +350,8 @@
       (description "Polarised capacitor")
       (footprints
         (fp CP*)
-        (fp Elko*)
+        (fp C_Axial*)
+        (fp C_Radial*)
         (fp TantalC*)
         (fp C*elec)
         (fp c_elec*)
@@ -420,8 +420,8 @@
     (libpart (lib device) (part Led_Small)
       (description Led)
       (footprints
-        (fp CP*)
-        (fp SM*))
+        (fp LED-*)
+        (fp LED_*))
       (fields
         (field (name Reference) D)
         (field (name Value) Led_Small))
@@ -465,7 +465,8 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib serial_gw-cache) (part SW_PUSH_SMALL_H)
+    (libpart (lib device) (part SW_PUSH_SMALL_H)
+      (description Button)
       (fields
         (field (name Reference) SW)
         (field (name Value) SW_PUSH_SMALL_H))
@@ -473,7 +474,7 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
     (libpart (lib conn) (part USB_OTG)
-      (description "micro/mini connector")
+      (description "USB micro/mini connector")
       (footprints
         (fp USB*))
       (fields
@@ -487,20 +488,18 @@
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name shield) (type passive)))))
   (libraries
+    (library (logical mysensors_radios)
+      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysensors_symbols/mysensors_radios.lib))
     (library (logical AMS1117-3.3)
       (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/AMS1117-3.3.lib))
     (library (logical ch340)
       (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/ch340.lib))
-    (library (logical mysensors_radios)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysensors_symbols/mysensors_radios.lib))
     (library (logical atmel)
       (uri /usr/share/kicad/library/atmel.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical serial_gw-cache)
-      (uri /home/mtiutiu/Work/kicad/mysensors/gw/serial_gw-cache.lib)))
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(R2-Pad1)")
       (node (ref R2) (pin 1))
