@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606210817+6944~45~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606220816+6945~45~ubuntu14.04.1-product)
 
   (general
     (links 96)
@@ -333,7 +333,7 @@
       (net 2 GND))
     (pad "" np_thru_hole circle (at 0.8509 -2.19964) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 0.8509 2.19964) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-    (model ../../../../../home/mtiutiu/Work/kicad/libraries/packages3d/mypackages.3dshapes/AB2_USB_MINI_SMD.wrl
+    (model ${KIPRJMOD}/../../libraries/packages3d/mypackages.3dshapes/AB2_USB_MINI_SMD.wrl
       (at (xyz -0.2 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 90))
@@ -1270,7 +1270,7 @@
       (net 10 "Net-(F1-Pad1)"))
     (pad 2 smd rect (at 0 -2.15 270) (size 4.84 1.46) (layers F.Cu F.Paste F.Mask)
       (net 56 "Net-(C1-Pad1)"))
-    (model ../../../../../home/mtiutiu/Work/kicad/libraries/packages3d/mypackages.3dshapes/mf-smdf050.wrl
+    (model ${KIPRJMOD}/../../libraries/packages3d/mypackages.3dshapes/mf-smdf050.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1421,7 +1421,7 @@
       (net 1 +5V))
     (pad 2 smd rect (at 1.635 0 90) (size 0.91 1.22) (layers F.Cu F.Paste F.Mask)
       (net 56 "Net-(C1-Pad1)"))
-    (model ../../../../../home/mtiutiu/Work/kicad/libraries/packages3d/mypackages.3dshapes/sod123.wrl
+    (model ${KIPRJMOD}/../../../libraries/packages3d/mypackages.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1447,7 +1447,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 1.95 0 180) (size 0.8 5.1) (layers F.Cu F.Paste F.Mask)
       (net 20 "Net-(IC1-Pad7)"))
-    (model ../../../../../home/mtiutiu/Work/kicad/libraries/packages3d/mypackages.3dshapes/ceramic_res.wrl
+    (model ${KIPRJMOD}/../../libraries/packages3d/mypackages.3dshapes/ceramic_res.wrl
       (at (xyz -0.08 0.093 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 90))
@@ -1473,7 +1473,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 1.95 0 270) (size 0.8 5.1) (layers F.Cu F.Paste F.Mask)
       (net 44 "Net-(U2-Pad8)"))
-    (model ../../../../../home/mtiutiu/Work/kicad/libraries/packages3d/mypackages.3dshapes/ceramic_res.wrl
+    (model ${KIPRJMOD}/../../libraries/packages3d/mypackages.3dshapes/ceramic_res.wrl
       (at (xyz -0.08 0.093 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 90))

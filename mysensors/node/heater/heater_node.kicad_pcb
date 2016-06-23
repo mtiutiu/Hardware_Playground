@@ -3,7 +3,7 @@
   (general
     (links 110)
     (no_connects 0)
-    (area 98.222999 47.613499 177.811501 132.282001)
+    (area 97.745499 46.312 179.6417 133.0835)
     (thickness 1.6)
     (drawings 60)
     (tracks 387)
@@ -313,6 +313,11 @@
       (net 1 +5V))
     (pad 3 thru_hole circle (at 14.7 7.7 180) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
+    (model ${KIPRJMOD}/../../../libraries/packages3d/mypackages.3dshapes/hlk-pm01.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering placed (layer F.Cu) (tedit 57693BE2) (tstamp 5763EC7B)
@@ -1502,7 +1507,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 1.95 0) (size 0.8 5.1) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(IC1-Pad7)"))
-    (model ../../../../../home/mtiutiu/Work/kicad/libraries/packages3d/mypackages.3dshapes/ceramic_res.wrl
+    (model ${KIPRJMOD}/../../../libraries/packages3d/mypackages.3dshapes/ceramic_res.wrl
       (at (xyz -0.08 0.093 0))
       (scale (xyz 0.39 0.39 0.39))
       (rotate (xyz 0 0 90))
@@ -1615,6 +1620,11 @@
       (net 44 "Net-(F1-Pad2)"))
     (pad 2 thru_hole circle (at 7.5 3.1 90) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 41 "Net-(U2-Pad2)"))
+    (model ${KISYS3DMOD}/Capacitors_ThroughHole.3dshapes/C_Disc_D12_P7.75.wrl
+      (at (xyz 0.15 -0.05 0))
+      (scale (xyz 1.1 1.1 1.1))
+      (rotate (xyz 0 0 20))
+    )
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57695A16) (tstamp 576951C2)
