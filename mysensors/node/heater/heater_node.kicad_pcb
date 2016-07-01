@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606220816+6945~45~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606301453+6958~45~ubuntu14.04.1-product)
 
   (general
     (links 110)
@@ -1596,6 +1596,11 @@
       (net 45 "Net-(F1-Pad1)"))
     (pad 1 thru_hole circle (at -7.66064 2.54 180) (size 2.3495 2.3495) (drill 1.34874) (layers *.Cu *.Mask F.SilkS)
       (net 45 "Net-(F1-Pad1)"))
+    (model ${KIPRJMOD}/../../../libraries/packages3d/mypackages.3dshapes/clips_fuse_5x20.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Varistors:RV_Disc_D12_W6.3_P7.5 (layer F.Cu) (tedit 57693C5B) (tstamp 5763FC72)
