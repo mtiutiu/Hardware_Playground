@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606301453+6958~45~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201607041449+6962~46~ubuntu14.04.1-product)
 
   (general
     (links 110)
     (no_connects 0)
-    (area 97.745499 46.312 179.6417 133.0835)
+    (area 98.222999 47.613499 177.811501 132.282001)
     (thickness 1.6)
     (drawings 60)
     (tracks 385)
