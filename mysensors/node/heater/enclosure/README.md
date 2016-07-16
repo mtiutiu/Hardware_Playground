@@ -1,7 +1,7 @@
 #### Mysensors RFM69 serial gateway enclosure
 
 
-##### 3D renderings of gw enclosure
+##### 3D renderings of heater node enclosure
 
 Assembly view 1 | Assembly view 2
 ------------ | -------------
