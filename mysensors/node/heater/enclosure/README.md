@@ -1,4 +1,4 @@
-#### Mysensors RFM69 serial gateway enclosure
+#### Mysensors RFM69 heater node enclosure
 
 
 ##### 3D renderings of heater node enclosure
