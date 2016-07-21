@@ -100,7 +100,6 @@ LIBS:Symbols_Socket-DIN41612_RevA
 LIBS:Symbols_Transformer-Diskrete_RevA
 LIBS:hlk-pm01
 LIBS:RM50_SP
-LIBS:heater_node-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1083,22 +1082,18 @@ H_RELAY_CMD
 $Comp
 L Terminal_Block-2Pin_RevE_Date15jun2010 X3
 U 1 1 5764D957
-P 4750 1350
-F 0 "X3" H 4875 1250 50  0000 C CNN
-F 1 "HEATER_SW" H 4900 1175 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 4750 1350 50  0001 C CNN
-F 3 "" H 4750 1350 50  0000 C CNN
-	1    4750 1350
-	1    0    0    -1  
+P 4850 1300
+F 0 "X3" H 4975 1200 50  0000 C CNN
+F 1 "HEATER_SW" H 5000 1125 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 4850 1300 50  0001 C CNN
+F 3 "" H 4850 1300 50  0000 C CNN
+	1    4850 1300
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4200 1025 4650 1025
+	4200 1025 4750 1025
 Wire Wire Line
-	4650 1025 4650 1300
-Wire Wire Line
-	4100 1625 4650 1625
-Wire Wire Line
-	4650 1625 4650 1350
+	4100 1625 4750 1625
 Text Notes 7350 2625 0    67   ~ 13
 AC/DC 5V power supply
 $Comp
@@ -1362,4 +1357,8 @@ Wire Notes Line
 	5250 4350 7225 4350
 Text Notes 5350 4275 0    67   ~ 13
 Node ID configuration switch
+Wire Wire Line
+	4750 1025 4750 1300
+Wire Wire Line
+	4750 1625 4750 1350
 $EndSCHEMATC

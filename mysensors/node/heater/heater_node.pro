@@ -1,4 +1,4 @@
-update=Fri 17 Jun 2016 04:17:29 PM EEST
+update=Thu 21 Jul 2016 09:38:31 AM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=pdf/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=../../../libraries/symbols/mysensors_symbols;../../../libraries/symbols/mysymbols
@@ -140,3 +130,14 @@ LibName98=contrib_symbols_dl1eic/Symbols_Socket-DIN41612_RevA
 LibName99=contrib_symbols_dl1eic/Symbols_Transformer-Diskrete_RevA
 LibName100=hlk-pm01
 LibName101=RM50_SP
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
