@@ -100,6 +100,7 @@ LIBS:Symbols_Socket-DIN41612_RevA
 LIBS:Symbols_Transformer-Diskrete_RevA
 LIBS:hlk-pm01
 LIBS:RM50_SP
+LIBS:heater_node-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -739,7 +740,7 @@ $EndComp
 Text Notes 7875 6900 0    99   ~ 20
 Mysensors RFM69 heater node
 Text Notes 10600 7650 0    60   ~ 12
-1.0
+1.1
 Text Notes 650  2575 0    67   ~ 13
 AVR ISP
 Text Notes 5375 2600 0    67   ~ 13

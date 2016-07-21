@@ -1874,7 +1874,7 @@
   (gr_text "Designed with care for B. Tanasoiu" (at 153.035 127.5715) (layer F.SilkS) (tstamp 576A4BDC)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
-  (gr_text "Mysensors RFM69 Heater Node Rev 1.0" (at 152.7175 129.8575) (layer F.SilkS)
+  (gr_text "Mysensors RFM69 Heater Node Rev 1.1" (at 152.7175 129.8575) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (gr_line (start 173.228 54.0385) (end 169.3 50.1) (layer F.SilkS) (width 0.2) (tstamp 576A39A2))
