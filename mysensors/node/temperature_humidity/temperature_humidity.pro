@@ -1,4 +1,4 @@
-update=Tue 13 Sep 2016 11:02:18 AM EEST
+update=Wed 14 Sep 2016 09:47:11 AM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -125,3 +125,4 @@ LibName93=video
 LibName94=Worldsemi
 LibName95=Xicor
 LibName96=Zilog
+LibName97=MIC5205-3.3YM5TR
