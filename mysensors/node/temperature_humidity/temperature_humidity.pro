@@ -1,4 +1,4 @@
-update=Wed 14 Sep 2016 09:47:11 AM EEST
+update=Wed 14 Sep 2016 01:00:39 PM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -126,3 +126,13 @@ LibName94=Worldsemi
 LibName95=Xicor
 LibName96=Zilog
 LibName97=MIC5205-3.3YM5TR
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
