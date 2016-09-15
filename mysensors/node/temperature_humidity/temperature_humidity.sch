@@ -1,33 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic
@@ -40,62 +11,99 @@ LIBS:mysensors_security
 LIBS:mysensors_sensors
 LIBS:AMS1117-3.3
 LIBS:ch340
+LIBS:current_transf
 LIBS:hlk-pm01
 LIBS:l6920
+LIBS:linear_tech
+LIBS:MIC5205-3.3YM5TR
 LIBS:RM50_SP
 LIBS:v23079-e1208-b301
 LIBS:74xgxx
+LIBS:74xx
 LIBS:ac-dc
 LIBS:actel
+LIBS:adc-dac
 LIBS:Altera
 LIBS:analog_devices
-LIBS:battery_management
-LIBS:bbd
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
 LIBS:brooktre
+LIBS:cmos4000
 LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
 LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
 LIBS:diode
+LIBS:display
+LIBS:dsp
 LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
 LIBS:graphic
 LIBS:hc11
+LIBS:intel
+LIBS:interface
 LIBS:ir
 LIBS:Lattice
+LIBS:linear
 LIBS:logo
 LIBS:maxim
+LIBS:memory
+LIBS:microchip
 LIBS:microchip_dspic33dsc
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip_pic32mcu
+LIBS:microcontrollers
 LIBS:motor_drivers
+LIBS:motorola
 LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp_armmcu
 LIBS:onsemi
+LIBS:opto
 LIBS:Oscillators
+LIBS:philips
+LIBS:power
 LIBS:powerint
 LIBS:Power_Management
 LIBS:pspice
 LIBS:references
+LIBS:regul
 LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:silabs
+LIBS:siliconi
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
 LIBS:switches
+LIBS:texas
 LIBS:transf
+LIBS:transistors
 LIBS:ttl_ieee
+LIBS:valves
 LIBS:video
-LIBS:Worldsemi
 LIBS:Xicor
+LIBS:xilinx
 LIBS:Zilog
-LIBS:MIC5205-3.3YM5TR
+LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LIBS:Symbols_EN60617_13Mar2013
+LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
+LIBS:Symbols_ICs-Diskrete_RevD10
+LIBS:Symbols_ICs-Opto_RevB_16Sep2013
+LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+LIBS:Symbols_Socket-DIN41612_RevA
+LIBS:Symbols_Transformer-Diskrete_RevA
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -523,17 +531,6 @@ F 3 "" H 10610 1260 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery BT1
-U 1 1 57D7D95E
-P 9645 5895
-F 0 "BT1" H 9763 5986 50  0000 L CNN
-F 1 "3V3" H 9763 5895 50  0000 L CNN
-F 2 "mysensors_connectors:CR123_holder" H 9763 5804 50  0001 L CNN
-F 3 "" V 9645 5935 50  0000 C CNN
-	1    9645 5895
-	1    0    0    -1  
-$EndComp
-$Comp
 L +3.3V #PWR017
 U 1 1 57D7DD78
 P 8775 3400
@@ -720,7 +717,7 @@ L L_Small L2
 U 1 1 57D8357D
 P 5970 1375
 F 0 "L2" V 6145 1360 50  0000 L CNN
-F 1 "DLJ-10" V 6060 1220 50  0000 L CNN
+F 1 "10uH" V 6065 1260 50  0000 L CNN
 F 2 "myfootprints:DLJ-3015" H 5970 1375 50  0001 C CNN
 F 3 "" H 5970 1375 50  0000 C CNN
 	1    5970 1375
@@ -841,33 +838,33 @@ F 1 "HTU21D" V 9305 795 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 9205 795 50  0001 C CNN
 F 3 "" H 9205 795 50  0000 C CNN
 	1    9205 795 
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L +3.3V #PWR030
 U 1 1 57D81562
-P 8630 645
-F 0 "#PWR030" H 8630 495 50  0001 C CNN
-F 1 "+3.3V" H 8645 818 50  0000 C CNN
-F 2 "" H 8630 645 50  0000 C CNN
-F 3 "" H 8630 645 50  0000 C CNN
-	1    8630 645 
+P 8690 945
+F 0 "#PWR030" H 8690 795 50  0001 C CNN
+F 1 "+3.3V" H 8705 1118 50  0000 C CNN
+F 2 "" H 8690 945 50  0000 C CNN
+F 3 "" H 8690 945 50  0000 C CNN
+	1    8690 945 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR031
 U 1 1 57D81703
-P 8850 745
-F 0 "#PWR031" H 8850 495 50  0001 C CNN
-F 1 "GND" H 8855 572 50  0000 C CNN
-F 2 "" H 8850 745 50  0000 C CNN
-F 3 "" H 8850 745 50  0000 C CNN
-	1    8850 745 
+P 8925 845
+F 0 "#PWR031" H 8925 595 50  0001 C CNN
+F 1 "GND" H 8930 672 50  0000 C CNN
+F 2 "" H 8925 845 50  0000 C CNN
+F 3 "" H 8925 845 50  0000 C CNN
+	1    8925 845 
 	0    1    1    0   
 $EndComp
-Text Label 8550 845  2    50   ~ 0
+Text Label 8650 745  2    50   ~ 0
 SDA
-Text Label 8710 945  2    50   ~ 0
+Text Label 8650 645  2    50   ~ 0
 SCL
 Text Label 4485 5225 0    50   ~ 0
 SDA
@@ -1123,14 +1120,6 @@ Wire Wire Line
 	9645 5540 9000 5540
 Connection ~ 9645 5740
 Wire Wire Line
-	9005 645  8630 645 
-Wire Wire Line
-	9005 745  8850 745 
-Wire Wire Line
-	9005 845  8550 845 
-Wire Wire Line
-	9005 945  8710 945 
-Wire Wire Line
 	4225 5225 4485 5225
 Wire Wire Line
 	4225 5325 4480 5325
@@ -1322,4 +1311,23 @@ Text Label 7485 1080 2    50   ~ 0
 A1
 Text Label 7490 1180 2    50   ~ 0
 D0
+$Comp
+L Battery BT1
+U 1 1 57DA7173
+P 9645 5895
+F 0 "BT1" H 9745 5945 50  0000 L CNN
+F 1 "CR123A - 3V3" V 9485 5575 50  0000 L CNN
+F 2 "mysensors_connectors:CR123_holder" V 9645 5935 50  0001 C CNN
+F 3 "" V 9645 5935 50  0000 C CNN
+	1    9645 5895
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9005 845  8925 845 
+Wire Wire Line
+	8690 945  9005 945 
+Wire Wire Line
+	9005 645  8650 645 
+Wire Wire Line
+	9005 745  8650 745 
 $EndSCHEMATC
