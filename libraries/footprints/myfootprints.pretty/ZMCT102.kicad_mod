@@ -1,0 +1,11 @@
+(module ZMCT102
+  (layer F.Cu)
+  (tedit 57DA484D)
+  (fp_text reference REF** (at 5.9 7.05) (layer F.SilkS) (effects (font (size 1 1) (thickness 0.15))))
+  (fp_text value ZMCT102 (at 5.9 -7.05) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
+  (fp_line (start -3.95 -5.85) (end 15.75 -5.85) (layer F.SilkS) (width 0.15))
+  (fp_line (start 15.75 -5.85) (end 15.75 5.85) (layer F.SilkS) (width 0.15))
+  (fp_line (start 15.75 5.85) (end -3.95 5.85) (layer F.SilkS) (width 0.15))
+  (fp_line (start -3.95 5.85) (end -3.95 -5.85) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 11.8 0) (size 2.5 2.5) (drill 1) (layers *.Cu *.Mask)))
