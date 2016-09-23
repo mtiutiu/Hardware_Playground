@@ -104,6 +104,7 @@ LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
 LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:Symbols_Socket-DIN41612_RevA
 LIBS:Symbols_Transformer-Diskrete_RevA
+LIBS:temperature_humidity-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -396,7 +397,7 @@ NoConn ~ 2325 5425
 Text Notes 7300 6925 0    99   ~ 20
 Mysensors RFM69 temperature & humidity node
 Text Notes 10600 7650 0    60   ~ 12
-0.1
+1.4
 Text Notes 650  2575 0    67   ~ 13
 AVR ISP
 Text Notes 825  7450 0    67   ~ 13
