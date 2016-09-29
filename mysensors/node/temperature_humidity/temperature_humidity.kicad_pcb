@@ -3,7 +3,7 @@
   (general
     (links 126)
     (no_connects 0)
-    (area 91.950574 75.6838 153.032427 102.378)
+    (area 98.374999 77.229407 146.671501 99.491001)
     (thickness 1.6)
     (drawings 19)
     (tracks 395)
@@ -581,20 +581,10 @@
     (pad 2 thru_hole circle (at 0 -37.82 270) (size 2.54 2.54) (drill 1.3) (layers *.Cu *.Mask B.SilkS)
       (net 2 GND))
     (pad "" np_thru_hole circle (at 8.1 0 270) (size 1.98 1.98) (drill 1.98) (layers *.Cu Dwgs.User))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x01.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x01.wrl
-      (at (xyz 0 -1.49 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model ${KIPRJMOD}/../../../libraries/packages3d/mysensors.3dshapes/mysensors_connectors.3dshapes/cr123_holder.wrl
-      (at (xyz 0 -0.746 0.35))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model ${KIPRJMOD}/../../../libraries/packages3d/mypackages.3dshapes/cr123_holder.wrl
+      (at (xyz -1.305 -1.505 -0.57))
+      (scale (xyz 0.393701 0.393701 0.393701))
+      (rotate (xyz -90 0 -90))
     )
   )
 
