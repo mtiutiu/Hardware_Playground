@@ -1361,7 +1361,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/../../../libraries/packages3d/mysensors.3dshapes/mysensors_radios.3dshapes/rfm69hw.wrl
+    (model ${KIPRJMOD}/../../../libraries/packages3d/mypackages.3dshapes/rfm69hw.wrl
       (at (xyz 0.332 -0.27 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 180))
