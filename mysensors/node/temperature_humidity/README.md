@@ -1,4 +1,4 @@
-#### Mysensors RFM69 battery powered node
+#### Mysensors RFM69 temperature & humidity node
 
 
 ##### 3D renderings of pcb
