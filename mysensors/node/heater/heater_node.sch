@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:heater_node-rescue
 LIBS:AMS1117-3.3
 LIBS:ch340
 LIBS:l6920
@@ -100,7 +101,6 @@ LIBS:Symbols_Socket-DIN41612_RevA
 LIBS:Symbols_Transformer-Diskrete_RevA
 LIBS:hlk-pm01
 LIBS:RM50_SP
-LIBS:heater_node-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -140,12 +140,12 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 575E81CB
-P 5200 4825
-F 0 "#PWR01" H 5200 4575 50  0001 C CNN
-F 1 "GND" H 5205 4652 50  0000 C CNN
-F 2 "" H 5200 4825 50  0000 C CNN
-F 3 "" H 5200 4825 50  0000 C CNN
-	1    5200 4825
+P 5200 4875
+F 0 "#PWR01" H 5200 4625 50  0001 C CNN
+F 1 "GND" H 5205 4702 50  0000 C CNN
+F 2 "" H 5200 4875 50  0000 C CNN
+F 3 "" H 5200 4875 50  0000 C CNN
+	1    5200 4875
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -616,7 +616,7 @@ NoConn ~ 4225 5325
 NoConn ~ 2325 5325
 NoConn ~ 2325 5425
 $Comp
-L Led_Small D1
+L LED_Small D1
 U 1 1 575EBC44
 P 6725 1000
 F 0 "D1" H 6750 1125 50  0000 C CNN
@@ -627,7 +627,7 @@ F 3 "" V 6725 1000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Led_Small D2
+L LED_Small D2
 U 1 1 575EC632
 P 6750 1425
 F 0 "D2" H 6800 1550 50  0000 C CNN
@@ -660,7 +660,7 @@ F 3 "" H 6375 1425 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Led_Small D3
+L LED_Small D3
 U 1 1 575ED743
 P 6750 1825
 F 0 "D3" H 6800 1950 50  0000 C CNN
@@ -772,7 +772,7 @@ $EndComp
 Text Label 4950 5125 2    60   ~ 0
 HEATER_ON_LED
 $Comp
-L Led_Small D5
+L LED_Small D5
 U 1 1 57644E5B
 P 6750 2200
 F 0 "D5" H 6825 2300 50  0000 C CNN
@@ -829,8 +829,6 @@ Wire Wire Line
 	4225 4575 5400 4575
 Wire Wire Line
 	5400 4575 5400 4675
-Wire Wire Line
-	5200 4775 5200 4825
 Wire Wire Line
 	2325 4575 2150 4575
 Wire Wire Line
@@ -1210,22 +1208,8 @@ F 3 "" H 3900 1325 60  0000 C CNN
 	1    3900 1325
 	1    0    0    -1  
 $EndComp
-$Comp
-L VR VR1
-U 1 1 57640B8C
-P 8900 1650
-F 0 "VR1" V 8700 1650 50  0000 C TNN
-F 1 "VAR10-300" V 8800 1650 50  0000 C CNN
-F 2 "Varistors:RV_Disc_D12_W6.3_P7.5" H 8900 1650 50  0001 C CNN
-F 3 "" H 8900 1650 50  0000 C CNN
-	1    8900 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8725 1350 9175 1350
-Wire Wire Line
-	8900 1400 8900 1350
-Connection ~ 8900 1350
 Wire Wire Line
 	9175 1900 9175 1650
 Wire Wire Line
@@ -1247,7 +1231,6 @@ Wire Wire Line
 	8025 1350 8025 1600
 Wire Wire Line
 	8025 1650 8025 1900
-Connection ~ 8900 1900
 Wire Wire Line
 	5425 5100 6075 5100
 $Comp
@@ -1362,4 +1345,21 @@ Wire Wire Line
 	4750 1025 4750 1300
 Wire Wire Line
 	4750 1625 4750 1350
+$Comp
+L VARISTOR VR1
+U 1 1 58008D87
+P 8870 1620
+F 0 "VR1" V 8675 1430 50  0000 L CNN
+F 1 "VAR10-300" V 8765 1395 50  0000 L CNN
+F 2 "" H 8870 1620 50  0000 C CNN
+F 3 "" H 8870 1620 50  0000 C CNN
+	1    8870 1620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8870 1370 8870 1350
+Connection ~ 8870 1350
+Wire Wire Line
+	8870 1870 8870 1900
+Connection ~ 8870 1900
 $EndSCHEMATC
