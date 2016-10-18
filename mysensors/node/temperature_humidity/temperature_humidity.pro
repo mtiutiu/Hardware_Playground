@@ -1,4 +1,4 @@
-update=Thu 15 Sep 2016 01:03:30 PM EEST
+update=Tue 18 Oct 2016 11:33:11 AM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -144,3 +144,7 @@ LibName102=contrib_symbols_dl1eic/Symbols_Microcontroller_Philips-NXP_RevA_06Oct
 LibName103=contrib_symbols_dl1eic/SymbolsSimilarEN60617+oldDIN617-RevE8
 LibName104=contrib_symbols_dl1eic/Symbols_Socket-DIN41612_RevA
 LibName105=contrib_symbols_dl1eic/Symbols_Transformer-Diskrete_RevA
+LibName106=battery_management
+LibName107=bbd
+LibName108=motors
+LibName109=Worldsemi

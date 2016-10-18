@@ -104,7 +104,10 @@ LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
 LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:Symbols_Socket-DIN41612_RevA
 LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:temperature_humidity-cache
+LIBS:battery_management
+LIBS:bbd
+LIBS:motors
+LIBS:Worldsemi
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -144,12 +147,12 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 575E81CB
-P 5200 4825
-F 0 "#PWR01" H 5200 4575 50  0001 C CNN
-F 1 "GND" H 5205 4652 50  0000 C CNN
-F 2 "" H 5200 4825 50  0000 C CNN
-F 3 "" H 5200 4825 50  0000 C CNN
-	1    5200 4825
+P 5200 4875
+F 0 "#PWR01" H 5200 4625 50  0001 C CNN
+F 1 "GND" H 5205 4702 50  0000 C CNN
+F 2 "" H 5200 4875 50  0000 C CNN
+F 3 "" H 5200 4875 50  0000 C CNN
+	1    5200 4875
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -565,17 +568,6 @@ F 3 "" H 1775 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L1
-U 1 1 57D7CB09
-P 1560 4730
-F 0 "L1" V 1645 4700 50  0000 L CNN
-F 1 "BLM18HE152SN1D" V 1475 4320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1560 4730 50  0001 C CNN
-F 3 "" H 1560 4730 50  0000 C CNN
-	1    1560 4730
-	0    -1   -1   0   
-$EndComp
-$Comp
 L +3.3V #PWR020
 U 1 1 57D7D0EB
 P 1225 4730
@@ -712,17 +704,6 @@ F 2 "" H 5460 1835 50  0000 C CNN
 F 3 "" H 5460 1835 50  0000 C CNN
 	1    5460 1835
 	1    0    0    -1  
-$EndComp
-$Comp
-L L_Small L2
-U 1 1 57D8357D
-P 5970 1375
-F 0 "L2" V 6145 1360 50  0000 L CNN
-F 1 "10uH" V 6065 1260 50  0000 L CNN
-F 2 "myfootprints:DLJ-3015" H 5970 1375 50  0001 C CNN
-F 3 "" H 5970 1375 50  0000 C CNN
-	1    5970 1375
-	0    -1   -1   0   
 $EndComp
 $Comp
 L CP1_Small C9
@@ -890,8 +871,6 @@ Wire Wire Line
 	4225 4575 5400 4575
 Wire Wire Line
 	5400 4575 5400 4675
-Wire Wire Line
-	5200 4775 5200 4825
 Wire Wire Line
 	2325 4575 2150 4575
 Wire Wire Line
@@ -1331,4 +1310,26 @@ Wire Wire Line
 	9005 645  8650 645 
 Wire Wire Line
 	9005 745  8650 745 
+$Comp
+L INDUCTOR_Small L2
+U 1 1 5805E90E
+P 5970 1375
+F 0 "L2" V 6155 1375 50  0000 C CNN
+F 1 "10uH" V 6064 1375 50  0000 C CNN
+F 2 "myfootprints:DLJ-3015" V 6064 1375 50  0001 C CNN
+F 3 "" H 5970 1375 50  0000 C CNN
+	1    5970 1375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR_Small L1
+U 1 1 5805F6DD
+P 1560 4730
+F 0 "L1" V 1480 4750 50  0000 C CNN
+F 1 "BLM18HE152SN1D" V 1380 4670 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" V 1654 4730 50  0001 C CNN
+F 3 "" H 1560 4730 50  0000 C CNN
+	1    1560 4730
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
