@@ -1,4 +1,4 @@
-update=Tue 18 Oct 2016 11:33:11 AM EEST
+update=Tue 25 Oct 2016 12:03:18 PM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -148,3 +148,4 @@ LibName106=battery_management
 LibName107=bbd
 LibName108=motors
 LibName109=Worldsemi
+LibName110=mx-503398-1892

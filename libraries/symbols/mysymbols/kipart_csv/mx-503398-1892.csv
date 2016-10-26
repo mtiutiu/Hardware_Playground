@@ -1,0 +1,13 @@
+MX-503398-1892,,,,,,,,,,,,,,,bus.
+,,,,,,,,,,,,,,,
+Pin,Name,Type,Side,,,,,,,,,,,,
+1,DAT2,bidirectional,left,,,,,,,,,,,,
+2,CD/DAT3/CS,bidirectional,left,,,,,,,,,,,,
+3,CMD/DI,bidirectional,left,,,,,,,,,,,,
+4,Vdd,power_in,left,,,,,,,,,,,,
+5,CLK,input,left,,,,,,,,,,,,
+6,Vss,power_in,left,,,,,,,,,,,,
+7,DAT0/DO,bidirectional,left,,,,,,,,,,,,
+8,DAT1,bidirectional,left,,,,,,,,,,,,
+9,CD_SW1,input,right,,,,,,,,,,,,
+10,CD_SW2,input,right,,,,,,,,,,,,
