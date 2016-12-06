@@ -1,4 +1,4 @@
-update=Wed 09 Nov 2016 06:18:32 PM EET
+update=Tue 06 Dec 2016 04:52:41 PM EET
 version=1
 last_client=kicad
 [pcbnew]
@@ -114,3 +114,13 @@ LibName82=/home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/mx-503398-1892
 LibName83=/home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/pcm5100
 LibName84=pcm5100
 LibName85=pam8403
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
