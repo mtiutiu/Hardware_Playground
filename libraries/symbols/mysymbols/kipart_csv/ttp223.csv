@@ -1,0 +1,8 @@
+TTP223,,,
+Pin,Name,Type,Side
+1,Q,out,left
+2,Vss,pwr,left
+3,I,in,left
+4,AHLB,in,right
+5,Vdd,pwr,right
+6,TOG,in,right
