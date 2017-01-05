@@ -119,6 +119,7 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
+LIBS:livolo_2_ways_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -138,7 +139,7 @@ L ATMEGA328P-AU IC1
 U 1 1 575E6E29
 P 3225 5075
 F 0 "IC1" H 2555 6435 50  0000 C CNN
-F 1 "ATMEGA328P-A" H 2780 6345 50  0000 C CNN
+F 1 "ATMEGA328P-AU" H 2780 6345 50  0000 C CNN
 F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 3275 6350 50  0001 C CIN
 F 3 "" H 3225 5075 50  0000 C CNN
 	1    3225 5075
@@ -246,34 +247,34 @@ $EndComp
 $Comp
 L R_Small R3
 U 1 1 575E9FD3
-P 5155 5425
-F 0 "R3" V 4980 5425 50  0000 C CNN
-F 1 "10K" V 5050 5425 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5051 5425 50  0001 C CNN
-F 3 "" H 5155 5425 50  0000 C CNN
-	1    5155 5425
+P 5465 5425
+F 0 "R3" V 5290 5425 50  0000 C CNN
+F 1 "10K" V 5360 5425 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5361 5425 50  0001 C CNN
+F 3 "" H 5465 5425 50  0000 C CNN
+	1    5465 5425
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C8
 U 1 1 575EA846
-P 4830 5650
-F 0 "C8" V 5005 5650 50  0000 C CNN
-F 1 "100n" V 4930 5650 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4922 5559 50  0001 L CNN
-F 3 "" H 4830 5650 50  0000 C CNN
-	1    4830 5650
+P 5140 5650
+F 0 "C8" V 5315 5650 50  0000 C CNN
+F 1 "100n" V 5240 5650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5232 5559 50  0001 L CNN
+F 3 "" H 5140 5650 50  0000 C CNN
+	1    5140 5650
 	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR06
 U 1 1 575EAC84
-P 4830 5850
-F 0 "#PWR06" H 4830 5600 50  0001 C CNN
-F 1 "GND" H 4835 5677 50  0000 C CNN
-F 2 "" H 4830 5850 50  0000 C CNN
-F 3 "" H 4830 5850 50  0000 C CNN
-	1    4830 5850
+P 5140 5850
+F 0 "#PWR06" H 5140 5600 50  0001 C CNN
+F 1 "GND" H 5145 5677 50  0000 C CNN
+F 2 "" H 5140 5850 50  0000 C CNN
+F 3 "" H 5140 5850 50  0000 C CNN
+	1    5140 5850
 	1    0    0    -1  
 $EndComp
 Text Label 4650 4175 0    50   ~ 0
@@ -365,7 +366,7 @@ $EndComp
 Text Notes 7295 5135 0    67   ~ 13
 RFM69CW radio module
 Text Notes 7300 6465 0    67   ~ 13
-Livolo interface
+Livolo power/relays board
 NoConn ~ 2325 5325
 NoConn ~ 2325 5425
 Text Notes 6955 6925 0    98   ~ 20
@@ -392,12 +393,12 @@ Livolo Switch LEDs
 $Comp
 L +3.3V #PWR011
 U 1 1 57D2F93C
-P 5385 5425
-F 0 "#PWR011" H 5385 5275 50  0001 C CNN
-F 1 "+3.3V" H 5400 5598 50  0000 C CNN
-F 2 "" H 5385 5425 50  0000 C CNN
-F 3 "" H 5385 5425 50  0000 C CNN
-	1    5385 5425
+P 5695 5425
+F 0 "#PWR011" H 5695 5275 50  0001 C CNN
+F 1 "+3.3V" H 5710 5598 50  0000 C CNN
+F 2 "" H 5695 5425 50  0000 C CNN
+F 3 "" H 5695 5425 50  0000 C CNN
+	1    5695 5425
 	0    1    1    0   
 $EndComp
 $Comp
@@ -426,7 +427,7 @@ Text Label 775  1335 2    50   ~ 0
 MISO
 Text Label 780  1435 2    50   ~ 0
 SCK
-Text Label 5480 5135 0    50   ~ 0
+Text Label 5790 5135 0    50   ~ 0
 RESET
 Text Label 780  1535 2    50   ~ 0
 RESET
@@ -498,7 +499,6 @@ F 3 "" H 2905 1015 50  0000 C CNN
 	1    2905 1015
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4225 5675
 Text Notes 2285 2630 0    67   ~ 13
 Buck power supply(12V to 3.3V)
 $Comp
@@ -537,12 +537,12 @@ $EndComp
 $Comp
 L GND #PWR020
 U 1 1 57D927B3
-P 3630 2025
-F 0 "#PWR020" H 3630 1775 50  0001 C CNN
-F 1 "GND" H 3635 1852 50  0000 C CNN
-F 2 "" H 3630 2025 50  0000 C CNN
-F 3 "" H 3630 2025 50  0000 C CNN
-	1    3630 2025
+P 3630 1975
+F 0 "#PWR020" H 3630 1725 50  0001 C CNN
+F 1 "GND" H 3635 1802 50  0000 C CNN
+F 2 "" H 3630 1975 50  0000 C CNN
+F 3 "" H 3630 1975 50  0000 C CNN
+	1    3630 1975
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -807,7 +807,7 @@ L CONN_01X01 P1
 U 1 1 586CEFC7
 P 7365 2010
 F 0 "P1" V 7440 1920 50  0000 R CNN
-F 1 "Sense Pad" V 7370 1920 50  0000 R CNN
+F 1 "Sense Pad 2" V 7370 1920 50  0000 R CNN
 F 2 "myfootprints:touch_pad_16mm" V 7193 1922 50  0001 R CNN
 F 3 "" H 7365 2010 50  0000 C CNN
 	1    7365 2010
@@ -818,7 +818,7 @@ L C_Small C12
 U 1 1 586CFFBE
 P 7695 2180
 F 0 "C12" H 7800 2255 50  0000 C CNN
-F 1 "4p7*" H 7825 2115 50  0000 C CNN
+F 1 "0-50pf*" H 7870 2110 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7787 2089 50  0001 L CNN
 F 3 "" H 7695 2180 50  0000 C CNN
 	1    7695 2180
@@ -868,28 +868,6 @@ F 3 "" H 7770 1910 50  0000 C CNN
 	1    7770 1910
 	0    1    1    0   
 $EndComp
-$Comp
-L Jumper_NO_Small JP3
-U 1 1 586D4337
-P 8870 1810
-F 0 "JP3" H 8870 1995 50  0000 C CNN
-F 1 "Toggle/Direct" H 8870 1904 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 8870 1810 50  0001 C CNN
-F 3 "" H 8870 1810 50  0000 C CNN
-	1    8870 1810
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper_NO_Small JP4
-U 1 1 586D4745
-P 8870 2010
-F 0 "JP4" H 8880 1945 50  0000 C CNN
-F 1 "Out_H/L" H 8880 1880 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 8870 2010 50  0001 C CNN
-F 3 "" H 8870 2010 50  0000 C CNN
-	1    8870 2010
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	475  2700 11225 2700
 Wire Wire Line
@@ -921,11 +899,11 @@ Wire Wire Line
 	2325 6175 2250 6175
 Connection ~ 2250 6175
 Wire Wire Line
-	5255 5425 5385 5425
+	5565 5425 5695 5425
 Wire Wire Line
-	4225 5425 5055 5425
+	4225 5425 5365 5425
 Wire Wire Line
-	4830 5750 4830 5850
+	5140 5750 5140 5850
 Wire Wire Line
 	4225 4475 4650 4475
 Wire Wire Line
@@ -965,8 +943,8 @@ Wire Wire Line
 Wire Wire Line
 	10005 3605 10105 3605
 Wire Wire Line
-	4830 5135 4830 5550
-Connection ~ 4830 5425
+	5140 5135 5140 5550
+Connection ~ 5140 5425
 Wire Wire Line
 	775  1335 1175 1335
 Wire Wire Line
@@ -980,7 +958,7 @@ Wire Wire Line
 Wire Wire Line
 	1425 1535 1940 1535
 Wire Wire Line
-	4830 5135 5480 5135
+	5140 5135 5790 5135
 Wire Notes Line
 	7225 500  7225 6525
 Wire Wire Line
@@ -1006,8 +984,6 @@ Wire Wire Line
 	4195 1575 4195 1580
 Wire Wire Line
 	4195 1780 4195 1845
-Wire Wire Line
-	3630 1975 3630 2025
 Wire Wire Line
 	2905 1275 3030 1275
 Wire Wire Line
@@ -1060,13 +1036,9 @@ Wire Wire Line
 Connection ~ 7695 2010
 Wire Wire Line
 	8770 1910 9220 1910
+Connection ~ 8845 1910
 Wire Wire Line
-	8970 1810 9035 1810
-Wire Wire Line
-	9035 1810 9035 2010
-Connection ~ 9035 1910
-Wire Wire Line
-	9035 2010 8970 2010
+	8845 2010 8770 2010
 Wire Wire Line
 	9220 1910 9220 1660
 $Comp
@@ -1097,7 +1069,7 @@ L CONN_01X01 P2
 U 1 1 586DA0F8
 P 7370 1090
 F 0 "P2" V 7445 1000 50  0000 R CNN
-F 1 "Sense Pad" V 7375 1000 50  0000 R CNN
+F 1 "Sense Pad 1" V 7375 1000 50  0000 R CNN
 F 2 "myfootprints:touch_pad_16mm" V 7198 1002 50  0001 R CNN
 F 3 "" H 7370 1090 50  0000 C CNN
 	1    7370 1090
@@ -1108,7 +1080,7 @@ L C_Small C11
 U 1 1 586DA0FE
 P 7695 1260
 F 0 "C11" H 7800 1335 50  0000 C CNN
-F 1 "4p7*" H 7825 1195 50  0000 C CNN
+F 1 "0-50pf*" H 7895 1190 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7787 1169 50  0001 L CNN
 F 3 "" H 7695 1260 50  0000 C CNN
 	1    7695 1260
@@ -1158,28 +1130,6 @@ F 3 "" H 7770 990 50  0000 C CNN
 	1    7770 990 
 	0    1    1    0   
 $EndComp
-$Comp
-L Jumper_NO_Small JP1
-U 1 1 586DA11C
-P 8870 890
-F 0 "JP1" H 8870 1075 50  0000 C CNN
-F 1 "Toggle/Direct" H 8870 984 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 8870 890 50  0001 C CNN
-F 3 "" H 8870 890 50  0000 C CNN
-	1    8870 890 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper_NO_Small JP2
-U 1 1 586DA122
-P 8870 1090
-F 0 "JP2" H 8880 1025 50  0000 C CNN
-F 1 "Out_H/L" H 8880 960 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 8870 1090 50  0001 C CNN
-F 3 "" H 8870 1090 50  0000 C CNN
-	1    8870 1090
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7570 1090 7770 1090
 Wire Wire Line
@@ -1187,13 +1137,9 @@ Wire Wire Line
 Connection ~ 7695 1090
 Wire Wire Line
 	8770 990  9220 990 
+Connection ~ 8850 990 
 Wire Wire Line
-	8970 890  9035 890 
-Wire Wire Line
-	9035 890  9035 1090
-Connection ~ 9035 990 
-Wire Wire Line
-	9035 1090 8970 1090
+	8850 1090 8770 1090
 Wire Wire Line
 	9220 990  9220 740 
 $Comp
@@ -1210,8 +1156,6 @@ $EndComp
 Connection ~ 9220 990 
 NoConn ~ 4225 4575
 NoConn ~ 4225 4675
-NoConn ~ 4225 4825
-NoConn ~ 4225 4925
 NoConn ~ 4225 5125
 NoConn ~ 4225 5225
 $Comp
@@ -1293,7 +1237,6 @@ NoConn ~ 9115 5670
 NoConn ~ 9615 5670
 NoConn ~ 9615 5870
 NoConn ~ 9615 5970
-NoConn ~ 9615 6070
 NoConn ~ 9115 6070
 NoConn ~ 9115 5970
 NoConn ~ 9115 5870
@@ -1375,36 +1318,70 @@ Text Label 7730 890  2    60   ~ 0
 TS1
 Text Label 7725 1810 2    60   ~ 0
 TS2
-Wire Wire Line
-	4225 4075 4650 4075
-Wire Wire Line
-	4225 5325 4600 5325
-Wire Wire Line
-	4600 5325 4600 4985
-Wire Wire Line
-	4600 4985 4680 4985
-Text Label 4650 4075 0    60   ~ 0
+Text Label 4395 5875 0    60   ~ 0
 TS1
-Text Label 4680 4985 0    60   ~ 0
+Text Label 4400 4925 0    60   ~ 0
 TS2
-Wire Wire Line
-	4225 5025 4460 5025
-Wire Wire Line
-	4460 5025 4460 4855
-Wire Wire Line
-	4460 4855 4690 4855
-Wire Wire Line
-	4225 3975 4650 3975
-Text Label 4650 3975 0    60   ~ 0
+Text Label 4395 5975 0    60   ~ 0
 S1_LEDs
-Text Label 4690 4855 0    60   ~ 0
+Text Label 4400 4825 0    60   ~ 0
 S2_LEDs
-NoConn ~ 4225 5875
-NoConn ~ 4225 5975
 NoConn ~ 4225 6075
 NoConn ~ 4225 6175
 NoConn ~ 4225 6275
-NoConn ~ 9615 6170
 NoConn ~ 9115 5770
-NoConn ~ 4225 5575
+Wire Wire Line
+	9615 6070 9810 6070
+Wire Wire Line
+	9615 6170 9810 6170
+Text Label 9810 6070 0    60   ~ 0
+Relay1
+Text Label 9810 6170 0    60   ~ 0
+Relay2
+Text Label 4385 5575 0    60   ~ 0
+Relay2
+Text Label 4390 5675 0    60   ~ 0
+Relay1
+Wire Wire Line
+	8845 2010 8845 1910
+$Comp
+L GND #PWR040
+U 1 1 586E475A
+P 8770 1810
+F 0 "#PWR040" H 8770 1560 50  0001 C CNN
+F 1 "GND" H 8775 1637 50  0000 C CNN
+F 2 "" H 8770 1810 50  0000 C CNN
+F 3 "" H 8770 1810 50  0000 C CNN
+	1    8770 1810
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 1090 8850 990 
+$Comp
+L GND #PWR041
+U 1 1 586E4B6A
+P 8770 890
+F 0 "#PWR041" H 8770 640 50  0001 C CNN
+F 1 "GND" H 8775 717 50  0000 C CNN
+F 2 "" H 8770 890 50  0000 C CNN
+F 3 "" H 8770 890 50  0000 C CNN
+	1    8770 890 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4225 5575 4385 5575
+Wire Wire Line
+	4225 5675 4390 5675
+Wire Wire Line
+	4225 4925 4400 4925
+Wire Wire Line
+	4225 5875 4395 5875
+Wire Wire Line
+	4225 4825 4400 4825
+Wire Wire Line
+	4225 5975 4395 5975
+NoConn ~ 4225 3975
+NoConn ~ 4225 4075
+NoConn ~ 4225 5025
+NoConn ~ 4225 5325
 $EndSCHEMATC
