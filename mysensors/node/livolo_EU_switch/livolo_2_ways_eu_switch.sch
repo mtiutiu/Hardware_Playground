@@ -119,7 +119,6 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
-LIBS:livolo_2_ways_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -675,7 +674,7 @@ L LED_Small D6
 U 1 1 586DBC19
 P 10575 890
 F 0 "D6" H 10575 1125 50  0000 C CNN
-F 1 "LED_Blue" H 10575 1034 50  0000 C CNN
+F 1 "Blue" H 10575 1034 50  0000 C CNN
 F 2 "Diodes_SMD:D_0603" V 10575 890 50  0001 C CNN
 F 3 "" V 10575 890 50  0000 C CNN
 	1    10575 890 
@@ -686,7 +685,7 @@ L LED_Small D5
 U 1 1 586DBFD9
 P 10570 1255
 F 0 "D5" H 10570 1490 50  0000 C CNN
-F 1 "LED_Red" H 10570 1399 50  0000 C CNN
+F 1 "Red" H 10570 1399 50  0000 C CNN
 F 2 "Diodes_SMD:D_0603" V 10570 1255 50  0001 C CNN
 F 3 "" V 10570 1255 50  0000 C CNN
 	1    10570 1255
@@ -697,7 +696,7 @@ L LED_Small D3
 U 1 1 586DC092
 P 10560 1780
 F 0 "D3" H 10560 2015 50  0000 C CNN
-F 1 "LED_Blue" H 10560 1924 50  0000 C CNN
+F 1 "Blue" H 10560 1924 50  0000 C CNN
 F 2 "Diodes_SMD:D_0603" V 10560 1780 50  0001 C CNN
 F 3 "" V 10560 1780 50  0000 C CNN
 	1    10560 1780
@@ -708,7 +707,7 @@ L LED_Small D4
 U 1 1 586DC13C
 P 10560 2165
 F 0 "D4" H 10560 2400 50  0000 C CNN
-F 1 "LED_Red" H 10560 2309 50  0000 C CNN
+F 1 "Red" H 10560 2309 50  0000 C CNN
 F 2 "Diodes_SMD:D_0603" V 10560 2165 50  0001 C CNN
 F 3 "" V 10560 2165 50  0000 C CNN
 	1    10560 2165
@@ -1048,7 +1047,6 @@ Connection ~ 9220 990
 NoConn ~ 4225 4575
 NoConn ~ 4225 4675
 NoConn ~ 4225 5125
-NoConn ~ 4225 5225
 $Comp
 L R_Small R5
 U 1 1 586E8A7E
@@ -1229,10 +1227,10 @@ Text Label 9810 6070 0    60   ~ 0
 Relay1
 Text Label 9810 6170 0    60   ~ 0
 Relay2
-Text Label 4385 5575 0    60   ~ 0
-Relay2
-Text Label 4390 5675 0    60   ~ 0
+Text Label 4385 5225 0    60   ~ 0
 Relay1
+Text Label 4385 5325 0    60   ~ 0
+Relay2
 Wire Wire Line
 	8845 2010 8845 1910
 $Comp
@@ -1260,10 +1258,6 @@ F 3 "" H 8770 890 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4225 5575 4385 5575
-Wire Wire Line
-	4225 5675 4390 5675
-Wire Wire Line
 	4225 4925 4400 4925
 Wire Wire Line
 	4225 5875 4395 5875
@@ -1274,7 +1268,6 @@ Wire Wire Line
 NoConn ~ 4225 3975
 NoConn ~ 4225 4075
 NoConn ~ 4225 5025
-NoConn ~ 4225 5325
 $Comp
 L C_Small C10
 U 1 1 586E4602
@@ -1332,4 +1325,10 @@ Wire Wire Line
 Wire Wire Line
 	2280 3975 2280 4075
 Connection ~ 2280 4075
+Wire Wire Line
+	4225 5225 4385 5225
+NoConn ~ 4225 5575
+Wire Wire Line
+	4225 5325 4385 5325
+NoConn ~ 4225 5675
 $EndSCHEMATC
