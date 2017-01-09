@@ -1539,15 +1539,4 @@ Text Label 3810 6410 0    60   ~ 0
 Relay2_Reset
 Text Label 3810 6510 0    60   ~ 0
 Relay1_Reset
-$Comp
-L CP1_Small C?
-U 1 1 587555EC
-P 9760 5430
-F 0 "C?" H 9669 5384 50  0000 R CNN
-F 1 "CP1_Small" H 9669 5475 50  0000 R CNN
-F 2 "" H 9760 5430 50  0000 C CNN
-F 3 "" H 9760 5430 50  0000 C CNN
-	1    9760 5430
-	-1   0    0    1   
-$EndComp
 $EndSCHEMATC
