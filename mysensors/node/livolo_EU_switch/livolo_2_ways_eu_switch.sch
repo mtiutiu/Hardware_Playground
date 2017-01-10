@@ -124,9 +124,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Mysensors RFM69 2ways Livolo EU switch - Front Panel"
 Date ""
-Rev ""
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -151,7 +151,10 @@ P 1575 5510
 F 0 "C4" H 1425 5495 50  0000 C CNN
 F 1 "100n" H 1395 5585 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 1667 5419 50  0001 L CNN
-F 3 "" H 1575 5510 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1870456.pdf" H 1575 5510 50  0001 C CNN
+F 4 "MC0402X104K250CT" H 1575 5510 60  0001 C CNN "Part No"
+F 5 "X5R/25V" H 1575 5510 60  0001 C CNN "Rating"
+F 6 "Multicomp" H 1575 5510 60  0001 C CNN "Vendor"
 	1    1575 5510
 	-1   0    0    1   
 $EndComp
@@ -173,7 +176,10 @@ P 1080 5110
 F 0 "C2" V 930 5110 50  0000 C CNN
 F 1 "100n" V 855 5110 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 1172 5019 50  0001 L CNN
-F 3 "" H 1080 5110 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1870456.pdf" H 1080 5110 50  0001 C CNN
+F 4 "MC0402X104K250CT" V 1080 5110 60  0001 C CNN "Part No"
+F 5 "X5R/25V" V 1080 5110 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 1080 5110 60  0001 C CNN "Vendor"
 	1    1080 5110
 	0    -1   -1   0   
 $EndComp
@@ -184,7 +190,10 @@ P 1080 4910
 F 0 "C1" V 865 4760 50  0000 C CNN
 F 1 "100n" V 960 4810 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0402" H 1172 4819 50  0001 L CNN
-F 3 "" H 1080 4910 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1870456.pdf" H 1080 4910 50  0001 C CNN
+F 4 "MC0402X104K250CT" V 1080 4910 60  0001 C CNN "Part No"
+F 5 "X5R/25V" V 1080 4910 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 1080 4910 60  0001 C CNN "Vendor"
 	1    1080 4910
 	0    1    1    0   
 $EndComp
@@ -228,7 +237,10 @@ P 5020 6260
 F 0 "R3" V 4845 6260 50  0000 C CNN
 F 1 "10K" V 4915 6260 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4916 6260 50  0001 C CNN
-F 3 "" H 5020 6260 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/2007183.pdf" H 5020 6260 50  0001 C CNN
+F 4 "CRGH0603J10K" V 5020 6260 60  0001 C CNN "Part No"
+F 5 "50V/200mW" V 5020 6260 60  0001 C CNN "Rating"
+F 6 "TE Connectivity" V 5020 6260 60  0001 C CNN "Vendor"
 	1    5020 6260
 	0    1    1    0   
 $EndComp
@@ -239,7 +251,10 @@ P 4695 6485
 F 0 "C8" V 4870 6485 50  0000 C CNN
 F 1 "100n" V 4795 6485 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4787 6394 50  0001 L CNN
-F 3 "" H 4695 6485 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 4695 6485 50  0001 C CNN
+F 4 "MC0603B104K250CT" V 4695 6485 60  0001 C CNN "Part No"
+F 5 "X7R/25V" V 4695 6485 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 4695 6485 60  0001 C CNN "Vendor"
 	1    4695 6485
 	-1   0    0    1   
 $EndComp
@@ -314,7 +329,10 @@ P 8205 3405
 F 0 "R4" V 8130 3380 50  0000 C CNN
 F 1 "10K" V 8055 3380 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8101 3405 50  0001 C CNN
-F 3 "" H 8205 3405 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/2007183.pdf" H 8205 3405 50  0001 C CNN
+F 4 "CRGH0603J10K" V 8205 3405 60  0001 C CNN "Part No"
+F 5 "50V/200mW" V 8205 3405 60  0001 C CNN "Rating"
+F 6 "TE Connectivity" V 8205 3405 60  0001 C CNN "Vendor"
 	1    8205 3405
 	-1   0    0    1   
 $EndComp
@@ -346,10 +364,6 @@ Text Notes 7300 6465 0    67   ~ 13
 Livolo power/relays board
 NoConn ~ 1750 6160
 NoConn ~ 1750 6260
-Text Notes 6955 6925 0    98   ~ 20
-Mysensors RFM69 2ways Livolo EU switch - Front Panel
-Text Notes 10600 7650 0    60   ~ 12
-0.2
 Text Notes 545  2645 0    67   ~ 13
 AVR ISP
 Text Notes 540  7725 0    67   ~ 13
@@ -375,6 +389,7 @@ F 0 "CON1" H 1205 1795 50  0000 C CNN
 F 1 "AVR-ISP-6" H 1105 1670 50  0000 L BNN
 F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 805 1475 50  0001 C CNN
 F 3 "" H 1300 1435 50  0000 C CNN
+F 4 "noload" H 1325 1435 60  0001 C CNN "Value"
 	1    1325 1435
 	1    0    0    -1  
 $EndComp
@@ -463,7 +478,10 @@ P 3530 1475
 F 0 "U1" H 3735 1925 50  0000 L CNN
 F 1 "MIC5205-3.3" H 3330 1840 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3530 1625 50  0001 C CNN
-F 3 "" H 3530 1625 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/29605.pdf" H 3530 1625 50  0001 C CNN
+F 4 "MIC5205-3.3YM5-TR" H 3530 1475 60  0001 C CNN "Part No"
+F 5 "3.3V/150mA" H 3530 1475 60  0001 C CNN "Rating"
+F 6 "Microchip" H 3530 1475 60  0001 C CNN "Vendor"
 	1    3530 1475
 	-1   0    0    -1  
 $EndComp
@@ -474,7 +492,10 @@ P 4195 1680
 F 0 "C6" H 4035 1700 50  0000 C CNN
 F 1 "10n" H 4070 1590 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4287 1589 50  0001 L CNN
-F 3 "" H 4195 1680 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1870456.pdf" H 4195 1680 50  0001 C CNN
+F 4 "MC0603B103K250CT" H 4195 1680 60  0001 C CNN "Part No"
+F 5 "X7R/25V" H 4195 1680 60  0001 C CNN "Rating"
+F 6 "Multicomp" H 4195 1680 60  0001 C CNN "Vendor"
 	1    4195 1680
 	1    0    0    -1  
 $EndComp
@@ -531,7 +552,10 @@ P 5970 1475
 F 0 "U2" H 5970 2042 50  0000 C CNN
 F 1 "MCP16301" H 5970 1951 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 5970 975 50  0001 C CNN
-F 3 "" H 5670 2025 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/2129968.pdf" H 5670 2025 50  0001 C CNN
+F 4 "MCP16301T-I/CHY" H 5970 1475 60  0001 C CNN "Part No"
+F 5 "4-30V/3.3V/600mA" H 5970 1475 60  0001 C CNN "Rating"
+F 6 "Microchip" H 5970 1475 60  0001 C CNN "Vendor"
 	1    5970 1475
 	-1   0    0    -1  
 $EndComp
@@ -553,7 +577,10 @@ P 5120 1275
 F 0 "L2" V 5305 1275 50  0000 C CNN
 F 1 "15uH" V 5214 1275 50  0000 C CNN
 F 2 "myfootprints:VLCF4020T-150MR68" H 5120 1275 50  0001 C CNN
-F 3 "" H 5120 1275 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/2041203.pdf" H 5120 1275 50  0001 C CNN
+F 4 "VLCF4020T-150MR68" V 5120 1275 60  0001 C CNN "Part No"
+F 5 "1A" V 5120 1275 60  0001 C CNN "Rating"
+F 6 "TDK" V 5120 1275 60  0001 C CNN "Vendor"
 	1    5120 1275
 	0    -1   -1   0   
 $EndComp
@@ -564,7 +591,10 @@ P 5335 1375
 F 0 "D2" H 5350 1470 50  0000 L CNN
 F 1 "SS14M" H 5290 1540 50  0000 L CNN
 F 2 "myfootprints:SS14M" V 5335 1375 50  0001 C CNN
-F 3 "" V 5335 1375 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1692176.pdf" H 5335 1375 50  0001 C CNN
+F 4 "SS14M" H 5335 1375 60  0001 C CNN "Part No"
+F 5 "40V/1A" H 5335 1375 60  0001 C CNN "Rating"
+F 6 "Taiwan Semiconductor" H 5335 1375 60  0001 C CNN "Vendor"
 	1    5335 1375
 	0    1    1    0   
 $EndComp
@@ -575,7 +605,10 @@ P 5120 990
 F 0 "D1" H 5120 785 50  0000 C CNN
 F 1 "1N4148" H 5120 876 50  0000 C CNN
 F 2 "Diodes_SMD:SOD-123" V 5120 990 50  0001 C CNN
-F 3 "" V 5120 990 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/2099776.pdf" H 5120 990 50  0001 C CNN
+F 4 "1N4148W-7-F" H 5120 990 60  0001 C CNN "Part No"
+F 5 "100V/300mA" H 5120 990 60  0001 C CNN "Rating"
+F 6 "Diodes Inc." H 5120 990 60  0001 C CNN "Vendor"
 	1    5120 990 
 	-1   0    0    1   
 $EndComp
@@ -586,7 +619,10 @@ P 4990 1870
 F 0 "R2" V 4915 1845 50  0000 C CNN
 F 1 "10K" V 4840 1845 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4886 1870 50  0001 C CNN
-F 3 "" H 4990 1870 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/2007183.pdf" H 4990 1870 50  0001 C CNN
+F 4 "CRGH0603J10K" V 4990 1870 60  0001 C CNN "Part No"
+F 5 "50V/200mW" V 4990 1870 60  0001 C CNN "Rating"
+F 6 "TE Connectivity" V 4990 1870 60  0001 C CNN "Vendor"
 	1    4990 1870
 	-1   0    0    1   
 $EndComp
@@ -597,7 +633,10 @@ P 4990 1515
 F 0 "R1" V 4915 1490 50  0000 C CNN
 F 1 "31K6" V 4840 1490 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4886 1515 50  0001 C CNN
-F 3 "" H 4990 1515 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 4990 1515 50  0001 C CNN
+F 4 "MCWR06X3162FTL" V 4990 1515 60  0001 C CNN "Part No"
+F 5 "50V/200mW" V 4990 1515 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 4990 1515 60  0001 C CNN "Vendor"
 	1    4990 1515
 	-1   0    0    1   
 $EndComp
@@ -608,7 +647,10 @@ P 5335 1135
 F 0 "C9" H 5440 1210 50  0000 C CNN
 F 1 "100n" H 5465 1070 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5427 1044 50  0001 L CNN
-F 3 "" H 5335 1135 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 5335 1135 50  0001 C CNN
+F 4 "MC0603B104K250CT" H 5335 1135 60  0001 C CNN "Part No"
+F 5 "X7R/25V" H 5335 1135 60  0001 C CNN "Rating"
+F 6 "Multicomp" H 5335 1135 60  0001 C CNN "Vendor"
 	1    5335 1135
 	1    0    0    -1  
 $EndComp
@@ -677,6 +719,9 @@ F 0 "D6" H 10575 1125 50  0000 C CNN
 F 1 "Blue" H 10575 1034 50  0000 C CNN
 F 2 "Diodes_SMD:D_0603" V 10575 890 50  0001 C CNN
 F 3 "" V 10575 890 50  0000 C CNN
+F 4 "OSB50603C1E" H 10575 890 60  0001 C CNN "Part No"
+F 5 "2.5-3.4V/5mA" H 10575 890 60  0001 C CNN "Rating"
+F 6 "Optosupply" H 10575 890 60  0001 C CNN "Vendor"
 	1    10575 890 
 	-1   0    0    -1  
 $EndComp
@@ -688,6 +733,9 @@ F 0 "D5" H 10570 1490 50  0000 C CNN
 F 1 "Red" H 10570 1399 50  0000 C CNN
 F 2 "Diodes_SMD:D_0603" V 10570 1255 50  0001 C CNN
 F 3 "" V 10570 1255 50  0000 C CNN
+F 4 "OSR50603C1E" H 10570 1255 60  0001 C CNN "Part No"
+F 5 "1.6-2.4V/5mA" H 10570 1255 60  0001 C CNN "Rating"
+F 6 "Optosupply" H 10570 1255 60  0001 C CNN "Vendor"
 	1    10570 1255
 	1    0    0    -1  
 $EndComp
@@ -698,7 +746,10 @@ P 10560 1780
 F 0 "D3" H 10560 2015 50  0000 C CNN
 F 1 "Blue" H 10560 1924 50  0000 C CNN
 F 2 "Diodes_SMD:D_0603" V 10560 1780 50  0001 C CNN
-F 3 "" V 10560 1780 50  0000 C CNN
+F 3 "" V 10560 1780 50  0001 C CNN
+F 4 "OSB50603C1E" H 10560 1780 60  0001 C CNN "Part No"
+F 5 "2.5-3.4V/5mA" H 10560 1780 60  0001 C CNN "Rating"
+F 6 "Optosupply" H 10560 1780 60  0001 C CNN "Vendor"
 	1    10560 1780
 	-1   0    0    -1  
 $EndComp
@@ -709,7 +760,10 @@ P 10560 2165
 F 0 "D4" H 10560 2400 50  0000 C CNN
 F 1 "Red" H 10560 2309 50  0000 C CNN
 F 2 "Diodes_SMD:D_0603" V 10560 2165 50  0001 C CNN
-F 3 "" V 10560 2165 50  0000 C CNN
+F 3 "" V 10560 2165 50  0001 C CNN
+F 4 "OSR50603C1E" H 10560 2165 60  0001 C CNN "Part No"
+F 5 "1.6-2.4V/5mA" H 10560 2165 60  0001 C CNN "Rating"
+F 6 "Optosupply" H 10560 2165 60  0001 C CNN "Vendor"
 	1    10560 2165
 	1    0    0    -1  
 $EndComp
@@ -731,7 +785,10 @@ P 7695 2180
 F 0 "C12" H 7800 2255 50  0000 C CNN
 F 1 "0-50pf*" H 7870 2110 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7787 2089 50  0001 L CNN
-F 3 "" H 7695 2180 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1825496.pdf" H 7695 2180 50  0001 C CNN
+F 4 "MCMT18N100F250CT" H 7695 2180 60  0001 C CNN "Part No"
+F 5 "C0G/25V" H 7695 2180 60  0001 C CNN "Rating"
+F 6 "Multicomp" H 7695 2180 60  0001 C CNN "Vendor"
 	1    7695 2180
 	1    0    0    -1  
 $EndComp
@@ -753,7 +810,10 @@ P 9220 2010
 F 0 "C14" H 9325 2085 50  0000 C CNN
 F 1 "100n" H 9350 1945 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9312 1919 50  0001 L CNN
-F 3 "" H 9220 2010 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 9220 2010 50  0001 C CNN
+F 4 "MC0603B104K250CT" H 9220 2010 60  0001 C CNN "Part No"
+F 5 "X7R/25V" H 9220 2010 60  0001 C CNN "Rating"
+F 6 "Multicomp" H 9220 2010 60  0001 C CNN "Vendor"
 	1    9220 2010
 	1    0    0    -1  
 $EndComp
@@ -819,7 +879,10 @@ P 7695 1260
 F 0 "C11" H 7800 1335 50  0000 C CNN
 F 1 "0-50pf*" H 7895 1190 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7787 1169 50  0001 L CNN
-F 3 "" H 7695 1260 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1825496.pdf" H 7695 1260 50  0001 C CNN
+F 4 "MCMT18N100F250CT" H 7695 1260 60  0001 C CNN "Part No"
+F 5 "C0G/25V" H 7695 1260 60  0001 C CNN "Rating"
+F 6 "Multicomp" H 7695 1260 60  0001 C CNN "Vendor"
 	1    7695 1260
 	1    0    0    -1  
 $EndComp
@@ -841,7 +904,10 @@ P 9220 1090
 F 0 "C13" H 9325 1165 50  0000 C CNN
 F 1 "100n" H 9350 1025 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9312 999 50  0001 L CNN
-F 3 "" H 9220 1090 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 9220 1090 50  0001 C CNN
+F 4 "MC0603B104K250CT" H 9220 1090 60  0001 C CNN "Part No"
+F 5 "X7R/25V" H 9220 1090 60  0001 C CNN "Rating"
+F 6 "Multicomp" H 9220 1090 60  0001 C CNN "Vendor"
 	1    9220 1090
 	1    0    0    -1  
 $EndComp
@@ -887,7 +953,10 @@ P 10255 890
 F 0 "R5" V 10080 890 50  0000 C CNN
 F 1 "1K" V 10150 890 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10151 890 50  0001 C CNN
-F 3 "" H 10255 890 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 10255 890 50  0001 C CNN
+F 4 "MCWR06X1001FTL" V 10255 890 60  0001 C CNN "Part No"
+F 5 "50V/100mW" V 10255 890 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 10255 890 60  0001 C CNN "Vendor"
 	1    10255 890 
 	0    1    1    0   
 $EndComp
@@ -898,7 +967,10 @@ P 10255 1255
 F 0 "R6" V 10080 1255 50  0000 C CNN
 F 1 "1K" V 10150 1255 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10151 1255 50  0001 C CNN
-F 3 "" H 10255 1255 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 10255 1255 50  0001 C CNN
+F 4 "MCWR06X1001FTL" V 10255 1255 60  0001 C CNN "Part No"
+F 5 "50V/100mW" V 10255 1255 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 10255 1255 60  0001 C CNN "Vendor"
 	1    10255 1255
 	0    1    1    0   
 $EndComp
@@ -909,7 +981,10 @@ P 10260 1780
 F 0 "R7" V 10085 1780 50  0000 C CNN
 F 1 "1K" V 10155 1780 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10156 1780 50  0001 C CNN
-F 3 "" H 10260 1780 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 10260 1780 50  0001 C CNN
+F 4 "MCWR06X1001FTL" V 10260 1780 60  0001 C CNN "Part No"
+F 5 "50V/100mW" V 10260 1780 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 10260 1780 60  0001 C CNN "Vendor"
 	1    10260 1780
 	0    1    1    0   
 $EndComp
@@ -920,7 +995,10 @@ P 10260 2165
 F 0 "R8" V 10085 2165 50  0000 C CNN
 F 1 "1K" V 10155 2165 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10156 2165 50  0001 C CNN
-F 3 "" H 10260 2165 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 10260 2165 50  0001 C CNN
+F 4 "MCWR06X1001FTL" V 10260 2165 60  0001 C CNN "Part No"
+F 5 "50V/200mW" V 10260 2165 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 10260 2165 60  0001 C CNN "Vendor"
 	1    10260 2165
 	0    1    1    0   
 $EndComp
@@ -931,7 +1009,10 @@ P 9705 4155
 F 0 "U5" H 9225 4685 60  0000 C CNN
 F 1 "RFM69CW" H 9380 4580 60  0000 C CNN
 F 2 "myfootprints:RFM69CW" H 9705 4155 60  0001 C CNN
-F 3 "" H 9705 4155 60  0001 C CNN
+F 3 "http://www.hoperf.com/upload/rf/RFM69CW-V1.1.pdf" H 9705 4155 60  0001 C CNN
+F 4 "RFM69CW" H 9705 4155 60  0001 C CNN "Part No"
+F 5 "3.3V/868MHz" H 9705 4155 60  0001 C CNN "Rating"
+F 6 "HopeRF" H 9705 4155 60  0001 C CNN "Vendor"
 	1    9705 4155
 	1    0    0    -1  
 $EndComp
@@ -1061,7 +1142,10 @@ P 6425 1435
 F 0 "C10" H 6517 1481 50  0000 L CNN
 F 1 "10u" H 6517 1390 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6425 1435 50  0001 C CNN
-F 3 "" H 6425 1435 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/2163235.pdf" H 6425 1435 50  0001 C CNN
+F 4 "ZRB18AR61E106ME01L" H 6425 1435 60  0001 C CNN "Part No"
+F 5 "X5R/25V" H 6425 1435 60  0001 C CNN "Rating"
+F 6 "Murata" H 6425 1435 60  0001 C CNN "Vendor"
 	1    6425 1435
 	1    0    0    -1  
 $EndComp
@@ -1072,7 +1156,10 @@ P 4760 1375
 F 0 "C7" H 4555 1415 50  0000 L CNN
 F 1 "22u" H 4570 1320 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4760 1375 50  0001 C CNN
-F 3 "" H 4760 1375 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/2047978.pdf" H 4760 1375 50  0001 C CNN
+F 4 "GRM188R61A226ME15D" H 4760 1375 60  0001 C CNN "Part No"
+F 5 "X5R/10V" H 4760 1375 60  0001 C CNN "Rating"
+F 6 "Murata" H 4760 1375 60  0001 C CNN "Vendor"
 	1    4760 1375
 	1    0    0    -1  
 $EndComp
@@ -1083,7 +1170,10 @@ P 2905 1380
 F 0 "C5" H 2700 1405 50  0000 L CNN
 F 1 "10u" H 2700 1320 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2905 1380 50  0001 C CNN
-F 3 "" H 2905 1380 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1955682.pdf" H 2905 1380 50  0001 C CNN
+F 4 "GRM188R61A106KE69D" H 2905 1380 60  0001 C CNN "Part No"
+F 5 "X5R/10V" H 2905 1380 60  0001 C CNN "Rating"
+F 6 "Murata" H 2905 1380 60  0001 C CNN "Vendor"
 	1    2905 1380
 	1    0    0    -1  
 $EndComp
@@ -1094,7 +1184,10 @@ P 9905 3605
 F 0 "C15" H 9680 3580 50  0000 L CNN
 F 1 "10u" H 9675 3665 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9905 3605 50  0001 C CNN
-F 3 "" H 9905 3605 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1955682.pdf" H 9905 3605 50  0001 C CNN
+F 4 "GRM188R61A106KE69D" H 9905 3605 60  0001 C CNN "Part No"
+F 5 "X5R/10V" H 9905 3605 60  0001 C CNN "Rating"
+F 6 "Murata" H 9905 3605 60  0001 C CNN "Vendor"
 	1    9905 3605
 	0    1    1    0   
 $EndComp
@@ -1138,7 +1231,10 @@ P 5765 3115
 F 0 "R9" V 5625 3090 50  0000 C CNN
 F 1 "56K" V 5695 3110 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5661 3115 50  0001 C CNN
-F 3 "" H 5765 3115 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 5765 3115 50  0001 C CNN
+F 4 "MCWR06X5602FTL" V 5765 3115 60  0001 C CNN "Part No"
+F 5 "50V/100mW" V 5765 3115 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 5765 3115 60  0001 C CNN "Vendor"
 	1    5765 3115
 	1    0    0    -1  
 $EndComp
@@ -1168,7 +1264,10 @@ P 6505 3015
 F 0 "C3" V 6345 3110 50  0000 C CNN
 F 1 "100n" V 6425 3155 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6597 2924 50  0001 L CNN
-F 3 "" H 6505 3015 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6505 3015 50  0001 C CNN
+F 4 "MC0603B104K250CT" V 6505 3015 60  0001 C CNN "Part No"
+F 5 "X7R/25V" V 6505 3015 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 6505 3015 60  0001 C CNN "Vendor"
 	1    6505 3015
 	0    1    1    0   
 $EndComp
@@ -1490,7 +1589,10 @@ P 6515 4320
 F 0 "C16" V 6355 4415 50  0000 C CNN
 F 1 "100n" V 6435 4460 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6607 4229 50  0001 L CNN
-F 3 "" H 6515 4320 50  0000 C CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6515 4320 50  0001 C CNN
+F 4 "MC0603B104K250CT" V 6515 4320 60  0001 C CNN "Part No"
+F 5 "X7R/25V" V 6515 4320 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 6515 4320 60  0001 C CNN "Vendor"
 	1    6515 4320
 	0    1    1    0   
 $EndComp
