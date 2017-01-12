@@ -88,9 +88,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "WAV Sound Module"
 Date ""
-Rev ""
+Rev "0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1496,4 +1496,37 @@ NoConn ~ 6460 2380
 NoConn ~ 6460 2080
 NoConn ~ 10305 6050
 NoConn ~ 10305 6150
+$Comp
+L CONN_01X02 P4
+U 1 1 58773E6D
+P 6260 6150
+F 0 "P4" V 6370 6190 50  0000 R CNN
+F 1 "Supply" V 6445 6265 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6260 6150 50  0001 C CNN
+F 3 "" H 6260 6150 50  0000 C CNN
+	1    6260 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR047
+U 1 1 587745D8
+P 6060 6200
+F 0 "#PWR047" H 6060 5950 50  0001 C CNN
+F 1 "GND" H 6065 6027 50  0000 C CNN
+F 2 "" H 6060 6200 50  0000 C CNN
+F 3 "" H 6060 6200 50  0000 C CNN
+	1    6060 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR048
+U 1 1 58774661
+P 6060 6100
+F 0 "#PWR048" H 6060 5950 50  0001 C CNN
+F 1 "+3.3V" V 6075 6228 50  0000 L CNN
+F 2 "" H 6060 6100 50  0000 C CNN
+F 3 "" H 6060 6100 50  0000 C CNN
+	1    6060 6100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
