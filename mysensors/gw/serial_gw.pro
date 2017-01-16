@@ -1,4 +1,4 @@
-update=Fri 18 Nov 2016 01:55:35 PM EET
+update=Mon 16 Jan 2017 05:09:10 PM EET
 last_client=kicad
 [general]
 version=1
@@ -126,3 +126,6 @@ LibName106=RM50_SP
 LibName107=v23079-e1208-b301
 LibName108=AMS1117
 LibName109=MIC5205
+LibName110=txb010x
+LibName111=cp2102
+LibName112=rfm69cw
