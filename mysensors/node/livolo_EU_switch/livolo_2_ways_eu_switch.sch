@@ -119,6 +119,7 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
+LIBS:livolo_2_ways_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -126,7 +127,7 @@ encoding utf-8
 Sheet 1 1
 Title "Mysensors RFM69 2ways Livolo EU switch - Front Panel"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1232,8 +1233,8 @@ $Comp
 L R_Small R9
 U 1 1 5873774C
 P 5765 3115
-F 0 "R9" V 5625 3090 50  0000 C CNN
-F 1 "56K" V 5695 3110 50  0000 C CNN
+F 0 "R9" H 5890 3175 50  0000 C CNN
+F 1 "56K" H 5910 3095 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5661 3115 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 5765 3115 50  0001 C CNN
 F 4 "MCWR06X5602FTL" V 5765 3115 60  0001 C CNN "Part No"
@@ -1648,4 +1649,32 @@ Wire Wire Line
 	3650 4810 4075 4810
 Text Label 4075 4810 0    60   ~ 0
 FLASH_SS
+$Comp
+L R_Small R10
+U 1 1 587E3A15
+P 5910 4370
+F 0 "R10" H 6035 4420 50  0000 C CNN
+F 1 "1K" H 6035 4340 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5806 4370 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 5910 4370 50  0001 C CNN
+F 4 "MCWR06X5602FTL" V 5910 4370 60  0001 C CNN "Part No"
+F 5 "50V/100mW" V 5910 4370 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 5910 4370 60  0001 C CNN "Vendor"
+	1    5910 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR048
+U 1 1 587E3B48
+P 5910 4270
+F 0 "#PWR048" H 5910 4120 50  0001 C CNN
+F 1 "+3.3V" H 5925 4443 50  0000 C CNN
+F 2 "" H 5910 4270 50  0000 C CNN
+F 3 "" H 5910 4270 50  0000 C CNN
+	1    5910 4270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5910 4470 5910 4705
+Connection ~ 5910 4705
 $EndSCHEMATC

@@ -14,7 +14,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 14,"Connector, single row, 01x01",CONN_01X01,P3,ANTENNA,SolderWirePad_single_0-8mmDrill,1,,,,
 15,"Connector, double row, 02x06",CONN_02X06,P4,Power Board,Pin_Header_Straight_2x06_Pitch2.54mm,1,http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf,,Ninigi,ZL262-12DG
 18,"Resistor, small symbol",R_Small,R2 R3 R4,10K,R_0603_HandSoldering,3,http://www.farnell.com/datasheets/2007183.pdf,50V/200mW,TE Connectivity,CRGH0603J10K
-19,"Resistor, small symbol",R_Small,R5 R6 R7 R8,1K,R_0603_HandSoldering,4,http://www.farnell.com/datasheets/1849611.pdf,50V/100mW 50V/200mW,Multicomp,MCWR06X1001FTL
+19,"Resistor, small symbol",R_Small,R5 R6 R7 R8 R10,1K,R_0603_HandSoldering,4,http://www.farnell.com/datasheets/1849611.pdf,50V/100mW 50V/200mW,Multicomp,MCWR06X1001FTL
 20,"Resistor, small symbol",R_Small,R1,31K6,R_0603_HandSoldering,1,http://www.farnell.com/datasheets/1849611.pdf,50V/200mW,Multicomp,MCWR06X3162FTL
 21,"Resistor, small symbol",R_Small,R9,56K,R_0603_HandSoldering,1,http://www.farnell.com/datasheets/1849611.pdf,50V/100mW,Multicomp,MCWR06X5602FTL
 22,"AT25DF512C, 512-Kbit SPI Serial Flash Memory, SOIC-8, Vcc=3.3V",AT25DF512C,U6,AT25DF512C-SSHN-B,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,http://www.adestotech.com/wp-content/uploads/DS-AT25DF512C-030.pdf,,,
@@ -29,8 +29,8 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 ,,,,,,,,,,
 ,,,,,,,,,,
 Component Groups:,27,,,,,,,,,
-Component Count:,43,,,,,,,,,
-Fitted Components:,43,,,,,,,,,
+Component Count:,44,,,,,,,,,
+Fitted Components:,44,,,,,,,,,
 Number of PCBs:,1,,,,,,,,,
-Total components:,43,,,,,,,,,
+Total components:,44,,,,,,,,,
 Schematic Version:,0.2,,,,,,,,,
