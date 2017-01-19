@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:heater_node-rescue
 LIBS:ch340
 LIBS:l6920
 LIBS:mysensors_arduino
@@ -100,14 +99,15 @@ LIBS:Symbols_Socket-DIN41612_RevA
 LIBS:Symbols_Transformer-Diskrete_RevA
 LIBS:hlk-pm01
 LIBS:RM50_SP
+LIBS:heater_node-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Mysensors RFM69 heater node"
 Date ""
-Rev ""
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -115,7 +115,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA328P-A IC1
+L ATMEGA328P-AU IC1
 U 1 1 575E6E29
 P 3225 5075
 F 0 "IC1" H 3275 6532 50  0000 C CNN
@@ -123,17 +123,6 @@ F 1 "ATMEGA328P-A" H 3275 6441 50  0000 C CNN
 F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 3275 6350 50  0001 C CIN
 F 3 "" H 3225 5075 50  0000 C CNN
 	1    3225 5075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Crystal_GND2_Small X2
-U 1 1 575E762B
-P 5200 4675
-F 0 "X2" H 5350 4600 50  0000 C CNN
-F 1 "16MHz" H 5375 4525 50  0000 C CNN
-F 2 "myfootprints:ZTTCS-3" H 5200 4803 50  0001 C CNN
-F 3 "" H 5200 4675 50  0000 C CNN
-	1    5200 4675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -736,10 +725,6 @@ F 3 "" H 9125 4675 50  0000 C CNN
 	1    9125 4675
 	1    0    0    -1  
 $EndComp
-Text Notes 7875 6900 0    99   ~ 20
-Mysensors RFM69 heater node
-Text Notes 10600 7650 0    60   ~ 12
-1.1
 Text Notes 650  2575 0    67   ~ 13
 AVR ISP
 Text Notes 5375 2600 0    67   ~ 13
@@ -1344,7 +1329,7 @@ U 1 1 58008D87
 P 8870 1620
 F 0 "VR1" V 8675 1430 50  0000 L CNN
 F 1 "VAR10-300" V 8765 1395 50  0000 L CNN
-F 2 "" H 8870 1620 50  0000 C CNN
+F 2 "Varistors:RV_Disc_D12_W6.3_P7.5" H 8870 1620 50  0001 C CNN
 F 3 "" H 8870 1620 50  0000 C CNN
 	1    8870 1620
 	1    0    0    -1  
@@ -1355,4 +1340,15 @@ Connection ~ 8870 1350
 Wire Wire Line
 	8870 1770 8870 1900
 Connection ~ 8870 1900
+$Comp
+L Crystal_GND2_Small Y1
+U 1 1 5880BF3E
+P 5200 4675
+F 0 "Y1" H 5200 4900 50  0000 C CNN
+F 1 "16MHz" H 5200 4809 50  0000 C CNN
+F 2 "myfootprints:ZTTCS-3" H 5200 4675 50  0001 C CNN
+F 3 "" H 5200 4675 50  0001 C CNN
+	1    5200 4675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
