@@ -118,7 +118,7 @@ encoding utf-8
 Sheet 1 1
 Title "Mysensors RFM69CW serial gateway"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
