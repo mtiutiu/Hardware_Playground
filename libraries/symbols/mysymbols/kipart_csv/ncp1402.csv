@@ -1,0 +1,7 @@
+NCP1402,,,
+Pin,Name,Type,Side
+1,CE,in,left
+2,OUT,out,left
+3,NC,in,left
+4,GND,pwr,right
+5,LX,in,right
