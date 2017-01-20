@@ -340,7 +340,7 @@ F 3 "" H 7600 3595 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7040 5140 0    67   ~ 13
-RFM69CW radio module
+RFM69W radio module
 $Comp
 L GND #PWR012
 U 1 1 575F0AFE
