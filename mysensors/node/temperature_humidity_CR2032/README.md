@@ -1,4 +1,4 @@
-#### Mysensors RFM69 temperature & humidity node
+#### Mysensors RFM69 temperature & humidity node(CR2032)
 
 
 ##### 3D renderings of pcb
