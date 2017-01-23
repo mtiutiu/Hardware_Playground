@@ -1,4 +1,4 @@
-update=Fri 20 Jan 2017 05:16:18 PM EET
+update=Mon 23 Jan 2017 03:53:00 PM EET
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,13 @@ LibName37=mysensors_radios
 LibName38=mysensors_regulators
 LibName39=mysensors_security
 LibName40=mysensors_sensors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
