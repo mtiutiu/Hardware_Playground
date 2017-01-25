@@ -1,4 +1,4 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7492~57~ubuntu16.04.1)
+(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7518~57~ubuntu16.04.1)
 
   (general
     (links 115)
@@ -860,11 +860,6 @@
       (net 13 /SCK))
     (pad 1 smd rect (at -2.5 2 90) (size 1.27 2.5) (layers F.Cu F.Paste F.Mask)
       (net 12 /MISO))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_SMT_02x03.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module myfootprints:hole_1.5mm (layer F.Cu) (tedit 587347E2) (tstamp 58737625)

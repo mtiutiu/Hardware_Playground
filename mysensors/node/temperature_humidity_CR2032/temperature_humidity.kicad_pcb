@@ -1,4 +1,4 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7500~57~ubuntu16.04.1)
+(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7518~57~ubuntu16.04.1)
 
   (general
     (links 83)
@@ -189,11 +189,6 @@
       (net 6 /SCK))
     (pad 1 smd rect (at -2.5 2 180) (size 1.27 2.5) (layers F.Cu F.Paste F.Mask)
       (net 5 /MISO))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_SMT_02x03.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Symbols:OSHW-Logo_5.7x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 588603FC)
@@ -1393,7 +1388,7 @@
     )
   )
 
-  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5885CAC1) (tstamp 5885C151)
+  (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 5888AE43) (tstamp 5885C151)
     (at 123.206 79.248)
     (descr "SOT-23, Standard")
     (tags SOT-23)
@@ -1402,7 +1397,7 @@
     (fp_text reference U2 (at -0.27 2.552 180) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
-    (fp_text value ATSHA204A (at -0.206 3.552) (layer F.SilkS)
+    (fp_text value ATSHA204 (at -0.406 3.552) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))

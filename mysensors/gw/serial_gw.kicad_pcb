@@ -1,9 +1,9 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7492~57~ubuntu16.04.1)
+(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7518~57~ubuntu16.04.1)
 
   (general
     (links 127)
     (no_connects 0)
-    (area 70.226143 71.1785 115.566 96.2945)
+    (area 70.790999 73.584999 115.391001 93.547001)
     (thickness 1.6)
     (drawings 12)
     (tracks 379)
@@ -1582,11 +1582,6 @@
       (net 10 /MOSI))
     (pad 2 smd rect (at -2.54 2 180) (size 1.27 2.5) (layers B.Cu B.Paste B.Mask)
       (net 2 +5V))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_SMT_02x03.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module LEDs:LED_0603 (layer F.Cu) (tedit 587E26E4) (tstamp 587E17E6)
@@ -2018,11 +2013,6 @@
       (net 20 "Net-(R5-Pad1)"))
     (pad 1 smd rect (at -2.95 1.95 180) (size 1.45 0.45) (layers B.Cu B.Paste B.Mask)
       (net 6 +3V3))
-    (model Housings_SSOP.3dshapes/TSSOP-14_4.4x5mm_Pitch0.65mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model ${KISYS3DMOD}/Housings_SSOP.3dshapes/tssop_14_50x44_p065.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
