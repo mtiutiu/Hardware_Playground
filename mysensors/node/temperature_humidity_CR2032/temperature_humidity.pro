@@ -1,4 +1,4 @@
-update=Mon 23 Jan 2017 03:53:00 PM EET
+update=Thu 26 Jan 2017 09:25:59 AM EET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=../../../libraries/symbols/mysensors_symbols;../../../libraries/symbols/mysymbols
@@ -69,13 +79,3 @@ LibName37=mysensors_radios
 LibName38=mysensors_regulators
 LibName39=mysensors_security
 LibName40=mysensors_sensors
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=pdf/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
