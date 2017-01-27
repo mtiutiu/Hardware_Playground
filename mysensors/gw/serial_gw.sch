@@ -1083,7 +1083,7 @@ U 1 1 5880175E
 P 9530 3675
 F 0 "P2" V 9565 3485 50  0000 L CNN
 F 1 "ANTENNA" V 9490 3270 50  0000 L CNN
-F 2 "myfootprints:1pin_smd_2mm" H 9530 3675 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.00mm" H 9530 3675 50  0001 C CNN
 F 3 "" H 9530 3675 50  0000 C CNN
 	1    9530 3675
 	0    -1   -1   0   
