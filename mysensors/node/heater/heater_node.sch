@@ -502,7 +502,7 @@ U 1 1 575EC9AF
 P 6375 1000
 F 0 "R5" V 6200 1000 50  0000 C CNN
 F 1 "330" V 6270 1000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6271 1000 50  0001 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6271 1000 50  0001 C CNN
 F 3 "" H 6375 1000 50  0000 C CNN
 	1    6375 1000
 	0    1    1    0   
@@ -513,7 +513,7 @@ U 1 1 575ECFF3
 P 6375 1425
 F 0 "R6" V 6200 1425 50  0000 C CNN
 F 1 "330" V 6270 1425 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6271 1425 50  0001 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6271 1425 50  0001 C CNN
 F 3 "" H 6375 1425 50  0000 C CNN
 	1    6375 1425
 	0    1    1    0   
@@ -535,7 +535,7 @@ U 1 1 575ED749
 P 6375 1825
 F 0 "R7" V 6200 1825 50  0000 C CNN
 F 1 "330" V 6270 1825 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6271 1825 50  0001 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6271 1825 50  0001 C CNN
 F 3 "" H 6375 1825 50  0000 C CNN
 	1    6375 1825
 	0    1    1    0   
@@ -608,7 +608,7 @@ U 1 1 57644E61
 P 6375 2200
 F 0 "R8" V 6200 2200 50  0000 C CNN
 F 1 "330" V 6270 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6271 2200 50  0001 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6271 2200 50  0001 C CNN
 F 3 "" H 6375 2200 50  0000 C CNN
 	1    6375 2200
 	0    1    1    0   
