@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /home/mtiutiu/Work/kicad/mysensors/node/livolo_EU_switch/livolo_2_ways_eu_switch.sch)
-    (date "Tue 17 Jan 2017 04:55:17 PM EET")
-    (tool "Eeschema no-vcs-found-7472~57~ubuntu16.04.1")
+    (date "Tue 31 Jan 2017 02:43:24 PM EET")
+    (tool "Eeschema no-vcs-found-7558~57~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Mysensors RFM69 2ways Livolo EU switch - Front Panel")
         (company)
-        (rev 0.2)
+        (rev 0.3)
         (date)
         (source livolo_2_ways_eu_switch.sch)
         (comment (number 1) (value ""))
@@ -512,7 +512,7 @@
       (description "TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM")
       (docs http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf)
       (fields
-        (field (name Reference) IC)
+        (field (name Reference) U)
         (field (name Value) ATMEGA168A-AU)
         (field (name Footprint) TQFP32))
       (pins
@@ -577,24 +577,24 @@
     (libpart (lib conn) (part CONN_01X01)
       (description "Connector, single row, 01x01")
       (footprints
-        (fp Pin_Header_Straight_1X01)
-        (fp Pin_Header_Angled_1X01)
-        (fp Socket_Strip_Straight_1X01)
-        (fp Socket_Strip_Angled_1X01))
+        (fp Pin_Header_Straight_1X*)
+        (fp Pin_Header_Angled_1X*)
+        (fp Socket_Strip_Straight_1X*)
+        (fp Socket_Strip_Angled_1X*))
       (fields
-        (field (name Reference) P)
+        (field (name Reference) J)
         (field (name Value) CONN_01X01))
       (pins
         (pin (num 1) (name P1) (type passive))))
     (libpart (lib conn) (part CONN_02X06)
       (description "Connector, double row, 02x06")
       (footprints
-        (fp Pin_Header_Straight_2X06)
-        (fp Pin_Header_Angled_2X06)
-        (fp Socket_Strip_Straight_2X06)
-        (fp Socket_Strip_Angled_2X06))
+        (fp Pin_Header_Straight_2X*)
+        (fp Pin_Header_Angled_2X*)
+        (fp Socket_Strip_Straight_2X*)
+        (fp Socket_Strip_Angled_2X*))
       (fields
-        (field (name Reference) P)
+        (field (name Reference) J)
         (field (name Value) CONN_02X06))
       (pins
         (pin (num 1) (name P1) (type passive))
@@ -662,7 +662,9 @@
       (description "Inductor, small symbol")
       (footprints
         (fp Choke_*)
-        (fp *Coil*))
+        (fp *Coil*)
+        (fp Inductor_*)
+        (fp L_*))
       (fields
         (field (name Reference) L)
         (field (name Value) L_Small))
@@ -810,7 +812,7 @@
     (net (code 6) (name /TS1)
       (node (ref IC1) (pin 1))
       (node (ref U3) (pin 1)))
-    (net (code 7) (name /Relay2_Set)
+    (net (code 7) (name /Relay1_Reset)
       (node (ref P4) (pin 12))
       (node (ref IC1) (pin 28)))
     (net (code 8) (name /Relay1_Set)
@@ -896,10 +898,10 @@
       (node (ref P4) (pin 2))
       (node (ref U2) (pin 4))
       (node (ref U2) (pin 5)))
-    (net (code 26) (name /Relay1_Reset)
+    (net (code 26) (name /Relay2_Reset)
       (node (ref IC1) (pin 31))
       (node (ref P4) (pin 9)))
-    (net (code 27) (name /Relay2_Reset)
+    (net (code 27) (name /Relay2_Set)
       (node (ref P4) (pin 11))
       (node (ref IC1) (pin 30)))
     (net (code 28) (name /ATSHA204A)

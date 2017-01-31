@@ -119,7 +119,6 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
-LIBS:livolo_2_ways_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1111,11 +1110,11 @@ NoConn ~ 9115 5770
 Text Label 9810 6070 0    60   ~ 0
 Relay1_Set
 Text Label 9810 6170 0    60   ~ 0
-Relay2_Set
+Relay1_Reset
 Text Label 3810 6060 0    60   ~ 0
 Relay1_Set
 Text Label 3810 6160 0    60   ~ 0
-Relay2_Set
+Relay1_Reset
 $Comp
 L GND #PWR038
 U 1 1 586E475A
@@ -1618,7 +1617,7 @@ F 3 "" H 6615 4320 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5985 4705 5810 4705
+	5810 4705 5985 4705
 Text Label 5810 4705 2    60   ~ 0
 ATSHA204A
 Wire Notes Line
@@ -1634,17 +1633,17 @@ ATSHA204A
 Wire Wire Line
 	9115 6070 8950 6070
 Text Label 8950 6070 2    60   ~ 0
-Relay1_Reset
-Text Label 8950 6170 2    60   ~ 0
 Relay2_Reset
+Text Label 8950 6170 2    60   ~ 0
+Relay2_Set
 Wire Wire Line
 	3650 6410 3810 6410
 Wire Wire Line
 	3650 6510 3810 6510
 Text Label 3810 6410 0    60   ~ 0
-Relay2_Reset
+Relay2_Set
 Text Label 3810 6510 0    60   ~ 0
-Relay1_Reset
+Relay2_Reset
 Wire Wire Line
 	3650 4810 4075 4810
 Text Label 4075 4810 0    60   ~ 0
