@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/mtiutiu/Work/kicad/mysensors/node/livolo_EU_switch/livolo_2_ways_eu_switch.sch)
-    (date "Tue 31 Jan 2017 02:43:24 PM EET")
-    (tool "Eeschema no-vcs-found-7558~57~ubuntu16.04.1")
+    (date "Thu 02 Feb 2017 04:42:12 PM EET")
+    (tool "Eeschema no-vcs-found-7571~57~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Mysensors RFM69 2ways Livolo EU switch - Front Panel")
@@ -329,7 +329,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 586DA10A))
     (comp (ref R5)
-      (value 1K)
+      (value 1K*)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (datasheet http://www.farnell.com/datasheets/1849611.pdf)
       (fields
@@ -340,7 +340,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 586E8A7E))
     (comp (ref R6)
-      (value 1K)
+      (value 1K*)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (datasheet http://www.farnell.com/datasheets/1849611.pdf)
       (fields
@@ -351,7 +351,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 586E9359))
     (comp (ref R7)
-      (value 1K)
+      (value 1K*)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (datasheet http://www.farnell.com/datasheets/1849611.pdf)
       (fields
@@ -362,7 +362,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 586E945C))
     (comp (ref R8)
-      (value 1K)
+      (value 1K*)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (datasheet http://www.farnell.com/datasheets/1849611.pdf)
       (fields
