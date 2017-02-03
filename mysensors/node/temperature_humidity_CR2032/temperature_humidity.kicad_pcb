@@ -512,7 +512,7 @@
       (net 18 "Net-(BT1-Pad1)"))
     (pad 2 smd rect (at 0 0 180) (size 3.1496 4.7752) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Battery_Holders.3dshapes/cr2032_holder_smd_H2.wrl
+    (model ${KISYS3DMOD}/Battery_Holders.3dshapes/cr2032_holder_smd_H2.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -600,7 +600,7 @@
       (net 4 +3V3))
     (pad 2 smd rect (at 0.95 0) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -633,7 +633,7 @@
       (net 16 "Net-(C2-Pad2)"))
     (pad 1 smd rect (at -0.95 0) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -666,7 +666,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -699,7 +699,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(C4-Pad2)"))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -732,7 +732,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0 90) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -765,7 +765,7 @@
       (net 3 /RST))
     (pad 1 smd rect (at -0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -798,7 +798,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -831,7 +831,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0 90) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -864,7 +864,7 @@
       (net 19 /VB_IN))
     (pad 1 smd rect (at -0.95 0 180) (size 1.2 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -897,7 +897,7 @@
       (net 4 +3V3))
     (pad 2 smd rect (at 0.95 0 90) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -933,7 +933,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -3.125 0) (size 3.75 2.5) (layers B.Cu B.Paste B.Mask)
       (net 18 "Net-(BT1-Pad1)"))
-    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeC_EIA-6032_HandSoldering.wrl
+    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeC_EIA-6032_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -966,7 +966,7 @@
       (net 20 "Net-(C12-Pad2)"))
     (pad 1 smd rect (at -0.95 0 90) (size 1.2 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.wrl
+    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1007,7 +1007,7 @@
       (net 12 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -1.65 0 180) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask)
       (net 20 "Net-(C12-Pad2)"))
-    (model ${KISYS3DMOD}/SOD_Packages_SMD.3dshapes/SOD123.wrl
+    (model ${KISYS3DMOD}/SOD_Packages_SMD.3dshapes/SOD123.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1100,7 +1100,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -2.4 -1.25 270) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
     (pad 1 smd rect (at -2.4 -1.75 270) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
-    (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/qfn32_5x5_p05.wrl
+    (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/qfn32_5x5_p05.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1123,7 +1123,7 @@
       (net 12 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -1.2 0) (size 1.6 3.4) (layers B.Cu B.Paste B.Mask)
       (net 19 /VB_IN))
-    (model ${KISYS3DMOD}/Inductors.3dshapes/SDR0302.wrl
+    (model ${KISYS3DMOD}/Inductors.3dshapes/SDR0302.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1169,7 +1169,7 @@
       (net 15 /SPI_FLASH_SS))
     (pad 2 smd rect (at 1.1 0) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.wrl
+    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1202,7 +1202,7 @@
       (net 11 /ATSHA204A))
     (pad 2 smd rect (at 1.1 0) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.wrl
+    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1235,7 +1235,7 @@
       (net 3 /RST))
     (pad 1 smd rect (at -1.1 0 180) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.wrl
+    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1268,7 +1268,7 @@
       (net 4 +3V3))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 13 /SI7021_SCL))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.wrl
+    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1301,7 +1301,7 @@
       (net 14 /SI7021_SDA))
     (pad 2 smd rect (at 1.1 0 180) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.wrl
+    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1334,7 +1334,7 @@
       (net 4 +3V3))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 9 /RFM69W_SS))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.wrl
+    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1385,7 +1385,7 @@
       (net 5 /MISO))
     (pad 1 smd rect (at -2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 15 /SPI_FLASH_SS))
-    (model Housings_SOIC.3dshapes/SOIC-8_3.9x4.9mm_Pitch1.27mm.wrl
+    (model Housings_SOIC.3dshapes/SOIC-8_3.9x4.9mm_Pitch1.27mm.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1422,7 +1422,7 @@
       (net 4 +3V3))
     (pad 1 smd rect (at -1 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 11 /ATSHA204A))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-3.wrl
+    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1470,7 +1470,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.34 -0.95 90) (size 0.63 0.45) (layers F.Cu F.Paste F.Mask)
       (net 14 /SI7021_SDA))
-    (model ${KISYS3DMOD}/Sensors.3dshapes/SHT21.wrl
+    (model ${KISYS3DMOD}/Sensors.3dshapes/SHT21.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1525,7 +1525,7 @@
     (pad 2 smd rect (at -1.4 2 180) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
       (net 8 /RFM69W_INT))
     (pad 1 smd rect (at -1.4 0 180) (size 3 1.2) (layers F.Cu F.Paste F.Mask))
-    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69W.wrl
+    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69W.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1563,7 +1563,7 @@
       (net 20 "Net-(C12-Pad2)"))
     (pad 1 smd rect (at -1.1 0.95 180) (size 1.06 0.65) (layers B.Cu B.Paste B.Mask)
       (net 20 "Net-(C12-Pad2)"))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-5.wrl
+    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-5.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1596,7 +1596,7 @@
       (net 16 "Net-(C2-Pad2)"))
     (pad 2 smd rect (at 1.1 0 180) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.wrl
+    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1629,7 +1629,7 @@
       (net 18 "Net-(BT1-Pad1)"))
     (pad 1 smd rect (at -1.1 0 180) (size 1.2 0.9) (layers B.Cu B.Paste B.Mask)
       (net 17 /V_BATT_MON))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.wrl
+    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1662,7 +1662,7 @@
       (net 17 /V_BATT_MON))
     (pad 1 smd rect (at -1.1 0 180) (size 1.2 0.9) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.wrl
+    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
