@@ -1,9 +1,9 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-undefined)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7591~57~ubuntu16.04.1)
 
   (general
     (links 126)
     (no_connects 0)
-    (area 91.888072 75.1552 153.094929 102.3955)
+    (area 98.374999 77.229407 146.671501 99.491001)
     (thickness 1.6)
     (drawings 19)
     (tracks 401)
@@ -145,8 +145,6 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (diff_pair_gap 0.25)
-    (diff_pair_width 0.2)
     (add_net +3V3)
     (add_net /A0)
     (add_net /A1)
@@ -1395,7 +1393,7 @@
     (pad 16 smd rect (at 18.3 0) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(U2-Pad16)"))
     (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69W.stp
-      (at (xyz 0 0 0))
+      (at (xyz 0.6692913385826772 -0.5511811023622047 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

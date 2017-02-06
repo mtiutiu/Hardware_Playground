@@ -1,4 +1,4 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7529~57~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7591~57~ubuntu16.04.1)
 
   (general
     (links 127)
@@ -263,10 +263,10 @@
     (tags "Logo OSHW")
     (attr virtual)
     (fp_text reference REF*** (at 0 0 180) (layer B.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) (justify mirror) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)) (justify mirror))
     )
     (fp_text value OSHW-Logo_5.7x6mm_SilkScreen (at 0.75 0 180) (layer B.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) (justify mirror) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)) (justify mirror))
     )
     (fp_poly (pts (xy -1.908759 -1.469184) (xy -1.882247 -1.482282) (xy -1.849553 -1.505106) (xy -1.825725 -1.529996)
       (xy -1.809406 -1.561249) (xy -1.79924 -1.603166) (xy -1.793872 -1.660044) (xy -1.791944 -1.736184)
@@ -614,10 +614,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -628,10 +628,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -642,10 +642,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -656,10 +656,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -670,10 +670,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -684,10 +684,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -698,10 +698,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -712,10 +712,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -726,10 +726,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -740,10 +740,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -754,10 +754,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -768,10 +768,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -782,10 +782,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -796,10 +796,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -810,10 +810,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -824,10 +824,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -838,10 +838,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -852,10 +852,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -866,10 +866,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -880,10 +880,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -894,10 +894,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -908,10 +908,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -922,10 +922,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -936,10 +936,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -950,10 +950,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -964,10 +964,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -978,10 +978,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -992,10 +992,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -1006,10 +1006,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -1020,10 +1020,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -1034,10 +1034,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -1048,10 +1048,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -1062,10 +1062,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -1076,10 +1076,10 @@
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 0.6 0.6) (thickness 0.12)) hide)
+      (effects (font (size 0.6 0.6) (thickness 0.12)))
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
       (net 1 GND) (zone_connect 2))
@@ -2206,7 +2206,7 @@
       (net 29 /RFM69W_INT))
     (pad 1 smd rect (at -1.4 0) (size 3 1.2) (layers F.Cu F.Paste F.Mask))
     (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69W.stp
-      (at (xyz 0 0 0))
+      (at (xyz 0.6692913385826772 -0.5511811023622047 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
