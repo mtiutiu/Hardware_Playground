@@ -1,9 +1,9 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7602~57~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7613~57~ubuntu16.04.1)
 
   (general
     (links 282)
     (no_connects 0)
-    (area 115.099999 57.424999 184.300001 123.025001)
+    (area 106.702381 54.9195 191.532143 125.8365)
     (thickness 1.6)
     (drawings 23)
     (tracks 338)
@@ -3455,7 +3455,7 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 6.5 0 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 4 /RST))
-    (model ${KISYS3DMOD}/Button_Switches_THT.3dshapes/tactile_sw_6x6x13.stp
+    (model ${KISYS3DMOD}/Button_Switches_THT.3dshapes/tactile_sw_6x6x17.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4556,7 +4556,7 @@
     (pad 3 thru_hole circle (at 29.4 10.2 180) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 9 +5V))
     (model ${KISYS3DMOD}/Power_Supply.3dshapes/hlk-pm01.stp
-      (at (xyz 0.5787401574803149 -0.09842519685039371 0))
+      (at (xyz 0.5787401574803149 -0.09842519685039371 0.0007874015748031497))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4671,7 +4671,7 @@
     (pad 1 thru_hole rect (at 0 0 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 28 "Net-(RL1-Pad14)"))
     (model ${KISYS3DMOD}/Terminal_Block_Packages.3dshapes/mkds-3.5-02.stp
-      (at (xyz 0 0 0))
+      (at (xyz 0 0 0.0007874015748031497))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4702,7 +4702,7 @@
     (pad 2 thru_hole circle (at 3.5 0 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 29 "Net-(U4-Pad2)"))
     (model ${KISYS3DMOD}/Terminal_Block_Packages.3dshapes/mkds-3.5-02.stp
-      (at (xyz 0 0 0))
+      (at (xyz 0 0 0.0007874015748031497))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
