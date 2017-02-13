@@ -1,8 +1,6 @@
 #### Mysensors RFM69 temperature & humidity node(CR123)
 
 
-## Mysensors RFM69W temperature/humidity node(CR123)
-
 ##### 3D renderings of pcb
 
 Top view | Bottom view
