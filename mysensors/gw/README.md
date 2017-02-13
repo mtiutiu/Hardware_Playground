@@ -20,12 +20,12 @@ This is a Mysensors serial GW using **RFM69W** radio module and **CP2102** usb t
  - **MySensors** ready(Atmega328p + RFM69W)
 
 **Work progress:**
-1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **TO DO**
-2. Produce the initial PCB's using some external PCB manufacturer
-3. Components assembly(sodering)
-4. Upload Mysensors serial GW sketch code
-5. Verify the real board with running code
-6. Create project enclosure using a 3D printer
+ 1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **TO DO**
+ 2. Produce the initial PCB's using some external PCB manufacturer
+ 3. Components assembly(sodering)
+ 4. Upload Mysensors serial GW sketch code
+ 5. Verify the real board with running code
+ 6. Create project enclosure using a 3D printer
 
 **Note: Work in progress(schematic/pcb will change).**
 
