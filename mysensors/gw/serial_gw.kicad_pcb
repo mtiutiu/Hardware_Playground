@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7591~57~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7652~57~ubuntu16.04.1)
 
   (general
     (links 127)
@@ -251,9 +251,9 @@
     (pad 4 thru_hole circle (at 7.11286 -0.00212 180) (size 1.50114 1.50114) (drill 1.00076) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Connectors_Other.3dshapes/usb_A_male_tht.stp
-      (at (xyz 0 0 0))
+      (at (xyz 0.2755905511811024 -0.01181102362204724 -0.01181102362204724))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 180 0 90))
     )
   )
 
