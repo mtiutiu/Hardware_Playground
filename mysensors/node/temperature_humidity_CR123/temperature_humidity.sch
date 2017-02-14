@@ -1,31 +1,18 @@
 EESchema Schematic File Version 2
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:ch340
-LIBS:current_transf
-LIBS:hlk-pm01
-LIBS:l6920
-LIBS:linear_tech
-LIBS:RM50_SP
-LIBS:v23079-e1208-b301
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
 LIBS:actel
 LIBS:adc-dac
+LIBS:allegro
 LIBS:Altera
 LIBS:analog_devices
 LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
 LIBS:brooktre
 LIBS:cmos4000
 LIBS:cmos_ieee
@@ -42,7 +29,6 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -51,6 +37,7 @@ LIBS:Lattice
 LIBS:linear
 LIBS:logo
 LIBS:maxim
+LIBS:mechanical
 LIBS:memory
 LIBS:microchip
 LIBS:microchip_dspic33dsc
@@ -62,8 +49,10 @@ LIBS:microchip_pic32mcu
 LIBS:microcontrollers
 LIBS:motor_drivers
 LIBS:motorola
+LIBS:motors
 LIBS:msp430
 LIBS:nordicsemi
+LIBS:nxp
 LIBS:nxp_armmcu
 LIBS:onsemi
 LIBS:opto
@@ -87,30 +76,44 @@ LIBS:switches
 LIBS:texas
 LIBS:transf
 LIBS:transistors
+LIBS:triac_thyristor
 LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
+LIBS:zetex
 LIBS:Zilog
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:battery_management
-LIBS:bbd
-LIBS:motors
-LIBS:Worldsemi
-LIBS:mx-503398-1892
+LIBS:mysensors_arduino
+LIBS:mysensors_connectors
+LIBS:mysensors_logic
+LIBS:mysensors_mcu
+LIBS:mysensors_memories
+LIBS:mysensors_network
+LIBS:mysensors_radios
+LIBS:mysensors_regulators
+LIBS:mysensors_security
+LIBS:mysensors_sensors
 LIBS:AMS1117
+LIBS:ch340
+LIBS:cp2102
+LIBS:current_transf
+LIBS:hlk-pm01
+LIBS:l6920
+LIBS:linear_tech
 LIBS:MIC5205
+LIBS:mx-503398-1892
+LIBS:ncp1402
 LIBS:pam8403
 LIBS:pcm5100
+LIBS:rfm12
+LIBS:rfm69cw
+LIBS:RM50_SP
+LIBS:ttp223
+LIBS:txb010x
+LIBS:v23079-e1208-b301
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -126,7 +129,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA328P-A IC1
+L ATMEGA328P-AU IC1
 U 1 1 575E6E29
 P 3225 5075
 F 0 "IC1" H 2555 6435 50  0000 C CNN
