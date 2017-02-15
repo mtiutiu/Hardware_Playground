@@ -59,7 +59,6 @@ LIBS:opto
 LIBS:Oscillators
 LIBS:philips
 LIBS:power
-LIBS:powerint
 LIBS:Power_Management
 LIBS:pspice
 LIBS:references
@@ -119,9 +118,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Mysensors RFM69 multisensor node"
 Date ""
-Rev ""
+Rev "1.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -403,10 +402,6 @@ Text Notes 7400 6425 0    67   ~ 13
 3.3V supply
 NoConn ~ 2325 5325
 NoConn ~ 2325 5425
-Text Notes 7300 6925 0    99   ~ 20
-Mysensors RFM69 temperature & humidity node
-Text Notes 10600 7650 0    60   ~ 12
-1.4
 Text Notes 650  2575 0    67   ~ 13
 AVR ISP
 Text Notes 825  7450 0    67   ~ 13
