@@ -22,17 +22,18 @@ This is a Mysensors RFM69W actuator node for controlling a heater or other appli
 
 **Work progress:**
 
- 1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **TO DO**
- 2. Produce the initial PCB's using some external PCB manufacturer
- 3. Components assembly(sodering)
- 4. Create 3D printed plastic enclosure
- 5. Create MySensors sketch code
- 6. Verify the real board with running code
+1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **DONE**
+2. Produce the initial PCB's using some external PCB manufacturer - **IN PROGRESS**
+3. Components assembly(sodering)
+4. Create 3D printed plastic enclosure
+5. Create MySensors sketch code
+6. Verify the real board with running code
 
 **Note: Work in progress(schematic/pcb will change).**
 
 **HW Revisions:**
  - 0.1 - initial hw design
+ - 0.2 - removed capacitor from reset switch as it can interfere with arduino serial bootloader if used
 
 **Credits:**
   
