@@ -27,8 +27,6 @@ This is a Mysensors serial GW using **RFM69W** radio module and **CP2102** usb t
  5. Verify the real board with running code - **DONE**
  6. Create project enclosure using a 3D printer - **DONE**
 
-**Note: Work in progress(schematic/pcb will change).**
-
 **HW Revisions:**
  - 0.1 - initial design
  - 0.2 - fixed ceramic resonator pinout
