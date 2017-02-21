@@ -23,13 +23,13 @@ This is a Mysensors node using **RFM69W** radio module, **I2C based** temperatur
  - **Small** board(**48 x 22mm**) using a **CR123** battery
 
 **Work progress:**
-1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **DONE**
-2. Produce the initial PCB's using some external PCB manufacturer - **DONE**
-3. Components assembly(sodering) - **DONE**
-4. Upload Mysensors temperature/humidity node sketch code - **DONE**
-5. Verify the real board with running code - **DONE**
-6. Code optimizations for low power operation - **DONE**
-7. Create project enclosure using a 3D printer - **DONE**
+ 1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **DONE**
+ 2. Produce the initial PCB's using some external PCB manufacturer - **DONE**
+ 3. Components assembly(soldering) - **DONE**
+ 4. Upload Mysensors temperature/humidity node sketch code - **DONE**
+ 5. Verify the real board with running code - **DONE**
+ 6. Code optimizations for low power operation - **DONE**
+ 7. Create project enclosure using a 3D printer - **DONE**
 
 **Note:**
 
