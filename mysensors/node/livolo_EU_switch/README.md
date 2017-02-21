@@ -25,8 +25,8 @@ This is a Mysensors replica of the Livolo EU Switch(2 ways) front plate.
  1. Identify the 12V line from the Livolo power/relays board - **DONE**
  2. Add **AT25DF512C-SSHN-B** SPI Flash module for OTA and **ATSHA204A** for signing - **DONE**
  3. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **DONE**
- 4. Produce the initial PCB's using some external PCB manufacturer - **IN PROGRESS**
- 5. Components assembly(sodering)
+ 4. Produce the initial PCB's using some external PCB manufacturer - **DONE**
+ 5. Components assembly(sodering) - **IN PROGRESS**
  6. Create Mysensors sketch code
  7. Verify the real board with running code
 
