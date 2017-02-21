@@ -25,7 +25,7 @@ This is a Mysensors node using **RFM69W** radio module and **Si7021** temperatur
 **Work progress:**
  1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **TO DO**
  2. Produce the initial PCB's using some external PCB manufacturer
- 3. Components assembly(sodering)
+ 3. Components assembly(soldering)
  4. Upload Mysensors temperature/humidity node sketch code
  5. Verify the real board with running code
  6. Code optimizations for low power operation
