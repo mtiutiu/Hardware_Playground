@@ -1,11 +1,11 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-7650~57~ubuntu16.04.1*
-G04 #@! TF.CreationDate,2017-02-13T13:57:44+02:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-7688~57~ubuntu16.04.1*
+G04 #@! TF.CreationDate,2017-02-22T10:53:37+02:00*
 G04 #@! TF.ProjectId,livolo_2_ways_eu_switch,6C69766F6C6F5F325F776179735F6575,rev?*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-7650~57~ubuntu16.04.1) date Mon Feb 13 13:57:44 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-7688~57~ubuntu16.04.1) date Wed Feb 22 10:53:37 2017*
 %MOMM*%
 %LPD*%
 G01*
