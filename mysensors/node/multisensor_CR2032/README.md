@@ -1,21 +1,22 @@
-## Mysensors RFM69W temperature/humidity node(CR2032)
+## Mysensors RFM69W multisensor node(CR2032)
 
 
 ##### 3D renderings of pcb
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/temperature_humidity_top.png?raw=true "top view") | ![Alt text](3d/renderings/temperature_humidity_bottom.png?raw=true "bottom view")
+![Alt text](3d/renderings/multisensor_cr2032_top.png?raw=true "top view") | ![Alt text](3d/renderings/multisensor_cr2032_bottom.png?raw=true "bottom view")
 
 
 
 **Description:**
 
-This is a Mysensors node using **RFM69W** radio module and **Si7021** temperature/humidity sensor. 
+This is a Mysensors node using **RFM69W** radio module, **Si7021** temperature/humidity sensor and **MAX44009** ambient light sensor. 
 
 **Key Features:**
 
  - **Si7021** temperature/humidity sensor
+ - **MAX44009** ambient light sensor
  - **ATSHA204A** for signing
  - **AT25DF512C-SSHN-B** SPI flash module for OTA
  - **MySensors** ready(**Atmega328p** + **RFM69W**)
@@ -36,6 +37,7 @@ This is a Mysensors node using **RFM69W** radio module and **Si7021** temperatur
 **HW Revisions:**
  - 0.1 - initial design
  - 0.2 - added option to bypass step-up converter using jumpers
+ - 0.3 - added MAX44009 ambient light sensor
 
 **Credits:**
   
