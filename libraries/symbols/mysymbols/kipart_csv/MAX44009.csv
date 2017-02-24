@@ -1,0 +1,8 @@
+MAX44009,,,
+Pin,Name,Type,Side
+1,Vcc,pwr,left
+2,GND,pwr,left
+3,A0,in,left
+4,INT,in,right
+5,SCL,in,right
+6,SDA,out,right
