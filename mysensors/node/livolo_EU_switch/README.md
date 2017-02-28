@@ -1,5 +1,5 @@
 ## Mysensors RFM69 Livolo 2 ways EU switch front module
-
+More details here: https://www.openhardware.io/view/306
 
 ##### 3D renderings of pcb
 
