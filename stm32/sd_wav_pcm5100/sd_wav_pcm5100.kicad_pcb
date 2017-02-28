@@ -1,9 +1,9 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7448~57~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-be10de8~57~ubuntu16.04.1)
 
   (general
     (links 175)
     (no_connects 0)
-    (area 59.074999 68.374999 98.875001 118.450018)
+    (area 56.39875 66.32275 100.59575 120.40575)
     (thickness 1.6)
     (drawings 23)
     (tracks 482)
@@ -1422,7 +1422,7 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (module myfootprints:hole_2mm (layer F.Cu) (tedit 58772BB3) (tstamp 5877305E)
+  (module myfootprints:hole_2mm locked (layer F.Cu) (tedit 58772BB3) (tstamp 5877305E)
     (at 81.11 98.38)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.125)))
@@ -1433,7 +1433,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu *.Mask))
   )
 
-  (module myfootprints:hole_2mm (layer F.Cu) (tedit 58772BB3) (tstamp 58772FF9)
+  (module myfootprints:hole_2mm locked (layer F.Cu) (tedit 58772BB3) (tstamp 58772FF9)
     (at 65.04 74.55)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.125)))
@@ -1444,7 +1444,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu *.Mask))
   )
 
-  (module myfootprints:hole_2mm (layer F.Cu) (tedit 58772BB3) (tstamp 58772FE4)
+  (module myfootprints:hole_2mm locked (layer F.Cu) (tedit 58772BB3) (tstamp 58772FE4)
     (at 88.46 82.47)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.125)))
@@ -1455,7 +1455,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu *.Mask))
   )
 
-  (module myfootprints:hole_2mm (layer F.Cu) (tedit 58772BB3) (tstamp 58772FDE)
+  (module myfootprints:hole_2mm locked (layer F.Cu) (tedit 58772BB3) (tstamp 58772FDE)
     (at 63.04 90.68)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.125)))
@@ -1466,7 +1466,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu *.Mask))
   )
 
-  (module myfootprints:hole_2mm (layer F.Cu) (tedit 58772BB3) (tstamp 58772FAB)
+  (module myfootprints:hole_2mm locked (layer F.Cu) (tedit 58772BB3) (tstamp 58772FAB)
     (at 82.72 116.15)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.125)))
