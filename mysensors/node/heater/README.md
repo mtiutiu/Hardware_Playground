@@ -1,5 +1,5 @@
 ## Mysensors RFM69W heater relay module
-
+More details here: https://www.openhardware.io/view/334/MySensors-RFM69W-relay-actuator-node
 
 ##### 3D renderings of pcb
 
