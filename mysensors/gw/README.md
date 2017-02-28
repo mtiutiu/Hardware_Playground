@@ -1,5 +1,5 @@
 ## Mysensors RFM69W Serial Gateway
-
+More details here: https://www.openhardware.io/view/316/MySensors-RFM69W-serial-GW
 
 ##### 3D renderings of pcb
 
