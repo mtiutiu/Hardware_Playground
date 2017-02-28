@@ -1,5 +1,5 @@
 ## Mysensors RFM69W multisensor node(CR2032)
-
+More details here: https://www.openhardware.io/view/320/MySensors-RFM69W-multisensor-nodeCR2032
 
 ##### 3D renderings of pcb
 
