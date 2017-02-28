@@ -1,5 +1,5 @@
 ## Mysensors RFM69W multisensor node(CR123)
-
+More details here: https://www.openhardware.io/view/321/MySensors-RFM69W-multisensor-nodeCR123
 
 ##### 3D renderings of pcb
 
