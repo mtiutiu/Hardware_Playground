@@ -26,9 +26,10 @@ This is a Mysensors replica of the Livolo EU Switch(2 ways) front plate.
  2. Add **AT25DF512C-SSHN-B** SPI Flash module for OTA and **ATSHA204A** for signing - **DONE**
  3. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **DONE**
  4. Produce the initial PCB's using some external PCB manufacturer - **DONE**
- 5. Components assembly(soldering) - **IN PROGRESS**
- 6. Create Mysensors sketch code
- 7. Verify the real board with running code
+ 5. Components assembly(soldering) - **DONE**
+ 6. Create Mysensors sketch code - **DONE**
+ 7. Verify the real board with running code - **DONE**
+ 8. Verify OTA - **DONE**
 
 Regarding point 1. from above: the EU variant that I have(VL-C700X-1 Ver: B8) doesn't expose the 12V line unfortunately. So I see 2 options here:
 
@@ -37,13 +38,12 @@ Regarding point 1. from above: the EU variant that I have(VL-C700X-1 Ver: B8) do
 
 One another thing that I noticed is that the relays are bistable so I modified the schematic/pcb to accommodate that(the relays used on my livolo switch are: **HFE60 12-1HST-L2** ( **2 coils latching, 1 Form A** as per datasheet: http://www.hongfa.com/pro/pdf/HFE60_en.pdf).
 
-**Note: Work in progress(schematic/pcb will change).**
-
 **HW Revisions:**
  - 0.1 - added SPI flash for OTA and signing support
  - 0.2 - fixed SPI slave select lines for flash and radio module
  - 0.3 - added ATSHA204A pull-up resistor
-
+ - 0.4 - fixed leds orientation and added touch pads silkscreen
+ 
 **Credits:**
   
   All credits go to **MySensors** team for the great work and to the opensource community
