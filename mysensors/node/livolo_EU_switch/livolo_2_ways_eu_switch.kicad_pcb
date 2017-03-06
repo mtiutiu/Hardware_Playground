@@ -1,9 +1,9 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-799c8b6~57~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-541b91f~58~ubuntu16.04.1)
 
   (general
     (links 115)
     (no_connects 0)
-    (area 120.729583 70.140781 164.195471 113.840783)
+    (area 120.434999 69.838356 164.516744 117.99)
     (thickness 1.6)
     (drawings 25)
     (tracks 595)
@@ -192,7 +192,7 @@
       (net 11 "Net-(C12-Pad1)"))
   )
 
-  (module myfootprints:Livolo_EU_SW_2Ways_Frame (layer F.Cu) (tedit 58AD7297) (tstamp 58734957)
+  (module myfootprints:Livolo_EU_SW_2Ways_Frame locked (layer F.Cu) (tedit 58AD7297) (tstamp 58734957)
     (at 143.125 91.975)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
@@ -429,7 +429,7 @@
     )
   )
 
-  (module Symbols:OSHW-Logo2_7.3x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5873B118)
+  (module Symbols:OSHW-Logo2_7.3x6mm_SilkScreen locked (layer B.Cu) (tedit 0) (tstamp 5873B118)
     (at 141.975 79.275 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")

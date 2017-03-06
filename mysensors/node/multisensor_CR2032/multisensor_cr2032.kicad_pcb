@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7713~57~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-541b91f~58~ubuntu16.04.1)
 
   (general
     (links 96)
@@ -140,7 +140,7 @@
     (add_net "Net-(P1-Pad1)")
   )
 
-  (module Symbols:OSHW-Logo_5.7x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 58B046B1)
+  (module Symbols:OSHW-Logo_5.7x6mm_SilkScreen locked (layer B.Cu) (tedit 0) (tstamp 58B046B1)
     (at 126 75.6 315)
     (descr "Open Source Hardware Logo")
     (tags "Logo OSHW")

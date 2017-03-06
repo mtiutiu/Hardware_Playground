@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-be10de8~57~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-541b91f~58~ubuntu16.04.1)
 
   (general
     (links 126)
@@ -1750,7 +1750,7 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module myfootprints:my_logo (layer B.Cu) (tedit 57629D29) (tstamp 57DA861D)
+  (module myfootprints:my_logo locked (layer B.Cu) (tedit 57629D29) (tstamp 57DA861D)
     (at 141.4526 81.0514)
     (attr virtual)
     (fp_text reference REF** (at 0.2032 5.4864) (layer B.SilkS) hide

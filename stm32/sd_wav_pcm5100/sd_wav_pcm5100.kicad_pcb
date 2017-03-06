@@ -1,9 +1,9 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-a5ac165~58~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-541b91f~58~ubuntu16.04.1)
 
   (general
     (links 175)
     (no_connects 0)
-    (area 59.074999 68.374999 98.875001 118.450018)
+    (area 56.39875 66.32275 100.59575 120.40575)
     (thickness 1.6)
     (drawings 23)
     (tracks 484)
@@ -636,7 +636,7 @@
     )
   )
 
-  (module Symbols:OSHW-Logo_7.5x8mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 58774BD1)
+  (module Symbols:OSHW-Logo_7.5x8mm_SilkScreen locked (layer B.Cu) (tedit 0) (tstamp 58774BD1)
     (at 69.06 81 180)
     (descr "Open Source Hardware Logo")
     (tags "Logo OSHW")
