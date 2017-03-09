@@ -1,4 +1,4 @@
-update=Fri 24 Feb 2017 10:15:02 AM EET
+update=3/9/2017 11:32:10 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=pdf/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=../../../libraries/symbols/mysensors_symbols;../../../libraries/symbols/mysymbols
@@ -155,3 +145,13 @@ LibName113=Xicor
 LibName114=xilinx
 LibName115=zetex
 LibName116=Zilog
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
