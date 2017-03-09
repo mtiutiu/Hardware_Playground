@@ -1,18 +1,7 @@
-update=3/9/2017 10:23:32 PM
+update=3/9/2017 11:34:46 PM
 last_client=kicad
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=pdf/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=../../../libraries/symbols/mysensors_symbols
@@ -119,3 +108,13 @@ LibName99=C:/Users/andrea/tmp/kicad/libraries/symbols/mysensors_symbols/mysensor
 LibName100=C:/Users/andrea/tmp/kicad/libraries/symbols/mysensors_symbols/mysensors_regulators
 LibName101=C:/Users/andrea/tmp/kicad/libraries/symbols/mysensors_symbols/mysensors_security
 LibName102=C:/Users/andrea/tmp/kicad/libraries/symbols/mysensors_symbols/mysensors_sensors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
