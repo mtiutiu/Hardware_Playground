@@ -1,4 +1,4 @@
-## Mysensors RFM69W Serial Gateway
+## Mysensors RFM69W Serial Gateway(ATMEGA328P)
 More details here: https://www.openhardware.io/view/316/MySensors-RFM69W-serial-GW
 
 ##### 3D renderings of pcb
@@ -17,7 +17,7 @@ This is a Mysensors serial GW using **RFM69W** radio module and **CP2102** usb t
 
  - **USB to serial converter** using CP2102 specialized IC
  - **ATSHA204A** for signing
- - **MySensors** ready(Atmega328p + RFM69W)
+ - **MySensors** ready(ATMEGA328P + RFM69W)
 
 **Work progress:**
  1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **DONE**
