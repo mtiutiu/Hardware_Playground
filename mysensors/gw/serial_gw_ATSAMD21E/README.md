@@ -1,36 +1,32 @@
-## Mysensors RFM69W Serial Gateway
-More details here: https://www.openhardware.io/view/316/MySensors-RFM69W-serial-GW
+## Mysensors RFM69W Serial Gateway(ATSAMD21E)
 
 ##### 3D renderings of pcb
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/serial_gw_top.png?raw=true "top view") | ![Alt text](3d/renderings/serial_gw_bottom.png?raw=true "bottom view")
+![Alt text](3d/renderings/serial_gw_ATSAMD21E_top.png?raw=true "top view") | ![Alt text](3d/renderings/serial_gw_ATSAMD21E_bottom.png?raw=true "bottom view")
 
 
 
 **Description:**
 
-This is a Mysensors serial GW using **RFM69W** radio module and **CP2102** usb to serial converter. 
+This is a Mysensors serial GW using **RFM69W** radio module and **ATSAMD21E** 32 bit MCU 
 
 **Key features:**
 
- - **USB to serial converter** using CP2102 specialized IC
  - **ATSHA204A** for signing
- - **MySensors** ready(Atmega328p + RFM69W)
+ - **MySensors** ready(ATSAMD21E + RFM69W)
 
 **Work progress:**
  1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **DONE**
- 2. Produce the initial PCB's using some external PCB manufacturer - **DONE**
- 3. Components assembly(soldering) - **DONE**
- 4. Upload Mysensors serial GW sketch code - **DONE**
- 5. Verify the real board with running code - **DONE**
- 6. Create project enclosure using a 3D printer - **DONE**
+ 2. Produce the initial PCB's using some external PCB manufacturer - **IN PROGRESS**
+ 3. Components assembly(soldering)
+ 4. Upload Mysensors serial GW sketch code
+ 5. Verify the real board with running code
+ 6. Create project enclosure using a 3D printer
 
 **HW Revisions:**
  - 0.1 - initial design
- - 0.2 - fixed ceramic resonator pinout
- - 0.3 - removed capacitor from reset switch as it can interfere with arduino serial bootloader if used
 
 **Credits:**
   
