@@ -1,11 +1,11 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-a592832~58~ubuntu16.04.1*
-G04 #@! TF.CreationDate,2017-03-09T16:36:18+02:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-03-08 revision a73abbfc3)-makepkg*
+G04 #@! TF.CreationDate,2017-03-09T22:48:04+02:00*
 G04 #@! TF.ProjectId,serial_gw_ATSAMD21E,73657269616C5F67775F415453414D44,rev?*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-a592832~58~ubuntu16.04.1) date Thu Mar  9 16:36:18 2017*
+G04 Created by KiCad (PCBNEW (2017-03-08 revision a73abbfc3)-makepkg) date 03/09/17 22:48:04*
 %MOMM*%
 %LPD*%
 G01*
@@ -49,10 +49,10 @@ X141300000Y-93000000D03*
 X142400000Y-97500000D03*
 X141300000Y-97500000D03*
 D13*
-X135400000Y-86350000D03*
-X135400000Y-91850000D03*
 X138600000Y-91850000D03*
 X138600000Y-86350000D03*
+X135400000Y-86350000D03*
+X135400000Y-91850000D03*
 D14*
 X120700000Y-97300000D03*
 D15*

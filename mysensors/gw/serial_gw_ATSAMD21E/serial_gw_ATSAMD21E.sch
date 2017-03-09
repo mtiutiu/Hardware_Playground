@@ -1,33 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:AMS1117
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:hlk-pm01
-LIBS:l6920
-LIBS:linear_tech
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mx-503398-1892
-LIBS:ncp1402
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
@@ -43,8 +14,8 @@ LIBS:battery_management
 LIBS:bbd
 LIBS:bosch
 LIBS:brooktre
-LIBS:cmos4000
 LIBS:cmos_ieee
+LIBS:cmos4000
 LIBS:conn
 LIBS:contrib
 LIBS:cypress
@@ -62,6 +33,7 @@ LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
+LIBS:intersil
 LIBS:ir
 LIBS:Lattice
 LIBS:leds
@@ -92,8 +64,8 @@ LIBS:opto
 LIBS:Oscillators
 LIBS:philips
 LIBS:power
-LIBS:powerint
 LIBS:Power_Management
+LIBS:powerint
 LIBS:pspice
 LIBS:references
 LIBS:regul
@@ -108,6 +80,7 @@ LIBS:supertex
 LIBS:switches
 LIBS:texas
 LIBS:transf
+LIBS:transistors
 LIBS:triac_thyristor
 LIBS:ttl_ieee
 LIBS:valves
@@ -118,7 +91,16 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:transistors
+LIBS:mysensors_arduino
+LIBS:mysensors_connectors
+LIBS:mysensors_logic
+LIBS:mysensors_mcu
+LIBS:mysensors_memories
+LIBS:mysensors_network
+LIBS:mysensors_radios
+LIBS:mysensors_regulators
+LIBS:mysensors_security
+LIBS:mysensors_sensors
 LIBS:serial_gw_ATSAMD21E-cache
 EELAYER 26 0
 EELAYER END
@@ -687,56 +669,56 @@ $EndComp
 $Comp
 L Crystal_Small Y1
 U 1 1 58C0A913
-P 3990 5435
-F 0 "Y1" H 3990 5660 50  0000 C CNN
-F 1 "16MHz" H 3990 5569 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm_HandSoldering" H -205 -155 50  0001 C CNN
-F 3 "" H -205 -155 50  0001 C CNN
-	1    3990 5435
+P 4100 5435
+F 0 "Y1" H 4100 5660 50  0000 C CNN
+F 1 "16MHz" H 4100 5569 50  0000 C CNN
+F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm_HandSoldering" H -95 -155 50  0001 C CNN
+F 3 "" H -95 -155 50  0001 C CNN
+	1    4100 5435
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C4
 U 1 1 58C0BA2F
-P 3840 5580
-F 0 "C4" H 3975 5620 50  0000 C CNN
-F 1 "18p" H 3975 5530 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 3932 5489 50  0001 L CNN
-F 3 "" H 3840 5580 50  0000 C CNN
-	1    3840 5580
+P 3950 5580
+F 0 "C4" H 4085 5620 50  0000 C CNN
+F 1 "30p" H 4085 5530 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4042 5489 50  0001 L CNN
+F 3 "" H 3950 5580 50  0000 C CNN
+	1    3950 5580
 	-1   0    0    -1  
 $EndComp
 $Comp
 L C_Small C5
 U 1 1 58C0C268
-P 4115 5580
-F 0 "C5" H 3975 5620 50  0000 C CNN
-F 1 "18p" H 3965 5530 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 4207 5489 50  0001 L CNN
-F 3 "" H 4115 5580 50  0000 C CNN
-	1    4115 5580
+P 4225 5580
+F 0 "C5" H 4085 5620 50  0000 C CNN
+F 1 "30p" H 4075 5530 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4317 5489 50  0001 L CNN
+F 3 "" H 4225 5580 50  0000 C CNN
+	1    4225 5580
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR025
 U 1 1 58C0C819
-P 3840 5680
-F 0 "#PWR025" H 3840 5430 50  0001 C CNN
-F 1 "GND" H 3845 5507 50  0000 C CNN
-F 2 "" H 3840 5680 50  0000 C CNN
-F 3 "" H 3840 5680 50  0000 C CNN
-	1    3840 5680
+P 3950 5680
+F 0 "#PWR025" H 3950 5430 50  0001 C CNN
+F 1 "GND" H 3955 5507 50  0000 C CNN
+F 2 "" H 3950 5680 50  0000 C CNN
+F 3 "" H 3950 5680 50  0000 C CNN
+	1    3950 5680
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR026
 U 1 1 58C0C90C
-P 4115 5680
-F 0 "#PWR026" H 4115 5430 50  0001 C CNN
-F 1 "GND" H 4120 5507 50  0000 C CNN
-F 2 "" H 4115 5680 50  0000 C CNN
-F 3 "" H 4115 5680 50  0000 C CNN
-	1    4115 5680
+P 4225 5680
+F 0 "#PWR026" H 4225 5430 50  0001 C CNN
+F 1 "GND" H 4230 5507 50  0000 C CNN
+F 2 "" H 4225 5680 50  0000 C CNN
+F 3 "" H 4225 5680 50  0000 C CNN
+	1    4225 5680
 	1    0    0    -1  
 $EndComp
 Text Label 3425 6235 0    60   ~ 0
@@ -804,17 +786,6 @@ F 1 "+3.3V" H 5920 3758 50  0000 C CNN
 F 2 "" H 5905 3585 50  0000 C CNN
 F 3 "" H 5905 3585 50  0000 C CNN
 	1    5905 3585
-	1    0    0    -1  
-$EndComp
-$Comp
-L Crystal_Small Y2
-U 1 1 58C180EA
-P 4700 4020
-F 0 "Y2" H 4700 4245 50  0000 C CNN
-F 1 "32.768KHz" H 4700 4154 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_SeikoEpson_MC306-4pin_8.0x3.2mm" H 505 -1570 50  0001 C CNN
-F 3 "" H 505 -1570 50  0001 C CNN
-	1    4700 4020
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1027,17 +998,17 @@ Wire Wire Line
 	1945 7150 1945 7115
 Connection ~ 1945 7115
 Wire Wire Line
-	3350 5335 4115 5335
+	3350 5335 4225 5335
 Wire Wire Line
-	3350 5435 3890 5435
+	3350 5435 4000 5435
 Wire Wire Line
-	4115 5335 4115 5480
+	4225 5335 4225 5480
 Wire Wire Line
-	4115 5435 4090 5435
+	4225 5435 4200 5435
 Wire Wire Line
-	3840 5480 3840 5435
-Connection ~ 3840 5435
-Connection ~ 4115 5435
+	3950 5480 3950 5435
+Connection ~ 3950 5435
+Connection ~ 4225 5435
 Wire Wire Line
 	3350 6235 3425 6235
 Wire Wire Line
@@ -1055,21 +1026,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 4635 3430 4635
 Wire Wire Line
-	3350 3935 4825 3935
+	4825 3860 4825 4065
 Wire Wire Line
-	4825 3935 4825 4065
-Wire Wire Line
-	4800 4020 4825 4020
-Connection ~ 4825 4020
-Wire Wire Line
-	4600 4020 4550 4020
-Wire Wire Line
-	4550 4020 4550 4065
-Wire Wire Line
-	3350 4035 4550 4035
-Wire Wire Line
-	4550 4035 4550 4030
-Connection ~ 4550 4030
+	3350 4035 4590 4035
 Wire Wire Line
 	3350 6735 3495 6735
 Wire Wire Line
@@ -1126,4 +1085,27 @@ Wire Wire Line
 	8775 5625 8500 5625
 Text Label 8500 5625 2    60   ~ 0
 VBUS
+$Comp
+L Crystal_GND23_Small Y2
+U 1 1 58C1BDA3
+P 4690 4035
+F 0 "Y2" H 4620 4320 50  0000 L CNN
+F 1 "32.768KHz" H 4445 4255 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_SeikoEpson_MC306-4pin_8.0x3.2mm" H 5240 1485 50  0001 C CNN
+F 3 "" H 5240 1485 50  0001 C CNN
+	1    4690 4035
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4065 4550 4035
+Connection ~ 4550 4035
+Wire Wire Line
+	4790 4035 4825 4035
+Connection ~ 4825 4035
+NoConn ~ 4690 4160
+NoConn ~ 4690 3910
+Wire Wire Line
+	4825 3860 3350 3860
+Wire Wire Line
+	3350 3860 3350 3935
 $EndSCHEMATC
