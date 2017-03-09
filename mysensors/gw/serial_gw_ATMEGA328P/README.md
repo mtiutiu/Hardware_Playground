@@ -1,5 +1,5 @@
 ## Mysensors RFM69W Serial Gateway(ATMEGA328P)
-More details here: https://www.openhardware.io/view/316/MySensors-RFM69W-serial-GW
+More details here: https://www.openhardware.io/view/316/MySensors-RFM69W-serial-GWATMEGA328P
 
 ##### 3D renderings of pcb
 
