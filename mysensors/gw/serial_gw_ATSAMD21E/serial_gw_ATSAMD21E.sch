@@ -1,4 +1,33 @@
 EESchema Schematic File Version 2
+LIBS:mysensors_arduino
+LIBS:mysensors_connectors
+LIBS:mysensors_logic
+LIBS:mysensors_mcu
+LIBS:mysensors_memories
+LIBS:mysensors_network
+LIBS:mysensors_radios
+LIBS:mysensors_regulators
+LIBS:mysensors_security
+LIBS:mysensors_sensors
+LIBS:AMS1117
+LIBS:ch340
+LIBS:cp2102
+LIBS:current_transf
+LIBS:hlk-pm01
+LIBS:l6920
+LIBS:linear_tech
+LIBS:max44009
+LIBS:MIC5205
+LIBS:mx-503398-1892
+LIBS:ncp1402
+LIBS:pam8403
+LIBS:pcm5100
+LIBS:rfm12
+LIBS:rfm69cw
+LIBS:RM50_SP
+LIBS:ttp223
+LIBS:txb010x
+LIBS:v23079-e1208-b301
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
@@ -14,8 +43,8 @@ LIBS:battery_management
 LIBS:bbd
 LIBS:bosch
 LIBS:brooktre
-LIBS:cmos_ieee
 LIBS:cmos4000
+LIBS:cmos_ieee
 LIBS:conn
 LIBS:contrib
 LIBS:cypress
@@ -64,8 +93,8 @@ LIBS:opto
 LIBS:Oscillators
 LIBS:philips
 LIBS:power
-LIBS:Power_Management
 LIBS:powerint
+LIBS:Power_Management
 LIBS:pspice
 LIBS:references
 LIBS:regul
@@ -91,17 +120,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:serial_gw_ATSAMD21E-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

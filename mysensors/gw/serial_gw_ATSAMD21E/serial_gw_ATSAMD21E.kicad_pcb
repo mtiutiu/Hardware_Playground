@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew "(2017-03-08 revision a73abbfc3)-makepkg")
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-a592832~58~ubuntu16.04.1)
 
   (general
     (links 87)
@@ -726,10 +726,10 @@
       (net 9 "Net-(D3-Pad2)"))
     (pad 1 smd rect (at -0.55 0 180) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_Packages_SMD.3dshapes/led_0402_red.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -764,10 +764,10 @@
       (net 8 "Net-(D2-Pad2)"))
     (pad 1 smd rect (at -0.55 0 180) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_Packages_SMD.3dshapes/led_0402_blue.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -802,10 +802,10 @@
       (net 7 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -0.55 0 180) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_Packages_SMD.3dshapes/led_0402_green.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
