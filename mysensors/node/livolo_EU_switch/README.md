@@ -43,6 +43,7 @@ One another thing that I noticed is that the relays are bistable so I modified t
  - 0.2 - fixed SPI slave select lines for flash and radio module
  - 0.3 - added ATSHA204A pull-up resistor
  - 0.4 - fixed leds orientation and added touch pads silkscreen
+ - 0.5 - added tantalum caps for better power supply and radio stability(removed MCU reset pin cap)
  
 **Credits:**
   
