@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-a592832~58~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-5e5259b~58~ubuntu16.04.1)
 
   (general
     (links 114)
@@ -1143,7 +1143,7 @@
     (fp_text reference C15 (at 2.1 -1.075 180) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
-    (fp_text value 10u (at 1.225 -1.1 180) (layer F.SilkS)
+    (fp_text value 22u (at 1.225 -1.1 180) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.15))
@@ -1202,7 +1202,7 @@
     (fp_text reference C6 (at 1 0.85 270) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
-    (fp_text value 1n (at -1.15 0.9 270) (layer F.SilkS)
+    (fp_text value 10n (at -1.15 0.9 270) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
     (fp_line (start 0.35 0.6) (end -0.35 0.6) (layer F.SilkS) (width 0.15))
@@ -1808,7 +1808,7 @@
     (fp_text reference R4 (at -2.35 0.075 180) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
-    (fp_text value 10K (at -3.125 0.05 180) (layer F.SilkS)
+    (fp_text value 56K (at -3.125 0.05 180) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
     (fp_line (start -0.5 -0.675) (end 0.5 -0.675) (layer F.SilkS) (width 0.15))
@@ -1973,7 +1973,7 @@
     (fp_text reference U1 (at 1.4 -0.025 180) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
-    (fp_text value MIC5255-3.3 (at -1.95 0.35 180) (layer F.SilkS)
+    (fp_text value MIC5205-3.3 (at -1.95 0.35 180) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
     (fp_line (start 0.9 -1.55) (end 0.9 1.55) (layer F.Fab) (width 0.15))
@@ -2337,7 +2337,7 @@
     (fp_text reference L1 (at 0.266 1.27 180) (layer F.SilkS)
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
-    (fp_text value fbead (at 0 1.5 180) (layer F.Fab) hide
+    (fp_text value BLM18HE152SN1D (at 0 1.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.25 0.7) (end -1.25 0.7) (layer F.CrtYd) (width 0.05))
