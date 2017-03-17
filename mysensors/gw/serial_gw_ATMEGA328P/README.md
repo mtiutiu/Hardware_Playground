@@ -17,7 +17,7 @@ This is a Mysensors serial GW using **RFM69W** radio module and **CP2102** usb t
 
  - **USB to serial converter** using **CP2102** specialized IC
  - **ATSHA204A** for signing
- - **MySensors** ready(ATMEGA328P + RFM69W)
+ - **MySensors** ready(**ATMEGA328P** + **RFM69W**)
 
 **Work progress:**
  1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **DONE**
