@@ -9,18 +9,39 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
+LIBS:AMS1117
 LIBS:ch340
+LIBS:cp2102
+LIBS:current_transf
+LIBS:hlk-pm01
 LIBS:l6920
+LIBS:linear_tech
+LIBS:max44009
+LIBS:MIC5205
+LIBS:mx-503398-1892
+LIBS:ncp1402
+LIBS:pam8403
+LIBS:pcm5100
+LIBS:rfm12
+LIBS:rfm69cw
+LIBS:RM50_SP
+LIBS:ttp223
+LIBS:txb010x
+LIBS:v23079-e1208-b301
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
 LIBS:actel
 LIBS:adc-dac
+LIBS:allegro
 LIBS:Altera
 LIBS:analog_devices
 LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
 LIBS:brooktre
 LIBS:cmos4000
 LIBS:cmos_ieee
@@ -37,14 +58,17 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
+LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
 LIBS:ir
 LIBS:Lattice
+LIBS:leds
 LIBS:linear
 LIBS:logo
 LIBS:maxim
+LIBS:mechanical
 LIBS:memory
 LIBS:microchip
 LIBS:microchip_dspic33dsc
@@ -52,12 +76,16 @@ LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
 LIBS:microchip_pic32mcu
 LIBS:microcontrollers
+LIBS:modules
 LIBS:motor_drivers
 LIBS:motorola
+LIBS:motors
 LIBS:msp430
 LIBS:nordicsemi
+LIBS:nxp
 LIBS:nxp_armmcu
 LIBS:onsemi
 LIBS:opto
@@ -81,35 +109,17 @@ LIBS:switches
 LIBS:texas
 LIBS:transf
 LIBS:transistors
+LIBS:triac_thyristor
 LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
+LIBS:zetex
 LIBS:Zilog
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:battery_management
-LIBS:bbd
-LIBS:motors
-LIBS:Worldsemi
-LIBS:current_transf
-LIBS:hlk-pm01
-LIBS:linear_tech
-LIBS:RM50_SP
-LIBS:v23079-e1208-b301
-LIBS:AMS1117
-LIBS:MIC5205
-LIBS:txb010x
-LIBS:cp2102
-LIBS:rfm69cw
+LIBS:serial_gw-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -117,7 +127,7 @@ encoding utf-8
 Sheet 1 1
 Title "Mysensors RFM69CW serial gateway"
 Date ""
-Rev "0.3"
+Rev "0.4"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -530,8 +540,8 @@ $Comp
 L CP2102 U3
 U 1 1 587CEBD4
 P 9380 1765
-F 0 "U3" H 8715 2595 50  0000 C CNN
-F 1 "CP2102" H 8810 2505 50  0000 C CNN
+F 0 "U3" H 9120 2550 50  0000 C CNN
+F 1 "CP2102" H 9160 2470 50  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" H 9380 1765 60  0001 C CNN
 F 3 "" H 9380 1765 60  0001 C CNN
 	1    9380 1765
@@ -697,7 +707,7 @@ U 1 1 587E0CED
 P 7570 1315
 F 0 "P1" V 7215 1270 50  0000 L CNN
 F 1 "USB_A" V 7300 1200 50  0000 L CNN
-F 2 "Connect:USB_A" V 7506 1503 50  0001 L CNN
+F 2 "myfootprints:USB_A" V 7506 1503 50  0001 L CNN
 F 3 "" V 7520 1215 50  0000 C CNN
 	1    7570 1315
 	1    0    0    -1  
@@ -817,17 +827,17 @@ F 3 "" H 1880 1760 50  0000 C CNN
 	1    1905 1760
 	1    0    0    -1  
 $EndComp
-Text Label 7755 2630 0    60   ~ 0
+Text Label 7870 2735 0    60   ~ 0
 VBUS
 $Comp
 L +5V #PWR032
 U 1 1 587F4A88
-P 7625 2350
-F 0 "#PWR032" H 7625 2200 50  0001 C CNN
-F 1 "+5V" H 7640 2523 50  0000 C CNN
-F 2 "" H 7625 2350 50  0000 C CNN
-F 3 "" H 7625 2350 50  0000 C CNN
-	1    7625 2350
+P 7740 2455
+F 0 "#PWR032" H 7740 2305 50  0001 C CNN
+F 1 "+5V" H 7755 2628 50  0000 C CNN
+F 2 "" H 7740 2455 50  0000 C CNN
+F 3 "" H 7740 2455 50  0000 C CNN
+	1    7740 2455
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1020,7 +1030,7 @@ Text Label 3630 5470 0    60   ~ 0
 ATSHA204A
 Text Notes 5190 4640 0    67   ~ 13
 Signing module
-Text Label 8215 920  0    60   ~ 0
+Text Label 8650 920  0    60   ~ 0
 VBUS
 Wire Wire Line
 	3505 5020 4305 5020
@@ -1187,9 +1197,7 @@ Wire Wire Line
 Wire Wire Line
 	9730 600  9510 600 
 Wire Wire Line
-	7625 2350 7625 2630
-Wire Wire Line
-	7625 2630 7755 2630
+	7740 2735 7870 2735
 Wire Wire Line
 	9200 4075 9530 4075
 Wire Wire Line
@@ -1236,6 +1244,21 @@ Wire Wire Line
 	7870 1115 8030 1115
 Wire Wire Line
 	8030 1115 8030 920 
+$Comp
+L L_Small L1
+U 1 1 58CC3327
+P 8235 920
+F 0 "L1" V 8395 845 50  0000 L CNN
+F 1 "BLM18HE152SN1D" V 8305 570 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8235 920 50  0001 C CNN
+F 3 "" H 8235 920 50  0001 C CNN
+	1    8235 920 
+	0    1    -1   0   
+$EndComp
 Wire Wire Line
-	8030 920  8215 920 
+	7740 2735 7740 2455
+Wire Wire Line
+	8030 920  8135 920 
+Wire Wire Line
+	8335 920  8650 920 
 $EndSCHEMATC
