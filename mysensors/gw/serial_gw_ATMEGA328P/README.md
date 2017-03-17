@@ -15,7 +15,7 @@ This is a Mysensors serial GW using **RFM69W** radio module and **CP2102** usb t
 
 **Key features:**
 
- - **USB to serial converter** using CP2102 specialized IC
+ - **USB to serial converter** using **CP2102** specialized IC
  - **ATSHA204A** for signing
  - **MySensors** ready(ATMEGA328P + RFM69W)
 
@@ -31,7 +31,7 @@ This is a Mysensors serial GW using **RFM69W** radio module and **CP2102** usb t
  - 0.1 - initial design
  - 0.2 - fixed ceramic resonator pinout
  - 0.3 - removed capacitor from reset switch as it can interfere with arduino serial bootloader if used
- - 0.4 - added ferrite bead for EMI suppresion
+ - 0.4 - added ferrite bead for EMI suppression
  
 **Credits:**
   
