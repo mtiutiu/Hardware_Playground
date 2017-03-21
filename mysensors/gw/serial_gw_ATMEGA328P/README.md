@@ -5,7 +5,7 @@ More details here: https://www.openhardware.io/view/316/MySensors-RFM69W-serial-
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/serial_gw_top.png?raw=true "top view") | ![Alt text](3d/renderings/serial_gw_bottom.png?raw=true "bottom view")
+![Alt text](3d/renderings/serial_gw_top_ATMEGA328P.png?raw=true "top view") | ![Alt text](3d/renderings/serial_gw_bottom_ATMEGA328P.png?raw=true "bottom view")
 
 
 
@@ -31,7 +31,7 @@ This is a Mysensors serial GW using **RFM69W** radio module and **CP2102** usb t
  - 0.1 - initial design
  - 0.2 - fixed ceramic resonator pinout
  - 0.3 - removed capacitor from reset switch as it can interfere with arduino serial bootloader if used
- - 0.4 - added ferrite bead for EMI suppression
+ - 0.4 - added VUSB line filtering
  
 **Credits:**
   
