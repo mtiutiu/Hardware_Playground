@@ -1,11 +1,11 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-996cba7~58~ubuntu16.04.1*
-G04 #@! TF.CreationDate,2017-03-17T17:02:03+02:00*
-G04 #@! TF.ProjectId,serial_gw,73657269616C5F67772E6B696361645F,rev?*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-ecdfa40~58~ubuntu16.04.1*
+G04 #@! TF.CreationDate,2017-03-21T12:12:51+02:00*
+G04 #@! TF.ProjectId,serial_gw_ATMEGA328P,73657269616C5F67775F41544D454741,rev?*
 G04 #@! TF.FileFunction,Paste,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-996cba7~58~ubuntu16.04.1) date Fri Mar 17 17:02:03 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-ecdfa40~58~ubuntu16.04.1) date Tue Mar 21 12:12:51 2017*
 %MOMM*%
 %LPD*%
 G01*
