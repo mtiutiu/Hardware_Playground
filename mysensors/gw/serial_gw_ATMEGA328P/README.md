@@ -32,6 +32,7 @@ This is a Mysensors serial GW using **RFM69W** radio module and **CP2102** usb t
  - 0.2 - fixed ceramic resonator pinout
  - 0.3 - removed capacitor from reset switch as it can interfere with arduino serial bootloader if used
  - 0.4 - added VUSB line filtering
+ - 0.5 - added USB lines termination resistors
  
 **Credits:**
   

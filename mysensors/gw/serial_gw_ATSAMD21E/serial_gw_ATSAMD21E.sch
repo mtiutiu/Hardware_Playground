@@ -120,6 +120,7 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
+LIBS:serial_gw_ATSAMD21E-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -127,7 +128,7 @@ encoding utf-8
 Sheet 1 1
 Title "Mysensors RFM69W serial gateway(ATSAMD21E)"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -654,9 +655,9 @@ F 3 "" H 2455 3625 50  0000 C CNN
 	1    2455 3625
 	0    1    1    0   
 $EndComp
-Text Label 8710 1580 0    60   ~ 0
+Text Label 8990 1580 0    60   ~ 0
 USBDP
-Text Label 8710 1680 0    60   ~ 0
+Text Label 8990 1680 0    60   ~ 0
 USBDM
 Text Label 3610 6335 0    60   ~ 0
 USBDM
@@ -1173,7 +1174,7 @@ F 3 "" H 5950 5610 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 5770 5950 5610
+	5950 5610 5950 5770
 $Comp
 L C_Small C13
 U 1 1 58D02964
@@ -1281,4 +1282,30 @@ Connection ~ 8650 1380
 Wire Wire Line
 	9405 1165 9405 1380
 Connection ~ 9405 1380
+$Comp
+L R_Small R7
+U 1 1 58D29E83
+P 8810 1580
+F 0 "R7" V 8735 1535 50  0000 C CNN
+F 1 "22" V 8735 1635 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8706 1580 50  0001 C CNN
+F 3 "" H 8810 1580 50  0000 C CNN
+	1    8810 1580
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R8
+U 1 1 58D2A4C3
+P 8810 1680
+F 0 "R8" V 8880 1635 50  0000 C CNN
+F 1 "22" V 8880 1740 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8706 1680 50  0001 C CNN
+F 3 "" H 8810 1680 50  0000 C CNN
+	1    8810 1680
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8910 1580 8990 1580
+Wire Wire Line
+	8910 1680 8990 1680
 $EndSCHEMATC
