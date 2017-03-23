@@ -38,6 +38,7 @@ This is a Mysensors node using **RFM69W** radio module, **Si7021** temperature/h
  - 0.1 - initial design
  - 0.2 - added option to bypass step-up converter using jumpers
  - 0.3 - added MAX44009 ambient light sensor
+ - 0.4 - added A3212 hall sensor
 
 **Credits:**
   
