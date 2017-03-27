@@ -4,7 +4,7 @@
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/led_strip_actuator_node_top?raw=true "top view") | ![Alt text](3d/renderings/led_strip_actuator_node_bottom?raw=true "bottom view")
+![Alt text](3d/renderings/led_strip_actuator_node_top.png?raw=true "top view") | ![Alt text](3d/renderings/led_strip_actuator_node_bottom.png?raw=true "bottom view")
 
 
 
