@@ -2433,7 +2433,7 @@
     (pad 1 smd rect (at -1.5 0 180) (size 0.8 3) (layers B.Cu B.Paste B.Mask)
       (net 15 "Net-(IC1-Pad8)"))
     (model ${KISYS3DMOD}/Oscillators.3dshapes/zttcr_MG_ceramic_resonator.stp
-      (at (xyz 0 0 0))
+      (at (xyz 0 -0.01968503937007874 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
