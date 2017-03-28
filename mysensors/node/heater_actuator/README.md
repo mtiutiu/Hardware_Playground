@@ -5,7 +5,7 @@ More details here: https://www.openhardware.io/view/334/MySensors-RFM69W-relay-a
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/heater_node_top.png?raw=true "top view") | ![Alt text](3d/renderings/heater_node_bottom.png?raw=true "bottom view")
+![Alt text](3d/renderings/heater_actuator_node_top.png?raw=true "top view") | ![Alt text](3d/renderings/heater_actuator_node_bottom.png?raw=true "bottom view")
 
 
 
