@@ -1,11 +1,11 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-feba091~58~ubuntu16.04.1*
-G04 #@! TF.CreationDate,2017-03-27T19:49:03+03:00*
+G04 #@! TF.CreationDate,2017-03-28T09:45:56+03:00*
 G04 #@! TF.ProjectId,led_strip_actuator_node,6C65645F73747269705F616374756174,rev?*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-feba091~58~ubuntu16.04.1) date Mon Mar 27 19:49:03 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-feba091~58~ubuntu16.04.1) date Tue Mar 28 09:45:56 2017*
 %MOMM*%
 %LPD*%
 G01*
@@ -24,6 +24,7 @@ G04 APERTURE LIST*
 %ADD21C,2.400000*%
 %ADD22O,1.000000X1.000000*%
 %ADD23R,1.000000X1.000000*%
+%ADD24R,0.400000X0.600000*%
 G04 APERTURE END LIST*
 D10*
 D11*
@@ -77,4 +78,9 @@ X145700000Y-66660000D03*
 X145700000Y-67930000D03*
 D23*
 X145700000Y-69200000D03*
+D24*
+X143450000Y-90700000D03*
+X142550000Y-90700000D03*
+X143450000Y-91800000D03*
+X142550000Y-91800000D03*
 M02*

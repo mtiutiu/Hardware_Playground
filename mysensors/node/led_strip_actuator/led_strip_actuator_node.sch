@@ -425,12 +425,12 @@ LED_RELAY_CMD
 $Comp
 L Screw_Terminal_1x02 X1
 U 1 1 5764D957
-P 5620 770
-F 0 "X1" V 5515 755 50  0000 C CNN
-F 1 "LED_SW" V 5430 775 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 5620 770 50  0001 C CNN
-F 3 "" H 5620 770 50  0000 C CNN
-	1    5620 770 
+P 5775 770
+F 0 "X1" V 5670 755 50  0000 C CNN
+F 1 "LED_SW" V 5585 775 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 5775 770 50  0001 C CNN
+F 3 "" H 5775 770 50  0000 C CNN
+	1    5775 770 
 	0    -1   1    0   
 $EndComp
 Text Notes 7350 2625 0    67   ~ 13
@@ -746,8 +746,6 @@ Wire Wire Line
 Wire Wire Line
 	4355 1435 4355 1635
 Wire Wire Line
-	4755 835  4755 1010
-Wire Wire Line
 	4755 1610 4755 1685
 Wire Wire Line
 	4355 1635 4755 1635
@@ -949,13 +947,13 @@ Wire Wire Line
 $Comp
 L +3.3V #PWR027
 U 1 1 58D95FFD
-P 4755 835
-F 0 "#PWR027" H 4755 685 50  0001 C CNN
-F 1 "+3.3V" H 4770 1008 50  0000 C CNN
-F 2 "" H 4755 835 50  0000 C CNN
-F 3 "" H 4755 835 50  0000 C CNN
-	1    4755 835 
-	1    0    0    -1  
+P 4520 785
+F 0 "#PWR027" H 4520 635 50  0001 C CNN
+F 1 "+3.3V" H 4535 958 50  0000 C CNN
+F 2 "" H 4520 785 50  0000 C CNN
+F 3 "" H 4520 785 50  0000 C CNN
+	1    4520 785 
+	0    -1   -1   0   
 $EndComp
 NoConn ~ 3575 5725
 NoConn ~ 3575 5825
@@ -1034,7 +1032,7 @@ Wire Wire Line
 Connection ~ 8195 1540
 Text Label 7970 1150 2    60   ~ 0
 LED_12V
-Text Label 6065 1010 0    60   ~ 0
+Text Label 6220 1010 0    60   ~ 0
 LED_12V
 $Comp
 L GND #PWR030
@@ -1048,13 +1046,13 @@ F 3 "" H 5155 1610 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5255 1010 5520 1010
+	5255 1010 5675 1010
 Wire Wire Line
-	5520 1010 5520 970 
+	5675 1010 5675 970 
 Wire Wire Line
-	5720 970  5720 1010
+	5875 970  5875 1010
 Wire Wire Line
-	5720 1010 6065 1010
+	5875 1010 6220 1010
 Text Label 8405 5815 0    60   ~ 0
 LED_BTN
 Wire Wire Line
@@ -1105,4 +1103,35 @@ Wire Wire Line
 	8265 5715 8405 5715
 Text Label 8405 5715 0    60   ~ 0
 LED_BTN_SIGNALING
+$Comp
+L Jumper_NC_Small JP2
+U 1 1 58DA022C
+P 4890 785
+F 0 "JP2" H 4890 965 50  0000 C CNN
+F 1 "12V" H 4890 880 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 4890 785 50  0001 C CNN
+F 3 "" H 4890 785 50  0001 C CNN
+	1    4890 785 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 58DA0461
+P 4620 785
+F 0 "JP1" H 4620 970 50  0000 C CNN
+F 1 "3V3" H 4620 879 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 4620 785 50  0001 C CNN
+F 3 "" H 4620 785 50  0001 C CNN
+	1    4620 785 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4755 785  4755 1010
+Wire Wire Line
+	4720 785  4790 785 
+Connection ~ 4755 785 
+Text Label 5025 785  0    60   ~ 0
+LED_12V
+Wire Wire Line
+	4990 785  5025 785 
 $EndSCHEMATC
