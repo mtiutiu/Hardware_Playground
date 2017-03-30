@@ -28,3 +28,6 @@
 [submodule "libraries/symbols/mysensors_symbols"]
 	path = libraries/symbols/mysensors_symbols
 	url = https://github.com/mysensors-kicad/mysensors_symbols.git
+[submodule "libraries/smisioto_kicad_libs"]
+	path = libraries/smisioto_kicad_libs
+	url = git://smisioto.eu/kicad_libs.git
