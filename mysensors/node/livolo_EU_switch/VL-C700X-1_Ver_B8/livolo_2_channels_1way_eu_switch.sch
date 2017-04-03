@@ -115,13 +115,12 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:livolo_2_ways_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Mysensors RFM69 2ways Livolo EU switch - Front Panel"
+Title "Mysensors RFM69 Livolo 2 channels 1 way EU switch front panel"
 Date ""
 Rev "0.5"
 Comp ""

@@ -1,16 +1,16 @@
-## Mysensors RFM69 Livolo 2 ways EU switch front module
+## Mysensors RFM69 Livolo 2 channels 1 way EU switch front module
 More details here: https://www.openhardware.io/view/306
 
 ##### 3D renderings of pcb
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/livolo_2_ways_eu_switch_top.png?raw=true "top view") | ![Alt text](3d/renderings/livolo_2_ways_eu_switch_bottom.png?raw=true "bottom view")
+![Alt text](3d/renderings/livolo_2_channels_1_way_eu_switch_top.png?raw=true "top view") | ![Alt text](3d/renderings/livolo_2_channels_1_way_eu_switch_bottom.png?raw=true "bottom view")
 
 
 **Description:**
 
-This is a Mysensors replica of the Livolo EU Switch(2 ways) front plate. 
+This is a Mysensors replica of the Livolo EU Switch(2 channels 1 way) front plate.
 
 **Key Features:**
 

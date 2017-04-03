@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../libraries/symbols/mysensors_symbols;../../../libraries/symbols/mysymbols
+LibDir=../../../../libraries/symbols/mysensors_symbols;../../../../libraries/symbols/mysymbols
 [eeschema/libraries]
 LibName1=mysensors_arduino
 LibName2=mysensors_connectors
