@@ -1156,15 +1156,15 @@ $Comp
 L CP1_Small C15
 U 1 1 586E7222
 P 9605 3605
-F 0 "C15" H 9380 3580 50  0000 L CNN
-F 1 "10u" H 9375 3665 50  0000 L CNN
+F 0 "C15" H 9720 3650 50  0000 L CNN
+F 1 "10u" H 9720 3575 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Wave" H 9605 3605 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1955682.pdf" H 9605 3605 50  0001 C CNN
 F 4 "GRM188R61A106KE69D" H 9605 3605 60  0001 C CNN "Part No"
 F 5 "X5R/10V" H 9605 3605 60  0001 C CNN "Rating"
 F 6 "Murata" H 9605 3605 60  0001 C CNN "Vendor"
 	1    9605 3605
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L ATSHA204A U7
