@@ -115,7 +115,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:livolo_2_channels_1way_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1261,8 +1260,8 @@ L L_Small L1
 U 1 1 58C1DEEA
 P 3195 1395
 F 0 "L1" V 3400 1420 50  0000 L CNN
-F 1 "BLM18HE152SN1D" V 3285 1115 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 190 -470 50  0001 C CNN
+F 1 "BLM15HD102SN1D" V 3285 1115 50  0000 L CNN
+F 2 "Inductors_SMD:L_0402" H 190 -470 50  0001 C CNN
 F 3 "http://www.murata.com/en-us/products/productdata/8796741599262/ENFA0004.pdf" H 190 -470 50  0001 C CNN
 	1    3195 1395
 	0    1    -1   0   

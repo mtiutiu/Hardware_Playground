@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name myfootprints)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/footprints/myfootprints.pretty)(options "")(descr ""))
+  (lib (name mysensors_arduino)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/footprints/mysensors_arduino.pretty)(options "")(descr ""))
+  (lib (name mysensors_buttons)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/footprints/mysensors_buttons.pretty)(options "")(descr ""))
+  (lib (name mysensors_connectors)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/footprints/mysensors_connectors.pretty)(options "")(descr ""))
+  (lib (name mysensors_handsoldering)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/footprints/mysensors_handsoldering.pretty)(options "")(descr ""))
+  (lib (name mysensors_leds)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/footprints/mysensors_leds.pretty)(options "")(descr ""))
+  (lib (name mysensors_network)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/footprints/mysensors_network.pretty)(options "")(descr ""))
+  (lib (name mysensors_obscurities)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/footprints/mysensors_obscurities.pretty)(options "")(descr ""))
+  (lib (name mysensors_radios)(type KiCad)(uri ${KIPRJMOD}/../../../../libraries/footprints/mysensors_radios.pretty)(options "")(descr ""))
+)
