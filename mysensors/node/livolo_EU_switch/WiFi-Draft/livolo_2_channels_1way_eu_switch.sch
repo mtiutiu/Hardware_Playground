@@ -116,7 +116,6 @@ LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
 LIBS:ESP8266
-LIBS:livolo_2_channels_1way_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -716,7 +715,7 @@ U 1 1 586E4CE4
 P 4240 1495
 F 0 "C8" H 4035 1535 50  0000 L CNN
 F 1 "22u" H 4050 1440 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4240 1495 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Hand" H 4240 1495 50  0001 C CNN
 F 3 "" H 4240 1495 50  0001 C CNN
 	1    4240 1495
 	1    0    0    -1  
@@ -727,7 +726,7 @@ U 1 1 586E5D5D
 P 3495 1560
 F 0 "C6" H 3290 1585 50  0000 L CNN
 F 1 "10u" H 3290 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3495 1560 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Hand" H 3495 1560 50  0001 C CNN
 F 3 "" H 3495 1560 50  0001 C CNN
 	1    3495 1560
 	1    0    0    -1  
@@ -830,7 +829,7 @@ U 1 1 58E7B91F
 P 2540 6670
 F 0 "C4" H 2335 6695 50  0000 L CNN
 F 1 "10u" H 2335 6610 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2540 6670 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Hand" H 2540 6670 50  0001 C CNN
 F 3 "" H 2540 6670 50  0001 C CNN
 	1    2540 6670
 	1    0    0    -1  
