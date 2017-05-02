@@ -7,5 +7,5 @@
   (lib (name mysensors_leds)(type KiCad)(uri ${KIPRJMOD}/../../../libraries/footprints/mysensors_leds.pretty)(options "")(descr ""))
   (lib (name mysensors_network)(type KiCad)(uri ${KIPRJMOD}/../../../libraries/footprints/mysensors_network.pretty)(options "")(descr ""))
   (lib (name mysensors_obscurities)(type KiCad)(uri ${KIPRJMOD}/../../../libraries/footprints/mysensors_obscurities.pretty)(options "")(descr ""))
-  (lib (name mysensors_radios)(type KiCad)(uri ${KIPRJMOD}/../../../libraries/footprints/mysensors_radios.pretty)(options "")(descr "")
+  (lib (name mysensors_radios)(type KiCad)(uri ${KIPRJMOD}/../../../libraries/footprints/mysensors_radios.pretty)(options "")(descr ""))
 )
