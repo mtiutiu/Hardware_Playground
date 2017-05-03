@@ -4,7 +4,7 @@
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/ws281x_led_strip_controller.png?raw=true "top view") | ![Alt text](3d/renderings/ws281x_led_strip_controller.png?raw=true "bottom view")
+![Alt text](3d/renderings/ws281x_led_strip_controller_top.png?raw=true "top view") | ![Alt text](3d/renderings/ws281x_led_strip_controller_bottom.png?raw=true "bottom view")
 
 
 
