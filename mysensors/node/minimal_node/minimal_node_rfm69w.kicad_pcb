@@ -1803,7 +1803,7 @@
   (gr_text PB7 (at 158.4 72.5) (layer B.SilkS) (tstamp 58DB992F)
     (effects (font (size 0.6 0.6) (thickness 0.12)) (justify mirror))
   )
-  (gr_text "Rev. 0.1" (at 136 51.5 90) (layer B.SilkS) (tstamp 58DB9329)
+  (gr_text "Rev. 0.1" (at 141.5 57.25 180) (layer B.SilkS) (tstamp 58DB9329)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_arc (start 162.4 72.7) (end 162.4 73.3) (angle -90) (layer Edge.Cuts) (width 0.1) (tstamp 58DB925A))
