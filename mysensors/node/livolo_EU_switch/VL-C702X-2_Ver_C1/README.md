@@ -26,7 +26,7 @@ This is a Mysensors replica of the Livolo EU Switch(2 channels 1 way) front plat
  3. Produce the initial PCB's using some external PCB manufacturer
  4. Components assembly(soldering)
  5. Create Mysensors sketch code
- 6. Verify the real board with running code*
+ 6. Verify the real board with running code
  7. Verify OTA
 
 Regarding point 1. from above: the EU variant that I have(VL-C700X-1 Ver: B8) doesn't expose the 12V line unfortunately. So I see 2 options here:
