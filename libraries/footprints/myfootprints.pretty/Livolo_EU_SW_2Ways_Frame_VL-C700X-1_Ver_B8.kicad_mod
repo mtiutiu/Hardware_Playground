@@ -1,8 +1,8 @@
-(module Livolo_EU_SW_2Ways_Frame (layer F.Cu) (tedit 58AD7297)
+(module Livolo_EU_SW_2Ways_Frame_VL-C700X-1_Ver_B8 (layer F.Cu) (tedit 590C25CC)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (fp_text value Livolo_EU_SW_2Ways_Frame (at -0.25 25.25) (layer F.Fab) hide
+  (fp_text value Livolo_EU_SW_2Ways_Frame (at -0.254 1.524) (layer F.Fab) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
   (fp_arc (start 13.165259 0.076855) (end 8.3 6.4) (angle -40.14598966) (layer B.SilkS) (width 0.1))

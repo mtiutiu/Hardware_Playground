@@ -10,7 +10,7 @@ Top view | Bottom view
 
 **Description:**
 
-This is a Mysensors replica of the Livolo EU Switch(2 channels 1 way) front plate.
+This is a Mysensors replica of the Livolo EU Switch(2 channels 1 way) front plate for the **VL-C700X-1_Ver_B8** Livolo hw revision.
 
 **Key Features:**
 

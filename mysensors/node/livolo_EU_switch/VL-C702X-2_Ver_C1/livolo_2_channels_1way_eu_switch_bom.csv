@@ -1,0 +1,43 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Rating,Vendor,Part No
+1,Unpolarized capacitor,C_Small,C11 C12,0-50pf*,C_0603_HandSoldering,2,http://www.farnell.com/datasheets/1825496.pdf,C0G/25V,Multicomp,MCMT18N100F250CT
+2,Unpolarized capacitor,C_Small,C1 C2 C4,100n,C_0402,3,http://www.farnell.com/datasheets/1870456.pdf,X5R/25V,Multicomp,MC0402X104K250CT
+3,Unpolarized capacitor,C_Small,C3 C9 C13 C14 C16,100n,C_0603_HandSoldering,5,http://www.farnell.com/datasheets/1901289.pdf,X7R/25V,Multicomp,MC0603B104K250CT
+4,Unpolarized capacitor,C_Small,C10,10u,C_0603_HandSoldering,1,http://www.farnell.com/datasheets/2163235.pdf,X5R/25V,Murata,ZRB18AR61E106ME01L
+5,Polarised capacitor,CP1_Small,C5 C15,10u,CP_Tantalum_Case-R_EIA-2012-12_Wave,2,http://www.farnell.com/datasheets/1955682.pdf,X5R/10V,Murata,GRM188R61A106KE69D
+6,Unpolarized capacitor,C_Small,C7,22u,C_0603_HandSoldering,1,http://www.farnell.com/datasheets/2047978.pdf,X5R/10V,Murata,GRM188R61A226ME15D
+7,Unpolarized capacitor,C_Small,C6,470p,C_0603_HandSoldering,1,http://www.farnell.com/datasheets/1870456.pdf,X7R/25V,Multicomp,MC0603B103K250CT
+8,"Standard IDC6 Male Connector, ATMEL ISP 6pin",AVR-ISP-6,CON1,AVR-ISP-6,AVR_ISP_SMT_Small_02x03,1,,,,
+9,"Diode, small symbol",D_Small,D1,1N4148,SOD-123,1,http://www.farnell.com/datasheets/2099776.pdf,100V/300mA,Diodes Inc.,1N4148W-7-F
+10,"LED, small symbol",LED_Small,D3 D6,Blue,D_0603,2,http://www.tme.eu/ro/Document/2ff6cd49d353fcb76ded3ea208e0eb10/OSXX0603C1E.pdf,2.5-3.4V/5mA,Optosupply,OSB50603C1E
+11,"LED, small symbol",LED_Small,D4 D5,Red,D_0603,2,http://www.tme.eu/ro/Document/2ff6cd49d353fcb76ded3ea208e0eb10/OSXX0603C1E.pdf,1.6-2.4V/5mA,Optosupply,OSR50603C1E
+12,"Schottky diode, small symbol",D_Schottky_Small,D2,SS14M,SS14M,1,http://www.farnell.com/datasheets/1692176.pdf,40V/1A,Taiwan Semiconductor,SS14M
+13,"TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM",ATMEGA328P-AU,IC1,ATMEGA328P-AU,TQFP-32_7x7mm_Pitch0.8mm,1,http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf,,,
+14,"Inductor, small symbol",L_Small,L2,15uH,VLCF4020T-150MR68,1,http://www.farnell.com/datasheets/2041203.pdf,1A,TDK,VLCF4020T-150MR68
+15,"Inductor, small symbol",L_Small,L1,BLM18HE152SN1D,R_0603,1,http://www.murata.com/en-us/products/productdata/8796741599262/ENFA0004.pdf,,,
+17,"Connector, double row, 02x06, pin header",CONN_02X06,P4,Power Board,Pin_Header_Straight_2x06_Pitch2.54mm,1,http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf,,Ninigi,ZL262-12DG
+20,"Resistor, small symbol",R_Small,R2 R3,10K,R_0603_HandSoldering,2,http://www.farnell.com/datasheets/2007183.pdf,50V/200mW,TE Connectivity,CRGH0603J10K
+21,"Resistor, small symbol",R_Small,R10,1K,R_0603_HandSoldering,1,http://www.farnell.com/datasheets/1849611.pdf,50V/100mW,Multicomp,MCWR06X5602FTL
+22,"Resistor, small symbol",R_Small,R5 R6 R7 R8,1K*,R_0603_HandSoldering,4,http://www.farnell.com/datasheets/1849611.pdf,50V/100mW 50V/200mW,Multicomp,MCWR06X1001FTL
+23,"Resistor, small symbol",R_Small,R1,31K6,R_0603_HandSoldering,1,http://www.farnell.com/datasheets/1849611.pdf,50V/200mW,Multicomp,MCWR06X3162FTL
+24,"Resistor, small symbol",R_Small,R4 R9,56K,R_0603_HandSoldering,2,http://www.farnell.com/datasheets/2007183.pdf,50V/200mW 50V/100mW,TE Connectivity Multicomp,CRGH0603J10K MCWR06X5602FTL
+25,"AT25DF512C, 512-Kbit SPI Serial Flash Memory, SOIC-8, Vcc=3.3V",AT25DF512C,U6,AT25DF512C-SSHN-B,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,http://www.adestotech.com/wp-content/uploads/DS-AT25DF512C-030.pdf,,,
+26,"ATSHA204A, Secure Authentication and Validation Device, SOT-23, Vcc=3.3V",ATSHA204A,U7,ATSHA204A,SOT-23_Handsoldering,1,http://www.atmel.com/Images/Atmel-8885-CryptoAuth-ATSHA204A-Datasheet.pdf,,,
+27,"4.0 to 30V Input, 1A output, integrated switch step-down regulator, SOT-23-6 package",MCP16301,U2,MCP16301,SOT-23-6,1,http://www.farnell.com/datasheets/2129968.pdf,4-30V/3.3V/600mA,Microchip,MCP16301T-I/CHY
+28,,MIC5205-3.3YM5TR,U1,MIC5205-3.3,SOT-23-5,1,http://www.farnell.com/datasheets/29605.pdf,3.3V/150mA,Microchip,MIC5205-3.3YM5-TR
+29,,RFM69CW,U5,RFM69CW,RFM69CW,1,http://www.hoperf.com/upload/rf/RFM69CW-V1.1.pdf,3.3V/868MHz,HopeRF,RFM69CW
+30,,TTP223,U3 U4,TTP223,SOT-23-6,2,http://www.coldtears-electronics.com/images/TTP223.pdf,,Tontek,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Component Groups:,30,,,,,,,,,
+Component Count:,43,,,,,,,,,
+Fitted Components:,43,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,
+Total components:,43,,,,,,,,,
+Schematic Version:,0.5,,,,,,,,,
+Schematic Date:,,,,,,,,,,
+BoM Date:,Mon 13 Mar 2017 05:45:51 PM EET,,,,,,,,,
+Schematic Source:,/home/mtiutiu/Work/kicad/mysensors/node/livolo_EU_switch/livolo_2_ways_eu_switch.sch,,,,,,,,,
+KiCad Version:,Eeschema no-vcs-found-5e5259b~58~ubuntu16.04.1,,,,,,,,,
