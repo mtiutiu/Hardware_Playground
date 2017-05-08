@@ -21,15 +21,12 @@ This is a Mysensors replica of the Livolo EU Switch(2 channels 1 way) front plat
   (the used LDO reduces a little bit the Buck's converter current capability - down to 150mA from 600mA but this is not important as the whole board takes about 60mA at peak)
 
 **Work progress:**
- 1. Identify the 12V line from the Livolo power/relays board - **DONE**
- 2. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **IN PROGRESS**
- 3. Produce the initial PCB's using some external PCB manufacturer
- 4. Components assembly(soldering)
- 5. Create Mysensors sketch code
- 6. Verify the real board with running code
- 7. Verify OTA
-
-Regarding point 1. from above: the EU variant that I have(VL-C700X-1 Ver: B8) doesn't expose the 12V line unfortunately. So I see 2 options here:
+ 1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **IN PROGRESS**
+ 2. Produce the initial PCB's using some external PCB manufacturer
+ 3. Components assembly(soldering)
+ 4. Create Mysensors sketch code
+ 5. Verify the real board with running code
+ 6. Verify OTA
 
 
 **HW Revisions:**
