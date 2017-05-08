@@ -1223,8 +1223,6 @@ Wire Wire Line
 	10155 1055 9940 1055
 Connection ~ 10155 1055
 Wire Wire Line
-	9115 5870 8950 5870
-Wire Wire Line
 	7770 890  7730 890 
 Wire Wire Line
 	9615 5770 9810 5770
@@ -1358,20 +1356,6 @@ Wire Wire Line
 Text Label 3810 5960 0    60   ~ 0
 ATSHA204A
 Wire Wire Line
-	9115 5770 8950 5770
-Text Label 8950 5770 2    60   ~ 0
-Relay2_Reset
-Text Label 8950 5870 2    60   ~ 0
-Relay2_Set
-Wire Wire Line
-	3650 6410 3810 6410
-Wire Wire Line
-	3650 6510 3810 6510
-Text Label 3810 6410 0    60   ~ 0
-Relay2_Set
-Text Label 3810 6510 0    60   ~ 0
-Relay2_Reset
-Wire Wire Line
 	3650 4810 4075 4810
 Text Label 4075 4810 0    60   ~ 0
 FLASH_SS
@@ -1435,4 +1419,8 @@ F 3 "" H 7695 1360 50  0000 C CNN
 $EndComp
 NoConn ~ 3650 5660
 NoConn ~ 3650 5760
+NoConn ~ 9115 5770
+NoConn ~ 9115 5870
+NoConn ~ 3650 6410
+NoConn ~ 3650 6510
 $EndSCHEMATC
