@@ -4,7 +4,7 @@
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/livolo_1_channel_1_way_eu_switch_top.png?raw=true "top view") | ![Alt text](3d/renderings/livolo_1_channel_1_way_eu_switch_bottom.png?raw=true "bottom view")
+![Alt text](3d/renderings/livolo_1_channel_1way_eu_switch_top.png?raw=true "top view") | ![Alt text](3d/renderings/livolo_1_channel_1way_eu_switch_bottom.png?raw=true "bottom view")
 
 
 **Description:**
