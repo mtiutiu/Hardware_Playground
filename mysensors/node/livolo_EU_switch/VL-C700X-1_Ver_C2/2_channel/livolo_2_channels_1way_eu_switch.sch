@@ -115,6 +115,7 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
+LIBS:livolo_2_channels_1way_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -504,7 +505,7 @@ F 3 "" H 3095 1545 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7250 2655 0    67   ~ 13
-Capacitive sensing
+Touch sensors
 $Comp
 L CONN_02X07 P4
 U 1 1 586CF0D6
