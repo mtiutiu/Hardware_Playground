@@ -1418,10 +1418,16 @@ F 3 "" H 7675 1915 50  0000 C CNN
 $EndComp
 NoConn ~ 3650 5660
 NoConn ~ 3650 5760
-NoConn ~ 9115 5770
-NoConn ~ 9115 5870
 NoConn ~ 3650 6410
 NoConn ~ 3650 6510
 Text Notes 7265 2635 0    67   ~ 13
 Touch Sensors
+Wire Wire Line
+	9115 5770 8940 5770
+Wire Wire Line
+	9115 5870 8940 5870
+Text Label 8940 5770 2    60   ~ 0
+Relay1_Set
+Text Label 8940 5870 2    60   ~ 0
+Relay1_Reset
 $EndSCHEMATC
