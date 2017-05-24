@@ -29,6 +29,7 @@ This is a Mysensors serial GW using **RFM69W** radio module and **ATSAMD21E** 32
  - 0.1 - initial design
  - 0.2 - added I2C EEPROM and VUSB filtering caps
  - 0.3 - added USB lines termination resistors
+ - 0.4 - added I2C EEPROM pull-up resistors
 
 **Credits:**
   
