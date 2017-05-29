@@ -16,7 +16,7 @@ This is a Mysensors RFM69W RGB controller node for controlling a WS281x LED stri
 
  - **AT25DF512C-SSHN-B** SPI flash module for OTA
  - **ATSHA204A** for signing
- - **MySensors** ready(Atmega328p + RFM69W)
+ - **MySensors** ready(Atmega644P + RFM69W)
 
 **Work progress:**
 
@@ -30,6 +30,7 @@ This is a Mysensors RFM69W RGB controller node for controlling a WS281x LED stri
 
 **HW Revisions:**
  - 0.1 - initial hw design
+ - 0.2 - replaced atmega328p with atmega644p for more RAM/Flash
 
 **Credits:**
   
