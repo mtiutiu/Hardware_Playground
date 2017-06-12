@@ -1,11 +1,11 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-f2763e9~58~ubuntu16.04.1*
-G04 #@! TF.CreationDate,2017-03-23T18:26:22+02:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-44b118f~58~ubuntu16.04.1*
+G04 #@! TF.CreationDate,2017-06-12T14:31:22+03:00*
 G04 #@! TF.ProjectId,multisensor_cr2032,6D756C746973656E736F725F63723230,rev?*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-f2763e9~58~ubuntu16.04.1) date Thu Mar 23 18:26:22 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-44b118f~58~ubuntu16.04.1) date Mon Jun 12 14:31:22 2017*
 %MOMM*%
 %LPD*%
 G01*

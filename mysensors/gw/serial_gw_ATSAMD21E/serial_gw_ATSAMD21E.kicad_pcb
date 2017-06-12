@@ -1,14 +1,14 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-ea855c1~58~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-44b118f~58~ubuntu16.04.1)
 
   (general
-    (links 107)
+    (links 135)
     (no_connects 0)
-    (area 103.282143 77.139285 143.7805 109.148809)
+    (area 104.524999 77.139285 143.7805 109.148809)
     (thickness 1.6)
     (drawings 14)
     (tracks 399)
     (zones 0)
-    (modules 51)
+    (modules 79)
     (nets 32)
   )
 
@@ -268,146 +268,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C15773)
-    (at 107.8 91.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C1576F)
-    (at 105.8 91.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C1576B)
-    (at 107.8 89.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C15767)
-    (at 105.8 89.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C15763)
-    (at 107.8 87.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C1575F)
-    (at 105.8 87.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C1575B)
-    (at 107.8 85.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C15757)
-    (at 105.8 85.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C15753)
-    (at 107.8 83.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
-  )
-
-  (module myfootprints:1pin locked (layer F.Cu) (tedit 58C15315) (tstamp 58C1569E)
-    (at 105.8 83.9)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 1pin (at 0 2.794) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu)
-      (net 1 GND) (zone_connect 2))
   )
 
   (module Symbols:OSHW-Logo2_7.3x6mm_SilkScreen locked (layer B.Cu) (tedit 0) (tstamp 58C15051)
@@ -2198,6 +2058,462 @@
     )
   )
 
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E377D)
+    (at 109.524999 80.139285)
+    (fp_text reference V5_3 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3781)
+    (at 130.524999 80.139285)
+    (fp_text reference V26_3 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3785)
+    (at 109.524999 83.139285)
+    (fp_text reference V5_6 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3789)
+    (at 106.524999 84.139285)
+    (fp_text reference V2_7 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E378D)
+    (at 107.524999 84.139285)
+    (fp_text reference V3_7 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3791)
+    (at 108.524999 84.139285)
+    (fp_text reference V4_7 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3795)
+    (at 106.524999 85.139285)
+    (fp_text reference V2_8 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3799)
+    (at 107.524999 85.139285)
+    (fp_text reference V3_8 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E379D)
+    (at 108.524999 85.139285)
+    (fp_text reference V4_8 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37A1)
+    (at 106.524999 86.139285)
+    (fp_text reference V2_9 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37A5)
+    (at 107.524999 86.139285)
+    (fp_text reference V3_9 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37A9)
+    (at 108.524999 86.139285)
+    (fp_text reference V4_9 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37AD)
+    (at 111.524999 86.139285)
+    (fp_text reference V7_9 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37B1)
+    (at 106.524999 87.139285)
+    (fp_text reference V2_10 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37B5)
+    (at 107.524999 87.139285)
+    (fp_text reference V3_10 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37BD)
+    (at 111.524999 87.139285)
+    (fp_text reference V7_10 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37C1)
+    (at 106.524999 88.139285)
+    (fp_text reference V2_11 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37C5)
+    (at 107.524999 88.139285)
+    (fp_text reference V3_11 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37C9)
+    (at 108.524999 88.139285)
+    (fp_text reference V4_11 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37CD)
+    (at 106.524999 89.139285)
+    (fp_text reference V2_12 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37D1)
+    (at 107.524999 89.139285)
+    (fp_text reference V3_12 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37D9)
+    (at 106.524999 90.139285)
+    (fp_text reference V2_13 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37DD)
+    (at 107.524999 90.139285)
+    (fp_text reference V3_13 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37E1)
+    (at 108.524999 90.139285)
+    (fp_text reference V4_13 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37E5)
+    (at 106.524999 91.139285)
+    (fp_text reference V2_14 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37E9)
+    (at 107.524999 91.139285)
+    (fp_text reference V3_14 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37ED)
+    (at 108.524999 91.139285)
+    (fp_text reference V4_14 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37F1)
+    (at 106.524999 92.139285)
+    (fp_text reference V2_15 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37F5)
+    (at 107.524999 92.139285)
+    (fp_text reference V3_15 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37F9)
+    (at 108.524999 92.139285)
+    (fp_text reference V4_15 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E37FD)
+    (at 111.524999 93.139285)
+    (fp_text reference V7_16 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3801)
+    (at 109.524999 94.139285)
+    (fp_text reference V5_17 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3805)
+    (at 110.524999 94.139285)
+    (fp_text reference V6_17 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3809)
+    (at 127.524999 96.139285)
+    (fp_text reference V23_19 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E380D)
+    (at 139.524999 96.139285)
+    (fp_text reference V35_19 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3811)
+    (at 140.524999 96.139285)
+    (fp_text reference V36_19 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3815)
+    (at 106.524999 97.139285)
+    (fp_text reference V2_20 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
+  (module VIA_MATRIX (layer F.Cu) (tedit 593E2DCF) (tstamp 593E3819)
+    (at 139.524999 97.139285)
+    (fp_text reference V35_20 (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
+      (effects (font (size 0 0) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (clearance 0.2) (zone_connect 2))
+  )
+
   (gr_text K (at 140.5 97.5) (layer F.SilkS) (tstamp 58C25A50)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
@@ -3132,6 +3448,27 @@
         (xy 122.871463 95.92874) (xy 123.050495 95.897171) (xy 123.219986 95.83143) (xy 123.373479 95.73402) (xy 123.50513 95.608651)
         (xy 123.609921 95.460099) (xy 123.683864 95.294022) (xy 123.72414 95.116746) (xy 123.727039 94.909103) (xy 123.691729 94.730771)
         (xy 123.622452 94.562694) (xy 123.571467 94.485955) (xy 123.580422 94.477001) (xy 129.012616 94.477001)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 142.898 97.998) (xy 137.278362 97.998) (xy 137.289239 97.97765) (xy 137.319374 97.87831) (xy 137.329549 97.775)
+        (xy 137.329549 97.025) (xy 137.319374 96.92169) (xy 137.289239 96.82235) (xy 137.240304 96.730798) (xy 137.174448 96.650552)
+        (xy 137.094202 96.584696) (xy 137.00265 96.535761) (xy 136.927 96.512812) (xy 136.927 96.329549) (xy 137.3 96.329549)
+        (xy 137.40331 96.319374) (xy 137.50265 96.289239) (xy 137.594202 96.240304) (xy 137.674448 96.174448) (xy 137.740304 96.094202)
+        (xy 137.789239 96.00265) (xy 137.812188 95.927) (xy 138.032004 95.927) (xy 138.098823 95.920448) (xy 138.165737 95.914594)
+        (xy 138.16941 95.913527) (xy 138.173212 95.913154) (xy 138.237486 95.893749) (xy 138.301988 95.875009) (xy 138.305381 95.87325)
+        (xy 138.309042 95.872145) (xy 138.368396 95.840586) (xy 138.427956 95.809713) (xy 138.430939 95.807332) (xy 138.43432 95.805534)
+        (xy 138.486405 95.763054) (xy 138.538843 95.721194) (xy 138.544167 95.715945) (xy 138.544273 95.715858) (xy 138.544354 95.71576)
+        (xy 138.546071 95.714067) (xy 140.479067 93.781071) (xy 140.521693 93.729177) (xy 140.564858 93.677735) (xy 140.566702 93.674381)
+        (xy 140.569125 93.671431) (xy 140.600848 93.612268) (xy 140.633211 93.5534) (xy 140.634366 93.549759) (xy 140.636174 93.546387)
+        (xy 140.655818 93.482135) (xy 140.676113 93.418156) (xy 140.676539 93.414358) (xy 140.677657 93.410701) (xy 140.684442 93.343904)
+        (xy 140.691929 93.277155) (xy 140.691981 93.269677) (xy 140.691995 93.269542) (xy 140.691983 93.269416) (xy 140.692 93.267004)
+        (xy 140.692 92.227) (xy 142.18 92.227) (xy 142.246819 92.220448) (xy 142.313733 92.214594) (xy 142.317406 92.213527)
+        (xy 142.321208 92.213154) (xy 142.385482 92.193749) (xy 142.449984 92.175009) (xy 142.453377 92.17325) (xy 142.457038 92.172145)
+        (xy 142.516392 92.140586) (xy 142.575952 92.109713) (xy 142.578935 92.107332) (xy 142.582316 92.105534) (xy 142.634401 92.063054)
+        (xy 142.686839 92.021194) (xy 142.692163 92.015945) (xy 142.692269 92.015858) (xy 142.69235 92.01576) (xy 142.694067 92.014067)
+        (xy 142.898 91.810133)
       )
     )
     (filled_polygon
