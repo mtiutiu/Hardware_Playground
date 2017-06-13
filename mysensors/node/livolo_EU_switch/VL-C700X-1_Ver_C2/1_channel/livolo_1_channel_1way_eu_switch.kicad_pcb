@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-d4e41c4~58~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-1848834~58~ubuntu16.04.1)
 
   (general
     (links 98)
@@ -302,7 +302,7 @@
       (net 5 "Net-(C7-Pad1)"))
     (pad 2 smd rect (at 0 1.5) (size 4 2) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(C9-Pad2)"))
-    (model ${KISYS3DMOD}/Inductors.3dshapes/VLCF4020T-150MR68.wrl
+    (model ${KISYS3DMOD}/Inductors.3dshapes/IFSC-1515AH-01_sp.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
