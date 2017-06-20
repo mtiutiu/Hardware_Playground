@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mtiutiu/Work/kicad/mysensors/node/livolo_EU_switch/VL-C700X-1_Ver_C2_NRF51822/2_channel/livolo_2_channels_1way_eu_switch.sch)
-    (date "Tue 20 Jun 2017 11:16:53 AM EEST")
+    (date "Tue 20 Jun 2017 01:36:10 PM EEST")
     (tool "Eeschema no-vcs-found-6733101~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -288,7 +288,7 @@
       (tstamp 586E9850))
     (comp (ref C10)
       (value 10u/25V)
-      (footprint Capacitors_SMD:C_0805)
+      (footprint Capacitors_SMD:C_1206)
       (datasheet http://www.farnell.com/datasheets/2163235.pdf)
       (fields
         (field (name "Part No") ZRB18AR61E106ME01L)
@@ -560,12 +560,12 @@
       (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/MIC5205.lib))
     (library (logical ttp223)
       (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/ttp223.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical dc-dc)
       (uri /usr/share/kicad/library/dc-dc.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical ptr5518)
       (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/ptr5518.lib)))
   (nets
