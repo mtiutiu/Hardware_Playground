@@ -252,6 +252,11 @@
       (net 17 /S1_LEDs))
     (pad 8 smd rect (at 7.3166 -4.0132 270) (size 0.8128 2.5) (layers F.Cu F.Paste F.Mask)
       (net 15 /S2_LEDs))
+    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/PTR5518.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module myfootprints:Livolo_EU_SW_2_Channel_1Way_Frame_VL-C702X-2_Ver_C1 locked (layer B.Cu) (tedit 590C6ABA) (tstamp 590C5954)
@@ -1607,7 +1612,7 @@
       (net 23 "Net-(C5-Pad1)"))
     (pad 1 smd rect (at -0.75 0 180) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 1 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model Resistors_SMD.3dshapes/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1739,7 +1744,7 @@
       (net 1 +3V3))
     (pad 1 smd rect (at -0.95 0 90) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model Capacitors_SMD.3dshapes/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1775,7 +1780,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -1.5 0) (size 1 1.6) (layers F.Cu F.Paste F.Mask)
       (net 7 /12Vcc))
-    (model Capacitors_SMD.3dshapes/C_1206.wrl
+    (model Capacitors_SMD.3dshapes/C_1206.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
