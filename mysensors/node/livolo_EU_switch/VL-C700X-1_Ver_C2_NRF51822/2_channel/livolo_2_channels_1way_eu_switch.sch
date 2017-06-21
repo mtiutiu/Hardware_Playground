@@ -918,9 +918,9 @@ F 3 "" H 1555 1590 50  0000 C CNN
 	1    1555 1590
 	1    0    0    -1  
 $EndComp
-Text Label 885  1490 2    60   ~ 0
-SWDIO
 Text Label 885  1590 2    60   ~ 0
+SWDIO
+Text Label 885  1490 2    60   ~ 0
 SWCLK
 Wire Notes Line
 	475  2700 11225 2700
