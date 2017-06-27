@@ -1,15 +1,15 @@
-## Mysensors NRF51822 Livolo 2 channels 1 way EU switch front module
+## Mysensors NRF51822 Livolo 1 channels 1 way EU switch front module
 
 ##### 3D renderings of pcb
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/livolo_2_channels_1_way_eu_switch_top.png?raw=true "top view") | ![Alt text](3d/renderings/livolo_2_channels_1_way_eu_switch_bottom.png?raw=true "bottom view")
+![Alt text](3d/renderings/livolo_1_channel_1_way_eu_switch_top.png?raw=true "top view") | ![Alt text](3d/renderings/livolo_1_channel_1_way_eu_switch_bottom.png?raw=true "bottom view")
 
 
 **Description:**
 
-This is a Mysensors replica of the Livolo EU Switch(2 channels 1 way) front plate for the **VL-C702X-2_Ver_C1** Livolo hw revision.
+This is a Mysensors replica of the Livolo EU Switch(1 channel 1 way) front plate for the **VL-C702X-2_Ver_C1** Livolo hw revision.
 
 **Key Features:**
 
