@@ -529,7 +529,7 @@
   )
 
   (module Symbols:OSHW-Logo2_7.3x6mm_SilkScreen locked (layer B.Cu) (tedit 0) (tstamp 5873B118)
-    (at 141.4 84.3 180)
+    (at 142.4 80.8 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
@@ -1847,7 +1847,7 @@
   (gr_text +12V (at 131.55 105.85) (layer B.SilkS) (tstamp 5873A479)
     (effects (font (size 0.5 0.5) (thickness 0.12)) (justify mirror))
   )
-  (gr_text "Mysensors NRF51822 Livolo Node" (at 141.4 79.7) (layer B.SilkS)
+  (gr_text "Mysensors NRF51822 Livolo Node" (at 142.4 76.2) (layer B.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)) (justify mirror))
   )
 
