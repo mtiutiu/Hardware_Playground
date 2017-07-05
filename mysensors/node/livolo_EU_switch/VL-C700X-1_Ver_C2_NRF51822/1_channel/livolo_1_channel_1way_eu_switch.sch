@@ -920,4 +920,6 @@ Text Notes 7205 2655 0    67   ~ 13
 Touch sensor
 NoConn ~ 2515 4925
 NoConn ~ 2515 4325
+Text Notes 1705 6120 0    79   ~ 16
+Note: \nIf using port pins P0.26 and P0.27 then you need to make sure \nto not use crystal oscillator option when building the software project
 $EndSCHEMATC

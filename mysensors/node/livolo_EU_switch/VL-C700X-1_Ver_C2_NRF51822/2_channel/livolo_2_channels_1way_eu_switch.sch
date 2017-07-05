@@ -1140,4 +1140,6 @@ F 3 "" H 3350 3450 50  0000 C CNN
 	1    3350 3450
 	0    -1   -1   0   
 $EndComp
+Text Notes 1480 6090 0    79   ~ 16
+Note: \nIf using port pins P0.26 and P0.27 then you need to make sure \nto not use crystal oscillator option when building the software project
 $EndSCHEMATC
