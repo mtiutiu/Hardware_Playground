@@ -58,7 +58,6 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -67,7 +66,6 @@ LIBS:ir
 LIBS:Lattice
 LIBS:leds
 LIBS:linear
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -120,7 +118,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:serial_gw_ATSAMD21E-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -441,7 +438,7 @@ F 3 "" H 8645 3620 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MCP1703A-3302/MB U4
+L MCP1703A-3302_SOT89 U4
 U 1 1 588061E3
 P 9350 5750
 F 0 "U4" H 9350 6017 50  0000 C CNN
