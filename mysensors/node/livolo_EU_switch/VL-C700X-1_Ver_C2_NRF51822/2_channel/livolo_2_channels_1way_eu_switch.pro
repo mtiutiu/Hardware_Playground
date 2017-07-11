@@ -1,4 +1,4 @@
-update=Mon 19 Jun 2017 05:41:52 PM EEST
+update=Tue 11 Jul 2017 10:03:19 AM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -154,3 +154,5 @@ LibName112=xilinx
 LibName113=zetex
 LibName114=Zilog
 LibName115=ptr5518
+LibName116=mtch105
+LibName117=touch

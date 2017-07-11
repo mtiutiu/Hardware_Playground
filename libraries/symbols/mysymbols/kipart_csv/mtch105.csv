@@ -1,0 +1,16 @@
+MTCH105,,,
+Pin,Name,Type,Side
+1,VDD,pwr,left
+2,MTI0,in,left
+3,MTI1,in,left
+4,MTPM,in,left
+5,MTI2/GUARD,in,left
+6,MTI3,in,left
+7,MTI4,in,left
+8,MTO4,out,right
+9,MTO3,out,right
+10,MTO2/GC,inout,right
+11,MTSA,in,right
+12,MTO1,out,right
+13,MTO0,out,right
+14,VSS,pwr,right
