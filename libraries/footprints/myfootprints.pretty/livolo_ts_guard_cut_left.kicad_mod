@@ -1,4 +1,4 @@
-(module livolo_ts_guard_cut_left (layer F.Cu) (tedit 5964BA61)
+(module livolo_ts_guard_cut_left (layer F.Cu) (tedit 59670E56)
   (fp_text reference U1 (at -1.123271 0.209684) (layer F.SilkS) hide
     (effects (font (size 0.4 0.4) (thickness 0.1)))
   )
@@ -49,7 +49,6 @@
   (fp_line (start 1.518069 8.088552) (end 3.315817 6.290804) (layer F.Cu) (width 0.3))
   (fp_line (start 7.997659 0.388464) (end 4.545752 3.840371) (layer F.Cu) (width 0.3))
   (pad 1 smd circle (at -0.266992 0.024262) (size 15 15) (layers B.Cu))
-  (pad 1 thru_hole circle (at 4.358008 5.524262 22.5) (size 0.5 0.5) (drill 0.3) (layers *.Cu *.Mask))
   (pad 2 smd circle (at 4.008008 6.999262) (size 0.5 0.5) (layers F.Cu))
   (pad 2 smd circle (at 6.058008 5.324262) (size 0.5 0.5) (layers F.Cu))
 )
