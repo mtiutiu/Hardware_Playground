@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/mtiutiu/Work/kicad/mysensors/node/livolo_EU_switch/VL-C700X-1_Ver_C2_NRF51822/2_channel/livolo_2_channels_1way_eu_switch.sch)
-    (date "Tue 11 Jul 2017 01:17:05 PM EEST")
-    (tool "Eeschema no-vcs-found-d37a337~58~ubuntu16.04.1")
+    (date "Mon 17 Jul 2017 09:25:26 AM EEST")
+    (tool "Eeschema no-vcs-found-e797af3~59~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Mysensors NRF5 Livolo 2 channels 1 way EU switch front panel")
@@ -273,7 +273,7 @@
       (tstamp 59648610))
     (comp (ref R3)
       (value 0)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint Resistors_SMD:R_0603)
       (datasheet http://www.farnell.com/datasheets/1849611.pdf)
       (fields
         (field (name "Part No") MCWR06X1001FTL)
@@ -284,7 +284,7 @@
       (tstamp 5964FD27))
     (comp (ref R9)
       (value 0)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint Resistors_SMD:R_0603)
       (datasheet http://www.farnell.com/datasheets/1849611.pdf)
       (fields
         (field (name "Part No") MCWR06X1001FTL)
@@ -295,7 +295,7 @@
       (tstamp 596512EF))
     (comp (ref R10)
       (value 4K7)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint Resistors_SMD:R_0603)
       (datasheet http://www.farnell.com/datasheets/1849611.pdf)
       (fields
         (field (name "Part No") MCWR06X1001FTL)
@@ -306,7 +306,7 @@
       (tstamp 59654B57))
     (comp (ref R4)
       (value 4K7)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint Resistors_SMD:R_0603)
       (datasheet http://www.farnell.com/datasheets/1849611.pdf)
       (fields
         (field (name "Part No") MCWR06X1001FTL)
@@ -559,18 +559,18 @@
         (pin (num 1) (name TS) (type BiDi))
         (pin (num 2) (name Guard) (type BiDi)))))
   (libraries
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical dc-dc)
       (uri /usr/share/kicad/library/dc-dc.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical mtch105)
       (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/mtch105.lib))
-    (library (logical ptr5518)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/ptr5518.lib))
     (library (logical touch)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/touch.lib)))
+      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/touch.lib))
+    (library (logical ptr5518)
+      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/ptr5518.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref D3) (pin 1))
