@@ -1,4 +1,4 @@
-update=Tue 11 Jul 2017 10:03:19 AM EEST
+update=Tue 18 Jul 2017 02:29:04 PM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -156,3 +156,5 @@ LibName114=Zilog
 LibName115=ptr5518
 LibName116=mtch105
 LibName117=touch
+LibName118=BLUE_PILL
+LibName119=MAPLE_MINI
