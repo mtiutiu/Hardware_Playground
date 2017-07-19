@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad no-vcs-found-d37a337~58~ubuntu16.04.1} date Wed Jul 19 10:02:43 2017
+;DRILL file {KiCad no-vcs-found-d37a337~58~ubuntu16.04.1} date Wed Jul 19 10:10:16 2017
 ;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
 METRIC,TZ
@@ -9,9 +9,9 @@ G90
 G05
 M71
 T1
-X207.772Y-42.164
-X207.772Y-87.63
 X142.24Y-87.63
+X207.772Y-42.164
 X142.24Y-42.164
+X207.772Y-87.63
 T0
 M30
