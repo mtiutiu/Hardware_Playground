@@ -1,5 +1,9 @@
 ## Mysensors RFM69W Serial Gateway(ATSAMD21E)
 
+
+**IMPORTANT NOTICE: this project proved not to work - the USB interface doesn't work!**
+
+
 ##### 3D renderings of pcb
 
 Top view | Bottom view
