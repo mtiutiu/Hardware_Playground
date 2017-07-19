@@ -298,7 +298,6 @@ $EndComp
 Wire Wire Line
 	5170 4460 5225 4460
 NoConn ~ 2135 3460
-NoConn ~ 2135 3560
 NoConn ~ 2135 3660
 NoConn ~ 2135 3760
 NoConn ~ 2135 3860
@@ -344,4 +343,15 @@ Text Notes 7185 6425 0    71   ~ 14
 Radio module supply
 Text Notes 1100 6810 0    71   ~ 14
 Maple mini STM32 board
+$Comp
+L GND #PWR09
+U 1 1 596F061A
+P 2135 3560
+F 0 "#PWR09" H 2135 3310 50  0001 C CNN
+F 1 "GND" H 2140 3387 50  0000 C CNN
+F 2 "" H 2135 3560 50  0001 C CNN
+F 3 "" H 2135 3560 50  0001 C CNN
+	1    2135 3560
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
