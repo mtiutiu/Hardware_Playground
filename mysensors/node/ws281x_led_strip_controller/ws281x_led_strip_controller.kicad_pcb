@@ -1066,7 +1066,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 2 +5V))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model Capacitors_SMD.3dshapes/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1174,7 +1174,7 @@
       (net 2 +5V))
     (pad 1 smd rect (at -1.1 0 270) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 9 /ATSHA204A))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1228,7 +1228,7 @@
       (net 6 /MISO))
     (pad 1 smd rect (at -2.7 1.905 90) (size 1.55 0.6) (layers B.Cu B.Paste B.Mask)
       (net 12 /SPI_FLASH_SS))
-    (model Housings_SOIC.3dshapes/SOIC-8_3.9x4.9mm_Pitch1.27mm.wrl
+    (model Housings_SOIC.3dshapes/SOIC-8_3.9x4.9mm_Pitch1.27mm.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1311,7 +1311,7 @@
     (pad 2 smd rect (at -3.15 0 90) (size 2 1.5) (layers B.Cu B.Paste B.Mask)
       (net 5 +3V3))
     (pad 4 smd rect (at 3.15 0 90) (size 2 3.8) (layers B.Cu B.Paste B.Mask))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT223-3.wrl
+    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT223-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1347,7 +1347,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0) (size 1.2 0.75) (layers B.Cu B.Paste B.Mask)
       (net 2 +5V))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model Capacitors_SMD.3dshapes/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1383,7 +1383,7 @@
       (net 2 +5V))
     (pad 1 smd rect (at -1.1 0 180) (size 1.2 0.9) (layers B.Cu B.Paste B.Mask)
       (net 12 /SPI_FLASH_SS))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1489,7 +1489,7 @@
       (net 2 +5V))
     (pad 1 smd rect (at -0.95 0 180) (size 1.2 0.75) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model Capacitors_SMD.3dshapes/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1593,7 +1593,7 @@
       (net 6 /MISO))
     (pad 1 smd rect (at -5.7 4 180) (size 1.5 0.55) (layers B.Cu B.Paste B.Mask)
       (net 8 /MOSI))
-    (model Housings_QFP.3dshapes/TQFP-44_10x10mm_Pitch0.8mm.wrl
+    (model Housings_QFP.3dshapes/TQFP-44_10x10mm_Pitch0.8mm.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

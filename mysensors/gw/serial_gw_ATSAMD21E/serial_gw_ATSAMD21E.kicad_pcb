@@ -227,7 +227,7 @@
       (net 14 /USBDP))
     (pad 2 smd rect (at 0.45 0 180) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)
       (net 31 "Net-(P1-Pad3)"))
-    (model Resistors_SMD.3dshapes/R_0402.wrl
+    (model Resistors_SMD.3dshapes/R_0402.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -263,7 +263,7 @@
       (net 30 "Net-(P1-Pad2)"))
     (pad 1 smd rect (at -0.45 0 180) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)
       (net 13 /USBDM))
-    (model Resistors_SMD.3dshapes/R_0402.wrl
+    (model Resistors_SMD.3dshapes/R_0402.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2015,7 +2015,7 @@
       (net 2 +3V3))
     (pad 1 smd rect (at -1.1 0) (size 1.2 0.9) (layers B.Cu B.Paste B.Mask)
       (net 28 /SDA))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2051,7 +2051,7 @@
       (net 2 +3V3))
     (pad 1 smd rect (at -1.1 0) (size 1.2 0.9) (layers B.Cu B.Paste B.Mask)
       (net 27 /SCL))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

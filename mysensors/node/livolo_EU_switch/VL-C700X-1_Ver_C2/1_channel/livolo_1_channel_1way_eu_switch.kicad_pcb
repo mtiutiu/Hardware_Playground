@@ -274,7 +274,7 @@
       (net 9 /12Vcc))
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model Capacitors_SMD.3dshapes/C_0805.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -463,7 +463,7 @@
       (net 12 /SCK))
     (pad 1 smd rect (at -2.5 2 90) (size 1.27 2.5) (layers F.Cu F.Paste F.Mask)
       (net 11 /MISO))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_SMT_02x03.wrl
+    (model Pin_Headers.3dshapes/Pin_Header_Straight_SMT_02x03.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1833,7 +1833,7 @@
       (net 26 "Net-(C5-Pad1)"))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 1 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model Resistors_SMD.3dshapes/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

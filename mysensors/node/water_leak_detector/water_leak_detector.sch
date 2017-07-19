@@ -1,0 +1,199 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L POT_TRIM RV1
+U 1 1 596F5DFC
+P 2500 5800
+F 0 "RV1" V 2400 5850 50  0000 R CNN
+F 1 "1M" V 2400 6000 50  0000 R CNN
+F 2 "myfootprints:TC-33X-2" H 2500 5800 50  0001 C CNN
+F 3 "" H 2500 5800 50  0001 C CNN
+	1    2500 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 596F67FE
+P 2350 5800
+F 0 "#PWR2" H 2350 5550 50  0001 C CNN
+F 1 "GND" H 2355 5627 50  0000 C CNN
+F 2 "" H 2350 5800 50  0001 C CNN
+F 3 "" H 2350 5800 50  0001 C CNN
+	1    2350 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR4
+U 1 1 596F735C
+P 3000 5550
+F 0 "#PWR4" H 3000 5400 50  0001 C CNN
+F 1 "+3V3" H 3015 5723 50  0000 C CNN
+F 2 "" H 3000 5550 50  0001 C CNN
+F 3 "" H 3000 5550 50  0001 C CNN
+	1    3000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 596F7965
+P 2500 6450
+F 0 "R2" H 2570 6496 50  0000 L CNN
+F 1 "10M" H 2570 6405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 6450 50  0001 C CNN
+F 3 "" H 2500 6450 50  0001 C CNN
+	1    2500 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS881 U1
+U 1 1 596F5637
+P 3100 6150
+F 0 "U1" H 3441 6196 50  0000 L CNN
+F 1 "TS881" H 3441 6105 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 3100 6150 50  0001 C CNN
+F 3 "" H 3100 6150 50  0001 C CNN
+	1    3100 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 596F5A75
+P 3000 6450
+F 0 "#PWR5" H 3000 6200 50  0001 C CNN
+F 1 "GND" H 3005 6277 50  0000 C CNN
+F 2 "" H 3000 6450 50  0001 C CNN
+F 3 "" H 3000 6450 50  0001 C CNN
+	1    3000 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5550 3000 5850
+Wire Wire Line
+	2800 6050 2500 6050
+Wire Wire Line
+	2500 6050 2500 5950
+Wire Wire Line
+	2650 5800 3250 5800
+Connection ~ 3000 5800
+Wire Wire Line
+	2350 6250 2800 6250
+Wire Wire Line
+	2500 6250 2500 6300
+$Comp
+L GND #PWR3
+U 1 1 596F6043
+P 2500 6600
+F 0 "#PWR3" H 2500 6350 50  0001 C CNN
+F 1 "GND" H 2505 6427 50  0000 C CNN
+F 2 "" H 2500 6600 50  0001 C CNN
+F 3 "" H 2500 6600 50  0001 C CNN
+	1    2500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 596F6087
+P 2200 6250
+F 0 "R1" V 2300 6300 50  0000 L CNN
+F 1 "1M" V 2300 6150 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2130 6250 50  0001 C CNN
+F 3 "" H 2200 6250 50  0001 C CNN
+	1    2200 6250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2500 6250
+Wire Wire Line
+	1700 6250 2050 6250
+$Comp
+L C C1
+U 1 1 596F65EC
+P 3400 5800
+F 0 "C1" V 3148 5800 50  0000 C CNN
+F 1 "100n" V 3239 5800 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3438 5650 50  0001 C CNN
+F 3 "" H 3400 5800 50  0001 C CNN
+	1    3400 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 596F6654
+P 3550 5800
+F 0 "#PWR6" H 3550 5550 50  0001 C CNN
+F 1 "GND" H 3555 5627 50  0000 C CNN
+F 2 "" H 3550 5800 50  0001 C CNN
+F 3 "" H 3550 5800 50  0001 C CNN
+	1    3550 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_WallPlug P1
+U 1 1 596F68BC
+P 1500 6150
+F 0 "P1" H 1515 6475 50  0000 C CNN
+F 1 "Water Probe" H 1515 6384 50  0000 C CNN
+F 2 "myfootprints:Circular_Water_Sensor_Outline" H 1900 6150 50  0001 C CNN
+F 3 "" H 1900 6150 50  0001 C CNN
+	1    1500 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6050 1700 6050
+Connection ~ 1950 6250
+NoConn ~ 3400 6150
+$Comp
+L +3V3 #PWR1
+U 1 1 596F6C55
+P 1800 5550
+F 0 "#PWR1" H 1800 5400 50  0001 C CNN
+F 1 "+3V3" H 1815 5723 50  0000 C CNN
+F 2 "" H 1800 5550 50  0001 C CNN
+F 3 "" H 1800 5550 50  0001 C CNN
+	1    1800 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6050 1800 5550
+$EndSCHEMATC
