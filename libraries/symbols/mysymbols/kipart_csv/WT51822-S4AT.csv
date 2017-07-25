@@ -1,0 +1,15 @@
+WT51822-S4AT,,,
+Pin,Name,Type,Side
+1,VDD,pwr,top
+2,GND,in,bottom
+3,P0.01,inout,left
+4,P0.02,inout,left
+5,P0.03,inout,left
+6,P0.04,inout,left
+7,P0.09,inout,left
+8,P0.10,inout,right
+9,P0.13,inout,right
+10,SWDIO,inout,right
+11,SWCLK,in,right
+12,GND,in,bottom
+13,GND,in,bottom

@@ -1,4 +1,4 @@
-update=Tue 18 Jul 2017 02:29:04 PM EEST
+update=Tue 25 Jul 2017 10:17:38 AM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -158,3 +158,5 @@ LibName116=mtch105
 LibName117=touch
 LibName118=BLUE_PILL
 LibName119=MAPLE_MINI
+LibName120=WT51822-S4AT
+LibName121=E73-2G4M04S
