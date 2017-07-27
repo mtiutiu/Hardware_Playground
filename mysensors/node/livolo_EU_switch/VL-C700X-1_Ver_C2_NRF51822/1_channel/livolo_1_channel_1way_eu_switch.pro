@@ -1,4 +1,4 @@
-update=Mon 19 Jun 2017 05:41:52 PM EEST
+update=Thu 27 Jul 2017 11:58:35 AM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -154,3 +154,12 @@ LibName112=xilinx
 LibName113=zetex
 LibName114=Zilog
 LibName115=ptr5518
+LibName116=mtch102
+LibName117=BLUE_PILL
+LibName118=E73-2G4M04S
+LibName119=ESP8266
+LibName120=MAPLE_MINI
+LibName121=max44009
+LibName122=mtch105
+LibName123=touch
+LibName124=WT51822-S4AT
