@@ -134,47 +134,36 @@ Serial Programming Header
 Text Notes 2285 2630 0    67   ~ 13
 Power supply
 $Comp
-L ESP-12E U1
-U 1 1 58E7875B
-P 3875 5255
-F 0 "U1" H 3875 6020 50  0000 C CNN
-F 1 "ESP-12F" H 3875 5929 50  0000 C CNN
-F 2 "myfootprints:ESP-12E" H 3875 5255 50  0001 C CNN
-F 3 "" H 3875 5255 50  0001 C CNN
-	1    3875 5255
-	1    0    0    -1  
-$EndComp
-$Comp
 L CP1_Small C1
 U 1 1 58E7B91F
-P 2860 5835
-F 0 "C1" H 2655 5860 50  0000 L CNN
-F 1 "10u" H 2655 5775 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Wave" H 2860 5835 50  0001 C CNN
-F 3 "" H 2860 5835 50  0001 C CNN
-	1    2860 5835
-	1    0    0    -1  
+P 4070 4215
+F 0 "C1" H 3865 4240 50  0000 L CNN
+F 1 "10u" H 3865 4155 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Wave" H 4070 4215 50  0001 C CNN
+F 3 "" H 4070 4215 50  0001 C CNN
+	1    4070 4215
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR06
 U 1 1 58E7C9A9
-P 2860 5935
-F 0 "#PWR06" H 2860 5685 50  0001 C CNN
-F 1 "GND" H 2865 5762 50  0000 C CNN
-F 2 "" H 2860 5935 50  0000 C CNN
-F 3 "" H 2860 5935 50  0000 C CNN
-	1    2860 5935
-	1    0    0    -1  
+P 4170 4215
+F 0 "#PWR06" H 4170 3965 50  0001 C CNN
+F 1 "GND" H 4175 4042 50  0000 C CNN
+F 2 "" H 4170 4215 50  0000 C CNN
+F 3 "" H 4170 4215 50  0000 C CNN
+	1    4170 4215
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR07
 U 1 1 58E7CE43
-P 4775 5655
-F 0 "#PWR07" H 4775 5405 50  0001 C CNN
-F 1 "GND" H 4780 5482 50  0000 C CNN
-F 2 "" H 4775 5655 50  0000 C CNN
-F 3 "" H 4775 5655 50  0000 C CNN
-	1    4775 5655
+P 3875 6155
+F 0 "#PWR07" H 3875 5905 50  0001 C CNN
+F 1 "GND" H 3880 5982 50  0000 C CNN
+F 2 "" H 3875 6155 50  0000 C CNN
+F 3 "" H 3875 6155 50  0000 C CNN
+	1    3875 6155
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -202,13 +191,13 @@ $EndComp
 $Comp
 L +3.3V #PWR04
 U 1 1 58E7FCBD
-P 2255 5655
-F 0 "#PWR04" H 2255 5505 50  0001 C CNN
-F 1 "+3.3V" H 2270 5828 50  0000 C CNN
-F 2 "" H 2255 5655 50  0000 C CNN
-F 3 "" H 2255 5655 50  0000 C CNN
-	1    2255 5655
-	0    -1   -1   0   
+P 3875 4005
+F 0 "#PWR04" H 3875 3855 50  0001 C CNN
+F 1 "+3.3V" H 3890 4178 50  0000 C CNN
+F 2 "" H 3875 4005 50  0000 C CNN
+F 3 "" H 3875 4005 50  0000 C CNN
+	1    3875 4005
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR012
@@ -315,11 +304,11 @@ Text Label 4890 5055 0    60   ~ 0
 TX
 Text Label 4890 4955 0    60   ~ 0
 RX
-Text Label 790  1360 2    60   ~ 0
+Text Label 1655 1460 0    60   ~ 0
 RX
-Text Label 790  1460 2    60   ~ 0
-TX
 Text Label 790  1560 2    60   ~ 0
+TX
+Text Label 790  1460 2    60   ~ 0
 DTR
 $Comp
 L +3.3V #PWR02
@@ -335,20 +324,16 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 58E8C8DE
-P 1515 1560
-F 0 "#PWR01" H 1515 1310 50  0001 C CNN
-F 1 "GND" H 1520 1387 50  0000 C CNN
-F 2 "" H 1515 1560 50  0000 C CNN
-F 3 "" H 1515 1560 50  0000 C CNN
-	1    1515 1560
-	1    0    0    -1  
+P 1015 1360
+F 0 "#PWR01" H 1015 1110 50  0001 C CNN
+F 1 "GND" H 1015 1220 50  0000 C CNN
+F 2 "" H 1015 1360 50  0000 C CNN
+F 3 "" H 1015 1360 50  0000 C CNN
+	1    1015 1360
+	0    1    1    0   
 $EndComp
 NoConn ~ 2975 5055
-NoConn ~ 4125 6155
-NoConn ~ 4025 6155
-NoConn ~ 3725 6155
-NoConn ~ 3625 6155
-Text Label 1570 1460 0    60   ~ 0
+Text Label 1655 1560 0    60   ~ 0
 RTS
 Text Label 6060 5355 0    60   ~ 0
 DTR
@@ -356,8 +341,6 @@ Text Notes 640  7655 0    67   ~ 13
 ESP12 Unit
 Text Label 2650 4845 1    60   ~ 0
 RTS
-NoConn ~ 3825 6155
-NoConn ~ 3925 6155
 NoConn ~ 4775 5255
 NoConn ~ 4775 5155
 $Comp
@@ -398,11 +381,6 @@ Wire Notes Line
 Wire Notes Line
 	2235 2695 2235 470 
 Wire Wire Line
-	2255 5655 2975 5655
-Wire Wire Line
-	2860 5655 2860 5735
-Connection ~ 2860 5655
-Wire Wire Line
 	4775 5355 6060 5355
 Wire Wire Line
 	5345 5355 5345 5185
@@ -421,8 +399,6 @@ Wire Wire Line
 Wire Wire Line
 	2540 4955 2975 4955
 Wire Wire Line
-	1015 1360 790  1360
-Wire Wire Line
 	1015 1460 790  1460
 Wire Wire Line
 	1015 1560 790  1560
@@ -432,8 +408,6 @@ Wire Wire Line
 	4775 5055 4890 5055
 Wire Wire Line
 	1515 1360 1835 1360
-Wire Wire Line
-	1515 1460 1570 1460
 Connection ~ 5345 5355
 Wire Wire Line
 	3015 1440 3555 1440
@@ -733,9 +707,9 @@ Wire Wire Line
 	2975 5455 2810 5455
 Wire Wire Line
 	2975 5555 2810 5555
-Text Label 2810 5455 2    60   ~ 0
-RELAY_CH1
 Text Label 2810 5555 2    60   ~ 0
+RELAY_CH1
+Text Label 2810 5455 2    60   ~ 0
 RELAY_CH2
 Text Label 7120 1960 3    60   ~ 0
 RELAY_CH1
@@ -773,9 +747,9 @@ Wire Wire Line
 	9675 3450 9790 3450
 Wire Wire Line
 	9675 3650 9790 3650
-Text Label 9790 3450 0    60   ~ 0
-REL_SW1
 Text Label 9790 3650 0    60   ~ 0
+REL_SW1
+Text Label 9790 3450 0    60   ~ 0
 N
 $Comp
 L Screw_Terminal_1x02 J5
@@ -917,4 +891,24 @@ Connection ~ 2830 4955
 Wire Wire Line
 	2650 4955 2650 4845
 Connection ~ 2650 4955
+$Comp
+L ESP-12 U1
+U 1 1 599E96CA
+P 3875 5255
+F 0 "U1" H 3515 6055 50  0000 C CNN
+F 1 "ESP-12" H 3545 5955 50  0000 C CNN
+F 2 "myfootprints:ESP-12" H 3875 5255 50  0001 C CNN
+F 3 "" H 3875 5255 50  0001 C CNN
+	1    3875 5255
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3875 4005 3875 4355
+Wire Wire Line
+	3970 4215 3875 4215
+Connection ~ 3875 4215
+Wire Wire Line
+	1515 1560 1655 1560
+Wire Wire Line
+	1515 1460 1655 1460
 $EndSCHEMATC

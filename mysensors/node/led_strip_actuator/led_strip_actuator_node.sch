@@ -58,7 +58,6 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -66,7 +65,6 @@ LIBS:ir
 LIBS:Lattice
 LIBS:leds
 LIBS:linear
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -119,7 +117,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:led_strip_actuator_node-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -438,7 +435,7 @@ Power supply
 Text Label 3830 6125 0    60   ~ 0
 LED_RELAY_CMD
 $Comp
-L RM50-xx11 RL1
+L RM50-SP RL1
 U 1 1 5763FA25
 P 4955 1310
 F 0 "RL1" H 5560 1340 60  0000 C CNN
@@ -1059,7 +1056,6 @@ Wire Wire Line
 	3575 7175 3800 7175
 Text Label 3800 7175 0    60   ~ 0
 LED_BTN
-NoConn ~ 5055 1010
 $Comp
 L +3.3V #PWR031
 U 1 1 58D9657B
