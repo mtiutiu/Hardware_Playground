@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-aeac415~59~ubuntu16.04.1*
-G04 #@! TF.CreationDate,2017-08-24T18:22:22+03:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-33048e7~59~ubuntu16.04.1*
+G04 #@! TF.CreationDate,2017-08-25T10:27:43+03:00*
 G04 #@! TF.ProjectId,wifi_lights,776966695F6C69676874732E6B696361,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-aeac415~59~ubuntu16.04.1) date Thu Aug 24 18:22:22 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-33048e7~59~ubuntu16.04.1) date Fri Aug 25 10:27:43 2017*
 %MOMM*%
 %LPD*%
 G01*
