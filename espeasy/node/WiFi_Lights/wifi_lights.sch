@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:wifi_lights-rescue
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic
@@ -290,14 +291,14 @@ F 3 "" H 2830 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X03 J1
+L Conn_02x03_Odd_Even J1
 U 1 1 58E88435
-P 1265 1460
-F 0 "J1" H 1265 1775 50  0000 C CNN
-F 1 "ESP_SERIAL_PROG" H 1265 1684 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 1265 260 50  0001 C CNN
-F 3 "" H 1265 260 50  0001 C CNN
-	1    1265 1460
+P 1215 1460
+F 0 "J1" H 1215 1775 50  0000 C CNN
+F 1 "ESP_SERIAL_PROG" H 1215 1684 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 1215 260 50  0001 C CNN
+F 3 "" H 1215 260 50  0001 C CNN
+	1    1215 1460
 	1    0    0    -1  
 $EndComp
 Text Label 4890 5055 0    60   ~ 0
@@ -366,15 +367,15 @@ F 3 "" H 3300 1590 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_1x02 J2
+L Screw_Terminal_01x02 J2
 U 1 1 599B9C79
-P 8645 3525
-F 0 "J2" H 8665 3860 50  0000 C CNN
-F 1 "230Vac" H 8725 3776 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 8645 3300 50  0001 C CNN
-F 3 "" H 8620 3525 50  0001 C CNN
-	1    8645 3525
-	1    0    0    -1  
+P 8645 3560
+F 0 "J2" H 8635 3790 50  0000 C CNN
+F 1 "230Vac" H 8615 3690 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 8645 3335 50  0001 C CNN
+F 3 "" H 8620 3560 50  0001 C CNN
+	1    8645 3560
+	-1   0    0    -1  
 $EndComp
 Wire Notes Line
 	475  2700 11225 2700
@@ -725,48 +726,42 @@ N
 Text Notes 2515 1610 0    60   ~ 0
 230Vac
 Wire Wire Line
-	8845 3425 8960 3425
-Wire Wire Line
-	8845 3625 8960 3625
-Text Label 8960 3425 0    60   ~ 0
+	8845 3660 8960 3660
+Text Label 8960 3560 0    60   ~ 0
 L
-Text Label 8960 3625 0    60   ~ 0
+Text Label 8960 3660 0    60   ~ 0
 N
 $Comp
-L Screw_Terminal_1x02 J3
+L Screw_Terminal_01x02 J3
 U 1 1 59A075DF
-P 9475 3550
-F 0 "J3" H 9495 3885 50  0000 C CNN
-F 1 "LIGHT1" H 9555 3801 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 9475 3325 50  0001 C CNN
-F 3 "" H 9450 3550 50  0001 C CNN
-	1    9475 3550
-	1    0    0    -1  
+P 9475 3570
+F 0 "J3" H 9485 3815 50  0000 C CNN
+F 1 "LIGHT1" H 9475 3715 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 9475 3345 50  0001 C CNN
+F 3 "" H 9450 3570 50  0001 C CNN
+	1    9475 3570
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9675 3450 9790 3450
-Wire Wire Line
-	9675 3650 9790 3650
-Text Label 9790 3650 0    60   ~ 0
+	9675 3670 9790 3670
+Text Label 9790 3670 0    60   ~ 0
 REL_SW1
-Text Label 9790 3450 0    60   ~ 0
+Text Label 9790 3570 0    60   ~ 0
 N
 $Comp
-L Screw_Terminal_1x02 J5
+L Screw_Terminal_01x02 J5
 U 1 1 59A076C7
 P 10355 3575
-F 0 "J5" H 10375 3910 50  0000 C CNN
-F 1 "LIGHT2" H 10435 3826 50  0000 C CNN
+F 0 "J5" H 10350 3835 50  0000 C CNN
+F 1 "LIGHT2" H 10345 3740 50  0000 C CNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 10355 3350 50  0001 C CNN
 F 3 "" H 10330 3575 50  0001 C CNN
 	1    10355 3575
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	10555 3475 10670 3475
-Wire Wire Line
 	10555 3675 10670 3675
-Text Label 10670 3475 0    60   ~ 0
+Text Label 10670 3575 0    60   ~ 0
 REL_SW2
 Text Label 10670 3675 0    60   ~ 0
 N
@@ -797,14 +792,14 @@ Wire Notes Line
 Text Notes 8560 4570 0    67   ~ 13
 Power Connectors
 $Comp
-L CONN_01X06 J4
+L Conn_01x06 J4
 U 1 1 59A0F431
-P 9870 5660
-F 0 "J4" H 9948 5701 50  0000 L CNN
-F 1 "H3V4F" H 9948 5610 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9870 5660 50  0001 C CNN
-F 3 "" H 9870 5660 50  0001 C CNN
-	1    9870 5660
+P 9870 5610
+F 0 "J4" H 9948 5651 50  0000 L CNN
+F 1 "H3V4F" H 9948 5560 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9870 5610 50  0001 C CNN
+F 3 "" H 9870 5610 50  0001 C CNN
+	1    9870 5610
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -911,4 +906,10 @@ Wire Wire Line
 	1515 1560 1655 1560
 Wire Wire Line
 	1515 1460 1655 1460
+Wire Wire Line
+	8845 3560 8960 3560
+Wire Wire Line
+	9675 3570 9790 3570
+Wire Wire Line
+	10555 3575 10670 3575
 $EndSCHEMATC
