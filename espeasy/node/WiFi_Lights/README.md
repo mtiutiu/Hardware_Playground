@@ -20,8 +20,8 @@ This is a WiFi Lights Actuator based on ESP8266 for ESPEasy project
 
 **Work progress:**
 
- 1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **IN PROGRESS**
- 2. Produce the initial PCB's using some external PCB manufacturer
+ 1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **DONE**
+ 2. Produce the initial PCB's using some external PCB manufacturer - **IN PROGRESS**
  3. Components assembly(soldering)
  4. Create 3D printed plastic enclosure
  5. Flash ESPEasy
