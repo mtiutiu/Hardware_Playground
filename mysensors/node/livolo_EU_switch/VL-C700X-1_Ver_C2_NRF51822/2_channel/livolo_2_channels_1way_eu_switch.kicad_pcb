@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-6d52987~59~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-3ac87f6~59~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -63,6 +63,9 @@
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -408,7 +411,7 @@
       (net 14 /S1_LEDs))
     (pad 8 smd rect (at 7.3166 -4.0132 270) (size 0.8128 2) (layers F.Cu F.Paste F.Mask)
       (net 12 /S2_LEDs))
-    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/PTR5518.step
+    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/PTR5518.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

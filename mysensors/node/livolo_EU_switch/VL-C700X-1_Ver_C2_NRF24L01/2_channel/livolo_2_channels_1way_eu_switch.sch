@@ -57,14 +57,12 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
 LIBS:ir
 LIBS:Lattice
 LIBS:linear
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -121,7 +119,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Mysensors RFM69 Livolo 2 channels 1 way EU switch front panel"
+Title "Mysensors NRF24L01 Livolo 2 channels 1 way EU switch front panel"
 Date ""
 Rev "0.1"
 Comp ""
@@ -242,7 +240,7 @@ F 6 "TE Connectivity" V 5020 6260 60  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 Text Label 4075 5010 0    50   ~ 0
-RADIO_SS
+RADIO_CSN
 Text Label 4075 5110 0    50   ~ 0
 MOSI
 Text Label 4075 5210 0    50   ~ 0
@@ -250,89 +248,67 @@ MISO
 Text Label 4075 5310 0    50   ~ 0
 SCK
 Text Label 3825 6610 0    50   ~ 0
-INT
-$Comp
-L GND #PWR05
-U 1 1 575E992B
-P 9305 4705
-F 0 "#PWR05" H 9305 4455 50  0001 C CNN
-F 1 "GND" H 9310 4532 50  0000 C CNN
-F 2 "" H 9305 4705 50  0000 C CNN
-F 3 "" H 9305 4705 50  0000 C CNN
-	1    9305 4705
-	1    0    0    -1  
-$EndComp
+RADIO_IRQ
 $Comp
 L GND #PWR06
 U 1 1 575E996C
-P 9505 4705
-F 0 "#PWR06" H 9505 4455 50  0001 C CNN
-F 1 "GND" H 9510 4532 50  0000 C CNN
-F 2 "" H 9505 4705 50  0000 C CNN
-F 3 "" H 9505 4705 50  0000 C CNN
-	1    9505 4705
+P 9045 4410
+F 0 "#PWR06" H 9045 4160 50  0001 C CNN
+F 1 "GND" H 9050 4237 50  0000 C CNN
+F 2 "" H 9045 4410 50  0000 C CNN
+F 3 "" H 9045 4410 50  0000 C CNN
+	1    9045 4410
 	1    0    0    -1  
 $EndComp
-Text Label 7800 4005 2    50   ~ 0
+Text Label 8395 4060 2    50   ~ 0
 MOSI
-Text Label 7800 4105 2    50   ~ 0
+Text Label 8395 3960 2    50   ~ 0
 MISO
-Text Label 7800 4205 2    50   ~ 0
+Text Label 8395 4160 2    50   ~ 0
 SCK
-Text Label 10235 3905 0    50   ~ 0
-INT
-Text Label 7800 4305 2    50   ~ 0
-RADIO_SS
-$Comp
-L CONN_01X01 P3
-U 1 1 575EBBAD
-P 8555 4505
-F 0 "P3" H 8635 4630 50  0000 R CNN
-F 1 "ANTENNA" H 8630 4705 50  0000 R CNN
-F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" V 8383 4417 50  0001 R CNN
-F 3 "" H 8555 4505 50  0000 C CNN
-	1    8555 4505
-	-1   0    0    1   
-$EndComp
+Text Label 9655 4060 0    50   ~ 0
+RADIO_IRQ
+Text Label 10105 3960 0    50   ~ 0
+RADIO_CSN
 $Comp
 L R_Small R4
 U 1 1 575ECDD9
-P 8205 3405
-F 0 "R4" V 8130 3380 50  0000 C CNN
-F 1 "56K" V 8055 3380 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8101 3405 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2007183.pdf" H 8205 3405 50  0001 C CNN
-F 4 "CRGH0603J10K" V 8205 3405 60  0001 C CNN "Part No"
-F 5 "50V/200mW" V 8205 3405 60  0001 C CNN "Rating"
-F 6 "TE Connectivity" V 8205 3405 60  0001 C CNN "Vendor"
-	1    8205 3405
+P 9980 3655
+F 0 "R4" V 9905 3630 50  0000 C CNN
+F 1 "56K" V 9830 3630 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9876 3655 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2007183.pdf" H 9980 3655 50  0001 C CNN
+F 4 "CRGH0603J10K" V 9980 3655 60  0001 C CNN "Part No"
+F 5 "50V/200mW" V 9980 3655 60  0001 C CNN "Rating"
+F 6 "TE Connectivity" V 9980 3655 60  0001 C CNN "Vendor"
+	1    9980 3655
 	-1   0    0    1   
 $EndComp
 $Comp
 L +3.3V #PWR07
 U 1 1 575EE685
-P 9405 3225
-F 0 "#PWR07" H 9405 3075 50  0001 C CNN
-F 1 "+3.3V" H 9420 3398 50  0000 C CNN
-F 2 "" H 9405 3225 50  0000 C CNN
-F 3 "" H 9405 3225 50  0000 C CNN
-	1    9405 3225
+P 9045 3230
+F 0 "#PWR07" H 9045 3080 50  0001 C CNN
+F 1 "+3.3V" H 9060 3403 50  0000 C CNN
+F 2 "" H 9045 3230 50  0000 C CNN
+F 3 "" H 9045 3230 50  0000 C CNN
+	1    9045 3230
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR08
 U 1 1 575EE88A
-P 9805 3605
-F 0 "#PWR08" H 9805 3355 50  0001 C CNN
-F 1 "GND" H 9810 3432 50  0000 C CNN
-F 2 "" H 9805 3605 50  0000 C CNN
-F 3 "" H 9805 3605 50  0000 C CNN
-	1    9805 3605
+P 9445 3610
+F 0 "#PWR08" H 9445 3360 50  0001 C CNN
+F 1 "GND" H 9450 3437 50  0000 C CNN
+F 2 "" H 9445 3610 50  0000 C CNN
+F 3 "" H 9445 3610 50  0000 C CNN
+	1    9445 3610
 	0    -1   -1   0   
 $EndComp
 Text Notes 7295 5135 0    67   ~ 13
-RFM69CW radio module
-Text Notes 7300 6465 0    67   ~ 13
+NRF24L01 radio module
+Text Notes 7290 6485 0    67   ~ 13
 Livolo power/relays board
 NoConn ~ 1750 6160
 NoConn ~ 1750 6260
@@ -365,7 +341,7 @@ F 4 "noload" H 1325 1435 60  0001 C CNN "Value"
 	1    1325 1435
 	1    0    0    -1  
 $EndComp
-Text Label 775  1335 2    50   ~ 0
+Text Label 1940 1535 0    50   ~ 0
 MISO
 Text Label 780  1435 2    50   ~ 0
 SCK
@@ -389,23 +365,23 @@ MOSI
 $Comp
 L GND #PWR011
 U 1 1 57D39745
-P 1940 1535
-F 0 "#PWR011" H 1940 1285 50  0001 C CNN
-F 1 "GND" H 1945 1362 50  0000 C CNN
-F 2 "" H 1940 1535 50  0000 C CNN
-F 3 "" H 1940 1535 50  0000 C CNN
-	1    1940 1535
-	1    0    0    -1  
+P 775 1260
+F 0 "#PWR011" H 775 1010 50  0001 C CNN
+F 1 "GND" H 780 1087 50  0000 C CNN
+F 2 "" H 775 1260 50  0000 C CNN
+F 3 "" H 775 1260 50  0000 C CNN
+	1    775  1260
+	-1   0    0    1   
 $EndComp
 $Comp
 L +3.3V #PWR012
 U 1 1 57D7DD78
-P 8205 3230
-F 0 "#PWR012" H 8205 3080 50  0001 C CNN
-F 1 "+3.3V" H 8220 3403 50  0000 C CNN
-F 2 "" H 8205 3230 50  0000 C CNN
-F 3 "" H 8205 3230 50  0000 C CNN
-	1    8205 3230
+P 9980 3480
+F 0 "#PWR012" H 9980 3330 50  0001 C CNN
+F 1 "+3.3V" H 9995 3653 50  0000 C CNN
+F 2 "" H 9980 3480 50  0000 C CNN
+F 3 "" H 9980 3480 50  0000 C CNN
+	1    9980 3480
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -507,16 +483,16 @@ $EndComp
 Text Notes 7250 2655 0    67   ~ 13
 Touch sensors
 $Comp
-L CONN_02X07 P4
+L Conn_02x07_Odd_Even P4
 U 1 1 586CF0D6
-P 9365 5970
-F 0 "P4" H 9365 6525 50  0000 C CNN
-F 1 "Power Board" H 9365 6434 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.00mm" H 9365 6343 50  0001 C CNN
-F 3 "http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf" H 9365 4770 50  0001 C CNN
-F 4 "ZL262-14DG" H 9365 5970 60  0001 C CNN "Part No"
-F 5 "Ninigi" H 9365 5970 60  0001 C CNN "Vendor"
-	1    9365 5970
+P 9090 5910
+F 0 "P4" H 9090 6465 50  0000 C CNN
+F 1 "Power Board" H 9090 6374 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.00mm" H 9090 6283 50  0001 C CNN
+F 3 "http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf" H 9090 4710 50  0001 C CNN
+F 4 "ZL262-14DG" H 9090 5910 60  0001 C CNN "Part No"
+F 5 "Ninigi" H 9090 5910 60  0001 C CNN "Vendor"
+	1    9090 5910
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -743,7 +719,7 @@ F 6 "Optosupply" H 10560 2165 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P2
+L Conn_01x01 P2
 U 1 1 586CEFC7
 P 7365 2010
 F 0 "P2" V 7440 1920 50  0000 R CNN
@@ -838,7 +814,7 @@ F 4 "Tontek" H 8270 990 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P1
+L Conn_01x01 P1
 U 1 1 586DA0F8
 P 7370 1090
 F 0 "P1" V 7445 1000 50  0000 R CNN
@@ -978,40 +954,21 @@ F 6 "Multicomp" V 10260 2165 60  0001 C CNN "Vendor"
 	1    10260 2165
 	0    1    1    0   
 $EndComp
-$Comp
-L RFM69CW U5
-U 1 1 586DFEC3
-P 9405 4155
-F 0 "U5" H 8925 4685 60  0000 C CNN
-F 1 "RFM69CW" H 9080 4580 60  0000 C CNN
-F 2 "myfootprints:RFM69CW" H 9405 4155 60  0001 C CNN
-F 3 "http://www.hoperf.com/upload/rf/RFM69CW-V1.1.pdf" H 9405 4155 60  0001 C CNN
-F 4 "RFM69CW" H 9405 4155 60  0001 C CNN "Part No"
-F 5 "3.3V/868MHz" H 9405 4155 60  0001 C CNN "Rating"
-F 6 "HopeRF" H 9405 4155 60  0001 C CNN "Vendor"
-	1    9405 4155
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8755 4405
-NoConn ~ 10055 4055
-NoConn ~ 10055 4205
-NoConn ~ 10055 4355
-NoConn ~ 10055 4505
-Text Label 9745 5670 0    60   ~ 0
+Text Label 10540 5610 0    50   ~ 0
 12Vcc
 $Comp
 L GND #PWR032
 U 1 1 586E1581
-P 9115 6170
-F 0 "#PWR032" H 9115 5920 50  0001 C CNN
-F 1 "GND" H 9120 5997 50  0000 C CNN
-F 2 "" H 9115 6170 50  0000 C CNN
-F 3 "" H 9115 6170 50  0000 C CNN
-	1    9115 6170
+P 8890 6110
+F 0 "#PWR032" H 8890 5860 50  0001 C CNN
+F 1 "GND" H 8895 5937 50  0000 C CNN
+F 2 "" H 8890 6110 50  0000 C CNN
+F 3 "" H 8890 6110 50  0000 C CNN
+	1    8890 6110
 	0    1    1    0   
 $EndComp
-NoConn ~ 9115 5670
-NoConn ~ 9115 5970
+NoConn ~ 8890 5610
+NoConn ~ 8890 5910
 $Comp
 L GND #PWR033
 U 1 1 586E77F3
@@ -1064,20 +1021,20 @@ Text Label 7730 890  2    60   ~ 0
 TS1
 Text Label 7725 1810 2    60   ~ 0
 TS2
-Text Label 3820 6710 0    60   ~ 0
+Text Label 3820 6710 0    50   ~ 0
 TS1
 Text Label 3825 5760 0    60   ~ 0
 TS2
-Text Label 3820 6810 0    60   ~ 0
+Text Label 3820 6810 0    50   ~ 0
 S1_LEDs
-Text Label 3825 5660 0    60   ~ 0
+Text Label 3825 5660 0    50   ~ 0
 S2_LEDs
 NoConn ~ 3650 6910
 NoConn ~ 3650 7010
 NoConn ~ 3650 7110
-Text Label 9810 5770 0    60   ~ 0
+Text Label 9585 5710 0    50   ~ 0
 Relay1_Set
-Text Label 9810 5870 0    60   ~ 0
+Text Label 9585 5810 0    50   ~ 0
 Relay1_Reset
 Text Label 3810 6060 0    60   ~ 0
 Relay1_Set
@@ -1105,7 +1062,6 @@ F 3 "" H 8770 890 50  0000 C CNN
 	1    8770 890 
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 3650 4910
 NoConn ~ 3650 5860
 $Comp
 L C_Small C10
@@ -1152,117 +1108,177 @@ $EndComp
 $Comp
 L CP1_Small C15
 U 1 1 586E7222
-P 9605 3605
-F 0 "C15" H 9720 3650 50  0000 L CNN
-F 1 "10u" H 9720 3575 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Wave" H 9605 3605 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1955682.pdf" H 9605 3605 50  0001 C CNN
-F 4 "GRM188R61A106KE69D" H 9605 3605 60  0001 C CNN "Part No"
-F 5 "X5R/10V" H 9605 3605 60  0001 C CNN "Rating"
-F 6 "Murata" H 9605 3605 60  0001 C CNN "Vendor"
-	1    9605 3605
+P 9245 3610
+F 0 "C15" H 9360 3655 50  0000 L CNN
+F 1 "10u" H 9360 3580 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-R_EIA-2012-12_Wave" H 9245 3610 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1955682.pdf" H 9245 3610 50  0001 C CNN
+F 4 "GRM188R61A106KE69D" H 9245 3610 60  0001 C CNN "Part No"
+F 5 "X5R/10V" H 9245 3610 60  0001 C CNN "Rating"
+F 6 "Murata" H 9245 3610 60  0001 C CNN "Vendor"
+	1    9245 3610
 	0    -1   -1   0   
 $EndComp
 $Comp
 L ATSHA204A U7
 U 1 1 58735046
-P 6535 4705
-F 0 "U7" H 6564 4743 40  0000 L CNN
-F 1 "ATSHA204A" H 6564 4667 40  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6285 4705 30  0001 C CIN
-F 3 "" H 6535 4705 60  0000 C CNN
-	1    6535 4705
+P 6520 3910
+F 0 "U7" H 6549 3948 40  0000 L CNN
+F 1 "ATSHA204A" H 6549 3872 40  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6270 3910 30  0001 C CIN
+F 3 "" H 6520 3910 60  0000 C CNN
+	1    6520 3910
 	1    0    0    -1  
 $EndComp
 $Comp
-L AT25DF512C U6
-U 1 1 58735395
-P 6330 3425
-F 0 "U6" H 6620 3175 40  0000 C CNN
-F 1 "AT25DF512C-SSHN-B" H 6795 3100 40  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6330 3425 30  0001 C CIN
-F 3 "" H 6330 3425 60  0000 C CNN
-	1    6330 3425
+L GND #PWR044
+U 1 1 58744E9F
+P 6320 4260
+F 0 "#PWR044" H 6320 4010 50  0001 C CNN
+F 1 "GND" H 6460 4180 50  0000 C CNN
+F 2 "" H 6320 4260 50  0000 C CNN
+F 3 "" H 6320 4260 50  0000 C CNN
+	1    6320 4260
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR039
-U 1 1 58737208
-P 6330 2955
-F 0 "#PWR039" H 6330 2805 50  0001 C CNN
-F 1 "+3.3V" H 6345 3128 50  0000 C CNN
-F 2 "" H 6330 2955 50  0000 C CNN
-F 3 "" H 6330 2955 50  0000 C CNN
-	1    6330 2955
+L +3.3V #PWR045
+U 1 1 5874584A
+P 6320 3470
+F 0 "#PWR045" H 6320 3320 50  0001 C CNN
+F 1 "+3.3V" H 6335 3643 50  0000 C CNN
+F 2 "" H 6320 3470 50  0000 C CNN
+F 3 "" H 6320 3470 50  0000 C CNN
+	1    6320 3470
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R9
-U 1 1 5873774C
-P 5765 3115
-F 0 "R9" H 5890 3175 50  0000 C CNN
-F 1 "56K" H 5910 3095 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5661 3115 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 5765 3115 50  0001 C CNN
-F 4 "MCWR06X5602FTL" V 5765 3115 60  0001 C CNN "Part No"
-F 5 "50V/100mW" V 5765 3115 60  0001 C CNN "Rating"
-F 6 "Multicomp" V 5765 3115 60  0001 C CNN "Vendor"
-	1    5765 3115
-	1    0    0    -1  
-$EndComp
-Text Label 5590 3275 2    50   ~ 0
-FLASH_SS
-$Comp
-L GND #PWR040
-U 1 1 5873D874
-P 6330 3775
-F 0 "#PWR040" H 6330 3525 50  0001 C CNN
-F 1 "GND" H 6335 3602 50  0000 C CNN
-F 2 "" H 6330 3775 50  0000 C CNN
-F 3 "" H 6330 3775 50  0000 C CNN
-	1    6330 3775
-	1    0    0    -1  
-$EndComp
-Text Label 5590 3375 2    50   ~ 0
-MISO
-Text Label 5590 3475 2    50   ~ 0
-MOSI
-Text Label 5590 3575 2    50   ~ 0
-SCK
-$Comp
-L C_Small C3
-U 1 1 5873F9E1
-P 6505 3015
-F 0 "C3" V 6345 3110 50  0000 C CNN
-F 1 "100n" V 6425 3155 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6597 2924 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6505 3015 50  0001 C CNN
-F 4 "MC0603B104K250CT" V 6505 3015 60  0001 C CNN "Part No"
-F 5 "X7R/25V" V 6505 3015 60  0001 C CNN "Rating"
-F 6 "Multicomp" V 6505 3015 60  0001 C CNN "Vendor"
-	1    6505 3015
+L C_Small C16
+U 1 1 58745EDD
+P 6500 3525
+F 0 "C16" V 6340 3620 50  0000 C CNN
+F 1 "100n" V 6420 3665 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6592 3434 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6500 3525 50  0001 C CNN
+F 4 "MC0603B104K250CT" V 6500 3525 60  0001 C CNN "Part No"
+F 5 "X7R/25V" V 6500 3525 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 6500 3525 60  0001 C CNN "Vendor"
+	1    6500 3525
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR041
-U 1 1 58740F9F
-P 6605 3015
-F 0 "#PWR041" H 6605 2765 50  0001 C CNN
-F 1 "GND" H 6610 2842 50  0000 C CNN
-F 2 "" H 6605 3015 50  0000 C CNN
-F 3 "" H 6605 3015 50  0000 C CNN
-	1    6605 3015
+L GND #PWR046
+U 1 1 587462D9
+P 6600 3525
+F 0 "#PWR046" H 6600 3275 50  0001 C CNN
+F 1 "GND" H 6605 3352 50  0000 C CNN
+F 2 "" H 6600 3525 50  0000 C CNN
+F 3 "" H 6600 3525 50  0000 C CNN
+	1    6600 3525
+	0    -1   -1   0   
+$EndComp
+Text Label 5795 3910 2    50   ~ 0
+ATSHA204A
+Text Notes 5305 5110 0    67   ~ 13
+Signing module
+Text Label 3810 5960 0    50   ~ 0
+ATSHA204A
+Text Label 8725 5710 2    50   ~ 0
+Relay2_Reset
+Text Label 8725 5810 2    50   ~ 0
+Relay2_Set
+Text Label 3810 6410 0    50   ~ 0
+Relay2_Set
+Text Label 3810 6510 0    50   ~ 0
+Relay2_Reset
+$Comp
+L R_Small R10
+U 1 1 587E3A15
+P 5895 3575
+F 0 "R10" H 6020 3625 50  0000 C CNN
+F 1 "1K" H 6020 3545 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5791 3575 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 5895 3575 50  0001 C CNN
+F 4 "MCWR06X5602FTL" V 5895 3575 60  0001 C CNN "Part No"
+F 5 "50V/100mW" V 5895 3575 60  0001 C CNN "Rating"
+F 6 "Multicomp" V 5895 3575 60  0001 C CNN "Vendor"
+	1    5895 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR047
+U 1 1 587E3B48
+P 5895 3475
+F 0 "#PWR047" H 5895 3325 50  0001 C CNN
+F 1 "+3.3V" H 5910 3648 50  0000 C CNN
+F 2 "" H 5895 3475 50  0000 C CNN
+F 3 "" H 5895 3475 50  0000 C CNN
+	1    5895 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L1
+U 1 1 58C1DEEA
+P 3095 1125
+F 0 "L1" H 3143 1171 50  0000 L CNN
+F 1 "BLM18HE152SN1D" H 3143 1080 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 90  -740 50  0001 C CNN
+F 3 "http://www.murata.com/en-us/products/productdata/8796741599262/ENFA0004.pdf" H 90  -740 50  0001 C CNN
+	1    3095 1125
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 9390 5910
+NoConn ~ 9390 6010
+NoConn ~ 9390 6110
+NoConn ~ 9390 6210
+NoConn ~ 8890 6010
+$Comp
+L NRF24L01 U5
+U 1 1 59A7CD86
+P 9045 4060
+F 0 "U5" H 8650 4460 50  0000 C CNN
+F 1 "NRF24L01" H 8740 4355 50  0000 C CNN
+F 2 "mysensors_radios:NRF24L01-SMD" H 9045 3910 60  0001 C CNN
+F 3 "" H 9045 3910 60  0000 C CNN
+	1    9045 4060
+	1    0    0    -1  
+$EndComp
+Text Label 4075 4910 0    50   ~ 0
+RADIO_CE
+Text Label 9655 4160 0    50   ~ 0
+RADIO_CE
+NoConn ~ 3650 4810
+$Comp
+L GS2 J2
+U 1 1 59A7F9A8
+P 8280 6210
+F 0 "J2" V 8075 6210 50  0000 C CNN
+F 1 "3V_EN" V 8166 6210 50  0000 C CNN
+F 2 "Connectors:GS2" V 8354 6210 50  0001 C CNN
+F 3 "" H 8280 6210 50  0001 C CNN
+	1    8280 6210
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR05
+U 1 1 59A80832
+P 8080 6210
+F 0 "#PWR05" H 8080 6060 50  0001 C CNN
+F 1 "+3.3V" H 8095 6383 50  0000 C CNN
+F 2 "" H 8080 6210 50  0000 C CNN
+F 3 "" H 8080 6210 50  0000 C CNN
+	1    8080 6210
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR042
-U 1 1 587410DE
-P 7000 3275
-F 0 "#PWR042" H 7000 3125 50  0001 C CNN
-F 1 "+3.3V" H 7015 3448 50  0000 C CNN
-F 2 "" H 7000 3275 50  0000 C CNN
-F 3 "" H 7000 3275 50  0000 C CNN
-	1    7000 3275
+L GS2 J1
+U 1 1 59A818DE
+P 10225 5610
+F 0 "J1" V 10020 5610 50  0000 C CNN
+F 1 "DC-DC_EN" V 10111 5610 50  0000 C CNN
+F 2 "Connectors:GS2" V 10299 5610 50  0001 C CNN
+F 3 "" H 10225 5610 50  0001 C CNN
+	1    10225 5610
 	0    1    1    0   
 $EndComp
 Wire Notes Line
@@ -1304,33 +1320,20 @@ Wire Wire Line
 Wire Wire Line
 	3650 6610 3825 6610
 Wire Wire Line
-	7800 4005 8755 4005
+	9980 3555 9980 3480
 Wire Wire Line
-	8755 4105 7800 4105
-Wire Wire Line
-	8755 3905 8205 3905
-Wire Wire Line
-	8205 3505 8205 4305
-Wire Wire Line
-	8205 4305 7800 4305
-Connection ~ 8205 3905
-Wire Wire Line
-	8205 3305 8205 3230
-Wire Wire Line
-	9405 3225 9405 3705
-Connection ~ 9405 3605
+	9045 3230 9045 3710
+Connection ~ 9045 3610
 Wire Notes Line
 	5225 5200 11225 5200
 Wire Notes Line
 	7225 6525 11225 6525
-Wire Wire Line
-	7800 4205 8755 4205
 Wire Notes Line
 	2210 2695 2210 470 
 Wire Wire Line
-	9405 3605 9505 3605
+	9045 3610 9145 3610
 Wire Wire Line
-	9705 3605 9805 3605
+	9345 3610 9445 3610
 Wire Wire Line
 	4695 5970 4695 6260
 Connection ~ 4695 6260
@@ -1430,8 +1433,6 @@ Wire Wire Line
 	9220 990  9220 740 
 Connection ~ 9220 990 
 Wire Wire Line
-	10055 3905 10235 3905
-Wire Wire Line
 	10355 890  10475 890 
 Wire Wire Line
 	10355 1255 10470 1255
@@ -1450,15 +1451,15 @@ Connection ~ 10160 1965
 Wire Wire Line
 	9930 1965 10160 1965
 Wire Wire Line
-	9115 5870 8950 5870
+	8890 5810 8725 5810
 Wire Wire Line
 	7770 890  7730 890 
 Wire Wire Line
 	7770 1810 7725 1810
 Wire Wire Line
-	9615 5770 9810 5770
+	9390 5710 9585 5710
 Wire Wire Line
-	9615 5870 9810 5870
+	9390 5810 9585 5810
 Wire Wire Line
 	8845 2010 8845 1910
 Wire Wire Line
@@ -1487,174 +1488,50 @@ Wire Wire Line
 Wire Wire Line
 	3650 6160 3810 6160
 Wire Wire Line
-	9615 5670 9745 5670
-Wire Wire Line
-	6915 3425 6880 3425
-Wire Wire Line
-	6880 3275 7000 3275
-Wire Wire Line
-	5590 3275 5780 3275
-Wire Wire Line
-	5765 3215 5765 3275
-Connection ~ 5765 3275
-Wire Wire Line
-	6330 2955 6330 3075
-Connection ~ 6330 3015
-Wire Wire Line
-	6915 3275 6915 3425
-Connection ~ 6915 3275
-Wire Wire Line
-	5780 3375 5590 3375
-Wire Wire Line
-	5780 3475 5590 3475
-Wire Wire Line
-	5780 3575 5590 3575
-Wire Wire Line
-	6405 3015 6330 3015
-Wire Wire Line
-	5765 3015 5765 2955
-$Comp
-L +3.3V #PWR043
-U 1 1 58742096
-P 5765 2955
-F 0 "#PWR043" H 5765 2805 50  0001 C CNN
-F 1 "+3.3V" H 5780 3128 50  0000 C CNN
-F 2 "" H 5765 2955 50  0000 C CNN
-F 3 "" H 5765 2955 50  0000 C CNN
-	1    5765 2955
-	1    0    0    -1  
-$EndComp
+	9390 5610 10025 5610
 Wire Notes Line
 	5225 2700 5225 5200
-$Comp
-L GND #PWR044
-U 1 1 58744E9F
-P 6335 5055
-F 0 "#PWR044" H 6335 4805 50  0001 C CNN
-F 1 "GND" H 6475 4975 50  0000 C CNN
-F 2 "" H 6335 5055 50  0000 C CNN
-F 3 "" H 6335 5055 50  0000 C CNN
-	1    6335 5055
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR045
-U 1 1 5874584A
-P 6335 4265
-F 0 "#PWR045" H 6335 4115 50  0001 C CNN
-F 1 "+3.3V" H 6350 4438 50  0000 C CNN
-F 2 "" H 6335 4265 50  0000 C CNN
-F 3 "" H 6335 4265 50  0000 C CNN
-	1    6335 4265
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C16
-U 1 1 58745EDD
-P 6515 4320
-F 0 "C16" V 6355 4415 50  0000 C CNN
-F 1 "100n" V 6435 4460 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6607 4229 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/1901289.pdf" H 6515 4320 50  0001 C CNN
-F 4 "MC0603B104K250CT" V 6515 4320 60  0001 C CNN "Part No"
-F 5 "X7R/25V" V 6515 4320 60  0001 C CNN "Rating"
-F 6 "Multicomp" V 6515 4320 60  0001 C CNN "Vendor"
-	1    6515 4320
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	6335 4265 6335 4355
+	6320 3470 6320 3560
 Wire Wire Line
-	6415 4320 6335 4320
-Connection ~ 6335 4320
-$Comp
-L GND #PWR046
-U 1 1 587462D9
-P 6615 4320
-F 0 "#PWR046" H 6615 4070 50  0001 C CNN
-F 1 "GND" H 6620 4147 50  0000 C CNN
-F 2 "" H 6615 4320 50  0000 C CNN
-F 3 "" H 6615 4320 50  0000 C CNN
-	1    6615 4320
-	0    -1   -1   0   
-$EndComp
+	6400 3525 6320 3525
+Connection ~ 6320 3525
 Wire Wire Line
-	5810 4705 5985 4705
-Text Label 5810 4705 2    60   ~ 0
-ATSHA204A
-Wire Notes Line
-	7225 4020 5225 4020
-Text Notes 5360 3950 0    67   ~ 13
-SPI Flash(OTA)
-Text Notes 5320 5150 0    67   ~ 13
-Signing module
+	5795 3910 5970 3910
 Wire Wire Line
 	3650 5960 3810 5960
-Text Label 3810 5960 0    60   ~ 0
-ATSHA204A
 Wire Wire Line
-	9115 5770 8950 5770
-Text Label 8950 5770 2    60   ~ 0
-Relay2_Reset
-Text Label 8950 5870 2    60   ~ 0
-Relay2_Set
+	8890 5710 8725 5710
 Wire Wire Line
 	3650 6410 3810 6410
 Wire Wire Line
 	3650 6510 3810 6510
-Text Label 3810 6410 0    60   ~ 0
-Relay2_Set
-Text Label 3810 6510 0    60   ~ 0
-Relay2_Reset
 Wire Wire Line
-	3650 4810 4075 4810
-Text Label 4075 4810 0    60   ~ 0
-FLASH_SS
-$Comp
-L R_Small R10
-U 1 1 587E3A15
-P 5910 4370
-F 0 "R10" H 6035 4420 50  0000 C CNN
-F 1 "1K" H 6035 4340 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5806 4370 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1849611.pdf" H 5910 4370 50  0001 C CNN
-F 4 "MCWR06X5602FTL" V 5910 4370 60  0001 C CNN "Part No"
-F 5 "50V/100mW" V 5910 4370 60  0001 C CNN "Rating"
-F 6 "Multicomp" V 5910 4370 60  0001 C CNN "Vendor"
-	1    5910 4370
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR047
-U 1 1 587E3B48
-P 5910 4270
-F 0 "#PWR047" H 5910 4120 50  0001 C CNN
-F 1 "+3.3V" H 5925 4443 50  0000 C CNN
-F 2 "" H 5910 4270 50  0000 C CNN
-F 3 "" H 5910 4270 50  0000 C CNN
-	1    5910 4270
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5910 4470 5910 4705
-Connection ~ 5910 4705
-$Comp
-L L_Small L1
-U 1 1 58C1DEEA
-P 3095 1125
-F 0 "L1" H 3143 1171 50  0000 L CNN
-F 1 "BLM18HE152SN1D" H 3143 1080 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 90  -740 50  0001 C CNN
-F 3 "http://www.murata.com/en-us/products/productdata/8796741599262/ENFA0004.pdf" H 90  -740 50  0001 C CNN
-	1    3095 1125
-	-1   0    0    -1  
-$EndComp
+	5895 3675 5895 3910
+Connection ~ 5895 3910
 Wire Wire Line
 	3095 1225 3095 1325
-NoConn ~ 9615 5970
-NoConn ~ 9615 6070
-NoConn ~ 9615 6170
-NoConn ~ 9615 6270
-NoConn ~ 9115 6270
-NoConn ~ 9115 6070
+Wire Wire Line
+	9445 3960 10105 3960
+Wire Wire Line
+	9445 4060 9655 4060
+Wire Wire Line
+	9445 4160 9655 4160
+Wire Wire Line
+	3650 4910 4075 4910
+Wire Wire Line
+	9980 3960 9980 3755
+Connection ~ 9980 3960
+Wire Wire Line
+	8645 3960 8395 3960
+Wire Wire Line
+	8645 4060 8395 4060
+Wire Wire Line
+	8645 4160 8395 4160
+Wire Wire Line
+	8890 6210 8480 6210
+Wire Wire Line
+	10425 5610 10540 5610
+Wire Wire Line
+	775  1335 775  1260
 $EndSCHEMATC

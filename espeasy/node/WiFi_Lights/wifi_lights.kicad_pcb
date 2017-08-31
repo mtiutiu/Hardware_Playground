@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-e3c64f1~59~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-3ac87f6~59~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -63,6 +63,9 @@
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -2633,7 +2636,7 @@
       (net 6 /TX))
     (pad 16 thru_hole oval (at 14 0 270) (size 2.5 1.1) (drill 0.65 (offset 0.7 0)) (layers *.Cu *.Mask B.SilkS)
       (net 5 /RX))
-    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/esp12-e.step
+    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/esp12-e.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
