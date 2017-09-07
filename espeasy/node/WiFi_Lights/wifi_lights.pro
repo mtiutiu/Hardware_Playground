@@ -1,4 +1,4 @@
-update=Thu 31 Aug 2017 10:55:34 AM EEST
+update=Thu 07 Sep 2017 03:12:42 PM EEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -16,6 +16,25 @@ NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+PadDrill=0.6
+PadDrillOvalY=0.6
+PadSizeH=1.5
+PadSizeV=1.5
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=0.7999999999999999
+ModuleTextSizeH=0.7999999999999999
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=../../../libraries/symbols/mysensors_symbols;../../../libraries/symbols/mysymbols
@@ -136,22 +155,4 @@ LibName113=zetex
 LibName114=Zilog
 LibName115=ESP8266
 LibName116=hlk-pm03
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=
-PadDrill=0.6
-PadDrillOvalY=0.6
-PadSizeH=1.5
-PadSizeV=1.5
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=0.7999999999999999
-ModuleTextSizeH=0.7999999999999999
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
+LibName117=onion_omega2
