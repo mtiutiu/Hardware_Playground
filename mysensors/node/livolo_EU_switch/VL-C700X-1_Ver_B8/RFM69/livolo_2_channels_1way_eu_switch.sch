@@ -1,14 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
+EESchema Schematic File Version 3
 LIBS:AMS1117
 LIBS:ch340
 LIBS:cp2102
@@ -57,14 +47,12 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
 LIBS:ir
 LIBS:Lattice
 LIBS:linear
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -115,6 +103,29 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
+LIBS:mysensors_arduino
+LIBS:mysensors_connectors
+LIBS:mysensors_logic
+LIBS:mysensors_mcu
+LIBS:mysensors_memories
+LIBS:mysensors_network
+LIBS:mysensors_radios
+LIBS:mysensors_regulators
+LIBS:mysensors_security
+LIBS:mysensors_sensors
+LIBS:BLUE_PILL
+LIBS:E73-2G4M04S
+LIBS:ESP8266
+LIBS:hlk-pm03
+LIBS:MAPLE_MINI
+LIBS:max44009
+LIBS:mtch102
+LIBS:mtch105
+LIBS:onion_omega2
+LIBS:ptr5518
+LIBS:touch
+LIBS:WT51822-S4AT
+LIBS:livolo_2_channels_1way_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -283,7 +294,7 @@ INT
 Text Label 7800 4305 2    50   ~ 0
 RADIO_SS
 $Comp
-L CONN_01X01 P3
+L Conn_01x01 P3
 U 1 1 575EBBAD
 P 8555 4505
 F 0 "P3" H 8635 4630 50  0000 R CNN
@@ -506,16 +517,16 @@ $EndComp
 Text Notes 7250 2655 0    67   ~ 13
 Capacitive sensing
 $Comp
-L CONN_02X06 P4
+L Conn_02x06_Odd_Even P4
 U 1 1 586CF0D6
-P 9365 5920
-F 0 "P4" H 9365 6475 50  0000 C CNN
-F 1 "Power Board" H 9365 6384 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 9365 6293 50  0001 C CNN
-F 3 "http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf" H 9365 4720 50  0001 C CNN
-F 4 "ZL262-12DG" H 9365 5920 60  0001 C CNN "Part No"
-F 5 "Ninigi" H 9365 5920 60  0001 C CNN "Vendor"
-	1    9365 5920
+P 9315 5870
+F 0 "P4" H 9315 6425 50  0000 C CNN
+F 1 "Power Board" H 9315 6334 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 9315 6243 50  0001 C CNN
+F 3 "http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf" H 9315 4670 50  0001 C CNN
+F 4 "ZL262-12DG" H 9315 5870 60  0001 C CNN "Part No"
+F 5 "Ninigi" H 9315 5870 60  0001 C CNN "Vendor"
+	1    9315 5870
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -742,7 +753,7 @@ F 6 "Optosupply" H 10560 2165 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P2
+L Conn_01x01 P2
 U 1 1 586CEFC7
 P 7365 2010
 F 0 "P2" V 7440 1920 50  0000 R CNN
@@ -837,7 +848,7 @@ F 4 "Tontek" H 8270 990 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P1
+L Conn_01x01 P1
 U 1 1 586DA0F8
 P 7370 1090
 F 0 "P1" V 7445 1000 50  0000 R CNN

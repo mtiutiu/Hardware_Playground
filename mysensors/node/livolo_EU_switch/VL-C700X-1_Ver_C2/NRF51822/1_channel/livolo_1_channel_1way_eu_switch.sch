@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic
@@ -159,16 +159,16 @@ $EndComp
 Text Notes 2285 2630 0    67   ~ 13
 Buck power supply(12V to 3.3V)
 $Comp
-L CONN_02X07 P4
+L Conn_02x07_Odd_Even P4
 U 1 1 586CF0D6
-P 9685 3685
-F 0 "P4" H 9685 4240 50  0000 C CNN
-F 1 "Power Board" H 9685 4149 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.00mm" H 9685 4058 50  0001 C CNN
-F 3 "http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf" H 9685 2485 50  0001 C CNN
-F 4 "ZL262-14DG" H 9685 3685 60  0001 C CNN "Part No"
-F 5 "Ninigi" H 9685 3685 60  0001 C CNN "Vendor"
-	1    9685 3685
+P 9635 3685
+F 0 "P4" H 9635 4240 50  0000 C CNN
+F 1 "Power Board" H 9635 4149 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.00mm" H 9635 4058 50  0001 C CNN
+F 3 "http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf" H 9635 2485 50  0001 C CNN
+F 4 "ZL262-14DG" H 9635 3685 60  0001 C CNN "Part No"
+F 5 "Ninigi" H 9635 3685 60  0001 C CNN "Vendor"
+	1    9635 3685
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -522,14 +522,14 @@ F 3 "" H 3575 3475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_02X02 J1
+L Conn_02x02_Odd_Even J1
 U 1 1 594872D4
-P 1305 1540
-F 0 "J1" H 1305 1805 50  0000 C CNN
-F 1 "SWD" H 1305 1714 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.00mm_SMD" H 1305 340 50  0001 C CNN
-F 3 "" H 1305 340 50  0001 C CNN
-	1    1305 1540
+P 1255 1490
+F 0 "J1" H 1255 1755 50  0000 C CNN
+F 1 "SWD" H 1255 1664 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.00mm_SMD" H 1255 290 50  0001 C CNN
+F 3 "" H 1255 290 50  0001 C CNN
+	1    1255 1490
 	1    0    0    -1  
 $EndComp
 $Comp

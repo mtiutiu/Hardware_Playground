@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:minimal_node_rfm69w-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,7 +42,6 @@ LIBS:mysensors_security
 LIBS:mysensors_sensors
 LIBS:max44009
 LIBS:rfm69cw
-LIBS:minimal_node_rfm69w-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -234,7 +234,7 @@ NoConn ~ 9535 1925
 NoConn ~ 9535 2075
 NoConn ~ 9535 2225
 $Comp
-L CONN_01X01 P1
+L Conn_01x01 P1
 U 1 1 5880175E
 P 8035 2225
 F 0 "P1" H 7995 2320 50  0000 L CNN
@@ -638,47 +638,47 @@ F 3 "" H 4895 4845 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 J2
+L Conn_01x06 J2
 U 1 1 58DA9028
-P 7865 5345
-F 0 "J2" H 7943 5386 50  0000 L CNN
-F 1 "CONN_01X06" H 7943 5295 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7865 5345 50  0001 C CNN
-F 3 "" H 7865 5345 50  0001 C CNN
-	1    7865 5345
+P 7865 5295
+F 0 "J2" H 7943 5336 50  0000 L CNN
+F 1 "CONN_01X06" H 7943 5245 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7865 5295 50  0001 C CNN
+F 3 "" H 7865 5295 50  0001 C CNN
+	1    7865 5295
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 J4
+L Conn_01x06 J4
 U 1 1 58DA9218
-P 8310 4745
-F 0 "J4" H 8388 4786 50  0000 L CNN
-F 1 "CONN_01X06" H 8388 4695 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8310 4745 50  0001 C CNN
-F 3 "" H 8310 4745 50  0001 C CNN
-	1    8310 4745
+P 8310 4695
+F 0 "J4" H 8388 4736 50  0000 L CNN
+F 1 "CONN_01X06" H 8388 4645 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8310 4695 50  0001 C CNN
+F 3 "" H 8310 4695 50  0001 C CNN
+	1    8310 4695
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 J1
+L Conn_01x06 J1
 U 1 1 58DA93A3
-P 7855 4095
-F 0 "J1" H 7933 4136 50  0000 L CNN
-F 1 "CONN_01X06" H 7933 4045 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7855 4095 50  0001 C CNN
-F 3 "" H 7855 4095 50  0001 C CNN
-	1    7855 4095
+P 7855 4045
+F 0 "J1" H 7933 4086 50  0000 L CNN
+F 1 "CONN_01X06" H 7933 3995 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7855 4045 50  0001 C CNN
+F 3 "" H 7855 4045 50  0001 C CNN
+	1    7855 4045
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 J3
+L Conn_01x06 J3
 U 1 1 58DA9437
-P 7865 6195
-F 0 "J3" H 7943 6236 50  0000 L CNN
-F 1 "CONN_01X06" H 7943 6145 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7865 6195 50  0001 C CNN
-F 3 "" H 7865 6195 50  0001 C CNN
-	1    7865 6195
+P 7865 6145
+F 0 "J3" H 7943 6186 50  0000 L CNN
+F 1 "CONN_01X06" H 7943 6095 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 7865 6145 50  0001 C CNN
+F 3 "" H 7865 6145 50  0001 C CNN
+	1    7865 6145
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic
@@ -57,14 +57,12 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
 LIBS:ir
 LIBS:Lattice
 LIBS:linear
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -115,6 +113,7 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
+LIBS:ptr5518
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -283,7 +282,7 @@ INT
 Text Label 7800 4305 2    50   ~ 0
 RADIO_SS
 $Comp
-L CONN_01X01 P3
+L Conn_01x01 P3
 U 1 1 575EBBAD
 P 8555 4505
 F 0 "P3" H 8635 4630 50  0000 R CNN
@@ -504,16 +503,16 @@ F 3 "" H 3095 1545 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X07 P4
+L Conn_02x07_Odd_Even P4
 U 1 1 586CF0D6
-P 9365 5970
-F 0 "P4" H 9365 6525 50  0000 C CNN
-F 1 "Power Board" H 9365 6434 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.00mm" H 9365 6343 50  0001 C CNN
-F 3 "http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf" H 9365 4770 50  0001 C CNN
-F 4 "ZL262-14DG" H 9365 5970 60  0001 C CNN "Part No"
-F 5 "Ninigi" H 9365 5970 60  0001 C CNN "Vendor"
-	1    9365 5970
+P 9315 5970
+F 0 "P4" H 9315 6525 50  0000 C CNN
+F 1 "Power Board" H 9315 6434 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.00mm" H 9315 6343 50  0001 C CNN
+F 3 "http://www.tme.eu/ro/Document/dd1ceac14413aeeec818bc9967f247e1/zl262-dg.pdf" H 9315 4770 50  0001 C CNN
+F 4 "ZL262-14DG" H 9315 5970 60  0001 C CNN "Part No"
+F 5 "Ninigi" H 9315 5970 60  0001 C CNN "Vendor"
+	1    9315 5970
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -712,7 +711,7 @@ F 4 "Tontek" H 8250 1545 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P1
+L Conn_01x01 P1
 U 1 1 586DA0F8
 P 7350 1645
 F 0 "P1" V 7425 1555 50  0000 R CNN

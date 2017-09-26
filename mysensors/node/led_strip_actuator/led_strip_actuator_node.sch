@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:led_strip_actuator_node-rescue
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic
@@ -318,7 +319,7 @@ F 3 "" H 8800 3870 50  0000 C CNN
 $EndComp
 NoConn ~ 9025 4520
 $Comp
-L CONN_01X01 P1
+L Conn_01x01 P1
 U 1 1 575EBBAD
 P 9025 3070
 F 0 "P1" V 8990 2982 50  0000 R CNN
@@ -420,15 +421,15 @@ $EndComp
 Text Label 4055 1885 1    60   ~ 0
 LED_RELAY_CMD
 $Comp
-L Screw_Terminal_1x02 X1
+L Screw_Terminal_01x02 X1
 U 1 1 5764D957
-P 5775 770
-F 0 "X1" V 5670 755 50  0000 C CNN
-F 1 "LED_SW" V 5585 775 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 5775 770 50  0001 C CNN
-F 3 "" H 5775 770 50  0000 C CNN
-	1    5775 770 
-	0    -1   1    0   
+P 5830 805
+F 0 "X1" V 6020 755 50  0000 C CNN
+F 1 "LED_SW" V 5935 760 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 5830 805 50  0001 C CNN
+F 3 "" H 5830 805 50  0000 C CNN
+	1    5830 805 
+	0    1    -1   0   
 $EndComp
 Text Notes 7350 2625 0    67   ~ 13
 Power supply
@@ -814,25 +815,25 @@ Connection ~ 8800 4020
 Text Label 8370 4020 2    60   ~ 0
 RFM69W_SS
 $Comp
-L Screw_Terminal_1x02 X2
+L Screw_Terminal_01x02 X2
 U 1 1 58D90F4F
-P 7795 1640
-F 0 "X2" V 7595 1650 50  0000 C CNN
-F 1 "12V supply" V 7675 1645 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 7795 1640 50  0001 C CNN
-F 3 "" H 7795 1640 50  0000 C CNN
-	1    7795 1640
-	1    0    0    -1  
+P 7790 1680
+F 0 "X2" V 7890 1625 50  0000 C CNN
+F 1 "12V supply" V 7965 1645 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 7790 1680 50  0001 C CNN
+F 3 "" H 7790 1680 50  0000 C CNN
+	1    7790 1680
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR022
 U 1 1 58D910B7
-P 7995 1740
-F 0 "#PWR022" H 7995 1490 50  0001 C CNN
-F 1 "GND" H 8000 1567 50  0000 C CNN
-F 2 "" H 7995 1740 50  0000 C CNN
-F 3 "" H 7995 1740 50  0000 C CNN
-	1    7995 1740
+P 7990 1740
+F 0 "#PWR022" H 7990 1490 50  0001 C CNN
+F 1 "GND" H 7995 1567 50  0000 C CNN
+F 2 "" H 7990 1740 50  0000 C CNN
+F 3 "" H 7990 1740 50  0000 C CNN
+	1    7990 1740
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -925,18 +926,18 @@ F 3 "" H 8795 1770 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 J1
+L Conn_01x02 J1
 U 1 1 58D952B5
-P 8485 1310
-F 0 "J1" V 8710 1355 50  0000 R CNN
-F 1 "EXT_DC_DC" V 8610 1485 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Left" H 8485 1310 50  0001 C CNN
-F 3 "" H 8485 1310 50  0001 C CNN
-	1    8485 1310
+P 8435 1310
+F 0 "J1" V 8660 1355 50  0000 R CNN
+F 1 "EXT_DC_DC" V 8560 1485 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Left" H 8435 1310 50  0001 C CNN
+F 3 "" H 8435 1310 50  0001 C CNN
+	1    8435 1310
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7995 1540 8435 1540
+	7990 1540 8435 1540
 Wire Wire Line
 	8435 1540 8435 1510
 Wire Wire Line
@@ -1043,13 +1044,9 @@ F 3 "" H 5155 1610 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5255 1010 5675 1010
+	5255 1010 5730 1010
 Wire Wire Line
-	5675 1010 5675 970 
-Wire Wire Line
-	5875 970  5875 1010
-Wire Wire Line
-	5875 1010 6220 1010
+	5830 1010 6220 1010
 Text Label 8405 5815 0    60   ~ 0
 LED_BTN
 Wire Wire Line
@@ -1072,7 +1069,7 @@ Wire Wire Line
 Text Label 3800 7075 0    60   ~ 0
 LED_BTN_SIGNALING
 $Comp
-L CONN_01X03 J2
+L Conn_01x03 J2
 U 1 1 58D95F6E
 P 8065 5815
 F 0 "J2" H 7984 5490 50  0000 C CNN
@@ -1130,4 +1127,12 @@ Text Label 5025 785  0    60   ~ 0
 LED_12V
 Wire Wire Line
 	4990 785  5025 785 
+Wire Wire Line
+	7990 1580 7990 1540
+Wire Wire Line
+	7990 1680 7990 1740
+Wire Wire Line
+	5830 1010 5830 1005
+Wire Wire Line
+	5730 1010 5730 1005
 $EndSCHEMATC

@@ -1,9 +1,9 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-1fe91e6~59~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-e15acbb~60~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
     (drawings 35)
-    (tracks 471)
+    (tracks 469)
     (zones 0)
     (modules 79)
     (nets 51)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.25)
     (trace_clearance 0.2)
     (zone_clearance 0.38)
     (zone_45_only yes)
@@ -143,7 +143,7 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
-    (trace_width 0.3)
+    (trace_width 0.25)
     (via_dia 0.8)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -3182,11 +3182,9 @@
   (segment (start 141.25 88.05) (end 141.25 81.06) (width 0.3) (layer F.Cu) (net 34) (status 10))
   (segment (start 141.25 81.06) (end 136.6 76.41) (width 0.3) (layer F.Cu) (net 34))
   (segment (start 136.6 76.41) (end 135.3 76.41) (width 0.3) (layer F.Cu) (net 34) (status 20))
-  (segment (start 136.6 75.14) (end 135.3 75.14) (width 0.3) (layer F.Cu) (net 35) (status 20))
-  (segment (start 141.899998 80.439998) (end 136.6 75.14) (width 0.3) (layer F.Cu) (net 35))
-  (segment (start 142.05 88.05) (end 142.05 80.808004) (width 0.3) (layer F.Cu) (net 35) (status 10))
-  (segment (start 141.899998 80.658002) (end 141.899998 80.439998) (width 0.3) (layer F.Cu) (net 35))
-  (segment (start 142.05 80.808004) (end 141.899998 80.658002) (width 0.3) (layer F.Cu) (net 35))
+  (segment (start 142.05 88.05) (end 142.05 80.59) (width 0.3) (layer F.Cu) (net 35))
+  (segment (start 142.05 80.59) (end 136.6 75.14) (width 0.3) (layer F.Cu) (net 35))
+  (segment (start 136.6 75.14) (end 135.3 75.14) (width 0.3) (layer F.Cu) (net 35))
   (segment (start 131.65 107.55) (end 128.81 107.55) (width 0.5) (layer F.Cu) (net 49) (status 30))
   (segment (start 128.81 107.55) (end 128.75 107.61) (width 0.5) (layer F.Cu) (net 49) (status 30))
   (segment (start 143.65 109.55) (end 143.65 112.24) (width 0.5) (layer F.Cu) (net 50) (status 30))

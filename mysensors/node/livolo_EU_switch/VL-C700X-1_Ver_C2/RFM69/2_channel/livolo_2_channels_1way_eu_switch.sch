@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:livolo_2_channels_1way_eu_switch-rescue
+EESchema Schematic File Version 3
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic

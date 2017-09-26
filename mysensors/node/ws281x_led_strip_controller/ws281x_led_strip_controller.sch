@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:ws281x_led_strip_controller-rescue
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic
@@ -58,7 +59,6 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -66,7 +66,6 @@ LIBS:ir
 LIBS:Lattice
 LIBS:leds
 LIBS:linear
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -119,7 +118,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:ws281x_led_strip_controller-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -518,7 +516,7 @@ MOSI
 Text Label 7600 4375 2    60   ~ 0
 SCK
 $Comp
-L CONN_01X01 P1
+L Conn_01x01 P1
 U 1 1 5880175E
 P 9530 3675
 F 0 "P1" V 9565 3485 50  0000 L CNN
@@ -875,7 +873,7 @@ SPI_FLASH_SS
 Text Label 7595 4075 2    60   ~ 0
 RFM69W_SS
 $Comp
-L Screw_Terminal_1x03 J2
+L Screw_Terminal_01x03 J2
 U 1 1 590A0509
 P 9955 1360
 F 0 "J2" H 10035 1802 50  0000 C CNN
@@ -883,18 +881,18 @@ F 1 "CTRL_OUT" H 10035 1711 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9955 1035 50  0001 C CNN
 F 3 "" H 9930 1460 50  0001 C CNN
 	1    9955 1360
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
-L Screw_Terminal_1x02 J1
+L Screw_Terminal_01x02 J1
 U 1 1 590A0611
-P 8690 1345
-F 0 "J1" H 8770 1687 50  0000 C CNN
-F 1 "PWR" H 8770 1596 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8690 1120 50  0001 C CNN
-F 3 "" H 8665 1345 50  0001 C CNN
-	1    8690 1345
-	1    0    0    -1  
+P 8690 1400
+F 0 "J1" H 8770 1742 50  0000 C CNN
+F 1 "PWR" H 8770 1651 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8690 1175 50  0001 C CNN
+F 3 "" H 8665 1400 50  0001 C CNN
+	1    8690 1400
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR031
@@ -910,18 +908,14 @@ $EndComp
 $Comp
 L GND #PWR032
 U 1 1 590A0930
-P 10155 1560
-F 0 "#PWR032" H 10155 1310 50  0001 C CNN
-F 1 "GND" H 10160 1387 50  0000 C CNN
-F 2 "" H 10155 1560 50  0000 C CNN
-F 3 "" H 10155 1560 50  0000 C CNN
-	1    10155 1560
+P 10155 1555
+F 0 "#PWR032" H 10155 1305 50  0001 C CNN
+F 1 "GND" H 10160 1382 50  0000 C CNN
+F 2 "" H 10155 1555 50  0000 C CNN
+F 3 "" H 10155 1555 50  0000 C CNN
+	1    10155 1555
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8890 1245 9060 1245
-Wire Wire Line
-	10155 1160 10335 1160
 Wire Wire Line
 	10155 1360 10335 1360
 $Comp
@@ -1161,4 +1155,16 @@ Wire Notes Line
 NoConn ~ 4935 5485
 Wire Wire Line
 	4935 6685 5135 6685
+Wire Wire Line
+	8890 1300 9060 1300
+Wire Wire Line
+	9060 1300 9060 1245
+Wire Wire Line
+	8890 1445 8890 1400
+Wire Wire Line
+	10155 1260 10335 1260
+Wire Wire Line
+	10335 1260 10335 1160
+Wire Wire Line
+	10155 1555 10155 1460
 $EndSCHEMATC

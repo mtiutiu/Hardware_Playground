@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:heater_actuator_node-rescue
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic
@@ -58,7 +59,6 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -66,7 +66,6 @@ LIBS:ir
 LIBS:Lattice
 LIBS:leds
 LIBS:linear
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -119,7 +118,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:heater_node-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -332,7 +330,7 @@ F 3 "" H 8800 3870 50  0000 C CNN
 $EndComp
 NoConn ~ 9025 4520
 $Comp
-L CONN_01X01 P1
+L Conn_01x01 P1
 U 1 1 575EBBAD
 P 9025 3070
 F 0 "P1" V 8990 2982 50  0000 R CNN
@@ -670,15 +668,15 @@ $EndComp
 Text Label 3000 1900 1    60   ~ 0
 H_RELAY_CMD
 $Comp
-L Screw_Terminal_1x02 X1
+L Screw_Terminal_01x02 X1
 U 1 1 5764D957
-P 4950 1315
-F 0 "X1" V 4845 1300 50  0000 C CNN
-F 1 "HEATER_SW" V 4760 1320 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 4950 1315 50  0001 C CNN
-F 3 "" H 4950 1315 50  0000 C CNN
-	1    4950 1315
-	-1   0    0    -1  
+P 4950 1365
+F 0 "X1" V 5055 1320 50  0000 C CNN
+F 1 "HEATER_SW" V 5140 1320 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 4950 1365 50  0001 C CNN
+F 3 "" H 4950 1365 50  0000 C CNN
+	1    4950 1365
+	1    0    0    1   
 $EndComp
 Text Notes 7350 2625 0    67   ~ 13
 AC/DC 5V power supply
@@ -716,15 +714,15 @@ F 3 "" H 10525 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_1x02 X2
+L Screw_Terminal_01x02 X2
 U 1 1 576402C1
-P 7825 1615
-F 0 "X2" H 7585 1650 50  0000 C CNN
-F 1 "230Vac~~" H 7610 1565 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 7825 1615 50  0001 C CNN
-F 3 "" H 7825 1615 50  0000 C CNN
-	1    7825 1615
-	1    0    0    -1  
+P 7825 1570
+F 0 "X2" H 8060 1585 50  0000 C CNN
+F 1 "230Vac~~" H 8045 1505 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 7825 1570 50  0001 C CNN
+F 3 "" H 7825 1570 50  0000 C CNN
+	1    7825 1570
+	-1   0    0    -1  
 $EndComp
 Text Label 3830 6125 0    60   ~ 0
 H_RELAY_CMD
@@ -1004,19 +1002,11 @@ Wire Wire Line
 Wire Wire Line
 	1500 5675 1500 5750
 Wire Wire Line
-	1425 5175 1525 5175
+	1425 5175 1675 5175
 Wire Wire Line
-	1525 5175 1675 5175
+	1525 4450 1525 5175
 Wire Wire Line
-	1525 4450 1525 4875
-Wire Wire Line
-	1525 4875 1525 4975
-Wire Wire Line
-	1525 4975 1525 5175
-Wire Wire Line
-	1375 4875 1525 4875
-Wire Wire Line
-	1525 4875 1675 4875
+	1375 4875 1675 4875
 Connection ~ 1525 4875
 Connection ~ 1525 5175
 Wire Wire Line
@@ -1028,11 +1018,7 @@ Wire Wire Line
 Wire Wire Line
 	1675 6975 1600 6975
 Wire Wire Line
-	1600 6975 1600 7075
-Wire Wire Line
-	1600 7075 1600 7175
-Wire Wire Line
-	1600 7175 1600 7375
+	1600 6975 1600 7375
 Wire Wire Line
 	1675 7175 1600 7175
 Connection ~ 1600 7175
@@ -1042,9 +1028,7 @@ Connection ~ 1600 7075
 Wire Wire Line
 	5395 6325 5495 6325
 Wire Wire Line
-	3575 6325 4945 6325
-Wire Wire Line
-	4945 6325 5195 6325
+	3575 6325 5195 6325
 Wire Wire Line
 	3575 5375 4000 5375
 Wire Wire Line
@@ -1064,16 +1048,12 @@ Wire Wire Line
 Wire Wire Line
 	9025 3270 9025 3820
 Wire Wire Line
-	9575 3170 9575 3520
-Wire Wire Line
-	9575 3520 9575 3620
+	9575 3170 9575 3620
 Connection ~ 9575 3520
 Wire Notes Line
 	7225 5145 11225 5145
 Wire Wire Line
-	9250 5750 9355 5750
-Wire Wire Line
-	9355 5750 9575 5750
+	9250 5750 9575 5750
 Wire Wire Line
 	9355 5750 9355 5775
 Wire Wire Line
@@ -1092,13 +1072,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 1600 2125 1600
 Wire Wire Line
-	2125 1600 2125 1700
-Wire Wire Line
-	2125 1700 2125 1800
-Wire Wire Line
-	2125 1800 2125 1900
-Wire Wire Line
-	2125 1900 2125 2050
+	2125 1600 2125 2050
 Wire Wire Line
 	1800 1700 2125 1700
 Connection ~ 2125 1700
@@ -1141,13 +1115,7 @@ Wire Wire Line
 Wire Wire Line
 	3575 5925 3840 5925
 Wire Wire Line
-	6900 1000 6900 1425
-Wire Wire Line
-	6900 1425 6900 1825
-Wire Wire Line
-	6900 1825 6900 2200
-Wire Wire Line
-	6900 2200 6900 2450
+	6900 1000 6900 2450
 Connection ~ 6900 1425
 Connection ~ 6900 1825
 Wire Wire Line
@@ -1159,9 +1127,7 @@ Wire Wire Line
 Wire Wire Line
 	9875 3520 9975 3520
 Wire Wire Line
-	4945 6000 4945 6325
-Wire Wire Line
-	4945 6325 4945 6375
+	4945 6000 4945 6375
 Connection ~ 4945 6325
 Wire Wire Line
 	3575 6025 3835 6025
@@ -1177,13 +1143,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 1450 3300 1650
 Wire Wire Line
-	3700 850  3700 975 
+	3700 850  3700 1025
 Wire Wire Line
-	3700 975  3700 1025
-Wire Wire Line
-	3700 1625 3700 1650
-Wire Wire Line
-	3700 1650 3700 1700
+	3700 1625 3700 1700
 Wire Wire Line
 	3300 1650 3700 1650
 Connection ~ 3700 1650
@@ -1199,7 +1161,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 1025 4750 1025
 Wire Wire Line
-	4100 1625 4750 1625
+	4750 1625 4100 1625
 Wire Wire Line
 	10525 1075 10525 1350
 Wire Wire Line
@@ -1207,27 +1169,23 @@ Wire Wire Line
 Wire Wire Line
 	3575 6125 3830 6125
 Wire Wire Line
-	8615 1350 8870 1350
-Wire Wire Line
-	8870 1350 9175 1350
+	8615 1350 9175 1350
 Wire Wire Line
 	9175 1900 9175 1650
 Wire Wire Line
-	8025 1900 8870 1900
-Wire Wire Line
-	8870 1900 9175 1900
+	8025 1900 9175 1900
 Wire Wire Line
 	8025 1350 8315 1350
 Wire Wire Line
-	8025 1350 8025 1515
+	8025 1350 8025 1570
 Wire Wire Line
-	8025 1715 8025 1900
+	8025 1670 8025 1900
 Wire Wire Line
 	4945 6000 5595 6000
 Wire Wire Line
-	4750 1025 4750 1215
+	4750 1025 4750 1265
 Wire Wire Line
-	4750 1625 4750 1415
+	4750 1365 4750 1625
 Wire Wire Line
 	8870 1350 8870 1470
 Connection ~ 8870 1350
@@ -1237,15 +1195,9 @@ Connection ~ 8870 1900
 Wire Notes Line
 	5325 475  5325 2700
 Wire Wire Line
-	4180 3055 4785 3055
+	4180 3055 4855 3055
 Wire Wire Line
-	4785 3055 4855 3055
-Wire Wire Line
-	4785 2955 4785 3055
-Wire Wire Line
-	4785 3055 4785 3255
-Wire Wire Line
-	4785 3255 4785 3405
+	4785 2955 4785 3405
 Wire Wire Line
 	4785 3405 4730 3405
 Wire Wire Line
@@ -1257,20 +1209,14 @@ Wire Notes Line
 Wire Notes Line
 	5325 2705 5325 4045
 Wire Wire Line
-	6580 2980 6580 3045
-Wire Wire Line
-	6580 3045 6580 3060
+	6580 2980 6580 3060
 Wire Wire Line
 	6770 3045 6580 3045
 Connection ~ 6580 3045
 Wire Wire Line
-	6020 3410 6170 3410
+	6020 3410 6230 3410
 Wire Wire Line
-	6170 3410 6230 3410
-Wire Wire Line
-	3425 3255 3520 3255
-Wire Wire Line
-	3520 3255 3630 3255
+	3425 3255 3630 3255
 Wire Wire Line
 	3630 3355 3425 3355
 Wire Wire Line
@@ -1297,9 +1243,7 @@ Wire Wire Line
 Text Label 4005 5075 0    60   ~ 0
 RFM69W_SS
 Wire Wire Line
-	9025 4020 8800 4020
-Wire Wire Line
-	8800 4020 8370 4020
+	8370 4020 9025 4020
 Wire Wire Line
 	8800 3970 8800 4020
 Connection ~ 8800 4020

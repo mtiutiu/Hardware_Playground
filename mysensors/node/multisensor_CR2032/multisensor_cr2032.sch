@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:multisensor_cr2032-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,7 +41,6 @@ LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
 LIBS:max44009
-LIBS:multisensor_cr2032-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -275,7 +275,7 @@ NoConn ~ 9905 4135
 NoConn ~ 9905 4235
 NoConn ~ 9905 4335
 $Comp
-L CONN_01X01 P1
+L Conn_01x01 P1
 U 1 1 5880175E
 P 8805 3585
 F 0 "P1" V 8840 3395 50  0000 L CNN
@@ -1263,7 +1263,7 @@ SCL
 Wire Wire Line
 	5230 5270 5230 5595
 $Comp
-L CONN_01X03 J1
+L Conn_01x03 J1
 U 1 1 58D3FC5A
 P 7835 2700
 F 0 "J1" H 7913 2741 50  0000 L CNN

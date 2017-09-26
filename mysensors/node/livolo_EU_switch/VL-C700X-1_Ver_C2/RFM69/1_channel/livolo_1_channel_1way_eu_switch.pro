@@ -1,4 +1,4 @@
-update=Mon 19 Jun 2017 05:33:04 PM EEST
+update=Tue 26 Sep 2017 04:42:41 PM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=../../../../../libraries/symbols/mysensors_symbols;../../../../../libraries/symbols/mysymbols
+LibDir=../../../../../../libraries/symbols/mysensors_symbols;../../../../../../libraries/symbols/mysymbols
 [eeschema/libraries]
 LibName1=mysensors_arduino
 LibName2=mysensors_connectors

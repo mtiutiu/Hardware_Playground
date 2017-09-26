@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:mysensors_arduino
 LIBS:mysensors_connectors
 LIBS:mysensors_logic
@@ -58,7 +58,6 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic
 LIBS:hc11
 LIBS:intel
 LIBS:interface
@@ -66,7 +65,6 @@ LIBS:ir
 LIBS:Lattice
 LIBS:leds
 LIBS:linear
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -867,7 +865,7 @@ MOSI
 Text Label 7600 4375 2    60   ~ 0
 SCK
 $Comp
-L CONN_01X01 P2
+L Conn_01x01 P2
 U 1 1 5880175E
 P 9530 3675
 F 0 "P2" V 9565 3485 50  0000 L CNN
@@ -879,7 +877,7 @@ F 3 "" H 9530 3675 50  0000 C CNN
 $EndComp
 NoConn ~ 7600 4475
 $Comp
-L MCP1703A-3302/MB U2
+L MCP1703A-3002_SOT89 U2
 U 1 1 588061E3
 P 9350 5750
 F 0 "U2" H 9350 6017 50  0000 C CNN

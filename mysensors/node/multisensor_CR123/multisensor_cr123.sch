@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:multisensor_cr123-rescue
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
@@ -35,7 +36,6 @@ LIBS:interface
 LIBS:ir
 LIBS:Lattice
 LIBS:linear
-LIBS:logo
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -353,7 +353,7 @@ Text Label 8125 4475 2    50   ~ 0
 SS
 NoConn ~ 9325 4575
 $Comp
-L CONN_01X01 P1
+L Conn_01x01 P1
 U 1 1 575EBBAD
 P 9325 3125
 F 0 "P1" V 9290 3037 50  0000 R CNN
@@ -528,8 +528,8 @@ $Comp
 L SW_DIP_x08 S1
 U 1 1 57D6A612
 P 10495 1375
-F 0 "S1" H 10320 1950 50  0000 C CNN
-F 1 "MCDHA-08TQR" H 10550 1845 50  0000 C CNN
+F 0 "S1" H 10485 2030 50  0000 C CNN
+F 1 "MCDHA-08TQR" H 10530 1925 50  0000 C CNN
 F 2 "myfootprints:DIPSWITCH_SMD_1.27-16" H 10495 1858 50  0001 C CNN
 F 3 "" H 10445 1375 50  0000 C CNN
 	1    10495 1375
@@ -813,14 +813,14 @@ NoConn ~ 4225 5675
 Text Notes 2400 2535 0    67   ~ 13
 Voltage Booster
 $Comp
-L CONN_01X04 P2
+L Conn_01x04 P2
 U 1 1 57D805CA
-P 9205 795
-F 0 "P2" H 9205 1045 50  0000 C CNN
-F 1 "HTU21D" V 9305 795 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 9205 795 50  0001 C CNN
-F 3 "" H 9205 795 50  0000 C CNN
-	1    9205 795 
+P 9205 845
+F 0 "P2" H 9205 1095 50  0000 C CNN
+F 1 "HTU21D" V 9305 845 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 9205 845 50  0001 C CNN
+F 3 "" H 9205 845 50  0000 C CNN
+	1    9205 845 
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1180,7 +1180,7 @@ Wire Wire Line
 Connection ~ 4280 1275
 Connection ~ 2905 1275
 $Comp
-L CONN_01X03 P3
+L Conn_01x03 P3
 U 1 1 57D99714
 P 9205 1515
 F 0 "P3" H 9205 1715 50  0000 C CNN
@@ -1256,7 +1256,7 @@ Wire Wire Line
 Text Label 4390 5125 0    50   ~ 0
 HALL_SENSOR
 $Comp
-L CONN_01X03 P4
+L Conn_01x03 P4
 U 1 1 57DA3706
 P 7815 1080
 F 0 "P4" H 7815 1280 50  0000 C CNN
