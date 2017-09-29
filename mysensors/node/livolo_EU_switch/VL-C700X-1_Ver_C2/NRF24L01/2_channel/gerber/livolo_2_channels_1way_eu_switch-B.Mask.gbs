@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-e15acbb~60~ubuntu16.04.1*%
-%TF.CreationDate,2017-09-12T10:57:15+03:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-b6d54ac~60~ubuntu16.04.1*%
+%TF.CreationDate,2017-09-29T19:12:52+03:00*%
 %TF.ProjectId,livolo_2_channels_1way_eu_switch,6C69766F6C6F5F325F6368616E6E656C,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-e15acbb~60~ubuntu16.04.1) date Tue Sep 12 10:57:15 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-b6d54ac~60~ubuntu16.04.1) date Fri Sep 29 19:12:52 2017*
 %MOMM*%
 %LPD*%
 G01*
@@ -16,6 +16,7 @@ G04 APERTURE LIST*
 %ADD12C,1.500000*%
 %ADD13R,0.600000X0.500000*%
 %ADD14R,0.600000X0.800000*%
+%ADD15R,1.200000X0.900000*%
 G04 APERTURE END LIST*
 D10*
 X143650000Y-107550000D03*
@@ -60,4 +61,9 @@ X158800000Y-102150000D03*
 X157100000Y-102150000D03*
 X155450000Y-102150000D03*
 X153750000Y-102150000D03*
+D15*
+X140000000Y-102700000D03*
+X137800000Y-102700000D03*
+X140500000Y-100900000D03*
+X138300000Y-100900000D03*
 M02*
