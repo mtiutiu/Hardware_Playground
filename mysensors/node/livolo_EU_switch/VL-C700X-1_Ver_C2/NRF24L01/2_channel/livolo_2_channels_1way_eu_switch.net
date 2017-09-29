@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mtiutiu/Work/kicad/mysensors/node/livolo_EU_switch/VL-C700X-1_Ver_C2/NRF24L01/2_channel/livolo_2_channels_1way_eu_switch.sch)
-    (date "Fri 29 Sep 2017 06:27:43 PM EEST")
+    (date "Fri 29 Sep 2017 07:25:12 PM EEST")
     (tool "Eeschema no-vcs-found-b6d54ac~60~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -266,7 +266,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 59CE803B))
     (comp (ref R12)
-      (value 1K)
+      (value 4K7)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (datasheet http://www.farnell.com/datasheets/1849611.pdf)
       (fields
