@@ -28,6 +28,7 @@ This is a Mysensors replica of the Livolo EU Switch(2 channels 1 way) front plat
 **HW Revisions:**
  - 0.1 - initial hw design
  - 0.2 - switched to MTCH105 touch sensor
+ - 0.3 - added 3V line jumper
  
 **Credits:**
   

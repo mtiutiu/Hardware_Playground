@@ -127,7 +127,7 @@ encoding utf-8
 Sheet 1 1
 Title "Mysensors NRF5 Livolo 2 channels 1 way EU switch front panel"
 Date ""
-Rev "0.2"
+Rev "0.3"
 Comp ""
 Comment1 "VL-C700X-1 Ver: C2"
 Comment2 ""
@@ -551,7 +551,6 @@ NoConn ~ 9935 3685
 NoConn ~ 9935 3785
 NoConn ~ 9935 3885
 NoConn ~ 9935 3985
-NoConn ~ 9435 3985
 NoConn ~ 9435 3785
 $Comp
 L CP1_Small C1
@@ -1122,4 +1121,28 @@ Wire Wire Line
 	2415 4425 2185 4425
 Wire Wire Line
 	2415 4325 2185 4325
+$Comp
+L GS2 J2
+U 1 1 59D2677E
+P 8890 3985
+F 0 "J2" V 8685 3985 50  0000 C CNN
+F 1 "3V_EN" V 8776 3985 50  0000 C CNN
+F 2 "Connectors:GS2" V 8964 3985 50  0001 C CNN
+F 3 "" H 8890 3985 50  0001 C CNN
+	1    8890 3985
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9435 3985 9090 3985
+$Comp
+L +3.3V #PWR025
+U 1 1 59D27156
+P 8690 3985
+F 0 "#PWR025" H 8690 3835 50  0001 C CNN
+F 1 "+3.3V" H 8705 4158 50  0000 C CNN
+F 2 "" H 8690 3985 50  0000 C CNN
+F 3 "" H 8690 3985 50  0000 C CNN
+	1    8690 3985
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
