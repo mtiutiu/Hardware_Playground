@@ -13,10 +13,9 @@ This is a Mysensors replica of the Livolo EU Switch(1 channel 1 way) front plate
 
 **Key Features:**
 
- - **Capacitive touch sensing** using **TTP223** specialized IC
+ - **Capacitive touch sensing** using **MTCH102** specialized IC
  - **MySensors** ready(NRF51822)
- - **DC-DC Buck converter** in combination with a **linear LDO voltage regulator** for efficient **noise cancelling**
-  (the used LDO reduces a little bit the Buck's converter current capability - down to 150mA from 600mA but this is not important as the whole board takes about 30mA at peak)
+ - **DC-DC Buck converter** for powering from the 12V line ( the DC-DC converter can be bypassed and not used at all if desired by soldering the **3V_EN** jumper and removing the L1 ferrite bead or by not soldering the dc-dc converter components)
 
 **Work progress:**
  1. Test/verify the pcb board correctness(from both electrical and mechanical point of views) - **IN PROGRESS**
@@ -28,7 +27,7 @@ This is a Mysensors replica of the Livolo EU Switch(1 channel 1 way) front plate
 
 **HW Revisions:**
  - 0.1 - initial hw design
- - 0.2 - switched to MTCH105 touch sensor
+ - 0.2 - switched to MTCH102 touch sensor
  - 0.3 - added 3V line jumper
  
 **Credits:**
