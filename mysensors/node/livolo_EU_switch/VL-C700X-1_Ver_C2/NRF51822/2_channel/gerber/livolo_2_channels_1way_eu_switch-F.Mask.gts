@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-6573a43~60~ubuntu16.04.1*%
-%TF.CreationDate,2017-10-02T18:36:49+03:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-47f37ef~60~ubuntu16.04.1*%
+%TF.CreationDate,2017-10-11T16:27:54+03:00*%
 %TF.ProjectId,livolo_2_channels_1way_eu_switch,6C69766F6C6F5F325F6368616E6E656C,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-6573a43~60~ubuntu16.04.1) date Mon Oct  2 18:36:49 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-47f37ef~60~ubuntu16.04.1) date Wed Oct 11 16:27:54 2017*
 %MOMM*%
 %LPD*%
 G01*
