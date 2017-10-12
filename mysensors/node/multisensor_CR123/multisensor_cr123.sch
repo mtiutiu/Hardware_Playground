@@ -1,83 +1,96 @@
 EESchema Schematic File Version 3
-LIBS:multisensor_cr123-rescue
-LIBS:74xgxx
-LIBS:74xx
 LIBS:ac-dc
-LIBS:actel
 LIBS:adc-dac
-LIBS:allegro
 LIBS:Altera
 LIBS:analog_devices
 LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
-LIBS:battery_management
+LIBS:Battery_Management
 LIBS:bbd
 LIBS:bosch
 LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
+LIBS:Connector
 LIBS:contrib
 LIBS:cypress
 LIBS:dc-dc
 LIBS:device
 LIBS:digital-audio
-LIBS:diode
-LIBS:display
+LIBS:Diode
+LIBS:Display
+LIBS:driver_gate
 LIBS:dsp
+LIBS:DSP_Microchip_DSPIC33
 LIBS:elec-unifil
 LIBS:ESD_Protection
+LIBS:Espressif
+LIBS:FPGA_Actel
 LIBS:ftdi
 LIBS:gennum
+LIBS:Graphic
 LIBS:hc11
+LIBS:infineon
 LIBS:intel
 LIBS:interface
+LIBS:intersil
 LIBS:ir
 LIBS:Lattice
+LIBS:LED
+LIBS:LEM
 LIBS:linear
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
 LIBS:maxim
-LIBS:mechanical
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
 LIBS:memory
 LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
 LIBS:microcontrollers
+LIBS:modules
+LIBS:Motor
 LIBS:motor_drivers
 LIBS:motorola
-LIBS:motors
-LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp
-LIBS:nxp_armmcu
 LIBS:onsemi
 LIBS:opto
 LIBS:Oscillators
 LIBS:philips
 LIBS:power
+LIBS:powerint
 LIBS:Power_Management
 LIBS:pspice
 LIBS:references
 LIBS:regul
-LIBS:relays
+LIBS:Relay
 LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor_Current
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
 LIBS:supertex
-LIBS:switches
+LIBS:Switch
 LIBS:texas
-LIBS:transf
-LIBS:transistors
+LIBS:Transformer
+LIBS:Transistor
 LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
+LIBS:Valve
 LIBS:video
 LIBS:wiznet
 LIBS:Worldsemi
@@ -96,23 +109,35 @@ LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
 LIBS:AMS1117
+LIBS:BLUE_PILL
 LIBS:ch340
 LIBS:cp2102
 LIBS:current_transf
+LIBS:E73-2G4M04S
+LIBS:ESP8266
 LIBS:hlk-pm01
+LIBS:hlk-pm03
 LIBS:l6920
 LIBS:linear_tech
+LIBS:MAPLE_MINI
+LIBS:max44009
 LIBS:MIC5205
+LIBS:mtch102
+LIBS:mtch105
 LIBS:mx-503398-1892
 LIBS:ncp1402
+LIBS:onion_omega2
 LIBS:pam8403
 LIBS:pcm5100
+LIBS:ptr5518
 LIBS:rfm12
 LIBS:rfm69cw
 LIBS:RM50_SP
+LIBS:touch
 LIBS:ttp223
 LIBS:txb010x
 LIBS:v23079-e1208-b301
+LIBS:WT51822-S4AT
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -655,12 +680,12 @@ $Comp
 L CP1_Small C6
 U 1 1 57D82090
 P 5630 1675
-F 0 "C6" H 5475 1760 50  0000 L CNN
-F 1 "47u" H 5450 1825 50  0000 L CNN
+F 0 "C6" H 5510 1595 50  0000 L CNN
+F 1 "47u" H 5455 1520 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Wave" H 5721 1584 50  0001 L CNN
 F 3 "" H 5630 1675 50  0000 C CNN
 	1    5630 1675
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C_Small C8
@@ -711,11 +736,11 @@ L CP1_Small C9
 U 1 1 57D83C67
 P 6220 1485
 F 0 "C9" H 6040 1440 50  0000 L CNN
-F 1 "47u" H 6000 1520 50  0000 L CNN
+F 1 "47u" H 5985 1360 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Wave" H 6311 1394 50  0001 L CNN
 F 3 "" H 6220 1485 50  0000 C CNN
 	1    6220 1485
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR026
