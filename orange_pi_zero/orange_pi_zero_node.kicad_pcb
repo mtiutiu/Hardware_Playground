@@ -1,8 +1,8 @@
-(kicad_pcb (version 20170922) (host pcbnew no-vcs-found-609da9b~60~ubuntu16.04.1)
+(kicad_pcb (version 20170922) (host pcbnew no-vcs-found-e0b9a21~60~ubuntu15.04.1)
 
 (general
   (thickness 1.6)
-  (drawings 4)
+  (drawings 5)
   (tracks 114)
   (zones 0)
   (modules 164)
@@ -36,7 +36,7 @@
 
 (general
   (thickness 1.6)
-  (drawings 4)
+  (drawings 5)
   (tracks 114)
   (zones 0)
   (modules 164)
@@ -3537,6 +3537,9 @@
       (net 41 GND) (clearance 0.3) (zone_connect 2))
   )
 
+  (gr_text "Rev. 0.1" (at 118.75 64.25 270) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 113 98.5) (end 113 50.5) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 159 98.5) (end 113 98.5) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 159 50.5) (end 159 98.5) (layer Edge.Cuts) (width 0.15))

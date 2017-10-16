@@ -549,13 +549,13 @@ $EndComp
 $Comp
 L GND #PWR028
 U 1 1 594892BC
-P 1555 1590
-F 0 "#PWR028" H 1555 1340 50  0001 C CNN
-F 1 "GND" H 1560 1417 50  0000 C CNN
-F 2 "" H 1555 1590 50  0000 C CNN
-F 3 "" H 1555 1590 50  0000 C CNN
-	1    1555 1590
-	1    0    0    -1  
+P 1555 1490
+F 0 "#PWR028" H 1555 1240 50  0001 C CNN
+F 1 "GND" H 1560 1317 50  0000 C CNN
+F 2 "" H 1555 1490 50  0000 C CNN
+F 3 "" H 1555 1490 50  0000 C CNN
+	1    1555 1490
+	-1   0    0    1   
 $EndComp
 Text Label 885  1590 2    60   ~ 0
 SWDIO
@@ -568,25 +568,25 @@ SWCLK
 $Comp
 L +3.3V #PWR029
 U 1 1 5948C7B6
-P 1705 1410
-F 0 "#PWR029" H 1705 1260 50  0001 C CNN
-F 1 "+3.3V" H 1720 1583 50  0000 C CNN
-F 2 "" H 1705 1410 50  0000 C CNN
-F 3 "" H 1705 1410 50  0000 C CNN
-	1    1705 1410
-	1    0    0    -1  
+P 1555 1590
+F 0 "#PWR029" H 1555 1440 50  0001 C CNN
+F 1 "+3.3V" H 1570 1763 50  0000 C CNN
+F 2 "" H 1555 1590 50  0000 C CNN
+F 3 "" H 1555 1590 50  0000 C CNN
+	1    1555 1590
+	0    1    1    0   
 $EndComp
-Text Label 2125 4500 2    60   ~ 0
+Text Label 4500 4900 0    60   ~ 0
 S1_LEDs
 Text Label 2125 4600 2    60   ~ 0
 Relay1_Set
-Text Label 2125 4700 2    60   ~ 0
+Text Label 2125 4300 2    60   ~ 0
 Relay1_Reset
-Text Label 2125 4800 2    60   ~ 0
+Text Label 4500 4400 0    60   ~ 0
 Relay2_Set
-Text Label 2125 4900 2    60   ~ 0
+Text Label 2125 4400 2    60   ~ 0
 Relay2_Reset
-Text Label 4500 4900 0    60   ~ 0
+Text Label 2125 4800 2    60   ~ 0
 TS1
 $Comp
 L C_Small C2
@@ -629,7 +629,6 @@ F 3 "" H 3275 3000 50  0000 C CNN
 	1    3275 3000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2375 4400
 $Comp
 L MTCH102 U3
 U 1 1 597A2D53
@@ -797,9 +796,9 @@ Text Label 9280 2360 3    60   ~ 0
 MTSA
 Text Label 7350 1900 2    60   ~ 0
 MTPM
-Text Label 4500 4800 0    60   ~ 0
+Text Label 2125 4700 2    60   ~ 0
 MTSA
-Text Label 4500 4700 0    60   ~ 0
+Text Label 2125 4900 2    60   ~ 0
 MTPM
 $Comp
 L GND #PWR04
@@ -812,7 +811,6 @@ F 3 "" H 8940 1600 50  0000 C CNN
 	1    8940 1600
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 4175 4400
 Wire Notes Line
 	475  2700 11225 2700
 Wire Notes Line
@@ -878,10 +876,6 @@ Wire Wire Line
 Wire Wire Line
 	1055 1590 885  1590
 Wire Wire Line
-	1555 1490 1705 1490
-Wire Wire Line
-	1705 1490 1705 1410
-Wire Wire Line
 	3275 3000 3275 3700
 Wire Wire Line
 	3400 3175 3275 3175
@@ -940,19 +934,12 @@ Wire Wire Line
 Wire Wire Line
 	7440 1900 7350 1900
 Wire Wire Line
-	4175 4700 4500 4700
-Wire Wire Line
 	7430 720  7430 1600
 Wire Wire Line
 	7580 1240 7430 1240
 Wire Wire Line
 	7430 1240 7430 1250
 Connection ~ 7430 1250
-Wire Wire Line
-	4175 4800 4500 4800
-Wire Wire Line
-	2375 4500 2125 4500
-NoConn ~ 2375 4300
 $Comp
 L GS2 J2
 U 1 1 59D25F94
@@ -977,4 +964,13 @@ F 3 "" H 8745 3985 50  0000 C CNN
 	1    8745 3985
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4175 4400 4500 4400
+Wire Wire Line
+	2375 4400 2125 4400
+Wire Wire Line
+	2375 4300 2125 4300
+NoConn ~ 4175 4700
+NoConn ~ 4175 4800
+NoConn ~ 2375 4500
 $EndSCHEMATC
