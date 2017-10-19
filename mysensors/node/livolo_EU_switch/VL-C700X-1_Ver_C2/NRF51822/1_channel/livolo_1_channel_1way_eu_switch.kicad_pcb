@@ -229,7 +229,7 @@
       (net 6 /12Vcc))
     (pad 1 thru_hole oval (at 0 0 90) (size 1.6 1.2) (drill 0.8) (layers *.Cu *.Mask)
       (net 32 "Net-(P4-Pad1)"))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Female/female_header_2row_14pins_2mm.step
+    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Female/female_header_2row_14pins_2mm.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
