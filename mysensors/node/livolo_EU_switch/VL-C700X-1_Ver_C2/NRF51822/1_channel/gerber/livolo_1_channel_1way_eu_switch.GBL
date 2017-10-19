@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-e0b9a21~60~ubuntu15.04.1*
-G04 #@! TF.CreationDate,2017-10-17T01:04:49+03:00*
-G04 #@! TF.ProjectId,livolo_1_channel_1way_eu_switch,6C69766F6C6F5F315F6368616E6E656C,rev?*
-G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Copper,L2,Bot,Signal*
-G04 #@! TF.FilePolarity,Positive*
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-72d4889~60~ubuntu16.04.1*%
+%TF.CreationDate,2017-10-19T10:25:28+03:00*%
+%TF.ProjectId,livolo_1_channel_1way_eu_switch,6C69766F6C6F5F315F6368616E6E656C,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot,Signal*%
+%TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-e0b9a21~60~ubuntu15.04.1) date Tue Oct 17 01:04:49 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-72d4889~60~ubuntu16.04.1) date Thu Oct 19 10:25:28 2017*
 %MOMM*%
 %LPD*%
 G01*
