@@ -1,2 +1,2 @@
-# kicad
-Hardware projects using KiCad
+# KiCAD_Playground
+Hardware projects created using KiCAD.
