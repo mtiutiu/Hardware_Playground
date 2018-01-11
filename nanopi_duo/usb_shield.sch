@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -63,7 +63,7 @@ LIBS:ttp223
 LIBS:txb010x
 LIBS:v23079-e1208-b301
 LIBS:WT51822-S4AT
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
