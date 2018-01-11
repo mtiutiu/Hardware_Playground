@@ -1,4 +1,4 @@
-update=Mon 08 Jan 2018 03:01:18 PM EET
+update=Thu 11 Jan 2018 12:26:29 PM EET
 version=1
 last_client=kicad
 [pcbnew]
@@ -93,3 +93,13 @@ LibName61=/home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/ttp223
 LibName62=/home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/txb010x
 LibName63=/home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/v23079-e1208-b301
 LibName64=/home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/WT51822-S4AT
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
