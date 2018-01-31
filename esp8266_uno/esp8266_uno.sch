@@ -584,8 +584,6 @@ Wire Wire Line
 Wire Wire Line
 	8350 1800 8800 1800
 Wire Wire Line
-	8500 5750 9050 5750
-Wire Wire Line
 	8900 5650 8900 5800
 Connection ~ 8900 5750
 Wire Wire Line
@@ -1227,4 +1225,19 @@ F 3 "" H 5950 3050 50  0000 C CNN
 	1    5950 3050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L D_Schottky_Small D1
+U 1 1 5A7210B6
+P 8700 5750
+F 0 "D1" H 8700 5545 50  0000 C CNN
+F 1 "SS34" H 8700 5636 50  0000 C CNN
+F 2 "w_smd_diode:do214ab" V 8700 5750 50  0001 C CNN
+F 3 "" V 8700 5750 50  0001 C CNN
+	1    8700 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 5750 8600 5750
+Wire Wire Line
+	8800 5750 9050 5750
 $EndSCHEMATC
