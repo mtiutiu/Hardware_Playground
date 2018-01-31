@@ -4,7 +4,7 @@
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](3d/renderings/esp8266_uno_top.png?raw=true "top view") | ![Alt text](3d/renderings/esp8266_uno_bottom.png?raw=true "bottom view")
+![Alt text](3d/renderings/esp8266_uno_top.png?raw=true "top view") | ![Alt text](3d/renderings/esp8266_uno_bottom.jpg?raw=true "bottom view")
 
 **Description:**
 
