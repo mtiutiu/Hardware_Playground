@@ -1,0 +1,33 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,(2017-11-08 revision cd21218)-HEAD*%
+%TF.CreationDate,2018-01-31T14:02:19+02:00*%
+%TF.ProjectId,esp8266_uno,657370383236365F756E6F2E6B696361,rev?*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B_Size_X,68.984*%
+%TJ.B_Size_Y,53.744*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Overall_Thickness,1.600*%
+%TJ.B_Legend_Present,Both*%
+%TJ.B_SolderMask_Present,Both*%
+G04 board design rules*
+%TJ.D_PadToPad_Out,0.300*%
+%TJ.D_PadToTrack_Out,0.300*%
+%TJ.D_TrackToTrack_Out,0.300*%
+%TJ.D_MinLineWidth_Out,0.350*%
+%TJ.D_TrackToRegion_Out,0.508*%
+%TJ.D_RegionToRegion_Out,0.508*%
+G04 Layer Structure*
+%TJ.L_"Copper,L1,Top",Positive,esp8266_uno-F.Cu.gtl*%
+%TJ.L_"Copper,L2,Bot",Positive,esp8266_uno-B.Cu.gbl*%
+%TJ.L_"SolderPaste,Bot",Positive,esp8266_uno-B.Paste.gbp*%
+%TJ.L_"SolderPaste,Top",Positive,esp8266_uno-F.Paste.gtp*%
+%TJ.L_"Legend,Bot",Positive,esp8266_uno-B.SilkS.gbo*%
+%TJ.L_"Legend,Top",Positive,esp8266_uno-F.SilkS.gto*%
+%TJ.L_"SolderMask,Bot",Negative,esp8266_uno-B.Mask.gbs*%
+%TJ.L_"SolderMask,Top",Negative,esp8266_uno-F.Mask.gts*%
+%TJ.L_"Profile",Positive,esp8266_uno-Edge.Cuts.gm1*%
+M02*
