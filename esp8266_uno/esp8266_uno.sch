@@ -149,7 +149,6 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
-LIBS:esp8266_uno-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -157,7 +156,7 @@ encoding utf-8
 Sheet 1 1
 Title "Arduino UNO ESP8266"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
