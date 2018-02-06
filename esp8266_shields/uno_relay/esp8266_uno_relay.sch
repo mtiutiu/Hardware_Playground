@@ -284,11 +284,7 @@ $EndComp
 Wire Wire Line
 	7400 2550 7400 2900
 Wire Wire Line
-	8100 2100 7400 2100
-Wire Wire Line
 	7400 1900 7400 2250
-Wire Wire Line
-	8100 2700 7400 2700
 Connection ~ 7400 2700
 $Comp
 L GND #PWR05
@@ -536,4 +532,8 @@ Text Label 10000 2300 2    60   ~ 0
 REL1
 Text Label 10000 2500 2    60   ~ 0
 REL3
+Wire Wire Line
+	7400 2100 8100 2100
+Wire Wire Line
+	8100 2700 7400 2700
 $EndSCHEMATC
