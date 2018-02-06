@@ -1,8 +1,18 @@
-update=Tue 30 Jan 2018 12:42:06 PM EET
+update=Tue 06 Feb 2018 03:26:30 PM EET
 last_client=kicad
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=pdf/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=../libraries/symbols/mysymbols;../libraries/symbols/mysensors_symbols
+LibDir=../../libraries/symbols/mysensors_symbols;../../libraries/symbols/mysymbols;../../libraries/smisioto_kicad_libs/library
 [eeschema/libraries]
 LibName1=ac-dc
 LibName2=adc-dac
@@ -154,13 +164,3 @@ LibName147=mysensors_radios
 LibName148=mysensors_regulators
 LibName149=mysensors_security
 LibName150=mysensors_sensors
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=pdf/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
