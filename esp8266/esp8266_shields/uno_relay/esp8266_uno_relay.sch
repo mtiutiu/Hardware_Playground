@@ -150,7 +150,6 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
-LIBS:esp8266_uno_relay-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -528,9 +527,9 @@ Text Label 8600 2100 1    60   ~ 0
 REL3
 Text Label 10000 2400 2    60   ~ 0
 REL4
-Text Label 10000 2300 2    60   ~ 0
-REL1
 Text Label 10000 2500 2    60   ~ 0
+REL1
+Text Label 10000 2300 2    60   ~ 0
 REL3
 Wire Wire Line
 	7400 2100 8100 2100
