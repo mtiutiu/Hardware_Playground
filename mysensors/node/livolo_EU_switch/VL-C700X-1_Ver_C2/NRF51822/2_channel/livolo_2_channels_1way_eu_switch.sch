@@ -35,7 +35,7 @@ LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
 LIBS:bbd
-LIBS:bosch
+
 LIBS:brooktre
 LIBS:contrib
 LIBS:cypress

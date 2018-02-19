@@ -27,7 +27,7 @@ LIBS:Altera
 LIBS:analog_devices
 LIBS:Battery_Management
 LIBS:bbd
-LIBS:bosch
+
 LIBS:brooktre
 LIBS:Connector
 LIBS:dc-dc

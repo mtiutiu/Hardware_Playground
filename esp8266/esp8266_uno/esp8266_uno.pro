@@ -23,7 +23,7 @@ LibName6=atmel
 LibName7=audio
 LibName8=Battery_Management
 LibName9=bbd
-LibName10=Bosch
+
 LibName11=brooktre
 LibName12=Connector
 LibName13=contrib

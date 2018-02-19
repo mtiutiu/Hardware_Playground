@@ -88,7 +88,7 @@ LibName46=atmel
 LibName47=audio
 LibName48=Battery_Management
 LibName49=bbd
-LibName50=bosch
+
 LibName51=brooktre
 LibName52=Connector
 LibName53=contrib

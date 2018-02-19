@@ -59,7 +59,7 @@ LibName25=Altera
 LibName26=analog_devices
 LibName27=Battery_Management
 LibName28=bbd
-LibName29=bosch
+
 LibName30=brooktre
 LibName31=Connector
 LibName32=dc-dc

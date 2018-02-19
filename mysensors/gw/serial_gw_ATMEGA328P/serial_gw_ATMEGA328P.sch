@@ -41,7 +41,7 @@ LIBS:atmel
 LIBS:audio
 LIBS:battery_management
 LIBS:bbd
-LIBS:bosch
+
 LIBS:brooktre
 LIBS:cmos4000
 LIBS:cmos_ieee
