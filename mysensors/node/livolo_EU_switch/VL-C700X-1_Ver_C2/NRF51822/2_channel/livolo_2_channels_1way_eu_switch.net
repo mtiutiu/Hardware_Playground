@@ -582,9 +582,9 @@
         (pin (num 2) (name Guard) (type BiDi)))))
   (libraries
     (library (logical touch)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/touch.lib))
+      (uri /home/mtiutiu/Work/KiCAD_Playground/libraries/symbols/mysymbols/touch.lib))
     (library (logical mtch105)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/mtch105.lib))
+      (uri /home/mtiutiu/Work/KiCAD_Playground/libraries/symbols/mysymbols/mtch105.lib))
     (library (logical dc-dc)
       (uri /usr/share/kicad/library/dc-dc.lib))
     (library (logical conn)
@@ -592,7 +592,7 @@
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical ptr5518)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/ptr5518.lib)))
+      (uri /home/mtiutiu/Work/KiCAD_Playground/libraries/symbols/mysymbols/ptr5518.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref D3) (pin 1))

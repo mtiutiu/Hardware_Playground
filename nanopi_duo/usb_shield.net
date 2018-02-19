@@ -134,7 +134,7 @@
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical nanopi_duo)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/nanopi_duo.lib)))
+      (uri /home/mtiutiu/Work/KiCAD_Playground/libraries/symbols/mysymbols/nanopi_duo.lib)))
   (nets
     (net (code 1) (name "Net-(U1-Pad16)")
       (node (ref U1) (pin 16)))

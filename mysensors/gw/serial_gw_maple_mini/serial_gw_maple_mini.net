@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/mtiutiu/Work/kicad/mysensors/gw/serial_gw_maple_mini/serial_gw_maple_mini.sch)
-    (date "Wed 19 Jul 2017 11:21:49 AM EEST")
-    (tool "Eeschema no-vcs-found-5f4599f~59~ubuntu16.04.1")
+    (source /home/mtiutiu/Work/KiCAD_Playground/mysensors/gw/serial_gw_maple_mini/serial_gw_maple_mini.sch)
+    (date "Mon 19 Feb 2018 11:15:58 AM EET")
+    (tool "Eeschema (2017-11-08 revision cd21218)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -130,9 +130,9 @@
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part LED_Small)
       (description "LED, small symbol")
+      (docs ~)
       (footprints
-        (fp LED-*)
-        (fp LED_*))
+        (fp LED*))
       (fields
         (field (name Reference) D)
         (field (name Value) LED_Small))
@@ -212,11 +212,11 @@
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical mysensors_radios)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysensors_symbols/mysensors_radios.lib))
+      (uri /home/mtiutiu/Work/KiCAD_Playground/libraries/symbols/mysensors_symbols/mysensors_radios.lib))
     (library (logical AMS1117)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/AMS1117.lib))
+      (uri /home/mtiutiu/Work/KiCAD_Playground/libraries/symbols/mysymbols/AMS1117.lib))
     (library (logical MAPLE_MINI)
-      (uri /home/mtiutiu/Work/kicad/libraries/symbols/mysymbols/MAPLE_MINI.lib)))
+      (uri /home/mtiutiu/Work/KiCAD_Playground/libraries/symbols/mysymbols/MAPLE_MINI.lib)))
   (nets
     (net (code 1) (name "Net-(U1-Pad10)")
       (node (ref U1) (pin 10)))

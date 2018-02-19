@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'/home/mtiutiu/Work/kicad/libraries/packages3d/mypackages.3dshapes/ptr55
+'/home/mtiutiu/Work/KiCAD_Playground/libraries/packages3d/mypackages.3dshapes/ptr55
 18.step','2017-06-21T11:09:14',('Author'),(''),
   'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));

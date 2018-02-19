@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'/home/mtiutiu/Work/kicad/libraries/freecad/src/mini_
+'/home/mtiutiu/Work/KiCAD_Playground/libraries/freecad/src/mini_
 rboard/models/nrf24l01_to_rfm69w_adapter.step','2016-12-09T13:50:55',(
     'Author'),(''),'Open CASCADE STEP processor 6.8','FreeCAD','Unknown'
   );
