@@ -682,11 +682,6 @@
       (net 9 /LED_BTN_SIGNALING))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.00mm.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Hand (layer F.Cu) (tedit 5A8C3A03) (tstamp 58D9E4AD)
