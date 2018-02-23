@@ -6,5 +6,7 @@
 Top view | Bottom view
 ------------ | -------------
 ![Alt text](3d/renderings/mys_pro_mini_top.png?raw=true "top view") | ![Alt text](3d/renderings/mys_pro_mini_bottom.png?raw=true "bottom view")
+![Alt text](3d/renderings/mys_pro_mini_top_booster.png?raw=true "top view booster")
+
 
 

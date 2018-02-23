@@ -1653,11 +1653,6 @@
       (net 1 GND))
     (pad 24 thru_hole oval (at -13.97 -7.62) (size 1.50114 2.19964) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
       (net 25 "Net-(IC1-Pad24)"))
-    (model /home/mtiutiu/Work/KiCAD_Playground/libraries/step/pro_mini.STEP
-      (at (xyz 0.6003937007874016 -0.3543307086614174 0.3346456692913386))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 -90))
-    )
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Female/female_header_1x13.stp
       (at (xyz 0.5511811023622047 -0.2952755905511811 0))
       (scale (xyz 1 1 1))
