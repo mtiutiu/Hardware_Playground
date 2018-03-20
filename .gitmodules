@@ -31,3 +31,6 @@
 [submodule "libraries/smisioto_kicad_libs"]
 	path = libraries/smisioto_kicad_libs
 	url = git://smisioto.eu/kicad_libs.git
+[submodule "libraries/digikey-kicad-library"]
+	path = libraries/digikey-kicad-library
+	url = git@github.com:digikey/digikey-kicad-library.git

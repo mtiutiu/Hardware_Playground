@@ -1,0 +1,240 @@
+EESchema Schematic File Version 4
+LIBS:buck_led_driver-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode_Bridge:MB6S D1
+U 1 1 5AB0FC3F
+P 2950 2650
+F 0 "D1" V 3250 2300 50  0000 L CNN
+F 1 "MB10S" V 3150 2250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-269AA" H 3100 2775 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 2950 2650 50  0001 C CNN
+	1    2950 2650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5AB105A8
+P 2950 3750
+F 0 "F1" V 2850 3750 50  0000 C CNN
+F 1 "0.5A" V 3050 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 2880 3750 50  0001 C CNN
+F 3 "~" H 2950 3750 50  0001 C CNN
+	1    2950 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Driver_LED:HV9922N8-G U1
+U 1 1 5AB106EF
+P 4300 3550
+F 0 "U1" H 4070 3596 50  0000 R CNN
+F 1 "HV9922N8-G" H 4070 3505 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 4350 3300 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005311A.pdf" H 4300 3550 50  0001 C CNN
+	1    4300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5AB108A3
+P 3850 2650
+F 0 "C1" H 3965 2696 50  0000 L CNN
+F 1 "100n/400Vdc" H 3965 2605 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L11.5mm_W8.8mm_P10.00mm_MKT" H 3888 2500 50  0001 C CNN
+F 3 "~" H 3850 2650 50  0001 C CNN
+	1    3850 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2650 2650 3350
+Wire Wire Line
+	2950 2350 3850 2350
+Wire Wire Line
+	3850 2350 3850 2500
+Wire Wire Line
+	2650 3350 2450 3350
+Wire Wire Line
+	3100 3750 3250 3750
+Wire Wire Line
+	2800 3750 2450 3750
+$Comp
+L power:GND #PWR0101
+U 1 1 5AB10E7F
+P 2950 2950
+F 0 "#PWR0101" H 2950 2700 50  0001 C CNN
+F 1 "GND" H 3050 2850 50  0000 C CNN
+F 2 "" H 2950 2950 50  0001 C CNN
+F 3 "" H 2950 2950 50  0001 C CNN
+	1    2950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5AB11045
+P 3850 2800
+F 0 "#PWR0102" H 3850 2550 50  0001 C CNN
+F 1 "GND" H 3950 2700 50  0000 C CNN
+F 2 "" H 3850 2800 50  0001 C CNN
+F 3 "" H 3850 2800 50  0001 C CNN
+	1    3850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5AB110F3
+P 4300 3850
+F 0 "#PWR0103" H 4300 3600 50  0001 C CNN
+F 1 "GND" H 4400 3750 50  0000 C CNN
+F 2 "" H 4300 3850 50  0001 C CNN
+F 3 "" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5AB11181
+P 4550 3200
+F 0 "C2" V 4298 3200 50  0000 C CNN
+F 1 "0.1u" V 4389 3200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4588 3050 50  0001 C CNN
+F 3 "~" H 4550 3200 50  0001 C CNN
+	1    4550 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 3250 4300 3200
+Wire Wire Line
+	4300 3200 4400 3200
+$Comp
+L power:GND #PWR0104
+U 1 1 5AB11377
+P 4700 3200
+F 0 "#PWR0104" H 4700 2950 50  0001 C CNN
+F 1 "GND" H 4800 3100 50  0000 C CNN
+F 2 "" H 4700 3200 50  0001 C CNN
+F 3 "" H 4700 3200 50  0001 C CNN
+	1    4700 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L1
+U 1 1 5AB11651
+P 5650 3250
+F 0 "L1" H 5737 3296 50  0000 L CNN
+F 1 "39mH" H 5737 3205 50  0000 L CNN
+F 2 "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Neosid_SD12k_style2" H 5650 3250 50  0001 C CNN
+F 3 "~" H 5650 3250 50  0001 C CNN
+	1    5650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 5AB11778
+P 5050 2600
+F 0 "D2" V 5004 2679 50  0000 L CNN
+F 1 "MUR160" V 5095 2679 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5050 2600 50  0001 C CNN
+F 3 "~" H 5050 2600 50  0001 C CNN
+	1    5050 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5AB11861
+P 5650 2600
+F 0 "C3" H 5765 2646 50  0000 L CNN
+F 1 "10n/100Vdc" H 5765 2555 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5688 2450 50  0001 C CNN
+F 3 "~" H 5650 2600 50  0001 C CNN
+	1    5650 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2350 5050 2350
+Wire Wire Line
+	5050 2350 5050 2450
+Connection ~ 3850 2350
+Wire Wire Line
+	5050 2350 5650 2350
+Wire Wire Line
+	5650 2350 5650 2450
+Connection ~ 5050 2350
+Wire Wire Line
+	4600 3550 5050 3550
+Wire Wire Line
+	5050 3550 5050 2750
+Wire Wire Line
+	5650 2750 5650 2900
+Wire Wire Line
+	5650 3400 5650 3550
+Wire Wire Line
+	5650 3550 5050 3550
+Connection ~ 5050 3550
+Wire Wire Line
+	5650 2350 6300 2350
+Connection ~ 5650 2350
+Wire Wire Line
+	5650 2900 6300 2900
+Connection ~ 5650 2900
+Wire Wire Line
+	5650 2900 5650 3100
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5AB12411
+P 2250 3350
+F 0 "J1" H 2170 3125 50  0000 C CNN
+F 1 "AC_IN" H 2170 3216 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 3350 50  0001 C CNN
+F 3 "~" H 2250 3350 50  0001 C CNN
+	1    2250 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5AB126AD
+P 2250 3750
+F 0 "J2" H 2170 3525 50  0000 C CNN
+F 1 "AC_IN" H 2170 3616 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2250 3750 50  0001 C CNN
+F 3 "~" H 2250 3750 50  0001 C CNN
+	1    2250 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5AB126E3
+P 6500 2350
+F 0 "J3" H 6579 2392 50  0000 L CNN
+F 1 "LED+" H 6579 2301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6500 2350 50  0001 C CNN
+F 3 "~" H 6500 2350 50  0001 C CNN
+	1    6500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5AB12783
+P 6500 2900
+F 0 "J4" H 6579 2942 50  0000 L CNN
+F 1 "LED-" H 6579 2851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6500 2900 50  0001 C CNN
+F 3 "~" H 6500 2900 50  0001 C CNN
+	1    6500 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2650 3250 3750
+$EndSCHEMATC
