@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:buck_led_driver-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -18,12 +17,12 @@ $Comp
 L Diode_Bridge:MB6S D1
 U 1 1 5AB0FC3F
 P 2950 2650
-F 0 "D1" V 3250 2300 50  0000 L CNN
-F 1 "MB10S" V 3150 2250 50  0000 L CNN
+F 0 "D1" V 3250 3000 50  0000 L CNN
+F 1 "MB10S" V 3150 2900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-269AA" H 3100 2775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 2950 2650 50  0001 C CNN
 	1    2950 2650
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Fuse F1
@@ -59,17 +58,11 @@ F 3 "~" H 3850 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 2650 2650 3350
-Wire Wire Line
 	2950 2350 3850 2350
 Wire Wire Line
 	3850 2350 3850 2500
 Wire Wire Line
 	2650 3350 2450 3350
-Wire Wire Line
-	3100 3750 3250 3750
-Wire Wire Line
-	2800 3750 2450 3750
 $Comp
 L power:GND #PWR0101
 U 1 1 5AB10E7F
@@ -237,4 +230,10 @@ F 3 "~" H 6500 2900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 2650 3250 3750
+Wire Wire Line
+	2800 3750 2450 3750
+Wire Wire Line
+	3100 3750 3250 3750
+Wire Wire Line
+	2650 2650 2650 3350
 $EndSCHEMATC
