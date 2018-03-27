@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "HV LED Driver"
 Date ""
-Rev ""
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -127,7 +127,7 @@ L Device:L_Core_Ferrite L1
 U 1 1 5AB11651
 P 5650 3250
 F 0 "L1" H 5737 3296 50  0000 L CNN
-F 1 "39mH" H 5737 3205 50  0000 L CNN
+F 1 "22m" H 5737 3205 50  0000 L CNN
 F 2 "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Neosid_SD12k_style2" H 5650 3250 50  0001 C CNN
 F 3 "~" H 5650 3250 50  0001 C CNN
 	1    5650 3250
