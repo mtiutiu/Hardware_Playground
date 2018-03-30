@@ -1,0 +1,686 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "LM317 Adjustable Power Supply 1.25-30V/5A"
+Date ""
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LM317_3PinPackage U1
+U 1 1 5ABE2164
+P 2150 5700
+F 0 "U1" H 2150 5942 50  0000 C CNN
+F 1 "LM317" H 2150 5851 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal" H 2150 5950 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 2150 5700 50  0001 C CNN
+	1    2150 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5ABE22AE
+P 2850 5850
+F 0 "R2" H 2909 5896 50  0000 L CNN
+F 1 "120" H 2909 5805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2850 5850 50  0001 C CNN
+F 3 "~" H 2850 5850 50  0001 C CNN
+	1    2850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C7
+U 1 1 5ABE236F
+P 3450 2250
+F 0 "C7" H 3541 2296 50  0000 L CNN
+F 1 "3300u/50V" H 3541 2205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 3450 2250 50  0001 C CNN
+F 3 "~" H 3450 2250 50  0001 C CNN
+	1    3450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_Bridge:GBU8M D2
+U 1 1 5ABE3A6F
+P 2350 2100
+F 0 "D2" H 2300 2650 50  0000 L CNN
+F 1 "GBU8M" H 2250 2550 50  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Vishay_GBU" H 2500 2225 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/88656/gbu8a.pdf" H 2350 2100 50  0001 C CNN
+	1    2350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:TIP41C_Obsolete Q1
+U 1 1 5ABE3D63
+P 1650 4850
+F 0 "Q1" V 1550 4550 60  0000 C CNN
+F 1 "TIP41C" V 1450 4550 60  0000 C CNN
+F 2 "digikey_footprints.pretty:TO-220-3" H 1850 5050 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/TI/TIP41B.pdf" H 1850 5150 60  0001 L CNN
+F 4 "TIP41C-ND" H 1850 5250 60  0001 L CNN "Digi-Key_PN"
+F 5 "TIP41C" H 1850 5350 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 1850 5450 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 1850 5550 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/TI/TIP41B.pdf" H 1850 5650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/TIP41C/TIP41C-ND/1052519" H 1850 5750 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 100V 6A TO-220" H 1850 5850 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 1850 5950 60  0001 L CNN "Manufacturer"
+F 12 "Obsolete NonStock" H 1850 6050 60  0001 L CNN "Status"
+	1    1650 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5ABE3EFE
+P 2850 6050
+F 0 "R3" H 2909 6096 50  0000 L CNN
+F 1 "120" H 2909 6005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 2850 6050 50  0001 C CNN
+F 3 "~" H 2850 6050 50  0001 C CNN
+	1    2850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C9
+U 1 1 5ABE4078
+P 4700 2250
+F 0 "C9" H 4791 2296 50  0000 L CNN
+F 1 "3300u/50V" H 4791 2205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 4700 2250 50  0001 C CNN
+F 3 "~" H 4700 2250 50  0001 C CNN
+	1    4700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5ABE431A
+P 5350 2250
+F 0 "C11" H 5441 2296 50  0000 L CNN
+F 1 "0.1u/63V" H 5441 2205 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5350 2250 50  0001 C CNN
+F 3 "~" H 5350 2250 50  0001 C CNN
+	1    5350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C12
+U 1 1 5ABE4458
+P 5550 5150
+F 0 "C12" H 5641 5196 50  0000 L CNN
+F 1 "1000u/50V" H 5641 5105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 5550 5150 50  0001 C CNN
+F 3 "~" H 5550 5150 50  0001 C CNN
+	1    5550 5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4007 D3
+U 1 1 5ABE4782
+P 3250 5950
+F 0 "D3" H 3250 6166 50  0000 C CNN
+F 1 "1N4007" H 3250 6075 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3250 5775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3250 5950 50  0001 C CNN
+	1    3250 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4007 D1
+U 1 1 5ABE48D5
+P 1500 4150
+F 0 "D1" H 1500 4366 50  0000 C CNN
+F 1 "MUR420" H 1500 4275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 1500 3975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1500 4150 50  0001 C CNN
+	1    1500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5ABE4B5C
+P 1950 4300
+F 0 "R1" H 2009 4346 50  0000 L CNN
+F 1 "0.12/5W" H 2009 4255 50  0000 L CNN
+F 2 "Resistor_THT:R_Radial_Power_L9.0mm_W10.0mm_Px2.70mm_Py2.30mm" H 1950 4300 50  0001 C CNN
+F 3 "~" H 1950 4300 50  0001 C CNN
+	1    1950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5ABE626A
+P 1900 1900
+F 0 "C1" H 1992 1946 50  0000 L CNN
+F 1 "0.1u/63V" H 1992 1855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1900 1900 50  0001 C CNN
+F 3 "~" H 1900 1900 50  0001 C CNN
+	1    1900 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5ABE649A
+P 2800 1900
+F 0 "C3" H 2891 1946 50  0000 L CNN
+F 1 "0.1u/63V" H 2891 1855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 2800 1900 50  0001 C CNN
+F 3 "~" H 2800 1900 50  0001 C CNN
+	1    2800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5ABE65EB
+P 2800 2300
+F 0 "C4" H 2891 2346 50  0000 L CNN
+F 1 "0.1u/63V" H 2891 2255 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 2800 2300 50  0001 C CNN
+F 3 "~" H 2800 2300 50  0001 C CNN
+	1    2800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5ABE6633
+P 1900 2300
+F 0 "C2" H 1992 2346 50  0000 L CNN
+F 1 "0.1u/63V" H 1992 2255 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1900 2300 50  0001 C CNN
+F 3 "~" H 1900 2300 50  0001 C CNN
+	1    1900 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2000 2800 2100
+Wire Wire Line
+	2650 2100 2800 2100
+Connection ~ 2800 2100
+Wire Wire Line
+	2800 2100 2800 2200
+Wire Wire Line
+	1900 2000 1900 2100
+Wire Wire Line
+	2050 2100 1900 2100
+Connection ~ 1900 2100
+Wire Wire Line
+	1900 2100 1900 2200
+Wire Wire Line
+	1900 2400 2350 2400
+Wire Wire Line
+	2350 2400 2800 2400
+Connection ~ 2350 2400
+Wire Wire Line
+	2800 1800 2350 1800
+Wire Wire Line
+	1900 1800 2350 1800
+Connection ~ 2350 1800
+$Comp
+L Connector_Specialized:Screw_Terminal_01x02 J1
+U 1 1 5ABE6A44
+P 1200 2050
+F 0 "J1" H 1280 2042 50  0000 L CNN
+F 1 "TR(24Vac)" H 1280 1951 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 1200 2050 50  0001 C CNN
+F 3 "~" H 1200 2050 50  0001 C CNN
+	1    1200 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1800 1400 1800
+Wire Wire Line
+	1400 1800 1400 2050
+Connection ~ 1900 1800
+Wire Wire Line
+	1400 2150 1400 2400
+Wire Wire Line
+	1400 2400 1900 2400
+Connection ~ 1900 2400
+$Comp
+L power:GND #PWR0101
+U 1 1 5ABE7AB0
+P 1800 2100
+F 0 "#PWR0101" H 1800 1850 50  0001 C CNN
+F 1 "GND" V 1805 1972 50  0000 R CNN
+F 2 "" H 1800 2100 50  0001 C CNN
+F 3 "" H 1800 2100 50  0001 C CNN
+	1    1800 2100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1900 2100 1800 2100
+$Comp
+L Device:C_Small C8
+U 1 1 5ABE7F2C
+P 4100 2250
+F 0 "C8" H 4191 2296 50  0000 L CNN
+F 1 "0.1u/63V" H 4191 2205 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4100 2250 50  0001 C CNN
+F 3 "~" H 4100 2250 50  0001 C CNN
+	1    4100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2100 3450 2100
+Wire Wire Line
+	3450 2100 3450 2150
+Wire Wire Line
+	3450 2100 4100 2100
+Wire Wire Line
+	4100 2100 4100 2150
+Connection ~ 3450 2100
+Wire Wire Line
+	4100 2100 4700 2100
+Wire Wire Line
+	4700 2100 4700 2150
+Connection ~ 4100 2100
+Wire Wire Line
+	4700 2100 5350 2100
+Wire Wire Line
+	5350 2100 5350 2150
+Connection ~ 4700 2100
+$Comp
+L power:GND #PWR0102
+U 1 1 5ABE910C
+P 3450 2350
+F 0 "#PWR0102" H 3450 2100 50  0001 C CNN
+F 1 "GND" H 3455 2177 50  0000 C CNN
+F 2 "" H 3450 2350 50  0001 C CNN
+F 3 "" H 3450 2350 50  0001 C CNN
+	1    3450 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5ABE9150
+P 4100 2350
+F 0 "#PWR0103" H 4100 2100 50  0001 C CNN
+F 1 "GND" H 4105 2177 50  0000 C CNN
+F 2 "" H 4100 2350 50  0001 C CNN
+F 3 "" H 4100 2350 50  0001 C CNN
+	1    4100 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5ABE9181
+P 4700 2350
+F 0 "#PWR0104" H 4700 2100 50  0001 C CNN
+F 1 "GND" H 4705 2177 50  0000 C CNN
+F 2 "" H 4700 2350 50  0001 C CNN
+F 3 "" H 4700 2350 50  0001 C CNN
+	1    4700 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5ABE91B2
+P 5350 2350
+F 0 "#PWR0105" H 5350 2100 50  0001 C CNN
+F 1 "GND" H 5355 2177 50  0000 C CNN
+F 2 "" H 5350 2350 50  0001 C CNN
+F 3 "" H 5350 2350 50  0001 C CNN
+	1    5350 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:POT RV1
+U 1 1 5ABE96AF
+P 2150 6400
+F 0 "RV1" H 2080 6446 50  0000 R CNN
+F 1 "5K" H 2080 6355 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2150 6400 50  0001 C CNN
+F 3 "~" H 2150 6400 50  0001 C CNN
+	1    2150 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:POT RV2
+U 1 1 5ABE985A
+P 2400 6800
+F 0 "RV2" H 2330 6846 50  0000 R CNN
+F 1 "500" H 2330 6755 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2400 6800 50  0001 C CNN
+F 3 "~" H 2400 6800 50  0001 C CNN
+	1    2400 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5ABEA4C4
+P 2850 6350
+F 0 "C5" H 2600 6350 50  0000 L CNN
+F 1 "0.1u/63V" H 2450 6250 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 2850 6350 50  0001 C CNN
+F 3 "~" H 2850 6350 50  0001 C CNN
+	1    2850 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6400 2400 6400
+Wire Wire Line
+	2400 6400 2400 6650
+Wire Wire Line
+	2150 6250 2150 6200
+NoConn ~ 2150 6550
+$Comp
+L power:GND #PWR0106
+U 1 1 5ABEB2A7
+P 2550 6950
+F 0 "#PWR0106" H 2550 6700 50  0001 C CNN
+F 1 "GND" H 2555 6777 50  0000 C CNN
+F 2 "" H 2550 6950 50  0001 C CNN
+F 3 "" H 2550 6950 50  0001 C CNN
+	1    2550 6950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2400 6950
+Wire Wire Line
+	2550 6800 2550 6950
+Wire Wire Line
+	2150 6200 2850 6200
+Wire Wire Line
+	2850 6200 2850 6250
+Connection ~ 2150 6200
+Wire Wire Line
+	2150 6200 2150 6000
+$Comp
+L power:GND #PWR0107
+U 1 1 5ABEC6C2
+P 2850 6500
+F 0 "#PWR0107" H 2850 6250 50  0001 C CNN
+F 1 "GND" H 2855 6327 50  0000 C CNN
+F 2 "" H 2850 6500 50  0001 C CNN
+F 3 "" H 2850 6500 50  0001 C CNN
+	1    2850 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5700 2850 5700
+Wire Wire Line
+	2850 5700 2850 5750
+Wire Wire Line
+	2850 6150 2850 6200
+Connection ~ 2850 6200
+Wire Wire Line
+	2850 5700 3250 5700
+Wire Wire Line
+	3250 5700 3250 5800
+Connection ~ 2850 5700
+Wire Wire Line
+	3250 6100 3250 6200
+Wire Wire Line
+	3250 6200 2850 6200
+$Comp
+L Device:CP1_Small C6
+U 1 1 5ABEE831
+P 3250 6400
+F 0 "C6" H 3341 6446 50  0000 L CNN
+F 1 "150u/50V" H 3341 6355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 3250 6400 50  0001 C CNN
+F 3 "~" H 3250 6400 50  0001 C CNN
+	1    3250 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5ABEEA3B
+P 3250 6500
+F 0 "#PWR0108" H 3250 6250 50  0001 C CNN
+F 1 "GND" H 3255 6327 50  0000 C CNN
+F 2 "" H 3250 6500 50  0001 C CNN
+F 3 "" H 3250 6500 50  0001 C CNN
+	1    3250 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 6300 3250 6200
+Connection ~ 3250 6200
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:TIP41C_Obsolete Q2
+U 1 1 5ABEF95B
+P 2650 4850
+F 0 "Q2" V 2550 5100 60  0000 C CNN
+F 1 "TIP41C" V 2450 5100 60  0000 C CNN
+F 2 "digikey_footprints.pretty:TO-220-3" H 2850 5050 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/TI/TIP41B.pdf" H 2850 5150 60  0001 L CNN
+F 4 "TIP41C-ND" H 2850 5250 60  0001 L CNN "Digi-Key_PN"
+F 5 "TIP41C" H 2850 5350 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2850 5450 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 2850 5550 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/TI/TIP41B.pdf" H 2850 5650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/TIP41C/TIP41C-ND/1052519" H 2850 5750 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 100V 6A TO-220" H 2850 5850 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 2850 5950 60  0001 L CNN "Manufacturer"
+F 12 "Obsolete NonStock" H 2850 6050 60  0001 L CNN "Status"
+	1    2650 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5ABEFA5A
+P 2950 4300
+F 0 "R4" H 3009 4346 50  0000 L CNN
+F 1 "0.12/5W" H 3009 4255 50  0000 L CNN
+F 2 "Resistor_THT:R_Radial_Power_L9.0mm_W10.0mm_Px2.70mm_Py2.30mm" H 2950 4300 50  0001 C CNN
+F 3 "~" H 2950 4300 50  0001 C CNN
+	1    2950 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4750 1950 4400
+Wire Wire Line
+	2950 4750 2950 4400
+Wire Wire Line
+	2650 5200 1650 5200
+Wire Wire Line
+	2350 4750 2350 4550
+Wire Wire Line
+	2350 4550 1350 4550
+Wire Wire Line
+	1350 4550 1350 4750
+Wire Wire Line
+	1950 4200 1950 4150
+Wire Wire Line
+	1950 4150 2950 4150
+Wire Wire Line
+	2950 4150 2950 4200
+Wire Wire Line
+	1950 4150 1650 4150
+Connection ~ 1950 4150
+Wire Wire Line
+	1350 4550 1350 4150
+Connection ~ 1350 4550
+Wire Wire Line
+	1850 5700 1350 5700
+Wire Wire Line
+	1350 5700 1350 4750
+Connection ~ 1350 4750
+Wire Wire Line
+	2650 5200 2850 5200
+Wire Wire Line
+	2850 5200 2850 5700
+Connection ~ 2650 5200
+Text Label 5750 2100 0    50   ~ 0
+V_REG_IN
+Wire Wire Line
+	5350 2100 5750 2100
+Connection ~ 5350 2100
+Wire Wire Line
+	1350 5700 1100 5700
+Connection ~ 1350 5700
+Text Label 1100 5700 2    50   ~ 0
+V_REG_IN
+Wire Notes Line
+	1400 4650 2900 4650
+Wire Notes Line
+	2900 4650 2900 5150
+Wire Notes Line
+	2900 5150 1400 5150
+Wire Notes Line
+	1400 5150 1400 4650
+Text Notes 3000 5150 1    50   ~ 0
+HEATSINK
+$Comp
+L Connector_Specialized:Screw_Terminal_01x02 J2
+U 1 1 5ABFBDFD
+P 3850 4150
+F 0 "J2" H 3930 4142 50  0000 L CNN
+F 1 "AMP_MEAS" H 3930 4051 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 3850 4150 50  0001 C CNN
+F 3 "~" H 3850 4150 50  0001 C CNN
+	1    3850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4150 2950 4150
+Connection ~ 2950 4150
+$Comp
+L Connector_Specialized:Screw_Terminal_01x02 J4
+U 1 1 5ABFE088
+P 6000 4900
+F 0 "J4" H 6080 4892 50  0000 L CNN
+F 1 "V_REG_OUT" H 6080 4801 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 6000 4900 50  0001 C CNN
+F 3 "~" H 6000 4900 50  0001 C CNN
+	1    6000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Screw_Terminal_01x02 J3
+U 1 1 5ABFE276
+P 3850 4900
+F 0 "J3" H 3930 4892 50  0000 L CNN
+F 1 "VOLT_MEAS" H 3930 4801 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 3850 4900 50  0001 C CNN
+F 3 "~" H 3850 4900 50  0001 C CNN
+	1    3850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4250 3650 4600
+$Comp
+L power:GND #PWR0109
+U 1 1 5ABFF4C9
+P 3650 5250
+F 0 "#PWR0109" H 3650 5000 50  0001 C CNN
+F 1 "GND" H 3655 5077 50  0000 C CNN
+F 2 "" H 3650 5250 50  0001 C CNN
+F 3 "" H 3650 5250 50  0001 C CNN
+	1    3650 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5000 3650 5250
+$Comp
+L power:GND #PWR0110
+U 1 1 5AC0067B
+P 5800 5250
+F 0 "#PWR0110" H 5800 5000 50  0001 C CNN
+F 1 "GND" H 5805 5077 50  0000 C CNN
+F 2 "" H 5800 5250 50  0001 C CNN
+F 3 "" H 5800 5250 50  0001 C CNN
+	1    5800 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5000 5800 5250
+Wire Wire Line
+	3650 4600 4850 4600
+Wire Wire Line
+	5800 4600 5800 4900
+Connection ~ 3650 4600
+Wire Wire Line
+	3650 4600 3650 4900
+$Comp
+L Device:C_Small C10
+U 1 1 5AC051A1
+P 4850 5150
+F 0 "C10" H 4600 5150 50  0000 L CNN
+F 1 "0.1u/63V" H 4450 5050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4850 5150 50  0001 C CNN
+F 3 "~" H 4850 5150 50  0001 C CNN
+	1    4850 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5050 4850 4600
+Connection ~ 4850 4600
+Wire Wire Line
+	4850 4600 5550 4600
+Wire Wire Line
+	5550 5050 5550 4600
+Connection ~ 5550 4600
+Wire Wire Line
+	5550 4600 5800 4600
+$Comp
+L power:GND #PWR0111
+U 1 1 5AC0A1C5
+P 5550 5250
+F 0 "#PWR0111" H 5550 5000 50  0001 C CNN
+F 1 "GND" H 5555 5077 50  0000 C CNN
+F 2 "" H 5550 5250 50  0001 C CNN
+F 3 "" H 5550 5250 50  0001 C CNN
+	1    5550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5AC0A208
+P 4850 5250
+F 0 "#PWR0112" H 4850 5000 50  0001 C CNN
+F 1 "GND" H 4855 5077 50  0000 C CNN
+F 2 "" H 4850 5250 50  0001 C CNN
+F 3 "" H 4850 5250 50  0001 C CNN
+	1    4850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6500 2850 6450
+$Comp
+L Device:LED D4
+U 1 1 5AC1A0A1
+P 9350 2250
+F 0 "D4" H 9342 1995 50  0000 C CNN
+F 1 "PWR_LED" H 9342 2086 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9350 2250 50  0001 C CNN
+F 3 "~" H 9350 2250 50  0001 C CNN
+	1    9350 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5AC1A3B0
+P 9900 2250
+F 0 "R5" V 10100 2250 50  0000 L CNN
+F 1 "6K8" V 10000 2200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9900 2250 50  0001 C CNN
+F 3 "~" H 9900 2250 50  0001 C CNN
+	1    9900 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 2250 9800 2250
+$Comp
+L power:GND #PWR0113
+U 1 1 5AC1BA38
+P 10000 2250
+F 0 "#PWR0113" H 10000 2000 50  0001 C CNN
+F 1 "GND" V 10005 2122 50  0000 R CNN
+F 2 "" H 10000 2250 50  0001 C CNN
+F 3 "" H 10000 2250 50  0001 C CNN
+	1    10000 2250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9200 2250 9050 2250
+Text Label 9050 2250 2    50   ~ 0
+V_REG_IN
+$EndSCHEMATC
