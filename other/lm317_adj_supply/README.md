@@ -2,7 +2,7 @@
 
 ##### 3D renderings of pcb
 
-Top view | Bottom view
------------- | -------------
+Top view |
+------------ |
 ![Alt text](3d/renderings/lm317_adj_supply_top.png?raw=true "top view")
 
