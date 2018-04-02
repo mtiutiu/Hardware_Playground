@@ -531,12 +531,12 @@ HEATSINK
 $Comp
 L Connector_Specialized:Screw_Terminal_01x02 J2
 U 1 1 5ABFBDFD
-P 3850 4150
-F 0 "J2" H 3930 4142 50  0000 L CNN
-F 1 "AMP_MEAS" H 3930 4051 50  0000 L CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 3850 4150 50  0001 C CNN
-F 3 "~" H 3850 4150 50  0001 C CNN
-	1    3850 4150
+P 6000 6000
+F 0 "J2" H 6080 5992 50  0000 L CNN
+F 1 "AMP_MEAS" H 6080 5901 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 6000 6000 50  0001 C CNN
+F 3 "~" H 6000 6000 50  0001 C CNN
+	1    6000 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -545,12 +545,12 @@ Connection ~ 2950 4150
 $Comp
 L Connector_Specialized:Screw_Terminal_01x02 J4
 U 1 1 5ABFE088
-P 6000 4900
-F 0 "J4" H 6080 4892 50  0000 L CNN
-F 1 "V_REG_OUT" H 6080 4801 50  0000 L CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 6000 4900 50  0001 C CNN
-F 3 "~" H 6000 4900 50  0001 C CNN
-	1    6000 4900
+P 6000 5000
+F 0 "J4" H 6080 4992 50  0000 L CNN
+F 1 "V_REG_OUT" H 6080 4901 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal" H 6000 5000 50  0001 C CNN
+F 3 "~" H 6000 5000 50  0001 C CNN
+	1    6000 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -565,7 +565,7 @@ F 3 "~" H 3850 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 4250 3650 4600
+	3650 4150 3650 4600
 $Comp
 L power:GND #PWR0109
 U 1 1 5ABFF4C9
@@ -579,23 +579,10 @@ F 3 "" H 3650 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 5000 3650 5250
-$Comp
-L power:GND #PWR0110
-U 1 1 5AC0067B
-P 5800 5250
-F 0 "#PWR0110" H 5800 5000 50  0001 C CNN
-F 1 "GND" H 5805 5077 50  0000 C CNN
-F 2 "" H 5800 5250 50  0001 C CNN
-F 3 "" H 5800 5250 50  0001 C CNN
-	1    5800 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 5000 5800 5250
 Wire Wire Line
 	3650 4600 4850 4600
 Wire Wire Line
-	5800 4600 5800 4900
+	5800 4600 5800 5000
 Connection ~ 3650 4600
 Wire Wire Line
 	3650 4600 3650 4900
@@ -683,4 +670,68 @@ Wire Wire Line
 	9200 2250 9050 2250
 Text Label 9050 2250 2    50   ~ 0
 V_REG_IN
+Wire Wire Line
+	3250 6200 4300 6200
+$Comp
+L power:GND #PWR01
+U 1 1 5AC214FC
+P 4300 7050
+F 0 "#PWR01" H 4300 6800 50  0001 C CNN
+F 1 "GND" H 4305 6877 50  0000 C CNN
+F 2 "" H 4300 7050 50  0001 C CNN
+F 3 "" H 4300 7050 50  0001 C CNN
+	1    4300 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5AC21A46
+P 4650 6900
+F 0 "R6" V 4750 6900 50  0000 L CNN
+F 1 "0.12/5W" V 4850 6800 50  0000 L CNN
+F 2 "Resistor_THT:R_Radial_Power_L9.0mm_W10.0mm_Px2.70mm_Py2.30mm" H 4650 6900 50  0001 C CNN
+F 3 "~" H 4650 6900 50  0001 C CNN
+	1    4650 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 6900 4300 6900
+Wire Wire Line
+	4300 6900 4300 7050
+Wire Wire Line
+	4750 6900 4950 6900
+Wire Wire Line
+	4950 6900 4950 6600
+Wire Wire Line
+	4950 6600 5800 6600
+Connection ~ 4950 6600
+Wire Wire Line
+	4750 6600 4950 6600
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:BC33725TA Q3
+U 1 1 5AC3233F
+P 4400 6600
+F 0 "Q3" H 4588 6653 60  0000 L CNN
+F 1 "BC337" H 4588 6547 60  0000 L CNN
+F 2 "digikey_footprints.pretty:TO-92-3_Formed_Leads" H 4600 6800 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/BC/BC337.pdf" H 4600 6900 60  0001 L CNN
+F 4 "BC33725TACT-ND" H 4600 7000 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC33725TA" H 4600 7100 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4600 7200 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 4600 7300 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/BC/BC337.pdf" H 4600 7400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/BC33725TA/BC33725TACT-ND/1532787" H 4600 7500 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 45V 0.8A TO-92" H 4600 7600 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 4600 7700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4600 7800 60  0001 L CNN "Status"
+	1    4400 6600
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4300 6900
+Wire Wire Line
+	4300 6300 4300 6200
+Wire Wire Line
+	5800 6000 5800 5100
+Wire Wire Line
+	5800 6100 5800 6600
 $EndSCHEMATC
