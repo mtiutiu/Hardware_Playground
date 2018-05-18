@@ -1009,7 +1009,7 @@
       (net 2 +3V3))
     (pad 1 smd rect (at -1.25 0 270) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.stp
+    (model ${KIPRJMOD}/shapes3D/C_0805.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1045,7 +1045,7 @@
       (net 3 +5V))
     (pad 1 smd rect (at -1.25 0) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.stp
+    (model ${KIPRJMOD}/shapes3D/C_0805.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1159,7 +1159,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 1.25 0 90) (size 1.5 1.25) (layers F.Cu F.Paste F.Mask)
       (net 2 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0805.stp
+    (model ${KIPRJMOD}/shapes3D/C_0805.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1652,7 +1652,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.25 0 180) (size 1.5 1.25) (layers B.Cu B.Paste B.Mask)
       (net 2 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0805.stp
+    (model ${KIPRJMOD}/shapes3D/C_0805.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

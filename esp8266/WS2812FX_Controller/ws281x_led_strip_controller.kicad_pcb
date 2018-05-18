@@ -827,7 +827,7 @@
       (net 4 /RESET))
     (pad 2 smd rect (at 0.95 0 90) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -863,7 +863,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 2 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

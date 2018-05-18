@@ -674,7 +674,7 @@
       (net 3 +3V3))
     (pad 6 thru_hole oval (at 0 12.7 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x06_Pitch2.54mm.stp
+    (model ${KIPRJMOD}/shapes3D/Pin_Header_Straight_1x06_Pitch2.54mm.stp
       (offset (xyz 0 -6.349999904632568 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -707,7 +707,7 @@
       (net 35 "Net-(R1-Pad1)"))
     (pad 2 smd rect (at 1.1 0) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 26 "Net-(JP1-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -770,7 +770,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(C1-Pad1)"))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -803,7 +803,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.95 0 90) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -836,7 +836,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -869,7 +869,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0 270) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -902,7 +902,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -935,7 +935,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.95 0 270) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -968,7 +968,7 @@
       (net 4 /PCM5100_OUTL))
     (pad 1 smd rect (at -0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1001,7 +1001,7 @@
       (net 5 /PCM5100_OUTR))
     (pad 1 smd rect (at -0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1034,7 +1034,7 @@
       (net 6 "Net-(C9-Pad1)"))
     (pad 2 smd rect (at 0.95 0 270) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(C9-Pad2)"))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1067,7 +1067,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.25 0 270) (size 1.5 1.25) (layers B.Cu B.Paste B.Mask)
       (net 3 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0805_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0805_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1100,7 +1100,7 @@
       (net 8 "Net-(C11-Pad1)"))
     (pad 2 smd rect (at 0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 9 "Net-(C11-Pad2)"))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1133,7 +1133,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1166,7 +1166,7 @@
       (net 3 +3V3))
     (pad 2 smd rect (at 0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1199,7 +1199,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(C14-Pad1)"))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1232,7 +1232,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1265,7 +1265,7 @@
       (net 11 "Net-(C16-Pad2)"))
     (pad 1 smd rect (at -0.95 0 180) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1298,7 +1298,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1331,7 +1331,7 @@
       (net 12 "Net-(C18-Pad2)"))
     (pad 1 smd rect (at -0.95 0 90) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 13 "Net-(C18-Pad1)"))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1364,7 +1364,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.95 0 90) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1397,7 +1397,7 @@
       (net 14 "Net-(C20-Pad1)"))
     (pad 2 smd rect (at 0.95 0) (size 1.2 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/C_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1473,7 +1473,7 @@
       (net 17 /BTN1))
     (pad 4 thru_hole oval (at 7.62 0 90) (size 1.99898 1.99898) (drill 1.09728) (layers *.Cu *.Mask)
       (net 18 /BTN4))
-    (model Terminal_Blocks.3dshapes/TerminalBlock_Pheonix_MPT-2.54mm_4pol.stp
+    (model ${KIPRJMOD}/shapes3D/TerminalBlock_Pheonix_MPT-2.54mm_4pol.stp
       (offset (xyz 3.809999942779541 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1510,7 +1510,7 @@
       (net 20 /BTN5))
     (pad 3 thru_hole oval (at 5.08 0 90) (size 1.99898 1.99898) (drill 1.09728) (layers *.Cu *.Mask)
       (net 21 /BTN7))
-    (model Terminal_Blocks.3dshapes/TerminalBlock_Pheonix_MPT-2.54mm_3pol.stp
+    (model ${KIPRJMOD}/shapes3D/TerminalBlock_Pheonix_MPT-2.54mm_3pol.stp
       (offset (xyz 2.539999961853027 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1550,7 +1550,7 @@
       (net 24 /BTN9))
     (pad 3 thru_hole oval (at 5.08 0) (size 1.99898 1.99898) (drill 1.09728) (layers *.Cu *.Mask)
       (net 25 /BTN10))
-    (model Terminal_Blocks.3dshapes/TerminalBlock_Pheonix_MPT-2.54mm_4pol.stp
+    (model ${KIPRJMOD}/shapes3D/TerminalBlock_Pheonix_MPT-2.54mm_4pol.stp
       (offset (xyz 3.809999942779541 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1583,7 +1583,7 @@
       (net 26 "Net-(JP1-Pad1)"))
     (pad 2 smd rect (at 1.1 0 180) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1616,7 +1616,7 @@
       (net 26 "Net-(JP1-Pad1)"))
     (pad 1 smd rect (at -1.1 0 180) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1649,7 +1649,7 @@
       (net 31 "Net-(P2-Pad1)"))
     (pad 2 thru_hole oval (at 0 2.54) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask)
       (net 32 "Net-(P2-Pad2)"))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.stp
+    (model ${KIPRJMOD}/shapes3D/Pin_Header_Straight_1x02.stp
       (offset (xyz 0 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1682,7 +1682,7 @@
       (net 33 "Net-(P3-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask)
       (net 34 "Net-(P3-Pad1)"))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.stp
+    (model ${KIPRJMOD}/shapes3D/Pin_Header_Straight_1x02.stp
       (offset (xyz 0 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1824,7 +1824,7 @@
     (pad 3 smd rect (at -5.7 -2.75) (size 1 0.25) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at -5.7 -3.25) (size 1 0.25) (layers F.Cu F.Paste F.Mask))
     (pad 1 smd rect (at -5.7 -3.75) (size 1 0.25) (layers F.Cu F.Paste F.Mask))
-    (model Housings_QFP.3dshapes/LQFP-64_10x10mm_Pitch0.5mm.stp
+    (model ${KIPRJMOD}/shapes3D/LQFP-64_10x10mm_Pitch0.5mm.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2107,7 +2107,7 @@
       (net 3 +3V3))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 30 /nRST))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2140,7 +2140,7 @@
       (net 36 "Net-(R3-Pad1)"))
     (pad 2 smd rect (at 1.1 0 180) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 4 /PCM5100_OUTL))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2173,7 +2173,7 @@
       (net 5 /PCM5100_OUTR))
     (pad 1 smd rect (at -1.1 0 180) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 37 "Net-(R4-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2206,7 +2206,7 @@
       (net 6 "Net-(C9-Pad1)"))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 38 "Net-(R5-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2239,7 +2239,7 @@
       (net 12 "Net-(C18-Pad2)"))
     (pad 2 smd rect (at 1.1 0 270) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(R6-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0603_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2275,7 +2275,7 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 3 +3V3))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.stp
+    (model ${KIPRJMOD}/shapes3D/Pin_Header_Straight_1x02_Pitch2.54mm.stp
       (offset (xyz 0 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
