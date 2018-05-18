@@ -1,9 +1,6 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-541b91f~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc1-44a33f2~62~ubuntu16.04.1)
 
   (general
-    (links 126)
-    (no_connects 0)
-    (area 91.888072 75.1552 153.094929 102.3955)
     (thickness 1.6)
     (drawings 19)
     (tracks 401)
@@ -66,6 +63,9 @@
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -638,7 +638,7 @@
       (net 2 GND))
     (pad "" np_thru_hole circle (at 8.1 0 270) (size 1.98 1.98) (drill 1.98) (layers *.Cu Dwgs.User))
     (model ${KISYS3DMOD}/Battery_Holders.3dshapes/cr123_holder.stp
-      (at (xyz 0 0 0.07874015748031496))
+      (offset (xyz 0 0 1.999999969963014))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1393,7 +1393,7 @@
     (pad 16 smd rect (at 18.3 0) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(U2-Pad16)"))
     (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69W.stp
-      (at (xyz 0.6692913385826772 -0.5511811023622047 0))
+      (offset (xyz 16.99999974468562 -13.9999997897411 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

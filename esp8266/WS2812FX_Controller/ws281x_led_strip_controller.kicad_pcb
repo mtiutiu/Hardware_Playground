@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170922) (host pcbnew "(2017-11-08 revision cd21218)-HEAD")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc1-44a33f2~62~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -935,7 +935,7 @@
     (pad 1 smd rect (at -3.39852 0 270) (size 1.99898 3.19786) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(C6-Pad1)"))
     (model ${KISYS3DMOD}/DO_Packages_SMD.3dshapes/DO-214AB.stp
-      (at (xyz -0.1377952755905512 0 0))
+      (offset (xyz -3.499999947435274 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1348,7 +1348,7 @@
     (pad 1 smd rect (at 0 0 90) (size 2.4 1.1) (layers F.Cu F.Paste F.Mask)
       (net 4 /RESET))
     (model ${KISYS3DMOD}/Radio_Modules.3dshapes/esp12-e.stp
-      (at (xyz 0.03937007874015748 0 0))
+      (offset (xyz 0.9999999849815068 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

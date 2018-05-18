@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170922) (host pcbnew "(2017-11-08 revision cd21218)-HEAD")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc1-44a33f2~62~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -3999,7 +3999,7 @@
     (pad 3 thru_hole circle (at 9.555136 -11.947976 270) (size 4.2 4.2) (drill 2.2) (layers *.Cu *.Mask)
       (net 15 /REL3))
     (model /home/mtiutiu/Work/KiCAD_Playground/libraries/freecad/src/relay/sla-5vdc-sl-a.step
-      (at (xyz 0.01968503937007874 -0.05905511811023623 0))
+      (offset (xyz 0.4999999924907534 -1.49999997747226 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 90))
     )
@@ -4570,7 +4570,7 @@
     (pad 3 thru_hole circle (at 10 0 90) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 16 /REL1))
     (model ${KISYS3DMOD}/Terminal_Block_Packages.3dshapes/DG301-5.0-03.stp
-      (at (xyz 0.1968503937007874 0 0))
+      (offset (xyz 4.999999924907534 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

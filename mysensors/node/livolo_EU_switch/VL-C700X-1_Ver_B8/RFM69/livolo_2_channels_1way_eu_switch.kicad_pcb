@@ -1,9 +1,6 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-d4e41c4~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc1-44a33f2~62~ubuntu16.04.1)
 
   (general
-    (links 114)
-    (no_connects 0)
-    (area 119.3 69.838356 165.751372 114.1477)
     (thickness 1.6)
     (drawings 31)
     (tracks 607)
@@ -66,6 +63,9 @@
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -1164,7 +1164,7 @@
     (pad 1 smd rect (at -2 0 180) (size 3 1.5) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(C9-Pad2)"))
     (model ${KISYS3DMOD}/SM_Packages_SMD.3dshapes/SMA.stp
-      (at (xyz -0.01968503937007874 0 0))
+      (offset (xyz -0.4999999924907534 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )

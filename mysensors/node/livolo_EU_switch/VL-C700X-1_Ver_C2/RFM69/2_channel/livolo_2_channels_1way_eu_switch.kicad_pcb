@@ -1,9 +1,6 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-1848834~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc1-44a33f2~62~ubuntu16.04.1)
 
   (general
-    (links 114)
-    (no_connects 0)
-    (area 119.6 70 165.400001 113.934921)
     (thickness 1.6)
     (drawings 35)
     (tracks 563)
@@ -66,6 +63,9 @@
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -2249,7 +2249,7 @@
     (pad 2 thru_hole oval (at 2 0 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 9 /12Vcc))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Female/female_header_2row_14pins_2mm.step
+    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Female/female_header_2row_14pins_2mm.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

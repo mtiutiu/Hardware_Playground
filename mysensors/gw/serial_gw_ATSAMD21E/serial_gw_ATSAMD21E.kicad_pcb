@@ -1,9 +1,6 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-44b118f~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc1-44a33f2~62~ubuntu16.04.1)
 
   (general
-    (links 135)
-    (no_connects 0)
-    (area 104.524999 77.139285 143.7805 109.148809)
     (thickness 1.6)
     (drawings 14)
     (tracks 399)
@@ -66,6 +63,9 @@
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -192,7 +192,7 @@
     (pad 5 thru_hole circle (at -3.55514 2.66488 180) (size 2.99974 2.99974) (drill 2.30124) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Connectors_Other.3dshapes/usb_A_male_tht.stp
-      (at (xyz 0.2755905511811024 -0.01181102362204724 -0.01181102362204724))
+      (offset (xyz 6.999999894870548 -0.2999999954944519 -0.2999999954944519))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
     )
@@ -1770,7 +1770,7 @@
     (pad 1 smd rect (at -1.48 -1.5) (size 1 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
     (model TO_SOT_Packages_SMD.3dshapes/SOT89-3_Housing.stp
-      (at (xyz 0.02 0 0))
+      (offset (xyz 0.5079999923706054 0 0))
       (scale (xyz 0.39 0.39 0.39))
       (rotate (xyz 0 0 90))
     )

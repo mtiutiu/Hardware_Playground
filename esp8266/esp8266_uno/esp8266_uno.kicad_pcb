@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170922) (host pcbnew "(2017-11-08 revision cd21218)-HEAD")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc1-44a33f2~62~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -186,7 +186,7 @@
     (pad 1 smd rect (at -3.39852 0 180) (size 1.99898 3.19786) (layers F.Cu F.Paste F.Mask)
       (net 10 +5V))
     (model ${KISYS3DMOD}/DO_Packages_SMD.3dshapes/DO-214AB.stp
-      (at (xyz 0.1279527559055118 0 0))
+      (offset (xyz 3.249999951189897 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
@@ -261,7 +261,7 @@
     (pad PAD smd rect (at 10.12 -6.58 90) (size 4.3 4.3) (layers B.Cu B.Paste B.Mask)
       (net 3 GND))
     (model ${KISYS3DMOD}/Radio_Modules.3dshapes/ESP-WROOM-02.step
-      (at (xyz 0.3543307086614174 -0.2460629921259843 0))
+      (offset (xyz 8.999999864833564 -6.249999906134419 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -326,7 +326,7 @@
     (pad 1 smd rect (at 0 0 270) (size 2.4 1.1) (layers F.Cu F.Paste F.Mask)
       (net 7 /RESET))
     (model ${KISYS3DMOD}/Radio_Modules.3dshapes/esp12-e.stp
-      (at (xyz 0.03937007874015748 0 0))
+      (offset (xyz 0.9999999849815068 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -374,7 +374,7 @@
     (pad 3 thru_hole rect (at -3 4.7) (size 3.5 3.5) (drill oval 3 1) (layers *.Cu *.Mask)
       (net 3 GND))
     (model ${KISYS3DMOD}/Connectors_Other.3dshapes/power_jack.stp
-      (at (xyz -0.3149606299212598 0 0.2559055118110236))
+      (offset (xyz -7.999999879852053 0 6.499999902379794))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
@@ -533,7 +533,7 @@
     (pad 5 thru_hole circle (at 4.7 -4.73 90) (size 2.7 2.7) (drill 2.3) (layers *.Cu *.Mask)
       (net 3 GND))
     (model ${KISYS3DMOD}/Connectors_Other.3dshapes/usb_b.stp
-      (at (xyz 0.2755905511811024 -0.04921259842519685 0.2165354330708661))
+      (offset (xyz 6.999999894870548 -1.249999981226884 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 -90))
     )
