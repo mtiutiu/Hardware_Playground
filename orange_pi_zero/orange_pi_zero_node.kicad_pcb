@@ -871,7 +871,7 @@
       (net 39 "Net-(BAR1-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 90) (size 2.032 2.032) (drill 0.9144) (layers *.Cu *.Mask)
       (net 40 "Net-(BAR1-Pad1)"))
-    (model /usr/share/kicad/modules/packages3d/Display.3dshapes/HDSP-4850.step
+    (model ${KIPRJMOD}/shapes3D/HDSP-4850.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

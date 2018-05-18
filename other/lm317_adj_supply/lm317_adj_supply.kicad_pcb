@@ -2144,7 +2144,7 @@
       (net 3 "Net-(C2-Pad2)"))
     (pad 1 thru_hole rect (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 2 "Net-(C1-Pad1)"))
-    (model /usr/share/kicad/modules/kicad_stepup/packages3d/Terminal_Block_Packages.3dshapes/DG301-5.0-02.stp
+    (model ${KIPRJMOD}/shapes3D/DG301-5.0-02.stp
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2206,7 +2206,7 @@
       (net 13 "Net-(J2-Pad1)"))
     (pad 2 thru_hole circle (at 5 0 90) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 14 "Net-(J2-Pad2)"))
-    (model /usr/share/kicad/modules/kicad_stepup/packages3d/Terminal_Block_Packages.3dshapes/DG301-5.0-02.stp
+    (model ${KIPRJMOD}/shapes3D/DG301-5.0-02.stp
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2268,7 +2268,7 @@
       (net 6 "Net-(C10-Pad1)"))
     (pad 2 thru_hole circle (at 5 0 90) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model /usr/share/kicad/modules/kicad_stepup/packages3d/Terminal_Block_Packages.3dshapes/DG301-5.0-02.stp
+    (model ${KIPRJMOD}/shapes3D/DG301-5.0-02.stp
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2330,7 +2330,7 @@
       (net 13 "Net-(J2-Pad1)"))
     (pad 1 thru_hole rect (at 0 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 6 "Net-(C10-Pad1)"))
-    (model /usr/share/kicad/modules/kicad_stepup/packages3d/Terminal_Block_Packages.3dshapes/DG301-5.0-02.stp
+    (model ${KIPRJMOD}/shapes3D/DG301-5.0-02.stp
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2372,7 +2372,7 @@
       (net 7 "Net-(D3-Pad1)"))
     (pad 3 thru_hole circle (at 5.08 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 4 /V_REG_IN))
-    (model /usr/share/kicad/modules/kicad_stepup/packages3d/TO_Packages.3dshapes/TO-220AB-FairA.stp
+    (model ${KIPRJMOD}/shapes3D/TO-220AB-FairA.stp
       (offset (xyz 2.5 0 5.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2414,7 +2414,7 @@
       (net 7 "Net-(D3-Pad1)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 10 "Net-(Q2-Pad1)"))
-    (model /usr/share/kicad/modules/kicad_stepup/packages3d/TO_Packages.3dshapes/TO-220AB-FairA.stp
+    (model ${KIPRJMOD}/shapes3D/TO-220AB-FairA.stp
       (offset (xyz 2.5 0 5.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
