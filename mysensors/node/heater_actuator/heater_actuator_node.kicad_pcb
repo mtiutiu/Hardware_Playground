@@ -189,11 +189,6 @@
     (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.Fab) (width 0.1))
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 24 "Net-(P1-Pad1)"))
-    (model ${KIPRJMOD}/shapes3D/Pin_Header_Straight_1x01_Pitch2.54mm.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module myfootprints:Symbol_HighVoltage_Type2_FrontSilk_VerySmall (layer B.Cu) (tedit 58908E48) (tstamp 58908FC9)

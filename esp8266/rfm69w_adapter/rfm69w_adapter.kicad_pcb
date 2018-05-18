@@ -954,7 +954,7 @@
       (net 5 "Net-(C3-Pad1)"))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/shapes3D/C_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -990,7 +990,7 @@
       (net 18 "Net-(ANT1-Pad1)"))
     (pad 2 smd rect (at 0.75 0) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 4 /LNA))
-    (model ${KIPRJMOD}/shapes3D/C_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1026,6 +1026,11 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 18 "Net-(ANT1-Pad1)"))
+    (model ${KIPRJMOD}/shapes3D/R_0603.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Inductors_SMD:L_0603 (layer F.Cu) (tedit 58307A47) (tstamp 5A97E1EF)
@@ -1057,6 +1062,11 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.75 0 180) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 4 /LNA))
+    (model ${KIPRJMOD}/shapes3D/R_0603.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5A97E1CD)
@@ -1088,7 +1098,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.75 0) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 7 +3V3))
-    (model ${KIPRJMOD}/shapes3D/C_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1124,7 +1134,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.75 0) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 12 "Net-(R5-Pad1)"))
-    (model ${KIPRJMOD}/shapes3D/R_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1160,7 +1170,7 @@
       (net 9 "Net-(R3-Pad2)"))
     (pad 1 smd rect (at -0.75 0 180) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 7 +3V3))
-    (model ${KIPRJMOD}/shapes3D/R_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1196,7 +1206,7 @@
       (net 6 "Net-(C4-Pad1)"))
     (pad 2 smd rect (at 0.75 0 90) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/shapes3D/C_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1232,7 +1242,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 7 +3V3))
-    (model ${KIPRJMOD}/shapes3D/C_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1268,7 +1278,7 @@
       (net 8 "Net-(R2-Pad2)"))
     (pad 1 smd rect (at -0.75 0 270) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/shapes3D/R_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1304,7 +1314,7 @@
       (net 2 /DTR))
     (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask)
       (net 3 /RESET))
-    (model ${KIPRJMOD}/shapes3D/C_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/C_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1340,7 +1350,7 @@
       (net 3 /RESET))
     (pad 1 smd rect (at -0.75 0 270) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 7 +3V3))
-    (model ${KIPRJMOD}/shapes3D/R_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1642,7 +1652,7 @@
       (net 7 +3V3))
     (pad 2 smd rect (at 0.75 0 90) (size 0.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 19 /GPIO2))
-    (model ${KIPRJMOD}/shapes3D/R_0603.wrl
+    (model ${KIPRJMOD}/shapes3D/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

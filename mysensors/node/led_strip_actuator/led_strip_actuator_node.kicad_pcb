@@ -928,11 +928,6 @@
       (net 8 /MOSI))
     (pad 2 smd rect (at -2.54 2 270) (size 1.27 2.5) (layers B.Cu B.Paste B.Mask)
       (net 2 +3V3))
-    (model ${KIPRJMOD}/shapes3D/Pin_Header_Straight_SMT_02x03.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Diodes_ThroughHole:D_DO-35_SOD27_P10.16mm_Horizontal (layer F.Cu) (tedit 58D90B84) (tstamp 58D9E512)

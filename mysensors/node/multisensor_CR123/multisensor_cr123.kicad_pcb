@@ -245,7 +245,7 @@
     (pad 1 smd rect (at -1.5 0 90) (size 0.8 3) (layers B.Cu B.Paste B.Mask)
       (net 16 "Net-(IC1-Pad8)"))
     (model ${KIPRJMOD}/shapes3D/zttcr_MG_ceramic_resonator.stp
-      (at (xyz 0 0 0))
+      (offset (xyz 0 -0.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1448,11 +1448,6 @@
       (net 8 /RESET))
     (pad 6 thru_hole oval (at 2.54 5.08 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (model ${KIPRJMOD}/shapes3D/PinHeader_Straight_2x03x2.54mm.stp
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Wave (layer F.Cu) (tedit 5809CED3) (tstamp 57D7DFE6)
