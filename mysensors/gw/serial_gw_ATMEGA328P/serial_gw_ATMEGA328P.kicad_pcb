@@ -195,7 +195,7 @@
       (net 1 GND))
     (pad 5 thru_hole circle (at -3.55514 2.66488 180) (size 2.99974 2.99974) (drill 2.30124) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connectors_Other.3dshapes/usb_A_male_tht.stp
+    (model ${KIPRJMOD}/shapes3D/usb_A_male_tht.stp
       (offset (xyz 6.999999894870548 -0.2999999954944519 -0.2999999954944519))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
@@ -256,7 +256,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.95 0 180) (size 0.8 5.1) (layers B.Cu B.Paste B.Mask)
       (net 26 "Net-(IC1-Pad8)"))
-    (model ${KISYS3DMOD}/Oscillators.3dshapes/ZTTCS_MX_ceramic_resonator.stp
+    (model ${KIPRJMOD}/shapes3D/ZTTCS_MX_ceramic_resonator.stp
       (offset (xyz 0 0 0.009999999849815071))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -710,7 +710,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -2.7 0 90) (size 2 1.6) (layers F.Cu F.Paste F.Mask)
       (net 4 /RST))
-    (model ${KISYS3DMOD}/Button_Switches_SMD.3dshapes/SW_SPST_EVQPE1.stp
+    (model ${KIPRJMOD}/shapes3D/SW_SPST_EVQPE1.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1133,7 +1133,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.8 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
       (net 11 "Net-(D1-Pad2)"))
-    (model ${KISYS3DMOD}/LED_Packages_SMD.3dshapes/led_chip_0603_green.stp
+    (model ${KIPRJMOD}/shapes3D/led_chip_0603_green.stp
       (offset (xyz 0 0 0.009999999849815071))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1171,7 +1171,7 @@
       (net 12 "Net-(D2-Pad2)"))
     (pad 1 smd rect (at -0.8 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LED_Packages_SMD.3dshapes/led_chip_0603_blue.stp
+    (model ${KIPRJMOD}/shapes3D/led_chip_0603_blue.stp
       (offset (xyz 0 0 0.009999999849815071))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1209,7 +1209,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.8 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask)
       (net 13 "Net-(D3-Pad2)"))
-    (model ${KISYS3DMOD}/LED_Packages_SMD.3dshapes/led_chip_0603_red.stp
+    (model ${KIPRJMOD}/shapes3D/led_chip_0603_red.stp
       (offset (xyz 0 0 0.009999999849815071))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1305,7 +1305,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -2.4 1.25) (size 0.7 0.25) (layers B.Cu B.Paste B.Mask))
     (pad 1 smd rect (at -2.4 1.75) (size 0.7 0.25) (layers B.Cu B.Paste B.Mask))
-    (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/qfn32_5x5_p05.stp
+    (model ${KIPRJMOD}/shapes3D/qfn32_5x5_p05.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1531,7 +1531,7 @@
       (net 20 "Net-(R5-Pad1)"))
     (pad 1 smd rect (at -2.95 1.95 180) (size 1.45 0.45) (layers B.Cu B.Paste B.Mask)
       (net 6 +3V3))
-    (model ${KISYS3DMOD}/Housings_SSOP.3dshapes/tssop_14_50x44_p065.stp
+    (model ${KIPRJMOD}/shapes3D/tssop_14_50x44_p065.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1567,7 +1567,7 @@
       (net 2 +5V))
     (pad 1 smd rect (at -1.50114 -1.85166) (size 1.00076 1.50114) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT89-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT89-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1647,7 +1647,7 @@
       (net 1 GND))
     (pad 2 smd oval (at -2.45 1) (size 0.85 0.3) (layers B.Cu B.Paste B.Mask))
     (pad 1 smd oval (at -2.45 1.5) (size 0.85 0.3) (layers B.Cu B.Paste B.Mask))
-    (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/qfn28_5x5_0.5.stp
+    (model ${KIPRJMOD}/shapes3D/qfn28_5x5_0.5.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1702,7 +1702,7 @@
     (pad 2 smd rect (at -1.4 2) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
       (net 29 /RFM69W_INT))
     (pad 1 smd rect (at -1.4 0) (size 3 1.2) (layers F.Cu F.Paste F.Mask))
-    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69W.stp
+    (model ${KIPRJMOD}/shapes3D/RFM69W.stp
       (offset (xyz 16.99999974468562 -13.9999997897411 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1805,7 +1805,7 @@
       (net 2 +5V))
     (pad 1 smd rect (at -1 0.95) (size 0.9 0.8) (layers B.Cu B.Paste B.Mask)
       (net 28 /ATSHA204A))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

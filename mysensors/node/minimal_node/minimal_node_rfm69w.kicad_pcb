@@ -1295,7 +1295,7 @@
       (net 14 "Net-(J2-Pad5)"))
     (pad 1 smd rect (at -4.25 2.8 90) (size 1.6 0.55) (layers B.Cu B.Paste B.Mask)
       (net 13 "Net-(J2-Pad4)"))
-    (model ${KISYS3DMOD}/Housings_QFP.3dshapes/qfp32_7x7_p08.stp
+    (model ${KIPRJMOD}/shapes3D/qfp32_7x7_p08.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1336,7 +1336,7 @@
       (net 2 +3V3))
     (pad 1 smd rect (at -1 0.95) (size 0.9 0.8) (layers B.Cu B.Paste B.Mask)
       (net 28 /ATSHA204A))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1384,7 +1384,7 @@
     (pad 13 smd rect (at 7.92226 -3.9497) (size 1.99898 1.39954) (layers F.Cu F.Paste F.Mask))
     (pad 14 smd rect (at 7.92226 -5.95122) (size 1.99898 1.39954) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69CW.stp
+    (model ${KIPRJMOD}/shapes3D/RFM69CW.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

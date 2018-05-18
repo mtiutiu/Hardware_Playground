@@ -1247,7 +1247,7 @@
       (net 4 +5V))
     (pad 2 thru_hole oval (at 7.62 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
       (net 6 "Net-(D5-Pad2)"))
-    (model ${KISYS3DMOD}/Resistors_THT.3dshapes/RES-0.125W-H-MF.stp
+    (model ${KIPRJMOD}/shapes3D/RES-0.125W-H-MF.stp
       (offset (xyz 3.799999942929726 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1285,7 +1285,7 @@
       (net 2 +3V3))
     (pad 2 thru_hole oval (at 7.62 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
       (net 5 "Net-(D2-Pad2)"))
-    (model ${KISYS3DMOD}/Resistors_THT.3dshapes/RES-0.125W-H-MF.stp
+    (model ${KIPRJMOD}/shapes3D/RES-0.125W-H-MF.stp
       (offset (xyz 3.799999942929726 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1387,7 +1387,7 @@
       (net 2 +3V3))
     (pad 2 smd rect (at 2.15 0) (size 3.2 2.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeB_EIA-3528_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/TantalC_SizeB_EIA-3528_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1432,7 +1432,7 @@
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
-    (model ${KISYS3DMOD}/Diode_Packages.3dshapes/DO35.stp
+    (model ${KIPRJMOD}/shapes3D/DO35.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1467,7 +1467,7 @@
       (net 5 "Net-(D2-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LED_Packages.3dshapes/led_3mm_red_short.stp
+    (model ${KIPRJMOD}/shapes3D/led_3mm_red_short.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1502,7 +1502,7 @@
       (net 3 "Net-(D1-Pad2)"))
     (pad 2 thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 6 "Net-(D5-Pad2)"))
-    (model ${KISYS3DMOD}/LED_Packages.3dshapes/led_3mm_yellow_short.stp
+    (model ${KIPRJMOD}/shapes3D/led_3mm_yellow_short.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1560,7 +1560,7 @@
       (net 8 "Net-(F1-Pad2)"))
     (pad 2 thru_hole circle (at 7.66064 -2.54) (size 2.3495 2.3495) (drill 1.34874) (layers *.Cu *.Mask)
       (net 8 "Net-(F1-Pad2)"))
-    (model ${KISYS3DMOD}/Fuse_Holders_Packages.3dshapes/fuse_clips_5mm_typeII.stp
+    (model ${KIPRJMOD}/shapes3D/fuse_clips_5mm_typeII.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1594,7 +1594,7 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at 1.27 -1.27 270) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
       (net 10 "Net-(Q1-Pad2)"))
-    (model ${KISYS3DMOD}/TO_Packages.3dshapes/TO-92.stp
+    (model ${KIPRJMOD}/shapes3D/TO-92.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1808,7 +1808,7 @@
       (net 11 "Net-(RL1-Pad11)"))
     (pad 14 thru_hole circle (at 14.2 6 90) (size 3 3) (drill 1.5) (layers *.Cu *.Mask)
       (net 12 "Net-(RL1-Pad14)"))
-    (model ${KISYS3DMOD}/Relays.3dshapes/rm50-sp.stp
+    (model ${KIPRJMOD}/shapes3D/rm50-sp.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1847,7 +1847,7 @@
     (pad 2 smd rect (at -3.15 0 180) (size 2 1.5) (layers F.Cu F.Paste F.Mask)
       (net 2 +3V3))
     (pad 4 smd rect (at 3.15 0 180) (size 2 3.8) (layers F.Cu F.Paste F.Mask))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT223-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT223-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1877,7 +1877,7 @@
       (net 1 GND))
     (pad 3 thru_hole circle (at 29.4 10.2 180) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 4 +5V))
-    (model ${KISYS3DMOD}/Power_Supply.3dshapes/hlk-pm01.stp
+    (model ${KIPRJMOD}/shapes3D/hlk-pm01.stp
       (offset (xyz 14.69999977922815 -2.499999962453767 0.01999999969963014))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1906,7 +1906,7 @@
       (net 13 "Net-(U4-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.8 1.8) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 "Net-(F1-Pad1)"))
-    (model ${KISYS3DMOD}/Varistor_Packages.3dshapes/RV_Disc_D10_P7.5.stp
+    (model ${KIPRJMOD}/shapes3D/RV_Disc_D10_P7.5.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1937,7 +1937,7 @@
       (net 11 "Net-(RL1-Pad11)"))
     (pad 1 thru_hole rect (at 0 0 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 12 "Net-(RL1-Pad14)"))
-    (model ${KISYS3DMOD}/Terminal_Block_Packages.3dshapes/mkds-3.5-02.stp
+    (model ${KIPRJMOD}/shapes3D/mkds-3.5-02.stp
       (offset (xyz 0 0 0.01999999969963014))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1968,7 +1968,7 @@
       (net 8 "Net-(F1-Pad2)"))
     (pad 2 thru_hole circle (at 3.5 0 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 13 "Net-(U4-Pad2)"))
-    (model ${KISYS3DMOD}/Terminal_Block_Packages.3dshapes/mkds-3.5-02.stp
+    (model ${KIPRJMOD}/shapes3D/mkds-3.5-02.stp
       (offset (xyz 0 0 0.01999999969963014))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2007,7 +2007,7 @@
       (net 4 +5V))
     (pad 2 smd rect (at 2.15 0) (size 3.2 2.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeB_EIA-3528_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/TantalC_SizeB_EIA-3528_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2046,7 +2046,7 @@
       (net 2 +3V3))
     (pad 2 smd rect (at 1.525 0 270) (size 1.95 2.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeB_EIA-3528_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/TantalC_SizeB_EIA-3528_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2130,7 +2130,7 @@
       (net 15 /RTS))
     (pad 3 smd rect (at 1 0 180) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 14 /RESET))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2171,7 +2171,7 @@
       (net 18 /DTR))
     (pad 3 smd rect (at 1 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 19 /GPIO0))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2207,7 +2207,7 @@
       (net 22 /GPIO15))
     (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.stp
+    (model ${KIPRJMOD}/shapes3D/R_0805.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2258,7 +2258,7 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 6.5 0 90) (size 2 2) (drill 1.1) (layers *.Cu *.Mask)
       (net 14 /RESET))
-    (model ${KISYS3DMOD}/Button_Switches_THT.3dshapes/tactile_sw_6x6x17.stp
+    (model ${KIPRJMOD}/shapes3D/tactile_sw_6x6x17.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2323,7 +2323,7 @@
       (net 28 "Net-(U1-Pad2)"))
     (pad 1 smd rect (at 0 0 180) (size 2.4 1.1) (layers F.Cu F.Paste F.Mask)
       (net 14 /RESET))
-    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/esp12-e.stp
+    (model ${KIPRJMOD}/shapes3D/esp12-e.stp
       (offset (xyz 0.4999999924907534 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

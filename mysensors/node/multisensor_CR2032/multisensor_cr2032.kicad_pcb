@@ -550,7 +550,7 @@
       (net 16 "Net-(BT1-Pad1)"))
     (pad 2 smd rect (at 0 0 180) (size 3.1496 4.7752) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Battery_Holders.3dshapes/cr2032_holder_smd_H2.stp
+    (model ${KIPRJMOD}/shapes3D/cr2032_holder_smd_H2.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -938,7 +938,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -3.125 0) (size 3.75 2.5) (layers B.Cu B.Paste B.Mask)
       (net 16 "Net-(BT1-Pad1)"))
-    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeC_EIA-6032_HandSoldering.stp
+    (model ${KIPRJMOD}/shapes3D/TantalC_SizeC_EIA-6032_HandSoldering.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1012,7 +1012,7 @@
       (net 12 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -1.65 0 180) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask)
       (net 18 "Net-(C12-Pad2)"))
-    (model ${KISYS3DMOD}/SOD_Packages_SMD.3dshapes/SOD123.stp
+    (model ${KIPRJMOD}/shapes3D/SOD123.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1106,7 +1106,7 @@
     (pad 2 smd rect (at -2.4 -1.25 270) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
     (pad 1 smd rect (at -2.4 -1.75 270) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask)
       (net 21 /A3212))
-    (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/qfn32_5x5_p05.stp
+    (model ${KIPRJMOD}/shapes3D/qfn32_5x5_p05.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1129,7 +1129,7 @@
       (net 12 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -1.2 0) (size 1.6 3.4) (layers B.Cu B.Paste B.Mask)
       (net 17 /VB_IN))
-    (model ${KISYS3DMOD}/Inductors.3dshapes/SDR0302.stp
+    (model ${KIPRJMOD}/shapes3D/SDR0302.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1428,7 +1428,7 @@
       (net 4 +3V3))
     (pad 1 smd rect (at -1 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 11 /ATSHA204A))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1476,7 +1476,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.34 -0.95 90) (size 0.63 0.45) (layers F.Cu F.Paste F.Mask)
       (net 20 /SDA))
-    (model ${KISYS3DMOD}/Sensors.3dshapes/SHT21.stp
+    (model ${KIPRJMOD}/shapes3D/SHT21.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1531,7 +1531,7 @@
     (pad 2 smd rect (at -1.4 2 180) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
       (net 8 /RFM69W_INT))
     (pad 1 smd rect (at -1.4 0 180) (size 3 1.2) (layers F.Cu F.Paste F.Mask))
-    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69W.stp
+    (model ${KIPRJMOD}/shapes3D/RFM69W.stp
       (offset (xyz 16.99999974468562 -13.9999997897411 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1569,7 +1569,7 @@
       (net 18 "Net-(C12-Pad2)"))
     (pad 1 smd rect (at -1.1 0.95 180) (size 1.06 0.65) (layers B.Cu B.Paste B.Mask)
       (net 18 "Net-(C12-Pad2)"))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-5.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-5.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1905,7 +1905,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.05 -0.65) (size 0.65 0.35) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model ${KISYS3DMOD}/Housings_DFN_QFN.3dshapes/dfn6_2x2_p065.stp
+    (model ${KIPRJMOD}/shapes3D/dfn6_2x2_p065.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

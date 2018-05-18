@@ -526,7 +526,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.95 0 270) (size 0.8 5.1) (layers B.Cu B.Paste B.Mask)
       (net 20 "Net-(U6-Pad7)"))
-    (model ${KISYS3DMOD}/Oscillators.3dshapes/ZTTCS_MX_ceramic_resonator.stp
+    (model ${KIPRJMOD}/shapes3D/ZTTCS_MX_ceramic_resonator.stp
       (offset (xyz 0 0 0.009999999849815071))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -628,7 +628,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -2.7 0 90) (size 2 1.6) (layers F.Cu F.Paste F.Mask)
       (net 4 /RST))
-    (model ${KISYS3DMOD}/Button_Switches_SMD.3dshapes/SW_SPST_EVQPE1.stp
+    (model ${KIPRJMOD}/shapes3D/SW_SPST_EVQPE1.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -975,7 +975,7 @@
       (net 14 "Net-(R4-Pad1)"))
     (pad 1 smd rect (at -2.95 1.95 180) (size 1.45 0.45) (layers B.Cu B.Paste B.Mask)
       (net 5 +3V3))
-    (model ${KISYS3DMOD}/Housings_SSOP.3dshapes/tssop_14_50x44_p065.stp
+    (model ${KIPRJMOD}/shapes3D/tssop_14_50x44_p065.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1030,7 +1030,7 @@
     (pad 2 smd rect (at -1.4 2) (size 3 1.2) (layers F.Cu F.Paste F.Mask)
       (net 10 /RFM69W_INT))
     (pad 1 smd rect (at -1.4 0) (size 3 1.2) (layers F.Cu F.Paste F.Mask))
-    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69W.stp
+    (model ${KIPRJMOD}/shapes3D/RFM69W.stp
       (offset (xyz 16.99999974468562 -13.9999997897411 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1102,7 +1102,7 @@
       (net 2 +5V))
     (pad 2 smd rect (at 1.525 0 270) (size 1.95 2.5) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeB_EIA-3528_Wave.stp
+    (model ${KIPRJMOD}/shapes3D/TantalC_SizeB_EIA-3528_Wave.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1138,7 +1138,7 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.525 0 270) (size 1.95 2.5) (layers B.Cu B.Paste B.Mask)
       (net 5 +3V3))
-    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeB_EIA-3528_Wave.stp
+    (model ${KIPRJMOD}/shapes3D/TantalC_SizeB_EIA-3528_Wave.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1174,7 +1174,7 @@
       (net 2 +5V))
     (pad 1 smd rect (at -1.1 0 270) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
       (net 9 /ATSHA204A))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1269,7 +1269,7 @@
       (net 2 +5V))
     (pad 1 smd rect (at -1 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 9 /ATSHA204A))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1311,7 +1311,7 @@
     (pad 2 smd rect (at -3.15 0 90) (size 2 1.5) (layers B.Cu B.Paste B.Mask)
       (net 5 +3V3))
     (pad 4 smd rect (at 3.15 0 90) (size 2 3.8) (layers B.Cu B.Paste B.Mask))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT223-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT223-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1383,7 +1383,7 @@
       (net 2 +5V))
     (pad 1 smd rect (at -1.1 0 180) (size 1.2 0.9) (layers B.Cu B.Paste B.Mask)
       (net 12 /SPI_FLASH_SS))
-    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0603.stp
+    (model ${KIPRJMOD}/shapes3D/R_0603.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

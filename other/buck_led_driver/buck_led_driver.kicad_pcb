@@ -197,7 +197,7 @@
       (net 4 "Net-(C3-Pad2)"))
     (pad 2 thru_hole circle (at 5 0 270) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 7 "Net-(D2-Pad2)"))
-    (model ${KISYS3DMOD}/Inductor_THT.3dshapes/L_Radial_D12.0mm_P5.00mm_Neosid_SD12k_style2.wrl
+    (model ${KIPRJMOD}/shapes3D/L_Radial_D12.0mm_P5.00mm_Neosid_SD12k_style2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -244,7 +244,7 @@
       (net 7 "Net-(D2-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 270) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask)
       (net 1 "Net-(C1-Pad1)"))
-    (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
+    (model ${KIPRJMOD}/shapes3D/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -283,7 +283,7 @@
       (net 1 "Net-(C1-Pad1)"))
     (pad 2 thru_hole circle (at 12 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L11.5mm_W8.8mm_P10.00mm_MKT.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Rect_L11.5mm_W8.8mm_P10.00mm_MKT.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -408,7 +408,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 0.955 0 270) (size 0.97 1.5) (layers B.Cu B.Paste B.Mask)
       (net 3 "Net-(C2-Pad2)"))
-    (model ${KISYS3DMOD}/Capacitors_SMD.3dshapes/C_0805.stp
+    (model ${KIPRJMOD}/shapes3D/C_0805.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -456,7 +456,7 @@
       (net 1 "Net-(C1-Pad1)"))
     (pad 4 smd rect (at 3.075 1.27) (size 1 0.8) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/TO_Packages_SMD.3dshapes/TO-269AA.stp
+    (model ${KIPRJMOD}/shapes3D/TO-269AA.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -503,7 +503,7 @@
       (net 2 GND))
     (pad 2 smd trapezoid (at -0.0762 0 90) (size 1.5 1) (rect_delta 0 -0.7 ) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT89-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT89-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -542,7 +542,7 @@
       (net 1 "Net-(C1-Pad1)"))
     (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 "Net-(C3-Pad2)"))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D4.3mm_W1.9mm_P5.00mm.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Disc_D4.3mm_W1.9mm_P5.00mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

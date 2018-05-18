@@ -429,7 +429,7 @@
       (net 6 "Net-(C10-Pad1)"))
     (pad 2 thru_hole circle (at 5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D12.5mm_P5.00mm.wrl
+    (model ${KIPRJMOD}/shapes3D/CP_Radial_D12.5mm_P5.00mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -471,7 +471,7 @@
       (net 5 "Net-(C5-Pad1)"))
     (pad 1 thru_hole rect (at -1.33 0 180) (size 1.5 1.5) (drill 0.5) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl
+    (model ${KIPRJMOD}/shapes3D/TO-92_Inline_Wide.wrl
       (offset (xyz 3.75 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -894,7 +894,7 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at 0 0) (size 4 4) (drill 2) (layers *.Cu *.Mask)
       (net 4 /V_REG_IN))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D22.0mm_P10.00mm_SnapIn.wrl
+    (model ${KIPRJMOD}/shapes3D/CP_Radial_D22.0mm_P10.00mm_SnapIn.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1004,7 +1004,7 @@
       (net 5 "Net-(C5-Pad1)"))
     (pad 1 thru_hole rect (at 0 0) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask)
       (net 7 "Net-(D3-Pad1)"))
-    (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
+    (model ${KIPRJMOD}/shapes3D/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1041,7 +1041,7 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "Net-(C1-Pad1)"))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1078,7 +1078,7 @@
       (net 1 GND))
     (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 "Net-(C2-Pad2)"))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1115,7 +1115,7 @@
       (net 2 "Net-(C1-Pad1)"))
     (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 /V_REG_IN))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1152,7 +1152,7 @@
       (net 3 "Net-(C2-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 /V_REG_IN))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1189,7 +1189,7 @@
       (net 5 "Net-(C5-Pad1)"))
     (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1411,7 +1411,7 @@
       (net 5 "Net-(C5-Pad1)"))
     (pad 2 thru_hole circle (at 5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+    (model ${KIPRJMOD}/shapes3D/CP_Radial_D10.0mm_P5.00mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1448,7 +1448,7 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 /V_REG_IN))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1871,7 +1871,7 @@
       (net 4 /V_REG_IN))
     (pad 2 thru_hole circle (at 10 0) (size 4 4) (drill 2) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D22.0mm_P10.00mm_SnapIn.wrl
+    (model ${KIPRJMOD}/shapes3D/CP_Radial_D22.0mm_P10.00mm_SnapIn.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1908,7 +1908,7 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 6 "Net-(C10-Pad1)"))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1945,7 +1945,7 @@
       (net 4 /V_REG_IN))
     (pad 2 thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
+    (model ${KIPRJMOD}/shapes3D/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1998,7 +1998,7 @@
       (net 4 /V_REG_IN))
     (pad 2 thru_hole oval (at 15.24 0 270) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask)
       (net 6 "Net-(C10-Pad1)"))
-    (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-201AD_P15.24mm_Horizontal.wrl
+    (model ${KIPRJMOD}/shapes3D/D_DO-201AD_P15.24mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2046,7 +2046,7 @@
       (net 3 "Net-(C2-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask)
       (net 4 /V_REG_IN))
-    (model ${KISYS3DMOD}/Diode_THT.3dshapes/Diode_Bridge_Vishay_GBU.wrl
+    (model ${KIPRJMOD}/shapes3D/Diode_Bridge_Vishay_GBU.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2082,7 +2082,7 @@
       (net 8 "Net-(D4-Pad1)"))
     (pad 2 thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 4 /V_REG_IN))
-    (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D5.0mm.wrl
+    (model ${KIPRJMOD}/shapes3D/LED_D5.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2451,7 +2451,7 @@
       (net 9 "Net-(Q1-Pad1)"))
     (pad 1 thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 6 "Net-(C10-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_Power_L20.0mm_W6.4mm_P5.08mm_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/R_Axial_Power_L20.0mm_W6.4mm_P5.08mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2492,7 +2492,7 @@
       (net 7 "Net-(D3-Pad1)"))
     (pad 2 thru_hole oval (at 7.62 0 180) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
       (net 11 "Net-(R2-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl
+    (model ${KIPRJMOD}/shapes3D/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2533,7 +2533,7 @@
       (net 11 "Net-(R2-Pad2)"))
     (pad 2 thru_hole oval (at 7.62 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
       (net 5 "Net-(C5-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl
+    (model ${KIPRJMOD}/shapes3D/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2570,7 +2570,7 @@
       (net 6 "Net-(C10-Pad1)"))
     (pad 2 thru_hole circle (at 2.7 -2.3) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 10 "Net-(Q2-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_Power_L20.0mm_W6.4mm_P5.08mm_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/R_Axial_Power_L20.0mm_W6.4mm_P5.08mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2611,7 +2611,7 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask)
       (net 8 "Net-(D4-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl
+    (model ${KIPRJMOD}/shapes3D/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2734,7 +2734,7 @@
       (net 7 "Net-(D3-Pad1)"))
     (pad 3 thru_hole oval (at 5.08 0 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 4 /V_REG_IN))
-    (model ${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220_Horizontal.stp
+    (model ${KIPRJMOD}/shapes3D/TO-220_Horizontal.stp
       (offset (xyz 2.5 19.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2771,7 +2771,7 @@
       (net 14 "Net-(J2-Pad2)"))
     (pad 2 thru_hole circle (at 2.7 -2.3) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_Power_L20.0mm_W6.4mm_P5.08mm_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/R_Axial_Power_L20.0mm_W6.4mm_P5.08mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

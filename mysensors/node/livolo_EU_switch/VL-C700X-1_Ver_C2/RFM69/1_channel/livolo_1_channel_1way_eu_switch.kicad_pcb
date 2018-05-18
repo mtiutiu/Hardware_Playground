@@ -302,7 +302,7 @@
       (net 5 "Net-(C7-Pad1)"))
     (pad 2 smd rect (at 0 1.5) (size 4 2) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(C9-Pad2)"))
-    (model ${KISYS3DMOD}/Inductors.3dshapes/IFSC-1515AH-01_sp.step
+    (model ${KIPRJMOD}/shapes3D/IFSC-1515AH-01_sp.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -329,7 +329,7 @@
       (net 7 "Net-(C9-Pad2)"))
     (pad 2 smd rect (at 1.5 0 270) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/DO_Packages_SMD.3dshapes/DO-219AB.stp
+    (model ${KIPRJMOD}/shapes3D/DO-219AB.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -403,7 +403,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -1.1 -0.95 270) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(C9-Pad1)"))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-6.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-6.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -499,7 +499,7 @@
       (net 26 "Net-(C5-Pad1)"))
     (pad 2 smd rect (at 1.275 0) (size 1.75 1.26) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeR_EIA-2012.stp
+    (model ${KIPRJMOD}/shapes3D/TantalC_SizeR_EIA-2012.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1199,7 +1199,7 @@
       (net 5 "Net-(C7-Pad1)"))
     (pad 1 smd rect (at -1.65 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(C9-Pad1)"))
-    (model ${KISYS3DMOD}/SOD_Packages_SMD.3dshapes/SOD123.stp
+    (model ${KIPRJMOD}/shapes3D/SOD123.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1239,7 +1239,7 @@
       (net 14 "Net-(D5-Pad1)"))
     (pad 2 smd rect (at 0.85 0 180) (size 0.6 0.8) (layers B.Cu B.Paste B.Mask)
       (net 1 +3V3))
-    (model ${KISYS3DMOD}/LED_Packages_SMD.3dshapes/led_chip_0603_red.stp
+    (model ${KIPRJMOD}/shapes3D/led_chip_0603_red.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1279,7 +1279,7 @@
       (net 15 "Net-(D6-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.6 0.8) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/LED_Packages_SMD.3dshapes/led_chip_0603_blue.stp
+    (model ${KIPRJMOD}/shapes3D/led_chip_0603_blue.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1554,7 +1554,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -1.1 -0.95 90) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C7-Pad1)"))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-5.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-5.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1595,7 +1595,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -1.1 -0.95 90) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask)
       (net 17 /TS1))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-6.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-6.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1643,7 +1643,7 @@
     (pad 13 smd rect (at 7.92226 -3.9497) (size 1.99898 1.39954) (layers F.Cu F.Paste F.Mask))
     (pad 14 smd rect (at 7.92226 -5.95122) (size 1.99898 1.39954) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Radio_Modules.3dshapes/RFM69CW.stp
+    (model ${KIPRJMOD}/shapes3D/RFM69CW.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1797,7 +1797,7 @@
       (net 1 +3V3))
     (pad 1 smd rect (at -1.5 -0.95 270) (size 1.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 23 /ATSHA204A))
-    (model ${KISYS3DMOD}/SOT_Packages_SMD.3dshapes/SOT23-3.stp
+    (model ${KIPRJMOD}/shapes3D/SOT23-3.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1869,7 +1869,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -1.275 0 270) (size 1.75 1.26) (layers F.Cu F.Paste F.Mask)
       (net 1 +3V3))
-    (model ${KISYS3DMOD}/Capacitors_Tantalum_SMD.3dshapes/TantalC_SizeR_EIA-2012.stp
+    (model ${KIPRJMOD}/shapes3D/TantalC_SizeR_EIA-2012.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -1926,7 +1926,7 @@
     (pad 2 thru_hole oval (at 2 0 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 9 /12Vcc))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Female/female_header_2row_14pins_2mm.stp
+    (model ${KIPRJMOD}/shapes3D/female_header_2row_14pins_2mm.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
