@@ -3998,7 +3998,7 @@
       (net 17 /REL4))
     (pad 3 thru_hole circle (at 9.555136 -11.947976 270) (size 4.2 4.2) (drill 2.2) (layers *.Cu *.Mask)
       (net 15 /REL3))
-    (model /home/mtiutiu/Work/KiCAD_Playground/libraries/freecad/src/relay/sla-5vdc-sl-a.step
+    (model ${KIPRJMOD}/shapes3D/sla-5vdc-sl-a.step
       (offset (xyz 0.4999999924907534 -1.49999997747226 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 90))
