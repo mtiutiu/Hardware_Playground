@@ -1,4 +1,4 @@
-## Mysensors NRF51822 Livolo 1 channels 1 way EU switch front module
+## Mysensors NRF52832 Livolo 1 channels 1 way EU switch front module
 
 ##### 3D renderings of pcb
 
@@ -14,7 +14,7 @@ This is a Mysensors replica of the Livolo EU Switch(1 channel 1 way) front plate
 **Key Features:**
 
  - **Capacitive touch sensing** using **MTCH102** specialized IC
- - **MySensors** ready(NRF51822)
+ - **MySensors** ready(NRF52832)
  - **DC-DC Buck converter** for powering from the 12V line ( the DC-DC converter can be bypassed and not used at all if desired by soldering the **3V_EN** jumper and removing the L1 ferrite bead or by not soldering the dc-dc converter components)
 
 **Firmware programming and testing steps for MySensors:**
@@ -24,7 +24,7 @@ This is a Mysensors replica of the Livolo EU Switch(1 channel 1 way) front plate
 4. The low frequency oscillator needs to be set to **RC oscillator** in the Arduino menu
 5. **NO Softdevice** needs to be selected
 6. Use a st-link v2 programmer
-7. You need to connect only: SWD, SWCLK, Vdd and GND
+7. You need to connect only: **SWD, SWCLK, Vdd and GND**
 8. Load your MySensors sketch or use the one provided with this project 
 
 **Firmware programming and testing steps for BLE:**
@@ -50,10 +50,10 @@ This is a Mysensors replica of the Livolo EU Switch(1 channel 1 way) front plate
  3. Mount a X2 capacitor of 1uF - 2.2uF rated at a minimum of 275Vac directly on the light bulb(in parallel)
 
 **Notes:**
- - If using BLE based firmware with this board the current consumption on average is only **5mA **for the **WHOLE BOARD**(including leds) and this is **constant** over time
+ - If using BLE based firmware with this board the current consumption on average is only **5mA **for the **WHOLE BOARD**(including leds) and this is **constant** over time (can be reduced even more to **2-3mA** if using the **nrf51/52 SOC internal DC/DC converter**)
  - If using MySensors firmware instead the current consumption on average increases to **18-20mA **which is 4 times bigger than BLE
  - What I noticed is that the original Livolo power supply(the one used in stand-by mode) is designed to work with currents of 1mA or even below so that's why the above hardware modifications(the extra steps) need to be performed - otherwise the switch won't start
- - It's not advised to replace the R3 resistor with a bridge only as the stand-by power supply may be damaged over time and it's required that the custom top board(for which the current project was made for) to draw a lower current as much as possible(ideally would be several milliamps and even lower but it works with 10-20mA also)
+ - It's not advised to replace the R3 resistor with a wire bridge only as the stand-by power supply may be damaged over time and it's required that the custom top board(for which the current project was made for) to draw a lower current as much as possible(ideally would be several milliamps and even lower but it works with 10-20mA also)
 
 **Practical usage ideas:**
  - Currently(and based on my previous experience with this kind of project) I will use all the Livolo switches preloaded with BLE firmware because of the lower current consumption AND in each room there will be a BLE Central node(based on Raspberry PI Zero W) - see this project: [RFM69W Raspberry PI Zero(W) Shield(HAT)](https://www.openhardware.io/view/487/RFM69W-Raspberry-PI-ZeroW-ShieldHAT) which will route messages to/from the Livolo switches BLE Peripherals to the MySensors network.
@@ -61,8 +61,6 @@ This is a Mysensors replica of the Livolo EU Switch(1 channel 1 way) front plate
 
 **HW Revisions:**
  - 0.1 - initial hw design
- - 0.2 - switched to MTCH102 touch sensor
- - 0.3 - added 3V line jumper
  
 **Credits:**
   
