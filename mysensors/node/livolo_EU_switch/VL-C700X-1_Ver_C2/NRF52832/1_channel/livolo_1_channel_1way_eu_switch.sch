@@ -216,7 +216,7 @@ encoding utf-8
 Sheet 1 1
 Title "Mysensors NRF5 Livolo 1 channel 1 way EU switch front panel"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp ""
 Comment1 "VL-C700X-1 Ver: C2"
 Comment2 ""

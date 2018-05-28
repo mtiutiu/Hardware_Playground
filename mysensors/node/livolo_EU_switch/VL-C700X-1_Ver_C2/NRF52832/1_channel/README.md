@@ -61,6 +61,7 @@ This is a Mysensors replica of the Livolo EU Switch(1 channel 1 way) front plate
 
 **HW Revisions:**
  - 0.1 - initial hw design
+ - 0.2 - flipped radio module
  
 **Credits:**
   
