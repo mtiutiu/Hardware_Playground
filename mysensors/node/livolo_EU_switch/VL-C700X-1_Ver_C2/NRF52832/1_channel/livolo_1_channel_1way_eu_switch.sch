@@ -617,9 +617,9 @@ F 3 "" H 1555 1590 50  0000 C CNN
 	1    1555 1590
 	1    0    0    -1  
 $EndComp
-Text Label 885  1590 2    60   ~ 0
-SWDIO
 Text Label 885  1490 2    60   ~ 0
+SWDIO
+Text Label 885  1590 2    60   ~ 0
 SWCLK
 Text Label 4300 4800 0    60   ~ 0
 SWDIO
@@ -636,17 +636,17 @@ F 3 "" H 1555 1490 50  0000 C CNN
 	1    1555 1490
 	0    1    1    0   
 $EndComp
-Text Label 2250 4600 2    60   ~ 0
+Text Label 4225 4400 0    60   ~ 0
 S1_LEDs
-Text Label 4225 4300 0    60   ~ 0
-Relay1_Set
 Text Label 2325 4700 2    60   ~ 0
+Relay1_Set
+Text Label 4225 4300 0    60   ~ 0
 Relay1_Reset
 Text Label 2250 4800 2    60   ~ 0
 Relay2_Set
-Text Label 4225 4400 0    60   ~ 0
+Text Label 2250 4600 2    60   ~ 0
 Relay2_Reset
-Text Label 4225 4600 0    60   ~ 0
+Text Label 2325 4400 2    60   ~ 0
 TS1
 $Comp
 L C_Small C2
@@ -677,7 +677,7 @@ Text Notes 6370 2640 0    67   ~ 13
 Touch sensor
 NoConn ~ 50   4260
 Text Notes 1705 6120 0    79   ~ 16
-Note: \nIf using port pins P0.26 and P0.27 then you need to make sure \nto not use crystal oscillator option when building the software project
+Note: \nIf using port pins P0.00 and P0.01 then you need to make sure \nto not use crystal oscillator option when building the software project
 $Comp
 L +3.3V #PWR02
 U 1 1 5979BED0
@@ -856,9 +856,9 @@ Text Label 9280 2360 3    60   ~ 0
 MTSA
 Text Label 7350 1900 2    60   ~ 0
 MTPM
-Text Label 4225 4700 0    60   ~ 0
+Text Label 2325 4300 2    60   ~ 0
 MTSA
-Text Label 4225 4500 0    60   ~ 0
+Text Label 2325 4500 2    60   ~ 0
 MTPM
 $Comp
 L GND #PWR04
@@ -944,11 +944,11 @@ Wire Wire Line
 	3375 3475 3275 3475
 Connection ~ 3275 3475
 Wire Wire Line
-	3975 4500 4225 4500
+	2325 4300 2575 4300
 Wire Wire Line
-	3975 4600 4225 4600
+	2325 4400 2575 4400
 Wire Wire Line
-	3975 4700 4225 4700
+	2325 4500 2575 4500
 Wire Wire Line
 	3975 4300 4225 4300
 Wire Wire Line
@@ -1041,7 +1041,7 @@ F 3 "" H 2575 5000 50  0001 C CNN
 	1    3275 4650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2575 4300
-NoConn ~ 2575 4400
-NoConn ~ 2575 4500
+NoConn ~ 3975 4500
+NoConn ~ 3975 4600
+NoConn ~ 3975 4700
 $EndSCHEMATC
