@@ -1,0 +1,3 @@
+(sym_lib_table
+    (lib (name archive)(type Legacy)(uri ${KIPRJMOD}/livolo_2_channels_1way_eu_switch-archive.lib)(options "")(descr ""))
+)

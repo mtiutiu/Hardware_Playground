@@ -1,4 +1,5 @@
 EESchema Schematic File Version 3
+LIBS:livolo_2_channels_1way_eu_switch-archive
 LIBS:AMS1117
 LIBS:BLUE_PILL
 LIBS:ch340
@@ -8,6 +9,7 @@ LIBS:E73-2G4M04S
 LIBS:ESP8266
 LIBS:hlk-pm01
 LIBS:hlk-pm03
+LIBS:holyiot_nrf52832
 LIBS:l6920
 LIBS:linear_tech
 LIBS:MAPLE_MINI
@@ -16,8 +18,10 @@ LIBS:MIC5205
 LIBS:mtch102
 LIBS:mtch105
 LIBS:mx-503398-1892
+LIBS:nanopi_duo
 LIBS:ncp1402
 LIBS:onion_omega2
+LIBS:orangepi-zero
 LIBS:pam8403
 LIBS:pcm5100
 LIBS:ptr5518
@@ -29,115 +33,7 @@ LIBS:ttp223
 LIBS:txb010x
 LIBS:v23079-e1208-b301
 LIBS:WT51822-S4AT
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
+LIBS:livolo_2_channels_1way_eu_switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -335,7 +231,7 @@ NRF24L01 radio module
 Text Notes 7290 6485 0    67   ~ 13
 Livolo power/relays board
 NoConn ~ 2640 5440
-Text Notes 545  2645 0    67   ~ 13
+Text Notes 540  2630 0    67   ~ 13
 AVR ISP
 Text Notes 720  7495 0    67   ~ 13
 MCU unit
@@ -355,46 +251,46 @@ $EndComp
 $Comp
 L AVR-ISP-6 CON1
 U 1 1 57D34506
-P 1325 1435
-F 0 "CON1" H 1205 1795 50  0000 C CNN
-F 1 "AVR-ISP-6" H 1105 1670 50  0000 L BNN
-F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 805 1475 50  0001 C CNN
-F 3 "" H 1300 1435 50  0000 C CNN
-F 4 "noload" H 1325 1435 60  0001 C CNN "Value"
-	1    1325 1435
+P 1350 1670
+F 0 "CON1" H 890 1770 50  0000 C CNN
+F 1 "AVR-ISP-6" H 680 1660 50  0000 L BNN
+F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 830 1710 50  0001 C CNN
+F 3 "" H 1325 1670 50  0000 C CNN
+F 4 "noload" H 1350 1670 60  0001 C CNN "Value"
+	1    1350 1670
 	1    0    0    -1  
 $EndComp
-Text Label 1940 1535 0    50   ~ 0
+Text Label 1750 1470 0    50   ~ 0
 MISO
-Text Label 780  1435 2    50   ~ 0
+Text Label 1750 1670 0    50   ~ 0
 SCK
 Text Label 6235 5150 0    50   ~ 0
 RESET
-Text Label 780  1535 2    50   ~ 0
+Text Label 1750 1770 0    50   ~ 0
 RESET
 $Comp
 L +3.3V #PWR09
 U 1 1 57D38CA7
-P 1935 1335
-F 0 "#PWR09" H 1935 1185 50  0001 C CNN
-F 1 "+3.3V" H 1950 1508 50  0000 C CNN
-F 2 "" H 1935 1335 50  0000 C CNN
-F 3 "" H 1935 1335 50  0000 C CNN
-	1    1935 1335
+P 1250 1170
+F 0 "#PWR09" H 1250 1020 50  0001 C CNN
+F 1 "+3.3V" H 1265 1343 50  0000 C CNN
+F 2 "" H 1250 1170 50  0000 C CNN
+F 3 "" H 1250 1170 50  0000 C CNN
+	1    1250 1170
 	1    0    0    -1  
 $EndComp
-Text Label 1940 1435 0    50   ~ 0
+Text Label 1750 1570 0    50   ~ 0
 MOSI
 $Comp
 L GND #PWR010
 U 1 1 57D39745
-P 775 1260
-F 0 "#PWR010" H 775 1010 50  0001 C CNN
-F 1 "GND" H 780 1087 50  0000 C CNN
-F 2 "" H 775 1260 50  0000 C CNN
-F 3 "" H 775 1260 50  0000 C CNN
-	1    775  1260
-	-1   0    0    1   
+P 1250 2070
+F 0 "#PWR010" H 1250 1820 50  0001 C CNN
+F 1 "GND" H 1255 1897 50  0000 C CNN
+F 2 "" H 1250 2070 50  0000 C CNN
+F 3 "" H 1250 2070 50  0000 C CNN
+	1    1250 2070
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR011
@@ -834,18 +730,6 @@ Wire Wire Line
 	5585 5150 5585 5440
 Connection ~ 5585 5440
 Wire Wire Line
-	775  1335 1175 1335
-Wire Wire Line
-	1175 1435 780  1435
-Wire Wire Line
-	1175 1535 780  1535
-Wire Wire Line
-	1425 1335 1935 1335
-Wire Wire Line
-	1425 1435 1940 1435
-Wire Wire Line
-	1425 1535 1940 1535
-Wire Wire Line
 	5585 5150 6235 5150
 Wire Notes Line
 	7225 500  7225 6525
@@ -933,8 +817,6 @@ Wire Wire Line
 	8645 4160 8395 4160
 Wire Wire Line
 	8890 6210 8480 6210
-Wire Wire Line
-	775  1335 775  1260
 NoConn ~ 9390 5610
 $Comp
 L MTCH105 U6

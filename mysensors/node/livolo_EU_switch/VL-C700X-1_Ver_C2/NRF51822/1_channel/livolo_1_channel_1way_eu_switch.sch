@@ -1,44 +1,4 @@
 EESchema Schematic File Version 3
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
 LIBS:ac-dc
 LIBS:adc-dac
 LIBS:Altera
@@ -48,12 +8,13 @@ LIBS:atmel
 LIBS:audio
 LIBS:Battery_Management
 LIBS:bbd
-
+LIBS:Bosch
 LIBS:brooktre
 LIBS:Connector
 LIBS:contrib
 LIBS:cypress
 LIBS:dc-dc
+LIBS:Decawave
 LIBS:device
 LIBS:digital-audio
 LIBS:Diode
@@ -94,6 +55,7 @@ LIBS:MCU_Microchip_PIC32
 LIBS:MCU_NXP_Kinetis
 LIBS:MCU_NXP_LPC
 LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
 LIBS:MCU_ST_STM8
 LIBS:MCU_ST_STM32
 LIBS:MCU_Texas_MSP430
@@ -118,9 +80,11 @@ LIBS:pspice
 LIBS:references
 LIBS:regul
 LIBS:Relay
+LIBS:RF_Bluetooth
 LIBS:rfcom
 LIBS:RFSolutions
 LIBS:Sensor_Current
+LIBS:Sensor_Humidity
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
@@ -136,8 +100,57 @@ LIBS:wiznet
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
+LIBS:xilinx-artix7
+LIBS:xilinx-kintex7
+LIBS:xilinx-spartan6
+LIBS:xilinx-virtex5
+LIBS:xilinx-virtex6
+LIBS:xilinx-virtex7
 LIBS:zetex
 LIBS:Zilog
+LIBS:mysensors_arduino
+LIBS:mysensors_connectors
+LIBS:mysensors_logic
+LIBS:mysensors_mcu
+LIBS:mysensors_memories
+LIBS:mysensors_network
+LIBS:mysensors_radios
+LIBS:mysensors_regulators
+LIBS:mysensors_security
+LIBS:mysensors_sensors
+LIBS:AMS1117
+LIBS:BLUE_PILL
+LIBS:ch340
+LIBS:cp2102
+LIBS:current_transf
+LIBS:E73-2G4M04S
+LIBS:ESP8266
+LIBS:hlk-pm01
+LIBS:hlk-pm03
+LIBS:holyiot_nrf52832
+LIBS:l6920
+LIBS:linear_tech
+LIBS:MAPLE_MINI
+LIBS:max44009
+LIBS:MIC5205
+LIBS:mtch102
+LIBS:mtch105
+LIBS:mx-503398-1892
+LIBS:nanopi_duo
+LIBS:ncp1402
+LIBS:onion_omega2
+LIBS:orangepi-zero
+LIBS:pam8403
+LIBS:pcm5100
+LIBS:ptr5518
+LIBS:rfm12
+LIBS:rfm69cw
+LIBS:RM50_SP
+LIBS:touch
+LIBS:ttp223
+LIBS:txb010x
+LIBS:v23079-e1208-b301
+LIBS:WT51822-S4AT
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -189,26 +202,26 @@ $EndComp
 $Comp
 L MCP16301 U2
 U 1 1 586CDA6D
-P 5100 1450
-F 0 "U2" H 5100 2017 50  0000 C CNN
-F 1 "MCP16301" H 5100 1926 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 5100 950 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2129968.pdf" H 4800 2000 50  0001 C CNN
-F 4 "MCP16301T-I/CHY" H 5100 1450 60  0001 C CNN "Part No"
-F 5 "4-30V/3.3V/600mA" H 5100 1450 60  0001 C CNN "Rating"
-F 6 "Microchip" H 5100 1450 60  0001 C CNN "Vendor"
-	1    5100 1450
+P 5100 1250
+F 0 "U2" H 5100 1817 50  0000 C CNN
+F 1 "MCP16301" H 5100 1726 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 5100 750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2129968.pdf" H 4800 1800 50  0001 C CNN
+F 4 "MCP16301T-I/CHY" H 5100 1250 60  0001 C CNN "Part No"
+F 5 "4-30V/3.3V/600mA" H 5100 1250 60  0001 C CNN "Rating"
+F 6 "Microchip" H 5100 1250 60  0001 C CNN "Vendor"
+	1    5100 1250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
 U 1 1 586CEC25
-P 5100 1850
-F 0 "#PWR05" H 5100 1600 50  0001 C CNN
-F 1 "GND" H 5105 1677 50  0000 C CNN
-F 2 "" H 5100 1850 50  0000 C CNN
-F 3 "" H 5100 1850 50  0000 C CNN
-	1    5100 1850
+P 5100 1650
+F 0 "#PWR05" H 5100 1400 50  0001 C CNN
+F 1 "GND" H 5105 1477 50  0000 C CNN
+F 2 "" H 5100 1650 50  0000 C CNN
+F 3 "" H 5100 1650 50  0000 C CNN
+	1    5100 1650
 	1    0    0    -1  
 $EndComp
 $Comp

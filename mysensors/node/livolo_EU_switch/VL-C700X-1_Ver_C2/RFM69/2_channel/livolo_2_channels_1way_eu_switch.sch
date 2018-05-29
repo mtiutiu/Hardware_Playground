@@ -1,143 +1,5 @@
 EESchema Schematic File Version 3
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
+LIBS:livolo_2_channels_1way_eu_switch-archive
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -378,45 +240,45 @@ $EndComp
 $Comp
 L AVR-ISP-6 CON1
 U 1 1 57D34506
-P 1325 1435
-F 0 "CON1" H 1205 1795 50  0000 C CNN
-F 1 "AVR-ISP-6" H 1105 1670 50  0000 L BNN
-F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 805 1475 50  0001 C CNN
-F 3 "" H 1300 1435 50  0000 C CNN
-F 4 "noload" H 1325 1435 60  0001 C CNN "Value"
-	1    1325 1435
+P 1310 1590
+F 0 "CON1" H 850 1720 50  0000 C CNN
+F 1 "AVR-ISP-6" H 650 1580 50  0000 L BNN
+F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 790 1630 50  0001 C CNN
+F 3 "" H 1285 1590 50  0000 C CNN
+F 4 "noload" H 1310 1590 60  0001 C CNN "Value"
+	1    1310 1590
 	1    0    0    -1  
 $EndComp
-Text Label 775  1335 2    50   ~ 0
+Text Label 1710 1390 0    50   ~ 0
 MISO
-Text Label 780  1435 2    50   ~ 0
+Text Label 1710 1590 0    50   ~ 0
 SCK
 Text Label 5345 5970 0    50   ~ 0
 RESET
-Text Label 780  1535 2    50   ~ 0
+Text Label 1710 1690 0    50   ~ 0
 RESET
 $Comp
 L +3.3V #PWR010
 U 1 1 57D38CA7
-P 1935 1335
-F 0 "#PWR010" H 1935 1185 50  0001 C CNN
-F 1 "+3.3V" H 1950 1508 50  0000 C CNN
-F 2 "" H 1935 1335 50  0000 C CNN
-F 3 "" H 1935 1335 50  0000 C CNN
-	1    1935 1335
+P 1210 1090
+F 0 "#PWR010" H 1210 940 50  0001 C CNN
+F 1 "+3.3V" H 1225 1263 50  0000 C CNN
+F 2 "" H 1210 1090 50  0000 C CNN
+F 3 "" H 1210 1090 50  0000 C CNN
+	1    1210 1090
 	1    0    0    -1  
 $EndComp
-Text Label 1940 1435 0    50   ~ 0
+Text Label 1710 1490 0    50   ~ 0
 MOSI
 $Comp
 L GND #PWR011
 U 1 1 57D39745
-P 1940 1535
-F 0 "#PWR011" H 1940 1285 50  0001 C CNN
-F 1 "GND" H 1945 1362 50  0000 C CNN
-F 2 "" H 1940 1535 50  0000 C CNN
-F 3 "" H 1940 1535 50  0000 C CNN
-	1    1940 1535
+P 1210 1990
+F 0 "#PWR011" H 1210 1740 50  0001 C CNN
+F 1 "GND" H 1215 1817 50  0000 C CNN
+F 2 "" H 1210 1990 50  0000 C CNN
+F 3 "" H 1210 1990 50  0000 C CNN
+	1    1210 1990
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -544,26 +406,26 @@ $EndComp
 $Comp
 L MCP16301 U2
 U 1 1 586CDA6D
-P 6160 1480
-F 0 "U2" H 6160 2047 50  0000 C CNN
-F 1 "MCP16301" H 6160 1956 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 6160 980 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2129968.pdf" H 5860 2030 50  0001 C CNN
-F 4 "MCP16301T-I/CHY" H 6160 1480 60  0001 C CNN "Part No"
-F 5 "4-30V/3.3V/600mA" H 6160 1480 60  0001 C CNN "Rating"
-F 6 "Microchip" H 6160 1480 60  0001 C CNN "Vendor"
-	1    6160 1480
+P 6160 1280
+F 0 "U2" H 6160 1847 50  0000 C CNN
+F 1 "MCP16301" H 6160 1756 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 6160 780 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2129968.pdf" H 5860 1830 50  0001 C CNN
+F 4 "MCP16301T-I/CHY" H 6160 1280 60  0001 C CNN "Part No"
+F 5 "4-30V/3.3V/600mA" H 6160 1280 60  0001 C CNN "Rating"
+F 6 "Microchip" H 6160 1280 60  0001 C CNN "Vendor"
+	1    6160 1280
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR019
 U 1 1 586CEC25
-P 6160 1880
-F 0 "#PWR019" H 6160 1630 50  0001 C CNN
-F 1 "GND" H 6165 1707 50  0000 C CNN
-F 2 "" H 6160 1880 50  0000 C CNN
-F 3 "" H 6160 1880 50  0000 C CNN
-	1    6160 1880
+P 6160 1680
+F 0 "#PWR019" H 6160 1430 50  0001 C CNN
+F 1 "GND" H 6165 1507 50  0000 C CNN
+F 2 "" H 6160 1680 50  0000 C CNN
+F 3 "" H 6160 1680 50  0000 C CNN
+	1    6160 1680
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1356,18 +1218,6 @@ Wire Wire Line
 Wire Wire Line
 	4695 5970 4695 6260
 Connection ~ 4695 6260
-Wire Wire Line
-	775  1335 1175 1335
-Wire Wire Line
-	1175 1435 780  1435
-Wire Wire Line
-	1175 1535 780  1535
-Wire Wire Line
-	1425 1335 1935 1335
-Wire Wire Line
-	1425 1435 1940 1435
-Wire Wire Line
-	1425 1535 1940 1535
 Wire Wire Line
 	4695 5970 5345 5970
 Wire Notes Line
