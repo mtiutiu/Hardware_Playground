@@ -1,0 +1,3 @@
+(sym_lib_table
+    (lib (name archive)(type Legacy)(uri ${KIPRJMOD}/sd_wav_pcm5100-archive.lib)(options "")(descr ""))
+)

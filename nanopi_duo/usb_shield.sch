@@ -8,7 +8,7 @@ LIBS:atmel
 LIBS:audio
 LIBS:Battery_Management
 LIBS:bbd
-
+LIBS:Bosch
 LIBS:brooktre
 LIBS:Connector
 LIBS:contrib
@@ -108,7 +108,6 @@ LIBS:xilinx-virtex6
 LIBS:xilinx-virtex7
 LIBS:zetex
 LIBS:Zilog
-LIBS:AMS1117
 LIBS:BLUE_PILL
 LIBS:ch340
 LIBS:cp2102
@@ -117,6 +116,7 @@ LIBS:E73-2G4M04S
 LIBS:ESP8266
 LIBS:hlk-pm01
 LIBS:hlk-pm03
+LIBS:holyiot_nrf52832
 LIBS:l6920
 LIBS:linear_tech
 LIBS:MAPLE_MINI

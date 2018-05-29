@@ -8,7 +8,6 @@ LIBS:atmel
 LIBS:audio
 LIBS:Battery_Management
 LIBS:bbd
-
 LIBS:brooktre
 LIBS:Connector
 LIBS:contrib
@@ -98,7 +97,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:AMS1117
 LIBS:BLUE_PILL
 LIBS:ch340
 LIBS:cp2102

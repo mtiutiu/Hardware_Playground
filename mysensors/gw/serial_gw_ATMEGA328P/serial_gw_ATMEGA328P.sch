@@ -10,81 +10,108 @@ LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
 LIBS:AMS1117
+LIBS:BLUE_PILL
 LIBS:ch340
 LIBS:cp2102
 LIBS:current_transf
+LIBS:E73-2G4M04S
+LIBS:ESP8266
 LIBS:hlk-pm01
+LIBS:hlk-pm03
+LIBS:holyiot_nrf52832
 LIBS:l6920
 LIBS:linear_tech
+LIBS:MAPLE_MINI
 LIBS:max44009
 LIBS:MIC5205
+LIBS:mtch102
+LIBS:mtch105
 LIBS:mx-503398-1892
+LIBS:nanopi_duo
 LIBS:ncp1402
+LIBS:onion_omega2
+LIBS:orangepi-zero
 LIBS:pam8403
 LIBS:pcm5100
+LIBS:ptr5518
 LIBS:rfm12
 LIBS:rfm69cw
 LIBS:RM50_SP
+LIBS:touch
 LIBS:ttp223
 LIBS:txb010x
 LIBS:v23079-e1208-b301
-LIBS:74xgxx
-LIBS:74xx
+LIBS:WT51822-S4AT
 LIBS:ac-dc
-LIBS:actel
 LIBS:adc-dac
-LIBS:allegro
 LIBS:Altera
 LIBS:analog_devices
 LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
-LIBS:battery_management
+LIBS:Battery_Management
 LIBS:bbd
-
+LIBS:Bosch
 LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
+LIBS:Connector
 LIBS:contrib
 LIBS:cypress
 LIBS:dc-dc
+LIBS:Decawave
 LIBS:device
 LIBS:digital-audio
-LIBS:diode
-LIBS:display
+LIBS:Diode
+LIBS:Display
+LIBS:driver_gate
 LIBS:dsp
+LIBS:DSP_Microchip_DSPIC33
 LIBS:elec-unifil
 LIBS:ESD_Protection
+LIBS:Espressif
+LIBS:FPGA_Actel
 LIBS:ftdi
 LIBS:gennum
+LIBS:Graphic
 LIBS:hc11
+LIBS:infineon
 LIBS:intel
 LIBS:interface
+LIBS:intersil
 LIBS:ir
 LIBS:Lattice
-LIBS:leds
+LIBS:LED
+LIBS:LEM
 LIBS:linear
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
 LIBS:maxim
-LIBS:mechanical
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
 LIBS:memory
 LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
 LIBS:microcontrollers
 LIBS:modules
+LIBS:Motor
 LIBS:motor_drivers
 LIBS:motorola
-LIBS:motors
-LIBS:msp430
 LIBS:nordicsemi
 LIBS:nxp
-LIBS:nxp_armmcu
 LIBS:onsemi
 LIBS:opto
 LIBS:Oscillators
@@ -95,26 +122,32 @@ LIBS:Power_Management
 LIBS:pspice
 LIBS:references
 LIBS:regul
-LIBS:relays
-LIBS:rfcom
+LIBS:Relay
+LIBS:RF_Bluetooth
+LIBS:RFSolutions
+LIBS:Sensor_Current
+LIBS:Sensor_Humidity
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
 LIBS:supertex
-LIBS:switches
+LIBS:Switch
 LIBS:texas
-LIBS:transf
-LIBS:transistors
+LIBS:Transformer
+LIBS:Transistor
 LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
+LIBS:Valve
 LIBS:video
 LIBS:wiznet
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
+LIBS:xilinx-artix7
+LIBS:xilinx-kintex7
+LIBS:xilinx-spartan6
+LIBS:xilinx-virtex5
+LIBS:xilinx-virtex6
+LIBS:xilinx-virtex7
 LIBS:zetex
 LIBS:Zilog
 EELAYER 26 0
@@ -374,32 +407,32 @@ Text Notes 7045 6460 0    67   ~ 13
 $Comp
 L +5V #PWR015
 U 1 1 575F559F
-P 2340 1500
-F 0 "#PWR015" H 2340 1350 50  0001 C CNN
-F 1 "+5V" H 2355 1673 50  0000 C CNN
-F 2 "" H 2340 1500 50  0000 C CNN
-F 3 "" H 2340 1500 50  0000 C CNN
-	1    2340 1500
+P 1620 1380
+F 0 "#PWR015" H 1620 1230 50  0001 C CNN
+F 1 "+5V" H 1635 1553 50  0000 C CNN
+F 2 "" H 1620 1380 50  0000 C CNN
+F 3 "" H 1620 1380 50  0000 C CNN
+	1    1620 1380
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR016
 U 1 1 575F5898
-P 2340 1880
-F 0 "#PWR016" H 2340 1630 50  0001 C CNN
-F 1 "GND" H 2345 1707 50  0000 C CNN
-F 2 "" H 2340 1880 50  0000 C CNN
-F 3 "" H 2340 1880 50  0000 C CNN
-	1    2340 1880
+P 1620 2280
+F 0 "#PWR016" H 1620 2030 50  0001 C CNN
+F 1 "GND" H 1625 2107 50  0000 C CNN
+F 2 "" H 1620 2280 50  0000 C CNN
+F 3 "" H 1620 2280 50  0000 C CNN
+	1    1620 2280
 	1    0    0    -1  
 $EndComp
-Text Label 2480 1760 0    60   ~ 0
+Text Label 2120 1780 0    60   ~ 0
 MOSI
-Text Label 1280 1860 2    60   ~ 0
+Text Label 2120 1980 0    60   ~ 0
 RST
-Text Label 1280 1760 2    60   ~ 0
+Text Label 2120 1880 0    60   ~ 0
 SCK
-Text Label 1280 1660 2    60   ~ 0
+Text Label 2120 1680 0    60   ~ 0
 MISO
 Text Label 5355 5445 0    60   ~ 0
 RST
@@ -816,12 +849,12 @@ SER_TX
 $Comp
 L AVR-ISP-6 CON1
 U 1 1 587EC8D0
-P 1905 1760
-F 0 "CON1" H 1892 2125 50  0000 C CNN
-F 1 "AVR-ISP-6" H 1892 2034 50  0000 C CNN
-F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 1385 1800 50  0001 C CNN
-F 3 "" H 1880 1760 50  0000 C CNN
-	1    1905 1760
+P 1720 1880
+F 0 "CON1" H 1250 1980 50  0000 C CNN
+F 1 "AVR-ISP-6" H 1260 1880 50  0000 C CNN
+F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 1200 1920 50  0001 C CNN
+F 3 "" H 1695 1880 50  0000 C CNN
+	1    1720 1880
 	1    0    0    -1  
 $EndComp
 Text Label 7870 2735 0    60   ~ 0
@@ -1101,14 +1134,6 @@ Wire Wire Line
 Wire Wire Line
 	8775 5625 8775 5775
 Wire Wire Line
-	1755 1660 1280 1660
-Wire Wire Line
-	1755 1760 1280 1760
-Wire Wire Line
-	1755 1860 1280 1860
-Wire Wire Line
-	2005 1760 2480 1760
-Wire Wire Line
 	4530 5445 5355 5445
 Wire Wire Line
 	5775 1600 5600 1600
@@ -1179,14 +1204,6 @@ Wire Wire Line
 	10730 1615 10845 1615
 Wire Notes Line
 	3375 2705 3375 3085
-Wire Wire Line
-	2005 1860 2340 1860
-Wire Wire Line
-	2340 1860 2340 1880
-Wire Wire Line
-	2005 1660 2340 1660
-Wire Wire Line
-	2340 1660 2340 1500
 Wire Wire Line
 	9730 600  9510 600 
 Wire Wire Line

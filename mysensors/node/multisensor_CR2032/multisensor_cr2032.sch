@@ -8,12 +8,13 @@ LIBS:atmel
 LIBS:audio
 LIBS:Battery_Management
 LIBS:bbd
-
+LIBS:Bosch
 LIBS:brooktre
 LIBS:Connector
 LIBS:contrib
 LIBS:cypress
 LIBS:dc-dc
+LIBS:Decawave
 LIBS:device
 LIBS:digital-audio
 LIBS:Diode
@@ -54,6 +55,7 @@ LIBS:MCU_Microchip_PIC32
 LIBS:MCU_NXP_Kinetis
 LIBS:MCU_NXP_LPC
 LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
 LIBS:MCU_ST_STM8
 LIBS:MCU_ST_STM32
 LIBS:MCU_Texas_MSP430
@@ -78,9 +80,10 @@ LIBS:pspice
 LIBS:references
 LIBS:regul
 LIBS:Relay
-LIBS:rfcom
+LIBS:RF_Bluetooth
 LIBS:RFSolutions
 LIBS:Sensor_Current
+LIBS:Sensor_Humidity
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
@@ -96,6 +99,12 @@ LIBS:wiznet
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
+LIBS:xilinx-artix7
+LIBS:xilinx-kintex7
+LIBS:xilinx-spartan6
+LIBS:xilinx-virtex5
+LIBS:xilinx-virtex6
+LIBS:xilinx-virtex7
 LIBS:zetex
 LIBS:Zilog
 LIBS:AMS1117
@@ -115,8 +124,10 @@ LIBS:MIC5205
 LIBS:mtch102
 LIBS:mtch105
 LIBS:mx-503398-1892
+LIBS:nanopi_duo
 LIBS:ncp1402
 LIBS:onion_omega2
+LIBS:orangepi-zero
 LIBS:pam8403
 LIBS:pcm5100
 LIBS:ptr5518
@@ -246,21 +257,21 @@ Text Notes 7560 6495 0    67   ~ 13
 $Comp
 L GND #PWR04
 U 1 1 575F5898
-P 1765 1880
-F 0 "#PWR04" H 1765 1630 50  0001 C CNN
-F 1 "GND" H 1770 1707 50  0000 C CNN
-F 2 "" H 1765 1880 50  0000 C CNN
-F 3 "" H 1765 1880 50  0000 C CNN
-	1    1765 1880
+P 1150 2210
+F 0 "#PWR04" H 1150 1960 50  0001 C CNN
+F 1 "GND" H 1155 2037 50  0000 C CNN
+F 2 "" H 1150 2210 50  0000 C CNN
+F 3 "" H 1150 2210 50  0000 C CNN
+	1    1150 2210
 	1    0    0    -1  
 $EndComp
-Text Label 1825 1760 0    60   ~ 0
+Text Label 1650 1710 0    60   ~ 0
 MOSI
-Text Label 820  1860 2    60   ~ 0
+Text Label 1650 1910 0    60   ~ 0
 RST
-Text Label 825  1760 2    60   ~ 0
+Text Label 1650 1810 0    60   ~ 0
 SCK
-Text Label 825  1660 2    60   ~ 0
+Text Label 1650 1610 0    60   ~ 0
 MISO
 Text Label 6205 5270 0    60   ~ 0
 RST
@@ -345,12 +356,12 @@ $EndComp
 $Comp
 L AVR-ISP-6 CON1
 U 1 1 587EC8D0
-P 1330 1760
-F 0 "CON1" H 1317 2125 50  0000 C CNN
-F 1 "AVR-ISP-6" H 1317 2034 50  0000 C CNN
-F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 810 1800 50  0001 C CNN
-F 3 "" H 1305 1760 50  0000 C CNN
-	1    1330 1760
+P 1250 1810
+F 0 "CON1" H 810 1930 50  0000 C CNN
+F 1 "AVR-ISP-6" H 810 1820 50  0000 C CNN
+F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 730 1850 50  0001 C CNN
+F 3 "" H 1225 1810 50  0000 C CNN
+	1    1250 1810
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -490,12 +501,12 @@ $EndComp
 $Comp
 L +3.3V #PWR014
 U 1 1 588227E2
-P 1765 1500
-F 0 "#PWR014" H 1765 1350 50  0001 C CNN
-F 1 "+3.3V" H 1780 1673 50  0000 C CNN
-F 2 "" H 1765 1500 50  0000 C CNN
-F 3 "" H 1765 1500 50  0000 C CNN
-	1    1765 1500
+P 1150 1310
+F 0 "#PWR014" H 1150 1160 50  0001 C CNN
+F 1 "+3.3V" H 1165 1483 50  0000 C CNN
+F 2 "" H 1150 1310 50  0000 C CNN
+F 3 "" H 1150 1310 50  0000 C CNN
+	1    1150 1310
 	1    0    0    -1  
 $EndComp
 Text Label 8500 3985 2    60   ~ 0
@@ -1017,14 +1028,6 @@ Wire Wire Line
 Wire Wire Line
 	4355 5945 4530 5945
 Wire Wire Line
-	1180 1660 825  1660
-Wire Wire Line
-	1180 1760 825  1760
-Wire Wire Line
-	1180 1860 820  1860
-Wire Wire Line
-	1430 1760 1825 1760
-Wire Wire Line
 	5230 5270 6205 5270
 Wire Wire Line
 	9355 3380 9355 3585
@@ -1033,14 +1036,6 @@ Wire Wire Line
 Connection ~ 9355 3515
 Wire Notes Line
 	475  3085 11220 3085
-Wire Wire Line
-	1430 1860 1765 1860
-Wire Wire Line
-	1765 1860 1765 1880
-Wire Wire Line
-	1430 1660 1765 1660
-Wire Wire Line
-	1765 1660 1765 1500
 Wire Wire Line
 	8670 3810 8670 3985
 Connection ~ 8670 3985

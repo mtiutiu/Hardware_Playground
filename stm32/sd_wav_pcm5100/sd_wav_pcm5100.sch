@@ -8,12 +8,13 @@ LIBS:atmel
 LIBS:audio
 LIBS:Battery_Management
 LIBS:bbd
-
+LIBS:Bosch
 LIBS:brooktre
 LIBS:Connector
 LIBS:contrib
 LIBS:cypress
 LIBS:dc-dc
+LIBS:Decawave
 LIBS:device
 LIBS:digital-audio
 LIBS:Diode
@@ -54,6 +55,7 @@ LIBS:MCU_Microchip_PIC32
 LIBS:MCU_NXP_Kinetis
 LIBS:MCU_NXP_LPC
 LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
 LIBS:MCU_ST_STM8
 LIBS:MCU_ST_STM32
 LIBS:MCU_Texas_MSP430
@@ -78,9 +80,11 @@ LIBS:pspice
 LIBS:references
 LIBS:regul
 LIBS:Relay
+LIBS:RF_Bluetooth
 LIBS:rfcom
 LIBS:RFSolutions
 LIBS:Sensor_Current
+LIBS:Sensor_Humidity
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
@@ -96,6 +100,12 @@ LIBS:wiznet
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
+LIBS:xilinx-artix7
+LIBS:xilinx-kintex7
+LIBS:xilinx-spartan6
+LIBS:xilinx-virtex5
+LIBS:xilinx-virtex6
+LIBS:xilinx-virtex7
 LIBS:zetex
 LIBS:Zilog
 LIBS:AMS1117
@@ -107,6 +117,7 @@ LIBS:E73-2G4M04S
 LIBS:ESP8266
 LIBS:hlk-pm01
 LIBS:hlk-pm03
+LIBS:holyiot_nrf52832
 LIBS:l6920
 LIBS:linear_tech
 LIBS:MAPLE_MINI
@@ -115,8 +126,10 @@ LIBS:MIC5205
 LIBS:mtch102
 LIBS:mtch105
 LIBS:mx-503398-1892
+LIBS:nanopi_duo
 LIBS:ncp1402
 LIBS:onion_omega2
+LIBS:orangepi-zero
 LIBS:pam8403
 LIBS:pcm5100
 LIBS:ptr5518
@@ -167,22 +180,14 @@ $EndComp
 Wire Wire Line
 	3560 5680 3560 5710
 Wire Wire Line
-	3560 5710 3660 5710
-Wire Wire Line
-	3660 5710 3760 5710
-Wire Wire Line
-	3760 5710 3860 5710
-Wire Wire Line
-	3860 5710 3960 5710
+	3560 5710 3960 5710
 Wire Wire Line
 	3960 5710 3960 5680
 Wire Wire Line
 	3860 5680 3860 5710
 Connection ~ 3860 5710
 Wire Wire Line
-	3760 5680 3760 5710
-Wire Wire Line
-	3760 5710 3760 5765
+	3760 5680 3760 5765
 Connection ~ 3760 5710
 Wire Wire Line
 	3660 5680 3660 5710
@@ -319,33 +324,23 @@ Wire Wire Line
 Wire Wire Line
 	3130 1490 2970 1490
 Wire Wire Line
-	3330 1490 3560 1490
-Wire Wire Line
-	3560 1490 4215 1490
+	3330 1490 4215 1490
 Wire Wire Line
 	3560 1490 3560 1680
 Wire Wire Line
-	3330 1295 3660 1295
-Wire Wire Line
-	3660 1295 4215 1295
+	3330 1295 4215 1295
 Wire Wire Line
 	3660 1295 3660 1680
 Wire Wire Line
-	3335 1110 3760 1110
-Wire Wire Line
-	3760 1110 4215 1110
+	3335 1110 4215 1110
 Wire Wire Line
 	3760 1110 3760 1680
 Wire Wire Line
 	3860 1680 3860 915 
 Wire Wire Line
-	3330 915  3860 915 
+	3330 915  4215 915 
 Wire Wire Line
-	3860 915  4215 915 
-Wire Wire Line
-	3330 710  3960 710 
-Wire Wire Line
-	3960 710  4215 710 
+	3330 710  4215 710 
 Wire Wire Line
 	3960 710  3960 1680
 $Comp
@@ -396,9 +391,7 @@ Wire Wire Line
 Wire Wire Line
 	8780 5750 8905 5750
 Wire Wire Line
-	8780 5240 8780 5295
-Wire Wire Line
-	8780 5295 8780 5750
+	8780 5240 8780 5750
 Wire Wire Line
 	8905 5850 8665 5850
 Wire Wire Line
@@ -559,9 +552,7 @@ F 3 "" H 8695 920 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8910 710  8910 920 
-Wire Wire Line
-	8910 920  8910 1100
+	8910 710  8910 1100
 $Comp
 L +3.3V #PWR016
 U 1 1 5846C582
@@ -653,9 +644,7 @@ Wire Wire Line
 Wire Wire Line
 	10125 1500 10125 1200
 Wire Wire Line
-	10010 1200 10125 1200
-Wire Wire Line
-	10125 1200 10195 1200
+	10010 1200 10195 1200
 $Comp
 L +3.3V #PWR021
 U 1 1 5846E2B5
@@ -668,9 +657,7 @@ F 3 "" H 10010 710 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10010 710  10010 915 
-Wire Wire Line
-	10010 915  10010 1100
+	10010 710  10010 1100
 $Comp
 L C_Small C17
 U 1 1 5846E3BA
@@ -796,9 +783,7 @@ F 3 "" H 8605 2065 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8525 1800 8605 1800
-Wire Wire Line
-	8605 1800 8910 1800
+	8525 1800 8910 1800
 Wire Wire Line
 	8605 1800 8605 1965
 $Comp
@@ -847,15 +832,11 @@ F 3 "" H 7930 1930 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7765 1700 8205 1700
-Wire Wire Line
-	8205 1700 8355 1700
+	7765 1700 8355 1700
 Wire Wire Line
 	8205 1700 8205 1825
 Wire Wire Line
-	7770 1600 7930 1600
-Wire Wire Line
-	7930 1600 8200 1600
+	7770 1600 8200 1600
 Wire Wire Line
 	7930 1600 7930 1830
 $Comp
@@ -1125,9 +1106,7 @@ F 3 "" H 8810 4470 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8730 3780 8810 3780
-Wire Wire Line
-	8810 3780 8930 3780
+	8730 3780 8930 3780
 Wire Wire Line
 	8810 4370 8810 3780
 Connection ~ 8810 3780
@@ -1154,9 +1133,7 @@ F 3 "" H 10720 3210 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10130 3580 10500 3580
-Wire Wire Line
-	10500 3580 10615 3580
+	10130 3580 10615 3580
 Wire Wire Line
 	10720 3310 10720 3360
 $Comp
@@ -1193,9 +1170,7 @@ F 3 "" H 10720 3110 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10500 3310 10500 3360
-Wire Wire Line
-	10500 3360 10500 3580
+	10500 3310 10500 3580
 Wire Wire Line
 	10720 3360 10500 3360
 Wire Wire Line
@@ -1282,9 +1257,7 @@ F 3 "" H 720 2035 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	720  2135 720  2160
-Wire Wire Line
-	720  2160 720  2185
+	720  2135 720  2185
 Wire Wire Line
 	805  2280 805  2160
 Wire Wire Line
@@ -1341,9 +1314,7 @@ $EndComp
 Wire Wire Line
 	950  2080 1060 2080
 Wire Wire Line
-	950  1410 950  1530
-Wire Wire Line
-	950  1530 950  2080
+	950  1410 950  2080
 $Comp
 L +3.3V #PWR044
 U 1 1 584A26C1

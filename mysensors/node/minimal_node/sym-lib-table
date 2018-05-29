@@ -1,0 +1,3 @@
+(sym_lib_table
+    (lib (name archive)(type Legacy)(uri ${KIPRJMOD}/minimal_node_rfm69w-archive.lib)(options "")(descr ""))
+)

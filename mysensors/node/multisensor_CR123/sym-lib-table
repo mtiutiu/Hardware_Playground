@@ -1,0 +1,3 @@
+(sym_lib_table
+    (lib (name archive)(type Legacy)(uri ${KIPRJMOD}/multisensor_cr123-archive.lib)(options "")(descr ""))
+)

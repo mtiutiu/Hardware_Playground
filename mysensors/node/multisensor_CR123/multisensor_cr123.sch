@@ -8,12 +8,13 @@ LIBS:atmel
 LIBS:audio
 LIBS:Battery_Management
 LIBS:bbd
-
+LIBS:Bosch
 LIBS:brooktre
 LIBS:Connector
 LIBS:contrib
 LIBS:cypress
 LIBS:dc-dc
+LIBS:Decawave
 LIBS:device
 LIBS:digital-audio
 LIBS:Diode
@@ -54,6 +55,7 @@ LIBS:MCU_Microchip_PIC32
 LIBS:MCU_NXP_Kinetis
 LIBS:MCU_NXP_LPC
 LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
 LIBS:MCU_ST_STM8
 LIBS:MCU_ST_STM32
 LIBS:MCU_Texas_MSP430
@@ -78,9 +80,10 @@ LIBS:pspice
 LIBS:references
 LIBS:regul
 LIBS:Relay
-LIBS:rfcom
+LIBS:RF_Bluetooth
 LIBS:RFSolutions
 LIBS:Sensor_Current
+LIBS:Sensor_Humidity
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
@@ -96,6 +99,12 @@ LIBS:wiznet
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
+LIBS:xilinx-artix7
+LIBS:xilinx-kintex7
+LIBS:xilinx-spartan6
+LIBS:xilinx-virtex5
+LIBS:xilinx-virtex6
+LIBS:xilinx-virtex7
 LIBS:zetex
 LIBS:Zilog
 LIBS:mysensors_arduino
@@ -117,6 +126,7 @@ LIBS:E73-2G4M04S
 LIBS:ESP8266
 LIBS:hlk-pm01
 LIBS:hlk-pm03
+LIBS:holyiot_nrf52832
 LIBS:l6920
 LIBS:linear_tech
 LIBS:MAPLE_MINI
@@ -125,8 +135,10 @@ LIBS:MIC5205
 LIBS:mtch102
 LIBS:mtch105
 LIBS:mx-503398-1892
+LIBS:nanopi_duo
 LIBS:ncp1402
 LIBS:onion_omega2
+LIBS:orangepi-zero
 LIBS:pam8403
 LIBS:pcm5100
 LIBS:ptr5518
@@ -509,44 +521,44 @@ $EndComp
 $Comp
 L AVR-ISP-6 CON1
 U 1 1 57D34506
-P 1325 1435
-F 0 "CON1" H 1205 1795 50  0000 C CNN
-F 1 "AVR-ISP-6" H 1105 1670 50  0000 L BNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03" V 805 1475 50  0001 C CNN
-F 3 "" H 1300 1435 50  0000 C CNN
-	1    1325 1435
+P 1340 1710
+F 0 "CON1" H 890 1820 50  0000 C CNN
+F 1 "AVR-ISP-6" H 680 1680 50  0000 L BNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" V 820 1750 50  0001 C CNN
+F 3 "" H 1315 1710 50  0000 C CNN
+	1    1340 1710
 	1    0    0    -1  
 $EndComp
-Text Label 775  1335 2    50   ~ 0
+Text Label 1740 1510 0    50   ~ 0
 MISO
-Text Label 780  1435 2    50   ~ 0
+Text Label 1740 1710 0    50   ~ 0
 SCK
 Text Label 5750 5135 0    50   ~ 0
 RESET
-Text Label 780  1535 2    50   ~ 0
+Text Label 1740 1810 0    50   ~ 0
 RESET
 $Comp
 L +3.3V #PWR015
 U 1 1 57D38CA7
-P 1935 1335
-F 0 "#PWR015" H 1935 1185 50  0001 C CNN
-F 1 "+3.3V" H 1950 1508 50  0000 C CNN
-F 2 "" H 1935 1335 50  0000 C CNN
-F 3 "" H 1935 1335 50  0000 C CNN
-	1    1935 1335
+P 1240 1210
+F 0 "#PWR015" H 1240 1060 50  0001 C CNN
+F 1 "+3.3V" H 1255 1383 50  0000 C CNN
+F 2 "" H 1240 1210 50  0000 C CNN
+F 3 "" H 1240 1210 50  0000 C CNN
+	1    1240 1210
 	1    0    0    -1  
 $EndComp
-Text Label 1940 1435 0    50   ~ 0
+Text Label 1740 1610 0    50   ~ 0
 MOSI
 $Comp
 L GND #PWR016
 U 1 1 57D39745
-P 1940 1535
-F 0 "#PWR016" H 1940 1285 50  0001 C CNN
-F 1 "GND" H 1945 1362 50  0000 C CNN
-F 2 "" H 1940 1535 50  0000 C CNN
-F 3 "" H 1940 1535 50  0000 C CNN
-	1    1940 1535
+P 1240 2110
+F 0 "#PWR016" H 1240 1860 50  0001 C CNN
+F 1 "GND" H 1245 1937 50  0000 C CNN
+F 2 "" H 1240 2110 50  0000 C CNN
+F 3 "" H 1240 2110 50  0000 C CNN
+	1    1240 2110
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1033,18 +1045,6 @@ Wire Wire Line
 	4225 6275 4400 6275
 Wire Wire Line
 	4225 4075 4400 4075
-Wire Wire Line
-	775  1335 1175 1335
-Wire Wire Line
-	1175 1435 780  1435
-Wire Wire Line
-	1175 1535 780  1535
-Wire Wire Line
-	1425 1335 1935 1335
-Wire Wire Line
-	1425 1435 1940 1435
-Wire Wire Line
-	1425 1535 1940 1535
 Wire Wire Line
 	5100 5135 5750 5135
 Wire Notes Line

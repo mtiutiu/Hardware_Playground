@@ -1,4 +1,14 @@
 EESchema Schematic File Version 3
+LIBS:mysensors_arduino
+LIBS:mysensors_connectors
+LIBS:mysensors_logic
+LIBS:mysensors_mcu
+LIBS:mysensors_memories
+LIBS:mysensors_network
+LIBS:mysensors_radios
+LIBS:mysensors_regulators
+LIBS:mysensors_security
+LIBS:mysensors_sensors
 LIBS:ac-dc
 LIBS:adc-dac
 LIBS:Altera
@@ -8,12 +18,13 @@ LIBS:atmel
 LIBS:audio
 LIBS:Battery_Management
 LIBS:bbd
-
+LIBS:Bosch
 LIBS:brooktre
 LIBS:Connector
 LIBS:contrib
 LIBS:cypress
 LIBS:dc-dc
+LIBS:Decawave
 LIBS:device
 LIBS:digital-audio
 LIBS:Diode
@@ -54,6 +65,7 @@ LIBS:MCU_Microchip_PIC32
 LIBS:MCU_NXP_Kinetis
 LIBS:MCU_NXP_LPC
 LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
 LIBS:MCU_ST_STM8
 LIBS:MCU_ST_STM32
 LIBS:MCU_Texas_MSP430
@@ -78,9 +90,11 @@ LIBS:pspice
 LIBS:references
 LIBS:regul
 LIBS:Relay
+LIBS:RF_Bluetooth
 LIBS:rfcom
 LIBS:RFSolutions
 LIBS:Sensor_Current
+LIBS:Sensor_Humidity
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
@@ -96,6 +110,12 @@ LIBS:wiznet
 LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
+LIBS:xilinx-artix7
+LIBS:xilinx-kintex7
+LIBS:xilinx-spartan6
+LIBS:xilinx-virtex5
+LIBS:xilinx-virtex6
+LIBS:xilinx-virtex7
 LIBS:zetex
 LIBS:Zilog
 LIBS:AMS1117
@@ -115,8 +135,10 @@ LIBS:MIC5205
 LIBS:mtch102
 LIBS:mtch105
 LIBS:mx-503398-1892
+LIBS:nanopi_duo
 LIBS:ncp1402
 LIBS:onion_omega2
+LIBS:orangepi-zero
 LIBS:pam8403
 LIBS:pcm5100
 LIBS:ptr5518
@@ -128,16 +150,6 @@ LIBS:ttp223
 LIBS:txb010x
 LIBS:v23079-e1208-b301
 LIBS:WT51822-S4AT
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -301,32 +313,32 @@ Text Notes 7045 6460 0    67   ~ 13
 $Comp
 L +5V #PWR010
 U 1 1 575F559F
-P 2340 1500
-F 0 "#PWR010" H 2340 1350 50  0001 C CNN
-F 1 "+5V" H 2355 1673 50  0000 C CNN
-F 2 "" H 2340 1500 50  0000 C CNN
-F 3 "" H 2340 1500 50  0000 C CNN
-	1    2340 1500
+P 1550 1240
+F 0 "#PWR010" H 1550 1090 50  0001 C CNN
+F 1 "+5V" H 1565 1413 50  0000 C CNN
+F 2 "" H 1550 1240 50  0000 C CNN
+F 3 "" H 1550 1240 50  0000 C CNN
+	1    1550 1240
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR011
 U 1 1 575F5898
-P 2340 1880
-F 0 "#PWR011" H 2340 1630 50  0001 C CNN
-F 1 "GND" H 2345 1707 50  0000 C CNN
-F 2 "" H 2340 1880 50  0000 C CNN
-F 3 "" H 2340 1880 50  0000 C CNN
-	1    2340 1880
+P 1550 2140
+F 0 "#PWR011" H 1550 1890 50  0001 C CNN
+F 1 "GND" H 1555 1967 50  0000 C CNN
+F 2 "" H 1550 2140 50  0000 C CNN
+F 3 "" H 1550 2140 50  0000 C CNN
+	1    1550 2140
 	1    0    0    -1  
 $EndComp
-Text Label 2480 1760 0    60   ~ 0
+Text Label 2050 1640 0    60   ~ 0
 MOSI
-Text Label 1280 1860 2    60   ~ 0
+Text Label 2050 1840 0    60   ~ 0
 RST
-Text Label 1280 1760 2    60   ~ 0
+Text Label 2050 1740 0    60   ~ 0
 SCK
-Text Label 1280 1660 2    60   ~ 0
+Text Label 2050 1540 0    60   ~ 0
 MISO
 Text Label 1935 4010 2    60   ~ 0
 RST
@@ -502,12 +514,12 @@ $EndComp
 $Comp
 L AVR-ISP-6 CON1
 U 1 1 587EC8D0
-P 1905 1760
-F 0 "CON1" H 1892 2125 50  0000 C CNN
-F 1 "AVR-ISP-6" H 1892 2034 50  0000 C CNN
-F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 1385 1800 50  0001 C CNN
-F 3 "" H 1880 1760 50  0000 C CNN
-	1    1905 1760
+P 1650 1740
+F 0 "CON1" H 1230 1880 50  0000 C CNN
+F 1 "AVR-ISP-6" H 1220 1790 50  0000 C CNN
+F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 1130 1780 50  0001 C CNN
+F 3 "" H 1625 1740 50  0000 C CNN
+	1    1650 1740
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -605,14 +617,6 @@ Wire Wire Line
 Wire Wire Line
 	8775 5625 8775 5775
 Wire Wire Line
-	1755 1660 1280 1660
-Wire Wire Line
-	1755 1760 1280 1760
-Wire Wire Line
-	1755 1860 1280 1860
-Wire Wire Line
-	2005 1760 2480 1760
-Wire Wire Line
 	2760 4010 1935 4010
 Wire Wire Line
 	2760 3655 2760 4010
@@ -631,14 +635,6 @@ Wire Wire Line
 Wire Wire Line
 	10160 3605 10080 3605
 Connection ~ 10080 3605
-Wire Wire Line
-	2005 1860 2340 1860
-Wire Wire Line
-	2340 1860 2340 1880
-Wire Wire Line
-	2005 1660 2340 1660
-Wire Wire Line
-	2340 1660 2340 1500
 Wire Wire Line
 	9200 4075 9530 4075
 Wire Wire Line

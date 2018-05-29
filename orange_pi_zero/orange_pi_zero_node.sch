@@ -8,7 +8,6 @@ LIBS:atmel
 LIBS:audio
 LIBS:Battery_Management
 LIBS:bbd
-
 LIBS:brooktre
 LIBS:Connector
 LIBS:contrib

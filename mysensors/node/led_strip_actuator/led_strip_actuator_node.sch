@@ -1,143 +1,5 @@
 EESchema Schematic File Version 3
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
+LIBS:led_strip_actuator_node-archive
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -991,56 +853,42 @@ $EndComp
 $Comp
 L AVR-ISP-6 CON1
 U 1 1 58DA1E18
-P 1705 1615
-F 0 "CON1" H 1692 1980 50  0000 C CNN
-F 1 "AVR-ISP-6" H 1692 1889 50  0000 C CNN
-F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 1185 1655 50  0001 C CNN
-F 3 "" H 1680 1615 50  0001 C CNN
-	1    1705 1615
+P 1520 1650
+F 0 "CON1" H 1110 1800 50  0000 C CNN
+F 1 "AVR-ISP-6" H 1100 1700 50  0000 C CNN
+F 2 "myfootprints:AVR_ISP_SMT_Small_02x03" V 1000 1690 50  0001 C CNN
+F 3 "" H 1495 1650 50  0001 C CNN
+	1    1520 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR028
 U 1 1 58DA26D2
-P 2170 1840
-F 0 "#PWR028" H 2170 1590 50  0001 C CNN
-F 1 "GND" H 2175 1667 50  0000 C CNN
-F 2 "" H 2170 1840 50  0000 C CNN
-F 3 "" H 2170 1840 50  0000 C CNN
-	1    2170 1840
+P 1420 2050
+F 0 "#PWR028" H 1420 1800 50  0001 C CNN
+F 1 "GND" H 1425 1877 50  0000 C CNN
+F 2 "" H 1420 2050 50  0000 C CNN
+F 3 "" H 1420 2050 50  0000 C CNN
+	1    1420 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1555 1515 1240 1515
-Wire Wire Line
-	1555 1615 1240 1615
-Wire Wire Line
-	1555 1715 1240 1715
-Wire Wire Line
-	1805 1515 2170 1515
-Wire Wire Line
-	1805 1615 2170 1615
-Wire Wire Line
-	1805 1715 2170 1715
-Wire Wire Line
-	2170 1715 2170 1840
-Text Label 1240 1515 2    60   ~ 0
+Text Label 1920 1450 0    60   ~ 0
 MISO
-Text Label 2170 1615 0    60   ~ 0
+Text Label 1920 1550 0    60   ~ 0
 MOSI
-Text Label 1240 1615 2    60   ~ 0
+Text Label 1920 1650 0    60   ~ 0
 SCK
-Text Label 1240 1715 2    60   ~ 0
+Text Label 1920 1750 0    60   ~ 0
 RST
 $Comp
 L +3.3V #PWR029
 U 1 1 58DA4A94
-P 2170 1515
-F 0 "#PWR029" H 2170 1365 50  0001 C CNN
-F 1 "+3.3V" H 2185 1688 50  0000 C CNN
-F 2 "" H 2170 1515 50  0000 C CNN
-F 3 "" H 2170 1515 50  0000 C CNN
-	1    2170 1515
+P 1420 1150
+F 0 "#PWR029" H 1420 1000 50  0001 C CNN
+F 1 "+3.3V" H 1435 1323 50  0000 C CNN
+F 2 "" H 1420 1150 50  0000 C CNN
+F 3 "" H 1420 1150 50  0000 C CNN
+	1    1420 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

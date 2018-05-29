@@ -1,0 +1,3 @@
+(sym_lib_table
+    (lib (name archive)(type Legacy)(uri ${KIPRJMOD}/esp8266_uno_relay-archive.lib)(options "")(descr ""))
+)

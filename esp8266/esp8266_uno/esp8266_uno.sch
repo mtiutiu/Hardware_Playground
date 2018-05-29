@@ -8,7 +8,7 @@ LIBS:atmel
 LIBS:audio
 LIBS:Battery_Management
 LIBS:bbd
-
+LIBS:Bosch
 LIBS:brooktre
 LIBS:Connector
 LIBS:contrib
@@ -116,6 +116,7 @@ LIBS:E73-2G4M04S
 LIBS:ESP8266
 LIBS:hlk-pm01
 LIBS:hlk-pm03
+LIBS:holyiot_nrf52832
 LIBS:l6920
 LIBS:linear_tech
 LIBS:MAPLE_MINI
