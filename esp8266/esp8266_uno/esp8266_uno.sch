@@ -1,155 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:holyiot_nrf52832
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -165,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR010
+L esp8266_uno-archive:GND #PWR010
 U 1 1 57598B43
 P 7650 2400
 F 0 "#PWR010" H 7650 2150 50  0001 C CNN
@@ -176,7 +25,7 @@ F 3 "" H 7650 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L esp8266_uno-archive:GND #PWR018
 U 1 1 57598D69
 P 9450 1525
 F 0 "#PWR018" H 9450 1275 50  0001 C CNN
@@ -187,7 +36,7 @@ F 3 "" H 9450 1525 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR023
+L esp8266_uno-archive:+5V #PWR023
 U 1 1 57599300
 P 10475 1025
 F 0 "#PWR023" H 10475 875 50  0001 C CNN
@@ -198,7 +47,7 @@ F 3 "" H 10475 1025 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L esp8266_uno-archive:C_Small C5
 U 1 1 5759942B
 P 8850 2050
 F 0 "C5" V 8625 2050 50  0000 C CNN
@@ -209,7 +58,7 @@ F 3 "" H 8850 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR012
+L esp8266_uno-archive:GND #PWR012
 U 1 1 57599494
 P 8675 2050
 F 0 "#PWR012" H 8675 1800 50  0001 C CNN
@@ -224,7 +73,7 @@ NoConn ~ 10475 2150
 NoConn ~ 10475 2250
 NoConn ~ 10475 2350
 $Comp
-L USB_B P1
+L esp8266_uno-archive:USB_B P1
 U 1 1 575A6F82
 P 7750 2000
 F 0 "P1" V 8000 2350 50  0000 L CNN
@@ -238,7 +87,7 @@ NoConn ~ 8050 2200
 Text Notes 7350 5050 0    67   ~ 13
 Usb to serial converter
 $Comp
-L CH340G U3
+L esp8266_uno-archive:CH340G U3
 U 1 1 575E862D
 P 9975 2100
 F 0 "U3" H 9975 2740 60  0000 C CNN
@@ -249,7 +98,7 @@ F 3 "" H 9475 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMS1117 U2
+L esp8266_uno-archive:AMS1117 U2
 U 1 1 575F06BF
 P 9450 5750
 F 0 "U2" H 9300 6100 50  0000 L CNN
@@ -260,7 +109,7 @@ F 3 "" H 9450 5750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L esp8266_uno-archive:GND #PWR017
 U 1 1 575F0AFE
 P 9350 6000
 F 0 "#PWR017" H 9350 5750 50  0001 C CNN
@@ -271,7 +120,7 @@ F 3 "" H 9350 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C6
+L esp8266_uno-archive:CP1_Small C6
 U 1 1 575F10FB
 P 9850 5900
 F 0 "C6" H 9941 5946 50  0000 L CNN
@@ -282,7 +131,7 @@ F 3 "" H 9850 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L esp8266_uno-archive:GND #PWR022
 U 1 1 575F1464
 P 9850 6000
 F 0 "#PWR022" H 9850 5750 50  0001 C CNN
@@ -293,7 +142,7 @@ F 3 "" H 9850 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR021
+L esp8266_uno-archive:+3.3V #PWR021
 U 1 1 575F26F2
 P 9850 5650
 F 0 "#PWR021" H 9850 5500 50  0001 C CNN
@@ -304,7 +153,7 @@ F 3 "" H 9850 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR014
+L esp8266_uno-archive:+5V #PWR014
 U 1 1 575F2DE5
 P 8900 5650
 F 0 "#PWR014" H 8900 5500 50  0001 C CNN
@@ -319,7 +168,7 @@ Text Notes 7400 6425 0    67   ~ 13
 Text Label 10600 2050 0    60   ~ 0
 DTR
 $Comp
-L Jumper_NC_Small JP1
+L esp8266_uno-archive:Jumper_NC_Small JP1
 U 1 1 575FC1D5
 P 10500 2650
 F 0 "JP1" V 10500 2602 50  0000 R CNN
@@ -330,7 +179,7 @@ F 3 "" H 10500 2650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR024
+L esp8266_uno-archive:GND #PWR024
 U 1 1 575FC422
 P 10500 2775
 F 0 "#PWR024" H 10500 2525 50  0001 C CNN
@@ -341,7 +190,7 @@ F 3 "" H 10500 2775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_GND2_Small X1
+L esp8266_uno-archive:Crystal_GND2_Small X1
 U 1 1 575996BE
 P 9320 2450
 F 0 "X1" H 9145 2350 50  0000 C CNN
@@ -352,7 +201,7 @@ F 3 "" H 9320 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L esp8266_uno-archive:GND #PWR016
 U 1 1 57FF525A
 P 9320 2575
 F 0 "#PWR016" H 9320 2325 50  0001 C CNN
@@ -363,7 +212,7 @@ F 3 "" H 9320 2575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fuse_Small F1
+L esp8266_uno-archive:Fuse_Small F1
 U 1 1 57FF8931
 P 8250 1800
 F 0 "F1" V 8300 1650 50  0000 L CNN
@@ -374,7 +223,7 @@ F 3 "" H 8250 1800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR011
+L esp8266_uno-archive:GND #PWR011
 U 1 1 5A6F4525
 P 7750 2400
 F 0 "#PWR011" H 7750 2150 50  0001 C CNN
@@ -385,7 +234,7 @@ F 3 "" H 7750 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C4
+L esp8266_uno-archive:CP1_Small C4
 U 1 1 5A6F63E0
 P 8900 5900
 F 0 "C4" H 8991 5946 50  0000 L CNN
@@ -396,7 +245,7 @@ F 3 "" H 8900 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L esp8266_uno-archive:GND #PWR015
 U 1 1 5A6F6504
 P 8900 6000
 F 0 "#PWR015" H 8900 5750 50  0001 C CNN
@@ -407,7 +256,7 @@ F 3 "" H 8900 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR013
+L esp8266_uno-archive:+5V #PWR013
 U 1 1 5A6F671A
 P 8800 1400
 F 0 "#PWR013" H 8800 1250 50  0001 C CNN
@@ -418,7 +267,7 @@ F 3 "" H 8800 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_UNO_R3 A1
+L esp8266_uno-archive:Arduino_UNO_R3 A1
 U 1 1 5A6F6AF7
 P 2100 5800
 F 0 "A1" H 1500 6950 50  0000 C CNN
@@ -429,7 +278,7 @@ F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 1900 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ESP-12 U1
+L esp8266_uno-archive:ESP-12 U1
 U 1 1 5A6F362F
 P 3700 2000
 F 0 "U1" H 3350 2800 50  0000 C CNN
@@ -440,7 +289,7 @@ F 3 "" H 3700 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L esp8266_uno-archive:R_Small R1
 U 1 1 5A6F38FB
 P 1200 2200
 F 0 "R1" V 1100 2150 50  0000 C CNN
@@ -451,7 +300,7 @@ F 3 "" H 1200 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R2
+L esp8266_uno-archive:R_Small R2
 U 1 1 5A6F3C6B
 P 1200 2400
 F 0 "R2" V 1100 2350 50  0000 C CNN
@@ -462,7 +311,7 @@ F 3 "" H 1200 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R3
+L esp8266_uno-archive:R_Small R3
 U 1 1 5A6F3C99
 P 1200 2600
 F 0 "R3" V 1100 2550 50  0000 C CNN
@@ -473,7 +322,7 @@ F 3 "" H 1200 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R4
+L esp8266_uno-archive:R_Small R4
 U 1 1 5A6F3CC9
 P 1200 2800
 F 0 "R4" V 1100 2750 50  0000 C CNN
@@ -484,7 +333,7 @@ F 3 "" H 1200 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R5
+L esp8266_uno-archive:R_Small R5
 U 1 1 5A6F3D91
 P 1200 3000
 F 0 "R5" V 1100 2950 50  0000 C CNN
@@ -495,7 +344,7 @@ F 3 "" H 1200 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR06
+L esp8266_uno-archive:+3.3V #PWR06
 U 1 1 5A6F4A88
 P 3700 800
 F 0 "#PWR06" H 3700 650 50  0001 C CNN
@@ -506,7 +355,7 @@ F 3 "" H 3700 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR01
+L esp8266_uno-archive:+3.3V #PWR01
 U 1 1 5A6F4D57
 P 950 1950
 F 0 "#PWR01" H 950 1800 50  0001 C CNN
@@ -517,7 +366,7 @@ F 3 "" H 950 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L esp8266_uno-archive:C_Small C1
 U 1 1 5A6F539B
 P 2100 2600
 F 0 "C1" H 1900 2600 50  0000 C CNN
@@ -552,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 2000 8050 2000
 Wire Wire Line
-	10475 1025 10475 1750
+	10475 1025 10475 1150
 Wire Wire Line
 	8950 2050 9475 2050
 Wire Wire Line
@@ -584,17 +433,17 @@ Wire Wire Line
 Wire Wire Line
 	8350 1800 8800 1800
 Wire Wire Line
-	8900 5650 8900 5800
+	8900 5650 8900 5750
 Connection ~ 8900 5750
 Wire Wire Line
 	9650 5750 9850 5750
 Wire Wire Line
-	9850 5650 9850 5800
+	9850 5650 9850 5750
 Connection ~ 9850 5750
 Wire Wire Line
 	8800 1800 8800 1400
 Wire Wire Line
-	950  1950 950  2800
+	950  1950 950  2200
 Wire Wire Line
 	950  2800 1100 2800
 Wire Wire Line
@@ -623,14 +472,14 @@ Wire Wire Line
 Wire Wire Line
 	2000 6900 2000 6950
 Wire Wire Line
-	2000 6950 2200 6950
+	2000 6950 2100 6950
 Wire Wire Line
 	2200 6950 2200 6900
 Wire Wire Line
-	2100 6900 2100 7050
+	2100 6900 2100 6950
 Connection ~ 2100 6950
 Wire Wire Line
-	3700 800  3700 1100
+	3700 800  3700 950 
 Wire Wire Line
 	2100 2400 2100 2500
 Text Label 2800 1700 2    60   ~ 0
@@ -662,7 +511,7 @@ GPIO2
 Text Label 4600 2300 0    60   ~ 0
 GPIO15
 $Comp
-L CP1_Small C3
+L esp8266_uno-archive:CP1_Small C3
 U 1 1 5A6F6E31
 P 4200 1200
 F 0 "C3" V 4300 1200 50  0000 L CNN
@@ -673,7 +522,7 @@ F 3 "" H 4200 1200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C2
+L esp8266_uno-archive:C_Small C2
 U 1 1 5A6F6F73
 P 4200 950
 F 0 "C2" V 4050 850 50  0000 C CNN
@@ -684,7 +533,7 @@ F 3 "" H 4200 950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3700 950  4100 950 
+	3700 950  4000 950 
 Wire Wire Line
 	4000 950  4000 1200
 Wire Wire Line
@@ -692,7 +541,7 @@ Wire Wire Line
 Connection ~ 3700 950 
 Connection ~ 4000 950 
 $Comp
-L GND #PWR08
+L esp8266_uno-archive:GND #PWR08
 U 1 1 5A6F7411
 P 4300 950
 F 0 "#PWR08" H 4300 700 50  0001 C CNN
@@ -703,7 +552,7 @@ F 3 "" H 4300 950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR09
+L esp8266_uno-archive:GND #PWR09
 U 1 1 5A6F74B4
 P 4300 1200
 F 0 "#PWR09" H 4300 950 50  0001 C CNN
@@ -714,7 +563,7 @@ F 3 "" H 4300 1200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R6
+L esp8266_uno-archive:R_Small R6
 U 1 1 5A6F78F1
 P 1500 1300
 F 0 "R6" V 1400 1250 50  0000 C CNN
@@ -725,7 +574,7 @@ F 3 "" H 1500 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R7
+L esp8266_uno-archive:R_Small R7
 U 1 1 5A6F7B65
 P 1950 1300
 F 0 "R7" V 1850 1250 50  0000 C CNN
@@ -736,7 +585,7 @@ F 3 "" H 1950 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1600 1300 1850 1300
+	1600 1300 1750 1300
 Wire Wire Line
 	1750 1300 1750 1500
 Wire Wire Line
@@ -749,7 +598,7 @@ Wire Wire Line
 Text Label 2250 1300 0    60   ~ 0
 A0
 $Comp
-L GND #PWR03
+L esp8266_uno-archive:GND #PWR03
 U 1 1 5A6F7E2C
 P 1400 1300
 F 0 "#PWR03" H 1400 1050 50  0001 C CNN
@@ -764,7 +613,7 @@ TX
 Text Label 9125 1850 2    60   ~ 0
 RX
 $Comp
-L CP1_Small C7
+L esp8266_uno-archive:CP1_Small C7
 U 1 1 5A704AE9
 P 9900 900
 F 0 "C7" V 9750 800 50  0000 L CNN
@@ -775,7 +624,7 @@ F 3 "" H 9900 900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C8
+L esp8266_uno-archive:C_Small C8
 U 1 1 5A704AEF
 P 9900 1150
 F 0 "C8" V 9800 1250 50  0000 C CNN
@@ -786,14 +635,14 @@ F 3 "" H 9900 1150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10000 1150 10475 1150
+	10000 1150 10100 1150
 Wire Wire Line
 	10100 1150 10100 900 
 Wire Wire Line
 	10100 900  10000 900 
 Connection ~ 10100 1150
 $Comp
-L GND #PWR020
+L esp8266_uno-archive:GND #PWR020
 U 1 1 5A704AFA
 P 9800 1150
 F 0 "#PWR020" H 9800 900 50  0001 C CNN
@@ -804,7 +653,7 @@ F 3 "" H 9800 1150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR019
+L esp8266_uno-archive:GND #PWR019
 U 1 1 5A704B00
 P 9800 900
 F 0 "#PWR019" H 9800 650 50  0001 C CNN
@@ -816,7 +665,7 @@ F 3 "" H 9800 900 50  0000 C CNN
 $EndComp
 Connection ~ 10475 1150
 $Comp
-L MMBT3904 Q1
+L esp8266_uno-archive:MMBT3904 Q1
 U 1 1 5A706025
 P 8850 3500
 F 0 "Q1" H 9041 3546 50  0000 L CNN
@@ -827,7 +676,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8850 3500 50  000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MMBT3904 Q2
+L esp8266_uno-archive:MMBT3904 Q2
 U 1 1 5A7067D8
 P 8850 4100
 F 0 "Q2" H 9041 4054 50  0000 L CNN
@@ -844,13 +693,13 @@ Wire Wire Line
 Wire Wire Line
 	9200 3750 9200 4100
 Wire Wire Line
-	9050 4100 9600 4100
+	9050 4100 9200 4100
 Wire Wire Line
 	8750 3900 9100 3900
 Wire Wire Line
 	9100 3900 9100 3500
 Wire Wire Line
-	9050 3500 9600 3500
+	9050 3500 9100 3500
 Connection ~ 9100 3500
 Connection ~ 9200 4100
 Wire Wire Line
@@ -923,7 +772,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 6000 1350 6000
 $Comp
-L +3.3V #PWR025
+L esp8266_uno-archive:+3.3V #PWR025
 U 1 1 5A70B41D
 P 2200 4600
 F 0 "#PWR025" H 2200 4450 50  0001 C CNN
@@ -934,7 +783,7 @@ F 3 "" H 2200 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR026
+L esp8266_uno-archive:+5V #PWR026
 U 1 1 5A70B804
 P 2300 4800
 F 0 "#PWR026" H 2300 4650 50  0001 C CNN
@@ -950,7 +799,7 @@ Wire Wire Line
 Text Label 2800 5200 0    60   ~ 0
 RESET
 $Comp
-L SW_Push SW1
+L esp8266_uno-archive:SW_Push SW1
 U 1 1 5A70C0BC
 P 4700 6200
 F 0 "SW1" V 4654 6348 50  0000 L CNN
@@ -961,7 +810,7 @@ F 3 "" H 4700 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR027
+L esp8266_uno-archive:GND #PWR027
 U 1 1 5A70C311
 P 4700 6400
 F 0 "#PWR027" H 4700 6150 50  0001 C CNN
@@ -995,7 +844,7 @@ NoConn ~ 1600 6300
 NoConn ~ 1600 6400
 NoConn ~ 1600 6500
 $Comp
-L Barrel_Jack J1
+L esp8266_uno-archive:Barrel_Jack J1
 U 1 1 5A70ECA0
 P 8200 5850
 F 0 "J1" H 8278 6175 50  0000 C CNN
@@ -1006,7 +855,7 @@ F 3 "~" H 8250 5810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L esp8266_uno-archive:GND #PWR028
 U 1 1 5A70F026
 P 8600 6000
 F 0 "#PWR028" H 8600 5750 50  0001 C CNN
@@ -1019,12 +868,12 @@ $EndComp
 Wire Wire Line
 	8500 5850 8600 5850
 Wire Wire Line
-	8600 5850 8600 6000
+	8600 5850 8600 5950
 Wire Wire Line
 	8500 5950 8600 5950
 Connection ~ 8600 5950
 $Comp
-L R_Small R8
+L esp8266_uno-archive:R_Small R8
 U 1 1 5A710C68
 P 9300 1850
 F 0 "R8" V 9200 1750 50  0000 C CNN
@@ -1037,7 +886,7 @@ $EndComp
 Wire Wire Line
 	9475 1850 9400 1850
 $Comp
-L R_Small R9
+L esp8266_uno-archive:R_Small R9
 U 1 1 5A711472
 P 9300 1950
 F 0 "R9" V 9350 1825 50  0000 C CNN
@@ -1054,7 +903,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 1950 9125 1950
 $Comp
-L GND #PWR07
+L esp8266_uno-archive:GND #PWR07
 U 1 1 5A7060B0
 P 3700 2900
 F 0 "#PWR07" H 3700 2650 50  0001 C CNN
@@ -1065,7 +914,7 @@ F 3 "" H 3700 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L esp8266_uno-archive:GND #PWR02
 U 1 1 5A706235
 P 950 3050
 F 0 "#PWR02" H 950 2800 50  0001 C CNN
@@ -1076,7 +925,7 @@ F 3 "" H 950 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L esp8266_uno-archive:GND #PWR05
 U 1 1 5A706411
 P 2100 7050
 F 0 "#PWR05" H 2100 6800 50  0001 C CNN
@@ -1087,7 +936,7 @@ F 3 "" H 2100 7050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L esp8266_uno-archive:GND #PWR04
 U 1 1 5A7068A1
 P 2100 2700
 F 0 "#PWR04" H 2100 2450 50  0001 C CNN
@@ -1098,7 +947,7 @@ F 3 "" H 2100 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ESP-13-WROOM-02 U4
+L esp8266_uno-archive:ESP-13-WROOM-02 U4
 U 1 1 5A7175B7
 P 5400 3800
 F 0 "U4" H 4900 4400 50  0000 C CNN
@@ -1137,7 +986,7 @@ GPIO2
 Text Label 6350 4300 0    60   ~ 0
 GPIO15
 $Comp
-L GND #PWR030
+L esp8266_uno-archive:GND #PWR030
 U 1 1 5A7196B8
 P 5400 4950
 F 0 "#PWR030" H 5400 4700 50  0001 C CNN
@@ -1150,7 +999,7 @@ $EndComp
 Wire Wire Line
 	5250 4800 5250 4900
 Wire Wire Line
-	5250 4900 5550 4900
+	5250 4900 5350 4900
 Wire Wire Line
 	5550 4900 5550 4800
 Wire Wire Line
@@ -1163,7 +1012,7 @@ Wire Wire Line
 	5400 4950 5400 4900
 Connection ~ 5400 4900
 $Comp
-L CP1_Small C10
+L esp8266_uno-archive:CP1_Small C10
 U 1 1 5A719FFC
 P 5850 3050
 F 0 "C10" V 5950 3050 50  0000 L CNN
@@ -1174,7 +1023,7 @@ F 3 "" H 5850 3050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C9
+L esp8266_uno-archive:C_Small C9
 U 1 1 5A71A082
 P 5850 2800
 F 0 "C9" V 5700 2700 50  0000 C CNN
@@ -1185,7 +1034,7 @@ F 3 "" H 5850 2800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR029
+L esp8266_uno-archive:+3.3V #PWR029
 U 1 1 5A71A114
 P 5400 2700
 F 0 "#PWR029" H 5400 2550 50  0001 C CNN
@@ -1196,7 +1045,7 @@ F 3 "" H 5400 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 2700 5400 3200
+	5400 2700 5400 2800
 Wire Wire Line
 	5750 2800 5400 2800
 Connection ~ 5400 2800
@@ -1204,7 +1053,7 @@ Wire Wire Line
 	5750 3050 5400 3050
 Connection ~ 5400 3050
 $Comp
-L GND #PWR031
+L esp8266_uno-archive:GND #PWR031
 U 1 1 5A71A664
 P 5950 2800
 F 0 "#PWR031" H 5950 2550 50  0001 C CNN
@@ -1215,7 +1064,7 @@ F 3 "" H 5950 2800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR032
+L esp8266_uno-archive:GND #PWR032
 U 1 1 5A71A6EF
 P 5950 3050
 F 0 "#PWR032" H 5950 2800 50  0001 C CNN
@@ -1226,7 +1075,7 @@ F 3 "" H 5950 3050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_Schottky_Small D1
+L esp8266_uno-archive:D_Schottky_Small D1
 U 1 1 5A7210B6
 P 8700 5750
 F 0 "D1" H 8700 5545 50  0000 C CNN
@@ -1239,7 +1088,49 @@ $EndComp
 Wire Wire Line
 	8500 5750 8600 5750
 Wire Wire Line
-	8800 5750 9050 5750
+	8800 5750 8900 5750
 Wire Wire Line
 	2200 4800 2200 4600
+Wire Wire Line
+	8900 5750 8900 5800
+Wire Wire Line
+	8900 5750 9050 5750
+Wire Wire Line
+	9850 5750 9850 5800
+Wire Wire Line
+	950  2600 950  2800
+Wire Wire Line
+	950  2400 950  2600
+Wire Wire Line
+	950  2200 950  2400
+Wire Wire Line
+	2100 6950 2200 6950
+Wire Wire Line
+	2100 6950 2100 7050
+Wire Wire Line
+	3700 950  3700 1100
+Wire Wire Line
+	4000 950  4100 950 
+Wire Wire Line
+	1750 1300 1850 1300
+Wire Wire Line
+	10100 1150 10475 1150
+Wire Wire Line
+	10475 1150 10475 1750
+Wire Wire Line
+	9100 3500 9600 3500
+Wire Wire Line
+	9200 4100 9600 4100
+Wire Wire Line
+	8600 5950 8600 6000
+Wire Wire Line
+	5350 4900 5400 4900
+Wire Wire Line
+	5450 4900 5550 4900
+Wire Wire Line
+	5400 4900 5450 4900
+Wire Wire Line
+	5400 2800 5400 3050
+Wire Wire Line
+	5400 3050 5400 3200
 $EndSCHEMATC

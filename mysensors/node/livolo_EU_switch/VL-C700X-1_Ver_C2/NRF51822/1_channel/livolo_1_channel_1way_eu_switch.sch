@@ -1,156 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:holyiot_nrf52832
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -174,7 +22,7 @@ MCU unit
 Text Notes 9515 2645 0    67   ~ 13
 Switch state LEDs
 $Comp
-L +3.3V #PWR01
+L livolo_1_channel_1way_eu_switch-archive:+3.3V #PWR01
 U 1 1 57D88301
 P 3060 1250
 F 0 "#PWR01" H 3060 1100 50  0001 C CNN
@@ -187,7 +35,7 @@ $EndComp
 Text Notes 2285 2630 0    67   ~ 13
 Buck power supply(12V to 3.3V)
 $Comp
-L Conn_02x07_Odd_Even P4
+L livolo_1_channel_1way_eu_switch-archive:Conn_02x07_Odd_Even P4
 U 1 1 586CF0D6
 P 9635 3685
 F 0 "P4" H 9635 4240 50  0000 C CNN
@@ -200,7 +48,7 @@ F 5 "Ninigi" H 9635 3685 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP16301 U2
+L livolo_1_channel_1way_eu_switch-archive:MCP16301 U2
 U 1 1 586CDA6D
 P 5100 1250
 F 0 "U2" H 5100 1817 50  0000 C CNN
@@ -214,7 +62,7 @@ F 6 "Microchip" H 5100 1250 60  0001 C CNN "Vendor"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR05
 U 1 1 586CEC25
 P 5100 1650
 F 0 "#PWR05" H 5100 1400 50  0001 C CNN
@@ -225,7 +73,7 @@ F 3 "" H 5100 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L2
+L livolo_1_channel_1way_eu_switch-archive:L_Small L2
 U 1 1 586CFA44
 P 4250 1250
 F 0 "L2" V 4435 1250 50  0000 C CNN
@@ -239,7 +87,7 @@ F 6 "TDK" V 4250 1250 60  0001 C CNN "Vendor"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_Schottky_Small D2
+L livolo_1_channel_1way_eu_switch-archive:D_Schottky_Small D2
 U 1 1 586CFC73
 P 4465 1350
 F 0 "D2" H 4480 1445 50  0000 L CNN
@@ -253,7 +101,7 @@ F 6 "Taiwan Semiconductor" H 4465 1350 60  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Small D1
+L livolo_1_channel_1way_eu_switch-archive:D_Small D1
 U 1 1 586CFDB1
 P 4250 965
 F 0 "D1" H 4250 760 50  0000 C CNN
@@ -267,7 +115,7 @@ F 6 "Diodes Inc." H 4250 965 60  0001 C CNN "Vendor"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R2
+L livolo_1_channel_1way_eu_switch-archive:R_Small R2
 U 1 1 586D0315
 P 4120 1845
 F 0 "R2" V 4045 1820 50  0000 C CNN
@@ -281,7 +129,7 @@ F 6 "TE Connectivity" V 4120 1845 60  0001 C CNN "Vendor"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R1
+L livolo_1_channel_1way_eu_switch-archive:R_Small R1
 U 1 1 586D0A41
 P 4120 1490
 F 0 "R1" V 4045 1465 50  0000 C CNN
@@ -295,7 +143,7 @@ F 6 "Multicomp" V 4120 1490 60  0001 C CNN "Vendor"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C9
+L livolo_1_channel_1way_eu_switch-archive:C_Small C9
 U 1 1 586D0CDF
 P 4465 1110
 F 0 "C9" H 4570 1185 50  0000 C CNN
@@ -309,7 +157,7 @@ F 6 "Multicomp" H 4465 1110 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR06
 U 1 1 586D1B2B
 P 4465 1450
 F 0 "#PWR06" H 4465 1200 50  0001 C CNN
@@ -320,7 +168,7 @@ F 3 "" H 4465 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR07
 U 1 1 586D3CB3
 P 4120 1945
 F 0 "#PWR07" H 4120 1695 50  0001 C CNN
@@ -331,7 +179,7 @@ F 3 "" H 4120 1945 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR08
 U 1 1 586D5B39
 P 3890 1450
 F 0 "#PWR08" H 3890 1200 50  0001 C CNN
@@ -342,7 +190,7 @@ F 3 "" H 3890 1450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR09
 U 1 1 586D6B5C
 P 5555 1510
 F 0 "#PWR09" H 5555 1260 50  0001 C CNN
@@ -355,7 +203,7 @@ $EndComp
 Text Label 5795 1150 0    60   ~ 0
 12Vcc
 $Comp
-L LED_Small D6
+L livolo_1_channel_1way_eu_switch-archive:LED_Small D6
 U 1 1 586DBC19
 P 10610 1440
 F 0 "D6" H 10610 1675 50  0000 C CNN
@@ -369,7 +217,7 @@ F 6 "Optosupply" H 10610 1440 60  0001 C CNN "Vendor"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED_Small D5
+L livolo_1_channel_1way_eu_switch-archive:LED_Small D5
 U 1 1 586DBFD9
 P 10605 1805
 F 0 "D5" H 10605 2040 50  0000 C CNN
@@ -383,7 +231,7 @@ F 6 "Optosupply" H 10605 1805 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R5
+L livolo_1_channel_1way_eu_switch-archive:R_Small R5
 U 1 1 586E8A7E
 P 10290 1440
 F 0 "R5" V 10115 1440 50  0000 C CNN
@@ -397,7 +245,7 @@ F 6 "Multicomp" V 10290 1440 60  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R6
+L livolo_1_channel_1way_eu_switch-archive:R_Small R6
 U 1 1 586E9359
 P 10290 1805
 F 0 "R6" V 10115 1805 50  0000 C CNN
@@ -413,7 +261,7 @@ $EndComp
 Text Label 10065 3385 0    60   ~ 0
 12Vcc
 $Comp
-L GND #PWR018
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR018
 U 1 1 586E1581
 P 9435 3885
 F 0 "#PWR018" H 9435 3635 50  0001 C CNN
@@ -426,7 +274,7 @@ $EndComp
 NoConn ~ 9435 3385
 NoConn ~ 9435 3685
 $Comp
-L GND #PWR019
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR019
 U 1 1 586E77F3
 P 10710 1440
 F 0 "#PWR019" H 10710 1190 50  0001 C CNN
@@ -437,7 +285,7 @@ F 3 "" H 10710 1440 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR021
+L livolo_1_channel_1way_eu_switch-archive:+3.3V #PWR021
 U 1 1 586E8DC7
 P 10705 1805
 F 0 "#PWR021" H 10705 1655 50  0001 C CNN
@@ -454,7 +302,7 @@ Relay1_Set
 Text Label 10130 3585 0    60   ~ 0
 Relay1_Reset
 $Comp
-L C_Small C10
+L livolo_1_channel_1way_eu_switch-archive:C_Small C10
 U 1 1 586E4602
 P 5555 1410
 F 0 "C10" H 5647 1456 50  0000 L CNN
@@ -468,7 +316,7 @@ F 6 "Murata" H 5555 1410 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L livolo_1_channel_1way_eu_switch-archive:C_Small C7
 U 1 1 586E4CE4
 P 3890 1350
 F 0 "C7" H 3685 1390 50  0000 L CNN
@@ -486,7 +334,7 @@ Relay2_Reset
 Text Label 9270 3585 2    60   ~ 0
 Relay2_Set
 $Comp
-L L_Small L1
+L livolo_1_channel_1way_eu_switch-archive:L_Small L1
 U 1 1 58C1DEEA
 P 3160 1250
 F 0 "L1" V 3370 1220 50  0000 L CNN
@@ -502,7 +350,7 @@ NoConn ~ 9935 3885
 NoConn ~ 9935 3985
 NoConn ~ 9435 3785
 $Comp
-L PTR5518 U5
+L livolo_1_channel_1way_eu_switch-archive:PTR5518 U5
 U 1 1 59483574
 P 3275 4600
 F 0 "U5" H 2660 5470 60  0000 C CNN
@@ -513,7 +361,7 @@ F 3 "" H 2675 4250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C1
+L livolo_1_channel_1way_eu_switch-archive:CP1_Small C1
 U 1 1 59483ACD
 P 3475 3475
 F 0 "C1" H 3270 3500 50  0000 L CNN
@@ -527,7 +375,7 @@ F 6 "Murata" H 3475 3475 60  0001 C CNN "Vendor"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR026
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR026
 U 1 1 5948533E
 P 3275 5500
 F 0 "#PWR026" H 3275 5250 50  0001 C CNN
@@ -538,7 +386,7 @@ F 3 "" H 3275 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR027
 U 1 1 5948561F
 P 3575 3475
 F 0 "#PWR027" H 3575 3225 50  0001 C CNN
@@ -549,7 +397,7 @@ F 3 "" H 3575 3475 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_02x02_Odd_Even J1
+L livolo_1_channel_1way_eu_switch-archive:Conn_02x02_Odd_Even J1
 U 1 1 594872D4
 P 1255 1490
 F 0 "J1" H 1255 1755 50  0000 C CNN
@@ -560,7 +408,7 @@ F 3 "" H 1255 290 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR028
 U 1 1 594892BC
 P 1555 1490
 F 0 "#PWR028" H 1555 1240 50  0001 C CNN
@@ -579,7 +427,7 @@ SWDIO
 Text Label 4500 4500 0    60   ~ 0
 SWCLK
 $Comp
-L +3.3V #PWR029
+L livolo_1_channel_1way_eu_switch-archive:+3.3V #PWR029
 U 1 1 5948C7B6
 P 1555 1590
 F 0 "#PWR029" H 1555 1440 50  0001 C CNN
@@ -602,7 +450,7 @@ Relay2_Reset
 Text Label 2125 4800 2    60   ~ 0
 TS1
 $Comp
-L C_Small C2
+L livolo_1_channel_1way_eu_switch-archive:C_Small C2
 U 1 1 5948E980
 P 3500 3175
 F 0 "C2" H 3600 3105 50  0000 C CNN
@@ -616,7 +464,7 @@ F 6 "Multicomp" H 3500 3175 60  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR030
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR030
 U 1 1 5948F703
 P 3600 3175
 F 0 "#PWR030" H 3600 2925 50  0001 C CNN
@@ -632,7 +480,7 @@ NoConn ~ 50   4260
 Text Notes 1705 6120 0    79   ~ 16
 Note: \nIf using port pins P0.26 and P0.27 then you need to make sure \nto not use crystal oscillator option when building the software project
 $Comp
-L +3.3V #PWR02
+L livolo_1_channel_1way_eu_switch-archive:+3.3V #PWR02
 U 1 1 5979BED0
 P 3275 3000
 F 0 "#PWR02" H 3275 2850 50  0001 C CNN
@@ -643,7 +491,7 @@ F 3 "" H 3275 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MTCH102 U3
+L livolo_1_channel_1way_eu_switch-archive:MTCH102 U3
 U 1 1 597A2D53
 P 8190 1750
 F 0 "U3" H 8190 2190 60  0000 C CNN
@@ -654,7 +502,7 @@ F 3 "" H 7440 1900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Touch U1
+L livolo_1_channel_1way_eu_switch-archive:Touch U1
 U 1 1 597A47EA
 P 6760 1040
 F 0 "U1" H 6816 1527 60  0000 C CNN
@@ -665,7 +513,7 @@ F 3 "" H 6760 1040 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR010
 U 1 1 597A4D86
 P 8940 1800
 F 0 "#PWR010" H 8940 1550 50  0001 C CNN
@@ -676,7 +524,7 @@ F 3 "" H 8940 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C3
+L livolo_1_channel_1way_eu_switch-archive:C_Small C3
 U 1 1 597A5307
 P 7680 1240
 F 0 "C3" H 7510 1220 50  0000 C CNN
@@ -690,7 +538,7 @@ F 6 "Multicomp" H 7680 1240 60  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR011
 U 1 1 597A57C7
 P 7780 1240
 F 0 "#PWR011" H 7780 990 50  0001 C CNN
@@ -701,7 +549,7 @@ F 3 "" H 7780 1240 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R7
+L livolo_1_channel_1way_eu_switch-archive:R_Small R7
 U 1 1 597A5E55
 P 9180 1480
 F 0 "R7" V 9105 1455 50  0000 C CNN
@@ -715,7 +563,7 @@ F 6 "TE Connectivity" V 9180 1480 60  0001 C CNN "Vendor"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR013
+L livolo_1_channel_1way_eu_switch-archive:+3.3V #PWR013
 U 1 1 597A65AB
 P 9180 1380
 F 0 "#PWR013" H 9180 1230 50  0001 C CNN
@@ -728,7 +576,7 @@ $EndComp
 Text Label 9270 1700 0    60   ~ 0
 TS1
 $Comp
-L R_Small R3
+L livolo_1_channel_1way_eu_switch-archive:R_Small R3
 U 1 1 597A74C2
 P 7210 1680
 F 0 "R3" V 7060 1670 50  0000 C CNN
@@ -742,7 +590,7 @@ F 6 "TE Connectivity" V 7210 1680 60  0001 C CNN "Vendor"
 	1    0    0    1   
 $EndComp
 $Comp
-L R_Small R4
+L livolo_1_channel_1way_eu_switch-archive:R_Small R4
 U 1 1 597A7E08
 P 7350 1100
 F 0 "R4" V 7200 1090 50  0000 C CNN
@@ -756,7 +604,7 @@ F 6 "TE Connectivity" V 7350 1100 60  0001 C CNN "Vendor"
 	1    0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR03
+L livolo_1_channel_1way_eu_switch-archive:+3.3V #PWR03
 U 1 1 597A8504
 P 7430 720
 F 0 "#PWR03" H 7430 570 50  0001 C CNN
@@ -767,7 +615,7 @@ F 3 "" H 7430 720 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R8
+L livolo_1_channel_1way_eu_switch-archive:R_Small R8
 U 1 1 597A8D7B
 P 9280 2090
 F 0 "R8" V 9130 2080 50  0000 C CNN
@@ -781,7 +629,7 @@ F 6 "TE Connectivity" V 9280 2090 60  0001 C CNN "Vendor"
 	1    0    0    1   
 $EndComp
 $Comp
-L C_Small C4
+L livolo_1_channel_1way_eu_switch-archive:C_Small C4
 U 1 1 597A8F11
 P 9000 2100
 F 0 "C4" H 8820 2140 50  0000 C CNN
@@ -795,7 +643,7 @@ F 6 "Multicomp" H 9000 2100 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR012
 U 1 1 597A908A
 P 9000 2200
 F 0 "#PWR012" H 9000 1950 50  0001 C CNN
@@ -814,7 +662,7 @@ MTSA
 Text Label 2125 4900 2    60   ~ 0
 MTPM
 $Comp
-L GND #PWR04
+L livolo_1_channel_1way_eu_switch-archive:GND #PWR04
 U 1 1 5979C8A7
 P 8940 1600
 F 0 "#PWR04" H 8940 1350 50  0001 C CNN
@@ -831,26 +679,26 @@ Wire Notes Line
 Wire Notes Line
 	9465 2700 9465 475 
 Wire Wire Line
-	5500 1150 5795 1150
+	5500 1150 5555 1150
 Wire Wire Line
-	5555 1150 5555 1310
+	5555 1150 5555 1250
 Wire Wire Line
 	5555 1250 5500 1250
 Connection ~ 5555 1150
 Wire Wire Line
-	4350 1250 4700 1250
+	4350 1250 4465 1250
 Connection ~ 4465 1250
 Wire Wire Line
-	4120 1590 4120 1745
+	4120 1590 4120 1685
 Wire Wire Line
 	4120 1685 4700 1685
 Wire Wire Line
 	4700 1685 4700 1450
 Connection ~ 4120 1685
 Wire Wire Line
-	4120 965  4120 1390
+	4120 965  4120 1250
 Wire Wire Line
-	4350 965  4700 965 
+	4350 965  4465 965 
 Wire Wire Line
 	4700 965  4700 1150
 Wire Wire Line
@@ -867,7 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	10390 1805 10505 1805
 Wire Wire Line
-	10190 1440 10190 1805
+	10190 1440 10190 1605
 Wire Wire Line
 	10190 1605 9975 1605
 Connection ~ 10190 1605
@@ -878,7 +726,7 @@ Wire Wire Line
 Wire Wire Line
 	9935 3585 10130 3585
 Wire Wire Line
-	3260 1250 4150 1250
+	3260 1250 3890 1250
 Connection ~ 3890 1250
 Wire Wire Line
 	9935 3385 10065 3385
@@ -889,7 +737,7 @@ Wire Wire Line
 Wire Wire Line
 	1055 1590 885  1590
 Wire Wire Line
-	3275 3000 3275 3700
+	3275 3000 3275 3175
 Wire Wire Line
 	3400 3175 3275 3175
 Connection ~ 3275 3175
@@ -915,7 +763,7 @@ Wire Notes Line
 Wire Notes Line
 	6300 4440 11220 4440
 Wire Wire Line
-	8940 1700 9270 1700
+	8940 1700 9180 1700
 Wire Wire Line
 	9180 1700 9180 1580
 Connection ~ 9180 1700
@@ -936,7 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	7430 1600 7440 1600
 Wire Wire Line
-	8940 1900 9280 1900
+	8940 1900 9000 1900
 Wire Wire Line
 	9280 1900 9280 1990
 Wire Wire Line
@@ -947,14 +795,9 @@ Wire Wire Line
 Wire Wire Line
 	7440 1900 7350 1900
 Wire Wire Line
-	7430 720  7430 1600
-Wire Wire Line
 	7580 1240 7430 1240
-Wire Wire Line
-	7430 1240 7430 1250
-Connection ~ 7430 1250
 $Comp
-L GS2 J2
+L livolo_1_channel_1way_eu_switch-archive:GS2 J2
 U 1 1 59D25F94
 P 8945 3985
 F 0 "J2" V 8740 3985 50  0000 C CNN
@@ -967,7 +810,7 @@ $EndComp
 Wire Wire Line
 	9435 3985 9145 3985
 $Comp
-L +3.3V #PWR014
+L livolo_1_channel_1way_eu_switch-archive:+3.3V #PWR014
 U 1 1 59D26467
 P 8745 3985
 F 0 "#PWR014" H 8745 3835 50  0001 C CNN
@@ -986,4 +829,32 @@ Wire Wire Line
 NoConn ~ 4175 4700
 NoConn ~ 4175 4800
 NoConn ~ 2375 4500
+Wire Wire Line
+	5555 1150 5795 1150
+Wire Wire Line
+	4465 1250 4700 1250
+Wire Wire Line
+	4120 1685 4120 1745
+Wire Wire Line
+	4465 965  4700 965 
+Wire Wire Line
+	4120 1250 4120 1390
+Wire Wire Line
+	4120 1250 4150 1250
+Wire Wire Line
+	5555 1250 5555 1310
+Wire Wire Line
+	10190 1605 10190 1805
+Wire Wire Line
+	3890 1250 4120 1250
+Wire Wire Line
+	3275 3175 3275 3475
+Wire Wire Line
+	3275 3475 3275 3700
+Wire Wire Line
+	9180 1700 9270 1700
+Wire Wire Line
+	9000 1900 9280 1900
+Wire Wire Line
+	7430 720  7430 1600
 $EndSCHEMATC

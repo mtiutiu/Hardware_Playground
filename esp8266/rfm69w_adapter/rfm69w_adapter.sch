@@ -1,113 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -123,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ESP8266EX U1
+L rfm69w_adapter-archive:ESP8266EX U1
 U 1 1 5A83EB09
 P 3750 5200
 F 0 "U1" H 2850 6300 50  0000 C CNN
@@ -134,7 +25,7 @@ F 3 "http://espressif.com/sites/default/files/documentation/0a-esp8266ex_datashe
 	1    0    0    -1  
 $EndComp
 $Comp
-L AT25_EEPROM U2
+L rfm69w_adapter-archive:AT25_EEPROM U2
 U 1 1 5A83EC43
 P 9250 2250
 F 0 "U2" H 8900 2700 50  0000 C CNN
@@ -145,7 +36,7 @@ F 3 "http://www.atmel.com/products/Memories/serial/spi.aspx" H 8900 2200 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R5
+L rfm69w_adapter-archive:R_Small R5
 U 1 1 5A83F125
 P 5300 5950
 F 0 "R5" H 5359 5996 50  0000 L CNN
@@ -156,7 +47,7 @@ F 3 "" H 5300 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L rfm69w_adapter-archive:GND #PWR01
 U 1 1 5A83F21F
 P 5300 6050
 F 0 "#PWR01" H 5300 5800 50  0001 C CNN
@@ -167,7 +58,7 @@ F 3 "" H 5300 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L rfm69w_adapter-archive:C_Small C7
 U 1 1 5A83F474
 P 9500 1800
 F 0 "C7" V 9271 1800 50  0000 C CNN
@@ -178,7 +69,7 @@ F 3 "" H 9500 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR02
+L rfm69w_adapter-archive:+3V3 #PWR02
 U 1 1 5A83F5E3
 P 9250 1600
 F 0 "#PWR02" H 9250 1450 50  0001 C CNN
@@ -189,7 +80,7 @@ F 3 "" H 9250 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L rfm69w_adapter-archive:GND #PWR03
 U 1 1 5A83F653
 P 9600 1800
 F 0 "#PWR03" H 9600 1550 50  0001 C CNN
@@ -200,7 +91,7 @@ F 3 "" H 9600 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR04
+L rfm69w_adapter-archive:GND #PWR04
 U 1 1 5A83F6AC
 P 9250 2550
 F 0 "#PWR04" H 9250 2300 50  0001 C CNN
@@ -219,7 +110,7 @@ SD_CLK
 Text Label 9650 2150 0    60   ~ 0
 SD_CLK
 $Comp
-L R_Small R4
+L rfm69w_adapter-archive:R_Small R4
 U 1 1 5A83FA13
 P 4850 4600
 F 0 "R4" V 4800 4750 50  0000 C CNN
@@ -246,7 +137,7 @@ SD_WP
 Text Label 8850 2250 2    60   ~ 0
 SD_HD
 $Comp
-L C_Small C6
+L rfm69w_adapter-archive:C_Small C6
 U 1 1 5A8401B5
 P 4150 4050
 F 0 "C6" H 4058 4004 50  0000 R CNN
@@ -257,7 +148,7 @@ F 3 "" H 4150 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR06
+L rfm69w_adapter-archive:GND #PWR06
 U 1 1 5A84031D
 P 4150 4150
 F 0 "#PWR06" H 4150 3900 50  0001 C CNN
@@ -268,7 +159,7 @@ F 3 "" H 4150 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR07
+L rfm69w_adapter-archive:+3V3 #PWR07
 U 1 1 5A840365
 P 4750 3900
 F 0 "#PWR07" H 4750 3750 50  0001 C CNN
@@ -279,7 +170,7 @@ F 3 "" H 4750 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR08
+L rfm69w_adapter-archive:GND #PWR08
 U 1 1 5A8403C1
 P 3750 6400
 F 0 "#PWR08" H 3750 6150 50  0001 C CNN
@@ -294,7 +185,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5800 5300 5850
 Wire Wire Line
-	9250 1600 9250 1950
+	9250 1600 9250 1800
 Wire Wire Line
 	9400 1800 9250 1800
 Connection ~ 9250 1800
@@ -313,7 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 3900 3950 4100
 Wire Wire Line
-	3250 3900 4750 3900
+	3250 3900 3350 3900
 Wire Wire Line
 	3250 3900 3250 4100
 Wire Wire Line
@@ -336,7 +227,7 @@ Wire Wire Line
 	4150 3950 4150 3900
 Connection ~ 4150 3900
 $Comp
-L C_Small C3
+L rfm69w_adapter-archive:C_Small C3
 U 1 1 5A840D3C
 P 2075 5800
 F 0 "C3" H 2167 5846 50  0000 L CNN
@@ -347,7 +238,7 @@ F 3 "" H 2075 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L rfm69w_adapter-archive:C_Small C4
 U 1 1 5A840F95
 P 2475 5800
 F 0 "C4" H 2567 5846 50  0000 L CNN
@@ -358,7 +249,7 @@ F 3 "" H 2475 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L rfm69w_adapter-archive:GND #PWR09
 U 1 1 5A841031
 P 2475 5900
 F 0 "#PWR09" H 2475 5650 50  0001 C CNN
@@ -369,7 +260,7 @@ F 3 "" H 2475 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L rfm69w_adapter-archive:GND #PWR010
 U 1 1 5A841054
 P 2075 5900
 F 0 "#PWR010" H 2075 5650 50  0001 C CNN
@@ -380,7 +271,7 @@ F 3 "" H 2075 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_GND24_Small Y1
+L rfm69w_adapter-archive:Crystal_GND24_Small Y1
 U 1 1 5A8413AA
 P 2275 5550
 F 0 "Y1" V 1975 5300 50  0000 L CNN
@@ -391,11 +282,11 @@ F 3 "" H 2275 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2075 5450 2750 5450
+	2075 5450 2275 5450
 Wire Wire Line
 	2750 5450 2750 5500
 Wire Wire Line
-	2275 5650 2750 5650
+	2275 5650 2475 5650
 Wire Wire Line
 	2750 5650 2750 5600
 Wire Wire Line
@@ -405,7 +296,7 @@ Wire Wire Line
 	2475 5700 2475 5650
 Connection ~ 2475 5650
 $Comp
-L GND #PWR011
+L rfm69w_adapter-archive:GND #PWR011
 U 1 1 5A841903
 P 2475 5550
 F 0 "#PWR011" H 2475 5300 50  0001 C CNN
@@ -420,7 +311,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 5550 2000 5550
 $Comp
-L GND #PWR012
+L rfm69w_adapter-archive:GND #PWR012
 U 1 1 5A841C31
 P 2000 5550
 F 0 "#PWR012" H 2000 5300 50  0001 C CNN
@@ -431,7 +322,7 @@ F 3 "" H 2000 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R3
+L rfm69w_adapter-archive:R_Small R3
 U 1 1 5A842272
 P 2300 4650
 F 0 "R3" H 2359 4696 50  0000 L CNN
@@ -446,7 +337,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 4800 2300 4750
 $Comp
-L +3V3 #PWR013
+L rfm69w_adapter-archive:+3V3 #PWR013
 U 1 1 5A842463
 P 2300 4550
 F 0 "#PWR013" H 2300 4400 50  0001 C CNN
@@ -457,7 +348,7 @@ F 3 "" H 2300 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L rfm69w_adapter-archive:R_Small R1
 U 1 1 5A842559
 P 1800 4650
 F 0 "R1" H 1859 4696 50  0000 L CNN
@@ -468,7 +359,7 @@ F 3 "" H 1800 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR014
+L rfm69w_adapter-archive:+3V3 #PWR014
 U 1 1 5A842599
 P 1800 4550
 F 0 "#PWR014" H 1800 4400 50  0001 C CNN
@@ -479,11 +370,11 @@ F 3 "" H 1800 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 5000 2750 5000
+	1650 5000 1800 5000
 Wire Wire Line
-	1800 4750 1800 5150
+	1800 4750 1800 5000
 $Comp
-L C_Small C1
+L rfm69w_adapter-archive:C_Small C1
 U 1 1 5A84262B
 P 1550 5000
 F 0 "C1" V 1779 5000 50  0000 C CNN
@@ -505,7 +396,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 4900 2050 4750
 $Comp
-L R_Small R2
+L rfm69w_adapter-archive:R_Small R2
 U 1 1 5A842939
 P 2050 4650
 F 0 "R2" H 2109 4696 50  0000 L CNN
@@ -516,7 +407,7 @@ F 3 "" H 2050 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L rfm69w_adapter-archive:GND #PWR015
 U 1 1 5A8429C5
 P 2050 4550
 F 0 "#PWR015" H 2050 4300 50  0001 C CNN
@@ -527,7 +418,7 @@ F 3 "" H 2050 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L L_Small L1
+L rfm69w_adapter-archive:L_Small L1
 U 1 1 5A84301A
 P 3450 1750
 F 0 "L1" H 3497 1796 50  0000 L CNN
@@ -538,7 +429,7 @@ F 3 "" H 3450 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L2
+L rfm69w_adapter-archive:L_Small L2
 U 1 1 5A843107
 P 3750 1750
 F 0 "L2" H 3797 1796 50  0000 L CNN
@@ -549,7 +440,7 @@ F 3 "" H 3750 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L rfm69w_adapter-archive:C_Small C2
 U 1 1 5A84345B
 P 3600 1600
 F 0 "C2" V 3829 1600 50  0000 C CNN
@@ -560,15 +451,15 @@ F 3 "" H 3600 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3250 1600 3500 1600
+	3250 1600 3450 1600
 Wire Wire Line
 	3450 1600 3450 1650
 Wire Wire Line
-	3700 1600 4000 1600
+	3700 1600 3750 1600
 Wire Wire Line
 	3750 1600 3750 1650
 $Comp
-L GND #PWR016
+L rfm69w_adapter-archive:GND #PWR016
 U 1 1 5A84360B
 P 3450 1850
 F 0 "#PWR016" H 3450 1600 50  0001 C CNN
@@ -579,7 +470,7 @@ F 3 "" H 3450 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L rfm69w_adapter-archive:GND #PWR017
 U 1 1 5A84363C
 P 3750 1850
 F 0 "#PWR017" H 3750 1600 50  0001 C CNN
@@ -596,7 +487,7 @@ Text Label 2750 5200 2    60   ~ 0
 LNA
 Connection ~ 3450 1600
 $Comp
-L Antenna_Shield ANT1
+L rfm69w_adapter-archive:Antenna_Shield ANT1
 U 1 1 5A843D4A
 P 3250 1400
 F 0 "ANT1" H 3400 1450 50  0000 L CNN
@@ -607,7 +498,7 @@ F 3 "" H 3250 1500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L rfm69w_adapter-archive:GND #PWR018
 U 1 1 5A843E60
 P 3150 1600
 F 0 "#PWR018" H 3150 1350 50  0001 C CNN
@@ -654,7 +545,7 @@ U0RX
 Text Label 4750 5100 0    60   ~ 0
 U0TX
 $Comp
-L Conn_01x01 J1
+L rfm69w_adapter-archive:Conn_01x01 J1
 U 1 1 5A8417CE
 P 8750 4400
 F 0 "J1" H 8829 4396 50  0000 L CNN
@@ -665,7 +556,7 @@ F 3 "~" H 8750 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J2
+L rfm69w_adapter-archive:Conn_01x01 J2
 U 1 1 5A84210A
 P 8750 4600
 F 0 "J2" H 8829 4596 50  0000 L CNN
@@ -676,7 +567,7 @@ F 3 "~" H 8750 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J3
+L rfm69w_adapter-archive:Conn_01x01 J3
 U 1 1 5A842146
 P 8750 4800
 F 0 "J3" H 8829 4796 50  0000 L CNN
@@ -687,7 +578,7 @@ F 3 "~" H 8750 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J4
+L rfm69w_adapter-archive:Conn_01x01 J4
 U 1 1 5A842184
 P 10200 4200
 F 0 "J4" H 10279 4196 50  0000 L CNN
@@ -698,7 +589,7 @@ F 3 "~" H 10200 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J5
+L rfm69w_adapter-archive:Conn_01x01 J5
 U 1 1 5A8421C4
 P 10200 4400
 F 0 "J5" H 10279 4396 50  0000 L CNN
@@ -709,7 +600,7 @@ F 3 "~" H 10200 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J6
+L rfm69w_adapter-archive:Conn_01x01 J6
 U 1 1 5A84254C
 P 10200 4600
 F 0 "J6" H 10279 4596 50  0000 L CNN
@@ -720,7 +611,7 @@ F 3 "~" H 10200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J7
+L rfm69w_adapter-archive:Conn_01x01 J7
 U 1 1 5A842594
 P 10200 4800
 F 0 "J7" H 10279 4796 50  0000 L CNN
@@ -731,7 +622,7 @@ F 3 "~" H 10200 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J8
+L rfm69w_adapter-archive:Conn_01x01 J8
 U 1 1 5A8425DC
 P 8750 4200
 F 0 "J8" H 8829 4196 50  0000 L CNN
@@ -758,7 +649,7 @@ GPIO16
 Text Label 8550 4200 2    60   ~ 0
 GPIO0
 $Comp
-L Conn_01x01 J9
+L rfm69w_adapter-archive:Conn_01x01 J9
 U 1 1 5A844D57
 P 8750 4000
 F 0 "J9" H 8829 3996 50  0000 L CNN
@@ -769,7 +660,7 @@ F 3 "~" H 8750 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J12
+L rfm69w_adapter-archive:Conn_01x01 J12
 U 1 1 5A844DA9
 P 10200 4000
 F 0 "J12" H 10279 3996 50  0000 L CNN
@@ -780,7 +671,7 @@ F 3 "~" H 10200 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR019
+L rfm69w_adapter-archive:+3V3 #PWR019
 U 1 1 5A844F69
 P 8550 4000
 F 0 "#PWR019" H 8550 3850 50  0001 C CNN
@@ -791,7 +682,7 @@ F 3 "" H 8550 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR020
+L rfm69w_adapter-archive:GND #PWR020
 U 1 1 5A844FE4
 P 10000 4000
 F 0 "#PWR020" H 10000 3750 50  0001 C CNN
@@ -802,7 +693,7 @@ F 3 "" H 10000 4000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 J10
+L rfm69w_adapter-archive:Conn_01x01 J10
 U 1 1 5A8450EB
 P 8750 5000
 F 0 "J10" H 8829 4996 50  0000 L CNN
@@ -813,7 +704,7 @@ F 3 "~" H 8750 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J13
+L rfm69w_adapter-archive:Conn_01x01 J13
 U 1 1 5A845139
 P 10200 5000
 F 0 "J13" H 10279 4996 50  0000 L CNN
@@ -828,7 +719,7 @@ RESET
 Text Label 10000 5000 2    60   ~ 0
 DTR
 $Comp
-L Conn_01x01 J11
+L rfm69w_adapter-archive:Conn_01x01 J11
 U 1 1 5A8456A9
 P 8750 5200
 F 0 "J11" H 8829 5196 50  0000 L CNN
@@ -839,7 +730,7 @@ F 3 "~" H 8750 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J14
+L rfm69w_adapter-archive:Conn_01x01 J14
 U 1 1 5A8456FB
 P 10200 5200
 F 0 "J14" H 10279 5196 50  0000 L CNN
@@ -854,7 +745,7 @@ U0RX
 Text Label 10000 5200 2    60   ~ 0
 U0TX
 $Comp
-L Conn_01x01 J15
+L rfm69w_adapter-archive:Conn_01x01 J15
 U 1 1 5A84631A
 P 8750 5400
 F 0 "J15" H 8829 5396 50  0000 L CNN
@@ -867,7 +758,7 @@ $EndComp
 Text Label 8550 5400 2    60   ~ 0
 ADC
 $Comp
-L Conn_01x01 J16
+L rfm69w_adapter-archive:Conn_01x01 J16
 U 1 1 5A846458
 P 10200 5400
 F 0 "J16" H 10279 5396 50  0000 L CNN
@@ -878,7 +769,7 @@ F 3 "~" H 10200 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L rfm69w_adapter-archive:GND #PWR021
 U 1 1 5A846862
 P 10000 5400
 F 0 "#PWR021" H 10000 5150 50  0001 C CNN
@@ -901,7 +792,7 @@ SPI FLash Memory
 Text Notes 7150 6350 0    118  ~ 24
 GPIO
 $Comp
-L R_Small R6
+L rfm69w_adapter-archive:R_Small R6
 U 1 1 5A84B2BE
 P 6200 5950
 F 0 "R6" H 6259 5996 50  0000 L CNN
@@ -914,7 +805,7 @@ $EndComp
 Text Label 6400 6200 0    60   ~ 0
 GPIO0
 $Comp
-L +3V3 #PWR022
+L rfm69w_adapter-archive:+3V3 #PWR022
 U 1 1 5A84CC5F
 P 6200 5850
 F 0 "#PWR022" H 6200 5700 50  0001 C CNN
@@ -929,7 +820,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 6200 6400 6200
 $Comp
-L R_Small R7
+L rfm69w_adapter-archive:R_Small R7
 U 1 1 5A8432F2
 P 6200 5250
 F 0 "R7" H 6259 5296 50  0000 L CNN
@@ -940,7 +831,7 @@ F 3 "" H 6200 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR05
+L rfm69w_adapter-archive:+3V3 #PWR05
 U 1 1 5A84336A
 P 6200 5150
 F 0 "#PWR05" H 6200 5000 50  0001 C CNN
@@ -957,4 +848,32 @@ Wire Wire Line
 Text Label 6400 5500 0    60   ~ 0
 GPIO2
 NoConn ~ 3650 4100
+Wire Wire Line
+	9250 1800 9250 1950
+Wire Wire Line
+	3350 3900 3450 3900
+Wire Wire Line
+	3450 3900 3550 3900
+Wire Wire Line
+	3550 3900 3750 3900
+Wire Wire Line
+	3750 3900 3850 3900
+Wire Wire Line
+	3850 3900 3950 3900
+Wire Wire Line
+	3950 3900 4150 3900
+Wire Wire Line
+	4150 3900 4750 3900
+Wire Wire Line
+	2275 5450 2750 5450
+Wire Wire Line
+	2475 5650 2750 5650
+Wire Wire Line
+	1800 5000 2750 5000
+Wire Wire Line
+	1800 5000 1800 5150
+Wire Wire Line
+	3750 1600 4000 1600
+Wire Wire Line
+	3450 1600 3500 1600
 $EndSCHEMATC

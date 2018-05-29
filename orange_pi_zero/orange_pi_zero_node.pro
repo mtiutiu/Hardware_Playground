@@ -1,4 +1,4 @@
-update=Ma 29 mai 2018 14:28:41 +0300
+update=Ma 29 mai 2018 14:59:09 +0300
 version=1
 last_client=kicad
 [general]
@@ -40,5 +40,3 @@ ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=orange_pi_zero_node-archive

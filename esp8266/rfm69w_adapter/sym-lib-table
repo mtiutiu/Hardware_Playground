@@ -1,3 +1,3 @@
 (sym_lib_table
-    (lib (name archive)(type Legacy)(uri ${KIPRJMOD}/rfm69w_adapter-archive.lib)(options "")(descr ""))
+  (lib (name rfm69w_adapter-archive)(type Legacy)(uri ${KIPRJMOD}/rfm69w_adapter-archive.lib)(options "")(descr ""))
 )

@@ -1,155 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -165,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Crystal_GND2_Small X1
+L ws281x_led_strip_controller-archive:Crystal_GND2_Small X1
 U 1 1 575E762B
 P 2610 4290
 F 0 "X1" V 2550 4460 50  0000 C CNN
@@ -176,7 +25,7 @@ F 3 "" H 2610 4290 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L ws281x_led_strip_controller-archive:GND #PWR01
 U 1 1 575E81CB
 P 2485 4290
 F 0 "#PWR01" H 2485 4040 50  0001 C CNN
@@ -187,7 +36,7 @@ F 3 "" H 2485 4290 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C4
+L ws281x_led_strip_controller-archive:C_Small C4
 U 1 1 575E8444
 P 2810 5010
 F 0 "C4" H 2960 5060 50  0000 C CNN
@@ -198,7 +47,7 @@ F 3 "" H 2810 5010 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR02
+L ws281x_led_strip_controller-archive:GND #PWR02
 U 1 1 575E86DC
 P 2810 5185
 F 0 "#PWR02" H 2810 4935 50  0001 C CNN
@@ -209,7 +58,7 @@ F 3 "" H 2810 5185 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R2
+L ws281x_led_strip_controller-archive:R_Small R2
 U 1 1 575E9FD3
 P 2535 3685
 F 0 "R2" V 2450 3680 50  0000 C CNN
@@ -220,7 +69,7 @@ F 3 "" H 2535 3685 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR03
+L ws281x_led_strip_controller-archive:+5V #PWR03
 U 1 1 575EA2EB
 P 2285 3685
 F 0 "#PWR03" H 2285 3535 50  0001 C CNN
@@ -231,7 +80,7 @@ F 3 "" H 2285 3685 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR04
+L ws281x_led_strip_controller-archive:GND #PWR04
 U 1 1 575EACF8
 P 2760 3255
 F 0 "#PWR04" H 2760 3005 50  0001 C CNN
@@ -252,7 +101,7 @@ SCK
 Text Label 5135 6585 0    60   ~ 0
 RFM69W_INT
 $Comp
-L +5V #PWR05
+L ws281x_led_strip_controller-archive:+5V #PWR05
 U 1 1 575ED4D0
 P 7600 3595
 F 0 "#PWR05" H 7600 3445 50  0001 C CNN
@@ -265,7 +114,7 @@ $EndComp
 Text Notes 7040 5140 0    67   ~ 13
 RFM69W radio module
 $Comp
-L GND #PWR06
+L ws281x_led_strip_controller-archive:GND #PWR06
 U 1 1 575F0AFE
 P 9350 6000
 F 0 "#PWR06" H 9350 5750 50  0001 C CNN
@@ -276,7 +125,7 @@ F 3 "" H 9350 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L ws281x_led_strip_controller-archive:GND #PWR07
 U 1 1 575F1464
 P 9825 5975
 F 0 "#PWR07" H 9825 5725 50  0001 C CNN
@@ -287,7 +136,7 @@ F 3 "" H 9825 5975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR08
+L ws281x_led_strip_controller-archive:+3.3V #PWR08
 U 1 1 575F26F2
 P 10125 5600
 F 0 "#PWR08" H 10125 5450 50  0001 C CNN
@@ -298,7 +147,7 @@ F 3 "" H 10125 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR09
+L ws281x_led_strip_controller-archive:+5V #PWR09
 U 1 1 575F2DE5
 P 8775 5625
 F 0 "#PWR09" H 8775 5475 50  0001 C CNN
@@ -311,7 +160,7 @@ $EndComp
 Text Notes 7045 6460 0    67   ~ 13
 3.3V supply
 $Comp
-L +5V #PWR010
+L ws281x_led_strip_controller-archive:+5V #PWR010
 U 1 1 575F559F
 P 1550 1240
 F 0 "#PWR010" H 1550 1090 50  0001 C CNN
@@ -322,7 +171,7 @@ F 3 "" H 1550 1240 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L ws281x_led_strip_controller-archive:GND #PWR011
 U 1 1 575F5898
 P 1550 2140
 F 0 "#PWR011" H 1550 1890 50  0001 C CNN
@@ -347,7 +196,7 @@ AVR ISP
 Text Notes 595  7690 0    67   ~ 13
 MCU unit
 $Comp
-L SW_Push SW1
+L ws281x_led_strip_controller-archive:SW_Push SW1
 U 1 1 57FF786F
 P 2760 3455
 F 0 "SW1" V 2775 3630 50  0000 L CNN
@@ -358,7 +207,7 @@ F 3 "" H 2760 3655 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TXB0104PWR U3
+L ws281x_led_strip_controller-archive:TXB0104PWR U3
 U 1 1 587D0D11
 P 8400 4275
 F 0 "U3" H 8400 4840 50  0000 C CNN
@@ -369,7 +218,7 @@ F 3 "" H 8400 4275 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R4
+L ws281x_led_strip_controller-archive:R_Small R4
 U 1 1 575ECDD9
 P 9395 3800
 F 0 "R4" H 9505 3770 50  0000 C CNN
@@ -380,7 +229,7 @@ F 3 "" H 9395 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR012
+L ws281x_led_strip_controller-archive:+3.3V #PWR012
 U 1 1 587D8ADA
 P 7600 4575
 F 0 "#PWR012" H 7600 4425 50  0001 C CNN
@@ -391,7 +240,7 @@ F 3 "" H 7600 4575 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR013
+L ws281x_led_strip_controller-archive:GND #PWR013
 U 1 1 587D960D
 P 9200 4575
 F 0 "#PWR013" H 9200 4325 50  0001 C CNN
@@ -402,7 +251,7 @@ F 3 "" H 9200 4575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR014
+L ws281x_led_strip_controller-archive:+3.3V #PWR014
 U 1 1 587D9F34
 P 9200 3585
 F 0 "#PWR014" H 9200 3435 50  0001 C CNN
@@ -413,7 +262,7 @@ F 3 "" H 9200 3585 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L ws281x_led_strip_controller-archive:C_Small C7
 U 1 1 587DD686
 P 7765 3710
 F 0 "C7" V 7940 3710 50  0000 C CNN
@@ -424,7 +273,7 @@ F 3 "" H 7765 3710 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C9
+L ws281x_led_strip_controller-archive:C_Small C9
 U 1 1 587DDAE5
 P 9040 3710
 F 0 "C9" V 9215 3710 50  0000 C CNN
@@ -435,7 +284,7 @@ F 3 "" H 9040 3710 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR015
+L ws281x_led_strip_controller-archive:GND #PWR015
 U 1 1 587DDF14
 P 7865 3710
 F 0 "#PWR015" H 7865 3460 50  0001 C CNN
@@ -446,7 +295,7 @@ F 3 "" H 7865 3710 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR016
+L ws281x_led_strip_controller-archive:GND #PWR016
 U 1 1 587DDFD7
 P 8940 3710
 F 0 "#PWR016" H 8940 3460 50  0001 C CNN
@@ -457,7 +306,7 @@ F 3 "" H 8940 3710 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR017
+L ws281x_led_strip_controller-archive:GND #PWR017
 U 1 1 587DF039
 P 9980 4875
 F 0 "#PWR017" H 9980 4625 50  0001 C CNN
@@ -468,7 +317,7 @@ F 3 "" H 9980 4875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L ws281x_led_strip_controller-archive:GND #PWR018
 U 1 1 587DF0D4
 P 10180 4875
 F 0 "#PWR018" H 10180 4625 50  0001 C CNN
@@ -479,7 +328,7 @@ F 3 "" H 10180 4875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR019
+L ws281x_led_strip_controller-archive:+3.3V #PWR019
 U 1 1 587DF4BE
 P 10080 3470
 F 0 "#PWR019" H 10080 3320 50  0001 C CNN
@@ -490,7 +339,7 @@ F 3 "" H 10080 3470 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C11
+L ws281x_led_strip_controller-archive:C_Small C11
 U 1 1 587DF8CC
 P 10260 3605
 F 0 "C11" V 10435 3605 50  0000 C CNN
@@ -501,7 +350,7 @@ F 3 "" H 10260 3605 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR020
+L ws281x_led_strip_controller-archive:GND #PWR020
 U 1 1 587DFAFC
 P 10360 3605
 F 0 "#PWR020" H 10360 3355 50  0001 C CNN
@@ -512,7 +361,7 @@ F 3 "" H 10360 3605 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AVR-ISP-6 CON1
+L ws281x_led_strip_controller-archive:AVR-ISP-6 CON1
 U 1 1 587EC8D0
 P 1650 1740
 F 0 "CON1" H 1230 1880 50  0000 C CNN
@@ -523,7 +372,7 @@ F 3 "" H 1625 1740 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR021
+L ws281x_led_strip_controller-archive:+3.3V #PWR021
 U 1 1 587FB28D
 P 9395 3650
 F 0 "#PWR021" H 9395 3500 50  0001 C CNN
@@ -548,7 +397,7 @@ MOSI
 Text Label 7600 4375 2    60   ~ 0
 SCK
 $Comp
-L Conn_01x01 P1
+L ws281x_led_strip_controller-archive:Conn_01x01 P1
 U 1 1 5880175E
 P 9530 3675
 F 0 "P1" V 9565 3485 50  0000 L CNN
@@ -560,7 +409,7 @@ F 3 "" H 9530 3675 50  0000 C CNN
 $EndComp
 NoConn ~ 7600 4475
 $Comp
-L CP1_Small C10
+L ws281x_led_strip_controller-archive:CP1_Small C10
 U 1 1 58806914
 P 9825 5875
 F 0 "C10" H 9975 5895 50  0000 C CNN
@@ -571,7 +420,7 @@ F 3 "" H 9825 5875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L ws281x_led_strip_controller-archive:GND #PWR022
 U 1 1 5880727F
 P 8775 5975
 F 0 "#PWR022" H 8775 5725 50  0001 C CNN
@@ -582,7 +431,7 @@ F 3 "" H 8775 5975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RFM69HW U5
+L ws281x_led_strip_controller-archive:RFM69HW U5
 U 1 1 587E1FFA
 P 10080 4025
 F 0 "U5" H 10340 3260 40  0000 C CNN
@@ -601,12 +450,12 @@ Wire Wire Line
 Wire Wire Line
 	2435 3685 2285 3685
 Wire Wire Line
-	2635 3685 2935 3685
+	2635 3685 2760 3685
 Connection ~ 2760 3685
 Wire Notes Line
 	6975 5200 11225 5200
 Wire Wire Line
-	9650 5750 10125 5750
+	9650 5750 9825 5750
 Wire Wire Line
 	9825 5750 9825 5775
 Wire Wire Line
@@ -615,15 +464,15 @@ Connection ~ 9825 5750
 Wire Wire Line
 	9050 5750 8775 5750
 Wire Wire Line
-	8775 5625 8775 5775
+	8775 5625 8775 5750
 Wire Wire Line
 	2760 4010 1935 4010
 Wire Wire Line
-	2760 3655 2760 4010
+	2760 3655 2760 3685
 Wire Wire Line
-	9200 3585 9200 3975
+	9200 3585 9200 3710
 Wire Wire Line
-	7600 3595 7600 3975
+	7600 3595 7600 3710
 Wire Wire Line
 	9140 3710 9200 3710
 Connection ~ 9200 3710
@@ -631,12 +480,12 @@ Wire Wire Line
 	7665 3710 7600 3710
 Connection ~ 7600 3710
 Wire Wire Line
-	10080 3470 10080 3675
+	10080 3470 10080 3605
 Wire Wire Line
 	10160 3605 10080 3605
 Connection ~ 10080 3605
 Wire Wire Line
-	9200 4075 9530 4075
+	9200 4075 9395 4075
 Wire Wire Line
 	9530 4175 9200 4175
 Wire Wire Line
@@ -650,17 +499,13 @@ Wire Wire Line
 	7600 4075 7595 4075
 Wire Wire Line
 	7600 4175 7610 4175
-Wire Wire Line
-	7600 4275 7600 4275
 Connection ~ 8775 5750
 Wire Wire Line
 	9200 4275 9530 4275
 Wire Wire Line
 	9200 4375 9530 4375
-Wire Wire Line
-	7600 4375 7600 4375
 $Comp
-L AMS1117 U4
+L ws281x_led_strip_controller-archive:AMS1117 U4
 U 1 1 5909E4A6
 P 9450 5750
 F 0 "U4" H 9350 6065 50  0000 C CNN
@@ -671,7 +516,7 @@ F 3 "" H 9350 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C8
+L ws281x_led_strip_controller-archive:CP1_Small C8
 U 1 1 5909EE76
 P 8775 5875
 F 0 "C8" H 8925 5895 50  0000 C CNN
@@ -684,7 +529,7 @@ $EndComp
 Text Notes 8155 2485 0    67   ~ 13
 Controller Connectors
 $Comp
-L ATSHA204A U2
+L ws281x_led_strip_controller-archive:ATSHA204A U2
 U 1 1 590A6A11
 P 7410 1920
 F 0 "U2" H 7439 1958 40  0000 L CNN
@@ -695,7 +540,7 @@ F 3 "" H 7410 1920 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C6
+L ws281x_led_strip_controller-archive:C_Small C6
 U 1 1 590A6A18
 P 7415 1470
 F 0 "C6" V 7590 1470 50  0000 C CNN
@@ -706,7 +551,7 @@ F 3 "" H 7415 1470 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR023
+L ws281x_led_strip_controller-archive:+5V #PWR023
 U 1 1 590A6A1F
 P 7210 1245
 F 0 "#PWR023" H 7210 1095 50  0001 C CNN
@@ -717,7 +562,7 @@ F 3 "" H 7210 1245 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L ws281x_led_strip_controller-archive:GND #PWR024
 U 1 1 590A6A25
 P 7515 1470
 F 0 "#PWR024" H 7515 1220 50  0001 C CNN
@@ -728,7 +573,7 @@ F 3 "" H 7515 1470 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR025
+L ws281x_led_strip_controller-archive:GND #PWR025
 U 1 1 590A6A2B
 P 7210 2270
 F 0 "#PWR025" H 7210 2020 50  0001 C CNN
@@ -741,7 +586,7 @@ $EndComp
 Text Label 6685 1920 2    60   ~ 0
 ATSHA204A
 $Comp
-L R_Small R3
+L ws281x_led_strip_controller-archive:R_Small R3
 U 1 1 590A6A32
 P 6815 1545
 F 0 "R3" H 6700 1510 50  0000 C CNN
@@ -752,7 +597,7 @@ F 3 "" H 6815 1545 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR026
+L ws281x_led_strip_controller-archive:+5V #PWR026
 U 1 1 590A6A39
 P 6815 1445
 F 0 "#PWR026" H 6815 1295 50  0001 C CNN
@@ -765,7 +610,7 @@ $EndComp
 Text Notes 6120 2480 0    67   ~ 13
 Signing module
 Wire Wire Line
-	7210 1245 7210 1570
+	7210 1245 7210 1470
 Wire Wire Line
 	7315 1470 7210 1470
 Connection ~ 7210 1470
@@ -773,9 +618,9 @@ Wire Wire Line
 	6815 1645 6815 1920
 Connection ~ 6815 1920
 Wire Wire Line
-	6685 1920 6860 1920
+	6685 1920 6815 1920
 $Comp
-L AT25DF512C U1
+L ws281x_led_strip_controller-archive:AT25DF512C U1
 U 1 1 590A6A48
 P 4920 1900
 F 0 "U1" H 4615 2265 40  0000 C CNN
@@ -786,7 +631,7 @@ F 3 "" H 505 -2045 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L ws281x_led_strip_controller-archive:GND #PWR027
 U 1 1 590A6A4F
 P 4920 2250
 F 0 "#PWR027" H 4920 2000 50  0001 C CNN
@@ -797,7 +642,7 @@ F 3 "" H 4920 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L ws281x_led_strip_controller-archive:C_Small C5
 U 1 1 590A6A55
 P 5695 1550
 F 0 "C5" V 5600 1480 50  0000 C CNN
@@ -808,7 +653,7 @@ F 3 "" H 5695 1550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR028
+L ws281x_led_strip_controller-archive:GND #PWR028
 U 1 1 590A6A5C
 P 5795 1550
 F 0 "#PWR028" H 5795 1300 50  0001 C CNN
@@ -819,7 +664,7 @@ F 3 "" H 5795 1550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R1
+L ws281x_led_strip_controller-archive:R_Small R1
 U 1 1 590A6A62
 P 4260 1535
 F 0 "R1" H 4410 1490 50  0000 C CNN
@@ -840,9 +685,9 @@ SCK
 Text Notes 3100 2475 0    67   ~ 13
 SPI flash module(OTA)
 Wire Wire Line
-	4920 1550 5595 1550
+	4920 1550 5525 1550
 Wire Wire Line
-	5525 1450 5525 1900
+	5525 1450 5525 1550
 Wire Wire Line
 	5525 1900 5470 1900
 Wire Wire Line
@@ -850,7 +695,7 @@ Wire Wire Line
 Connection ~ 5525 1750
 Connection ~ 5525 1550
 Wire Wire Line
-	4165 1750 4370 1750
+	4165 1750 4260 1750
 Wire Wire Line
 	4370 1850 4165 1850
 Wire Wire Line
@@ -861,7 +706,7 @@ Wire Wire Line
 	4260 1635 4260 1750
 Connection ~ 4260 1750
 $Comp
-L +5V #PWR029
+L ws281x_led_strip_controller-archive:+5V #PWR029
 U 1 1 590A6A7B
 P 4260 1435
 F 0 "#PWR029" H 4260 1285 50  0001 C CNN
@@ -872,7 +717,7 @@ F 3 "" H 4260 1435 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR030
+L ws281x_led_strip_controller-archive:+5V #PWR030
 U 1 1 590A6A81
 P 5525 1450
 F 0 "#PWR030" H 5525 1300 50  0001 C CNN
@@ -882,14 +727,12 @@ F 3 "" H 5525 1450 50  0000 C CNN
 	1    5525 1450
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	6970 6535 6970 3085
 Text Label 5120 4585 0    60   ~ 0
 SPI_FLASH_SS
 Text Label 7595 4075 2    60   ~ 0
 RFM69W_SS
 $Comp
-L Screw_Terminal_01x03 J2
+L ws281x_led_strip_controller-archive:Screw_Terminal_01x03 J2
 U 1 1 590A0509
 P 9955 1360
 F 0 "J2" H 10035 1802 50  0000 C CNN
@@ -900,7 +743,7 @@ F 3 "" H 9930 1460 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Screw_Terminal_01x02 J1
+L ws281x_led_strip_controller-archive:Screw_Terminal_01x02 J1
 U 1 1 590A0611
 P 8690 1400
 F 0 "J1" H 8770 1742 50  0000 C CNN
@@ -911,7 +754,7 @@ F 3 "" H 8665 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR031
+L ws281x_led_strip_controller-archive:GND #PWR031
 U 1 1 590A089E
 P 8890 1445
 F 0 "#PWR031" H 8890 1195 50  0001 C CNN
@@ -922,7 +765,7 @@ F 3 "" H 8890 1445 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L ws281x_led_strip_controller-archive:GND #PWR032
 U 1 1 590A0930
 P 10155 1555
 F 0 "#PWR032" H 10155 1305 50  0001 C CNN
@@ -935,7 +778,7 @@ $EndComp
 Wire Wire Line
 	10155 1360 10335 1360
 $Comp
-L +5V #PWR033
+L ws281x_led_strip_controller-archive:+5V #PWR033
 U 1 1 590A159E
 P 9060 1245
 F 0 "#PWR033" H 9060 1095 50  0001 C CNN
@@ -946,7 +789,7 @@ F 3 "" H 9060 1245 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR034
+L ws281x_led_strip_controller-archive:+5V #PWR034
 U 1 1 590A17E1
 P 10335 1160
 F 0 "#PWR034" H 10335 1010 50  0001 C CNN
@@ -959,7 +802,7 @@ $EndComp
 Text Label 10335 1360 0    60   ~ 0
 D_OUT
 $Comp
-L ATMEGA644P-20AU U6
+L ws281x_led_strip_controller-archive:ATMEGA644P-20AU U6
 U 1 1 592BD464
 P 3935 5385
 F 0 "U6" H 4750 7400 50  0000 C CNN
@@ -970,7 +813,7 @@ F 3 "" H 3935 5385 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L ws281x_led_strip_controller-archive:C_Small C2
 U 1 1 592C0F1F
 P 3585 3225
 F 0 "C2" H 3420 3290 50  0000 C CNN
@@ -981,7 +824,7 @@ F 3 "" H 3585 3225 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L ws281x_led_strip_controller-archive:C_Small C1
 U 1 1 592C21D6
 P 3685 2895
 F 0 "C1" H 3830 3050 50  0000 C CNN
@@ -992,7 +835,7 @@ F 3 "" H 3685 2895 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C12
+L ws281x_led_strip_controller-archive:C_Small C12
 U 1 1 592C22CC
 P 3785 3235
 F 0 "C12" H 3665 3295 50  0000 C CNN
@@ -1003,7 +846,7 @@ F 3 "" H 3785 3235 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L ws281x_led_strip_controller-archive:C_Small C3
 U 1 1 592C2C89
 P 4085 3235
 F 0 "C3" H 3915 3300 50  0000 C CNN
@@ -1014,9 +857,9 @@ F 3 "" H 4085 3235 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3685 2995 3685 3385
+	3685 2995 3685 3360
 $Comp
-L GND #PWR035
+L ws281x_led_strip_controller-archive:GND #PWR035
 U 1 1 592C49A4
 P 3685 2795
 F 0 "#PWR035" H 3685 2545 50  0001 C CNN
@@ -1027,7 +870,7 @@ F 3 "" H 3685 2795 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR036
+L ws281x_led_strip_controller-archive:GND #PWR036
 U 1 1 592C54CF
 P 3585 3125
 F 0 "#PWR036" H 3585 2875 50  0001 C CNN
@@ -1038,7 +881,7 @@ F 3 "" H 3585 3125 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR037
+L ws281x_led_strip_controller-archive:GND #PWR037
 U 1 1 592C6BA4
 P 3785 3135
 F 0 "#PWR037" H 3785 2885 50  0001 C CNN
@@ -1049,7 +892,7 @@ F 3 "" H 3785 3135 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR038
+L ws281x_led_strip_controller-archive:GND #PWR038
 U 1 1 592C7715
 P 4085 3135
 F 0 "#PWR038" H 4085 2885 50  0001 C CNN
@@ -1060,13 +903,13 @@ F 3 "" H 4085 3135 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3585 3325 3585 3385
+	3585 3325 3585 3360
 Wire Wire Line
-	3785 3335 3785 3385
+	3785 3335 3785 3360
 Wire Wire Line
-	4085 3335 4085 3385
+	4085 3335 4085 3360
 Wire Wire Line
-	3135 3360 4085 3360
+	3135 3360 3585 3360
 Connection ~ 3785 3360
 Connection ~ 4085 3360
 Connection ~ 3685 3360
@@ -1074,7 +917,7 @@ Connection ~ 3585 3360
 Wire Wire Line
 	3135 3360 3135 3050
 $Comp
-L +5V #PWR039
+L ws281x_led_strip_controller-archive:+5V #PWR039
 U 1 1 592CC294
 P 3135 3050
 F 0 "#PWR039" H 3135 2900 50  0001 C CNN
@@ -1095,7 +938,7 @@ Wire Wire Line
 Wire Wire Line
 	4935 3985 5120 3985
 $Comp
-L GND #PWR040
+L ws281x_led_strip_controller-archive:GND #PWR040
 U 1 1 592D3DED
 P 3785 7540
 F 0 "#PWR040" H 3785 7290 50  0001 C CNN
@@ -1108,11 +951,11 @@ $EndComp
 Wire Wire Line
 	3685 7430 3685 7385
 Wire Wire Line
-	3685 7430 3985 7430
+	3685 7430 3785 7430
 Wire Wire Line
 	3985 7430 3985 7385
 Wire Wire Line
-	3785 7385 3785 7540
+	3785 7385 3785 7430
 Connection ~ 3785 7430
 Wire Wire Line
 	3885 7385 3885 7430
@@ -1166,8 +1009,6 @@ Wire Notes Line
 	6090 2510 6090 475 
 Wire Notes Line
 	8120 2510 8120 470 
-Wire Notes Line
-	6970 3090 6970 2510
 NoConn ~ 4935 5485
 Wire Wire Line
 	4935 6685 5135 6685
@@ -1183,4 +1024,54 @@ Wire Wire Line
 	10335 1260 10335 1160
 Wire Wire Line
 	10155 1555 10155 1460
+Wire Wire Line
+	2760 3685 2935 3685
+Wire Wire Line
+	2760 3685 2760 4010
+Wire Wire Line
+	9825 5750 10125 5750
+Wire Wire Line
+	9200 3710 9200 3975
+Wire Wire Line
+	7600 3710 7600 3975
+Wire Wire Line
+	10080 3605 10080 3675
+Wire Wire Line
+	9395 4075 9530 4075
+Wire Wire Line
+	8775 5750 8775 5775
+Wire Wire Line
+	7210 1470 7210 1570
+Wire Wire Line
+	6815 1920 6860 1920
+Wire Wire Line
+	5525 1750 5525 1900
+Wire Wire Line
+	5525 1550 5595 1550
+Wire Wire Line
+	5525 1550 5525 1750
+Wire Wire Line
+	4260 1750 4370 1750
+Wire Wire Line
+	3785 3360 3785 3385
+Wire Wire Line
+	3785 3360 4085 3360
+Wire Wire Line
+	4085 3360 4085 3385
+Wire Wire Line
+	3685 3360 3685 3385
+Wire Wire Line
+	3685 3360 3785 3360
+Wire Wire Line
+	3585 3360 3585 3385
+Wire Wire Line
+	3585 3360 3685 3360
+Wire Wire Line
+	3785 7430 3885 7430
+Wire Wire Line
+	3785 7430 3785 7540
+Wire Wire Line
+	3885 7430 3985 7430
+Wire Notes Line
+	6970 2510 6970 6535
 $EndSCHEMATC

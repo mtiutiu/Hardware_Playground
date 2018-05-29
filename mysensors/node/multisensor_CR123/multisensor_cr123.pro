@@ -1,4 +1,4 @@
-update=Ma 29 mai 2018 14:01:41 +0300
+update=Ma 29 mai 2018 14:57:49 +0300
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,6 +38,4 @@ LabSize=60
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=multisensor_cr123-archive
 

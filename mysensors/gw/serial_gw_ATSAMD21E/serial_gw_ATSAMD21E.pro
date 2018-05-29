@@ -1,4 +1,4 @@
-update=Ma 29 mai 2018 14:16:06 +0300
+update=Ma 29 mai 2018 14:50:56 +0300
 last_client=kicad
 [general]
 version=1
@@ -15,6 +15,4 @@ ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=serial_gw_ATSAMD21E-archive
 

@@ -1,155 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:holyiot_nrf52832
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -167,7 +16,7 @@ $EndDescr
 Text Notes 7080 3010 0    67   ~ 13
 Usb to serial converter
 $Comp
-L Crystal_GND2_Small X1
+L serial_gw_ATMEGA328P-archive:Crystal_GND2_Small X1
 U 1 1 575E762B
 P 4405 5020
 F 0 "X1" H 4555 4945 50  0000 C CNN
@@ -178,7 +27,7 @@ F 3 "" H 4405 5020 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L serial_gw_ATMEGA328P-archive:GND #PWR01
 U 1 1 575E81CB
 P 4405 5145
 F 0 "#PWR01" H 4405 4895 50  0001 C CNN
@@ -189,7 +38,7 @@ F 3 "" H 4405 5145 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L serial_gw_ATMEGA328P-archive:C_Small C4
 U 1 1 575E8444
 P 1430 5020
 F 0 "C4" H 1580 5070 50  0000 C CNN
@@ -200,7 +49,7 @@ F 3 "" H 1430 5020 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR02
+L serial_gw_ATMEGA328P-archive:GND #PWR02
 U 1 1 575E86DC
 P 1430 5195
 F 0 "#PWR02" H 1430 4945 50  0001 C CNN
@@ -211,7 +60,7 @@ F 3 "" H 1430 5195 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L serial_gw_ATMEGA328P-archive:C_Small C2
 U 1 1 575E8F25
 P 1255 4620
 F 0 "C2" V 1105 4620 50  0000 C CNN
@@ -222,7 +71,7 @@ F 3 "" H 1255 4620 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C1
+L serial_gw_ATMEGA328P-archive:C_Small C1
 U 1 1 575E8F9B
 P 1255 4420
 F 0 "C1" V 1305 4270 50  0000 C CNN
@@ -233,7 +82,7 @@ F 3 "" H 1255 4420 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C3
+L serial_gw_ATMEGA328P-archive:C_Small C3
 U 1 1 575E8FDA
 P 1305 4195
 F 0 "C3" V 1105 4195 50  0000 C CNN
@@ -244,7 +93,7 @@ F 3 "" H 1305 4195 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L serial_gw_ATMEGA328P-archive:GND #PWR03
 U 1 1 575E9378
 P 1305 4045
 F 0 "#PWR03" H 1305 3795 50  0001 C CNN
@@ -255,7 +104,7 @@ F 3 "" H 1305 4045 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR04
+L serial_gw_ATMEGA328P-archive:GND #PWR04
 U 1 1 575E93D7
 P 1030 4420
 F 0 "#PWR04" H 1030 4170 50  0001 C CNN
@@ -266,7 +115,7 @@ F 3 "" H 1030 4420 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR05
+L serial_gw_ATMEGA328P-archive:GND #PWR05
 U 1 1 575E942A
 P 1030 4620
 F 0 "#PWR05" H 1030 4370 50  0001 C CNN
@@ -277,7 +126,7 @@ F 3 "" H 1030 4620 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR06
+L serial_gw_ATMEGA328P-archive:GND #PWR06
 U 1 1 575E9AE9
 P 1530 6820
 F 0 "#PWR06" H 1530 6570 50  0001 C CNN
@@ -288,7 +137,7 @@ F 3 "" H 1530 6820 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L serial_gw_ATMEGA328P-archive:R_Small R1
 U 1 1 575E9FD3
 P 4755 5770
 F 0 "R1" V 4580 5770 50  0000 C CNN
@@ -299,7 +148,7 @@ F 3 "" H 4755 5770 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR07
+L serial_gw_ATMEGA328P-archive:+5V #PWR07
 U 1 1 575EA292
 P 1455 3895
 F 0 "#PWR07" H 1455 3745 50  0001 C CNN
@@ -310,7 +159,7 @@ F 3 "" H 1455 3895 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR08
+L serial_gw_ATMEGA328P-archive:+5V #PWR08
 U 1 1 575EA2EB
 P 5005 5770
 F 0 "#PWR08" H 5005 5620 50  0001 C CNN
@@ -321,7 +170,7 @@ F 3 "" H 5005 5770 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR09
+L serial_gw_ATMEGA328P-archive:GND #PWR09
 U 1 1 575EACF8
 P 4530 6200
 F 0 "#PWR09" H 4530 5950 50  0001 C CNN
@@ -346,7 +195,7 @@ SCK
 Text Label 3680 6120 0    60   ~ 0
 RFM69W_INT
 $Comp
-L +5V #PWR010
+L serial_gw_ATMEGA328P-archive:+5V #PWR010
 U 1 1 575ED4D0
 P 7600 3595
 F 0 "#PWR010" H 7600 3445 50  0001 C CNN
@@ -359,7 +208,7 @@ $EndComp
 Text Notes 7040 5140 0    67   ~ 13
 RFM69W radio module
 $Comp
-L GND #PWR011
+L serial_gw_ATMEGA328P-archive:GND #PWR011
 U 1 1 575F0AFE
 P 9350 6050
 F 0 "#PWR011" H 9350 5800 50  0001 C CNN
@@ -370,7 +219,7 @@ F 3 "" H 9350 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L serial_gw_ATMEGA328P-archive:GND #PWR012
 U 1 1 575F1464
 P 9825 5975
 F 0 "#PWR012" H 9825 5725 50  0001 C CNN
@@ -381,7 +230,7 @@ F 3 "" H 9825 5975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR013
+L serial_gw_ATMEGA328P-archive:+3.3V #PWR013
 U 1 1 575F26F2
 P 10125 5600
 F 0 "#PWR013" H 10125 5450 50  0001 C CNN
@@ -392,7 +241,7 @@ F 3 "" H 10125 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR014
+L serial_gw_ATMEGA328P-archive:+5V #PWR014
 U 1 1 575F2DE5
 P 8775 5625
 F 0 "#PWR014" H 8775 5475 50  0001 C CNN
@@ -405,7 +254,7 @@ $EndComp
 Text Notes 7045 6460 0    67   ~ 13
 3.3V supply
 $Comp
-L +5V #PWR015
+L serial_gw_ATMEGA328P-archive:+5V #PWR015
 U 1 1 575F559F
 P 1620 1380
 F 0 "#PWR015" H 1620 1230 50  0001 C CNN
@@ -416,7 +265,7 @@ F 3 "" H 1620 1380 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L serial_gw_ATMEGA328P-archive:GND #PWR016
 U 1 1 575F5898
 P 1620 2280
 F 0 "#PWR016" H 1620 2030 50  0001 C CNN
@@ -448,7 +297,7 @@ NoConn ~ 3505 6620
 NoConn ~ 1605 5670
 NoConn ~ 1605 5770
 $Comp
-L LED_Small D1
+L serial_gw_ATMEGA328P-archive:LED_Small D1
 U 1 1 575EBC44
 P 5850 1175
 F 0 "D1" H 5920 1075 50  0000 C CNN
@@ -459,7 +308,7 @@ F 3 "" V 5850 1175 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Small D2
+L serial_gw_ATMEGA328P-archive:LED_Small D2
 U 1 1 575EC632
 P 5875 1600
 F 0 "D2" H 5970 1510 50  0000 C CNN
@@ -470,7 +319,7 @@ F 3 "" V 5875 1600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R2
+L serial_gw_ATMEGA328P-archive:R_Small R2
 U 1 1 575EC9AF
 P 5500 1175
 F 0 "R2" V 5325 1175 50  0000 C CNN
@@ -481,7 +330,7 @@ F 3 "" H 5500 1175 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R3
+L serial_gw_ATMEGA328P-archive:R_Small R3
 U 1 1 575ECFF3
 P 5500 1600
 F 0 "R3" V 5325 1600 50  0000 C CNN
@@ -492,7 +341,7 @@ F 3 "" H 5500 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Small D3
+L serial_gw_ATMEGA328P-archive:LED_Small D3
 U 1 1 575ED743
 P 5875 2000
 F 0 "D3" H 5960 1910 50  0000 C CNN
@@ -503,7 +352,7 @@ F 3 "" V 5875 2000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R4
+L serial_gw_ATMEGA328P-archive:R_Small R4
 U 1 1 575ED749
 P 5500 2000
 F 0 "R4" V 5325 2000 50  0000 C CNN
@@ -526,7 +375,7 @@ GW_TX_LED
 Text Label 4155 5370 2    60   ~ 0
 GW_ERR_LED
 $Comp
-L GND #PWR017
+L serial_gw_ATMEGA328P-archive:GND #PWR017
 U 1 1 575FB2A9
 P 6025 2400
 F 0 "#PWR017" H 6025 2150 50  0001 C CNN
@@ -537,7 +386,7 @@ F 3 "" H 6025 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C6
+L serial_gw_ATMEGA328P-archive:C_Small C6
 U 1 1 575FBD16
 P 4930 5295
 F 0 "C6" V 5105 5295 50  0000 C CNN
@@ -556,7 +405,7 @@ LED panel
 Text Notes 825  7450 0    67   ~ 13
 MCU unit
 $Comp
-L SW_Push SW1
+L serial_gw_ATMEGA328P-archive:SW_Push SW1
 U 1 1 57FF786F
 P 4530 6000
 F 0 "SW1" V 4484 6087 50  0000 L CNN
@@ -567,7 +416,7 @@ F 3 "" H 4530 6200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CP2102 U3
+L serial_gw_ATMEGA328P-archive:CP2102 U3
 U 1 1 587CEBD4
 P 9380 1765
 F 0 "U3" H 9120 2550 50  0000 C CNN
@@ -578,7 +427,7 @@ F 3 "" H 9380 1765 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TXB0104PWR U1
+L serial_gw_ATMEGA328P-archive:TXB0104PWR U1
 U 1 1 587D0D11
 P 8400 4275
 F 0 "U1" H 8400 4840 50  0000 C CNN
@@ -589,7 +438,7 @@ F 3 "" H 8400 4275 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R5
+L serial_gw_ATMEGA328P-archive:R_Small R5
 U 1 1 575ECDD9
 P 9395 3800
 F 0 "R5" H 9505 3770 50  0000 C CNN
@@ -600,7 +449,7 @@ F 3 "" H 9395 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR018
+L serial_gw_ATMEGA328P-archive:+3.3V #PWR018
 U 1 1 587D8ADA
 P 7600 4575
 F 0 "#PWR018" H 7600 4425 50  0001 C CNN
@@ -611,7 +460,7 @@ F 3 "" H 7600 4575 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR019
+L serial_gw_ATMEGA328P-archive:GND #PWR019
 U 1 1 587D960D
 P 9200 4575
 F 0 "#PWR019" H 9200 4325 50  0001 C CNN
@@ -622,7 +471,7 @@ F 3 "" H 9200 4575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR020
+L serial_gw_ATMEGA328P-archive:+3.3V #PWR020
 U 1 1 587D9F34
 P 9200 3585
 F 0 "#PWR020" H 9200 3435 50  0001 C CNN
@@ -633,7 +482,7 @@ F 3 "" H 9200 3585 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L serial_gw_ATMEGA328P-archive:C_Small C7
 U 1 1 587DD686
 P 7765 3710
 F 0 "C7" V 7940 3710 50  0000 C CNN
@@ -644,7 +493,7 @@ F 3 "" H 7765 3710 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C9
+L serial_gw_ATMEGA328P-archive:C_Small C9
 U 1 1 587DDAE5
 P 9040 3710
 F 0 "C9" V 9215 3710 50  0000 C CNN
@@ -655,7 +504,7 @@ F 3 "" H 9040 3710 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR021
+L serial_gw_ATMEGA328P-archive:GND #PWR021
 U 1 1 587DDF14
 P 7865 3710
 F 0 "#PWR021" H 7865 3460 50  0001 C CNN
@@ -666,7 +515,7 @@ F 3 "" H 7865 3710 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR022
+L serial_gw_ATMEGA328P-archive:GND #PWR022
 U 1 1 587DDFD7
 P 8940 3710
 F 0 "#PWR022" H 8940 3460 50  0001 C CNN
@@ -677,7 +526,7 @@ F 3 "" H 8940 3710 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR023
+L serial_gw_ATMEGA328P-archive:GND #PWR023
 U 1 1 587DF039
 P 9980 4875
 F 0 "#PWR023" H 9980 4625 50  0001 C CNN
@@ -688,7 +537,7 @@ F 3 "" H 9980 4875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L serial_gw_ATMEGA328P-archive:GND #PWR024
 U 1 1 587DF0D4
 P 10180 4875
 F 0 "#PWR024" H 10180 4625 50  0001 C CNN
@@ -699,7 +548,7 @@ F 3 "" H 10180 4875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR025
+L serial_gw_ATMEGA328P-archive:+3.3V #PWR025
 U 1 1 587DF4BE
 P 10080 3470
 F 0 "#PWR025" H 10080 3320 50  0001 C CNN
@@ -710,7 +559,7 @@ F 3 "" H 10080 3470 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C13
+L serial_gw_ATMEGA328P-archive:C_Small C13
 U 1 1 587DF8CC
 P 10260 3605
 F 0 "C13" V 10435 3605 50  0000 C CNN
@@ -721,7 +570,7 @@ F 3 "" H 10260 3605 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR026
+L serial_gw_ATMEGA328P-archive:GND #PWR026
 U 1 1 587DFAFC
 P 10360 3605
 F 0 "#PWR026" H 10360 3355 50  0001 C CNN
@@ -732,7 +581,7 @@ F 3 "" H 10360 3605 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L USB_A P1
+L serial_gw_ATMEGA328P-archive:USB_A P1
 U 1 1 587E0CED
 P 7370 1315
 F 0 "P1" V 7015 1270 50  0000 L CNN
@@ -743,7 +592,7 @@ F 3 "" V 7320 1215 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L serial_gw_ATMEGA328P-archive:GND #PWR027
 U 1 1 587E1899
 P 7270 1715
 F 0 "#PWR027" H 7270 1465 50  0001 C CNN
@@ -756,7 +605,7 @@ $EndComp
 Text Label 9510 600  2    60   ~ 0
 VBUS
 $Comp
-L C_Small C12
+L serial_gw_ATMEGA328P-archive:C_Small C12
 U 1 1 587E317B
 P 10030 815
 F 0 "C12" V 10205 815 50  0000 C CNN
@@ -767,7 +616,7 @@ F 3 "" H 10030 815 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR028
+L serial_gw_ATMEGA328P-archive:GND #PWR028
 U 1 1 587E3C04
 P 10130 815
 F 0 "#PWR028" H 10130 565 50  0001 C CNN
@@ -796,7 +645,7 @@ NoConn ~ 10730 2015
 NoConn ~ 10730 2115
 NoConn ~ 10730 2215
 $Comp
-L C_Small C10
+L serial_gw_ATMEGA328P-archive:C_Small C10
 U 1 1 587E6135
 P 9540 805
 F 0 "C10" V 9435 875 50  0000 C CNN
@@ -807,7 +656,7 @@ F 3 "" H 9540 805 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR029
+L serial_gw_ATMEGA328P-archive:GND #PWR029
 U 1 1 587E6398
 P 9440 805
 F 0 "#PWR029" H 9440 555 50  0001 C CNN
@@ -818,7 +667,7 @@ F 3 "" H 9440 805 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR030
+L serial_gw_ATMEGA328P-archive:GND #PWR030
 U 1 1 587E7617
 P 8830 2715
 F 0 "#PWR030" H 8830 2465 50  0001 C CNN
@@ -830,7 +679,7 @@ F 3 "" H 8830 2715 50  0000 C CNN
 $EndComp
 NoConn ~ 8030 2215
 $Comp
-L GND #PWR031
+L serial_gw_ATMEGA328P-archive:GND #PWR031
 U 1 1 587E9786
 P 7370 1715
 F 0 "#PWR031" H 7370 1465 50  0001 C CNN
@@ -847,7 +696,7 @@ SER_RX
 Text Label 10845 1515 0    60   ~ 0
 SER_TX
 $Comp
-L AVR-ISP-6 CON1
+L serial_gw_ATMEGA328P-archive:AVR-ISP-6 CON1
 U 1 1 587EC8D0
 P 1720 1880
 F 0 "CON1" H 1250 1980 50  0000 C CNN
@@ -860,7 +709,7 @@ $EndComp
 Text Label 7870 2735 0    60   ~ 0
 VBUS
 $Comp
-L +5V #PWR032
+L serial_gw_ATMEGA328P-archive:+5V #PWR032
 U 1 1 587F4A88
 P 7740 2455
 F 0 "#PWR032" H 7740 2305 50  0001 C CNN
@@ -871,7 +720,7 @@ F 3 "" H 7740 2455 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR033
+L serial_gw_ATMEGA328P-archive:+3.3V #PWR033
 U 1 1 587FB28D
 P 9395 3650
 F 0 "#PWR033" H 9395 3500 50  0001 C CNN
@@ -898,7 +747,7 @@ MOSI
 Text Label 7600 4375 2    60   ~ 0
 SCK
 $Comp
-L Conn_01x01 P2
+L serial_gw_ATMEGA328P-archive:Conn_01x01 P2
 U 1 1 5880175E
 P 9530 3675
 F 0 "P2" V 9565 3485 50  0000 L CNN
@@ -910,7 +759,7 @@ F 3 "" H 9530 3675 50  0000 C CNN
 $EndComp
 NoConn ~ 7600 4475
 $Comp
-L MCP1703A-3002_SOT89 U2
+L serial_gw_ATMEGA328P-archive:MCP1703A-3002_SOT89 U2
 U 1 1 588061E3
 P 9350 5750
 F 0 "U2" H 9350 6017 50  0000 C CNN
@@ -921,7 +770,7 @@ F 3 "" H 9350 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C11
+L serial_gw_ATMEGA328P-archive:C_Small C11
 U 1 1 58806914
 P 9825 5875
 F 0 "C11" H 9975 5895 50  0000 C CNN
@@ -932,7 +781,7 @@ F 3 "" H 9825 5875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
+L serial_gw_ATMEGA328P-archive:C_Small C8
 U 1 1 58806FE5
 P 8775 5875
 F 0 "C8" H 8925 5895 50  0000 C CNN
@@ -943,7 +792,7 @@ F 3 "" H 8775 5875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L serial_gw_ATMEGA328P-archive:GND #PWR034
 U 1 1 5880727F
 P 8775 5975
 F 0 "#PWR034" H 8775 5725 50  0001 C CNN
@@ -954,7 +803,7 @@ F 3 "" H 8775 5975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATMEGA328P-MU IC1
+L serial_gw_ATMEGA328P-archive:ATMEGA328P-MU IC1
 U 1 1 587E03C9
 P 2505 5420
 F 0 "IC1" H 2555 6787 50  0000 C CNN
@@ -965,7 +814,7 @@ F 3 "" H 2505 5420 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RFM69HW U4
+L serial_gw_ATMEGA328P-archive:RFM69HW U4
 U 1 1 587E1FFA
 P 10080 4025
 F 0 "U4" H 10340 3260 40  0000 C CNN
@@ -978,7 +827,7 @@ $EndComp
 NoConn ~ 10630 4525
 NoConn ~ 9530 4675
 $Comp
-L ATSHA204A U5
+L serial_gw_ATMEGA328P-archive:ATSHA204A U5
 U 1 1 587E20A4
 P 6500 4060
 F 0 "U5" H 6529 4098 40  0000 L CNN
@@ -989,7 +838,7 @@ F 3 "" H 6500 4060 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C14
+L serial_gw_ATMEGA328P-archive:C_Small C14
 U 1 1 587E254A
 P 6505 3610
 F 0 "C14" V 6680 3610 50  0000 C CNN
@@ -1000,7 +849,7 @@ F 3 "" H 6505 3610 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR035
+L serial_gw_ATMEGA328P-archive:+5V #PWR035
 U 1 1 587E2D93
 P 6300 3385
 F 0 "#PWR035" H 6300 3235 50  0001 C CNN
@@ -1011,7 +860,7 @@ F 3 "" H 6300 3385 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L serial_gw_ATMEGA328P-archive:GND #PWR036
 U 1 1 587E2E85
 P 6605 3610
 F 0 "#PWR036" H 6605 3360 50  0001 C CNN
@@ -1022,7 +871,7 @@ F 3 "" H 6605 3610 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR037
+L serial_gw_ATMEGA328P-archive:GND #PWR037
 U 1 1 587E2FB9
 P 6300 4410
 F 0 "#PWR037" H 6300 4160 50  0001 C CNN
@@ -1035,7 +884,7 @@ $EndComp
 Text Label 5775 4060 2    60   ~ 0
 ATSHA204A
 $Comp
-L R_Small R6
+L serial_gw_ATMEGA328P-archive:R_Small R6
 U 1 1 587E3BF3
 P 5905 3685
 F 0 "R6" H 5790 3650 50  0000 C CNN
@@ -1046,7 +895,7 @@ F 3 "" H 5905 3685 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR038
+L serial_gw_ATMEGA328P-archive:+5V #PWR038
 U 1 1 587E41E5
 P 5905 3585
 F 0 "#PWR038" H 5905 3435 50  0001 C CNN
@@ -1073,14 +922,14 @@ Wire Wire Line
 Wire Wire Line
 	1430 5120 1430 5195
 Wire Wire Line
-	1355 4620 1605 4620
+	1355 4620 1455 4620
 Wire Wire Line
-	1455 3895 1455 4620
+	1455 3895 1455 4320
 Wire Wire Line
-	1355 4420 1605 4420
+	1355 4420 1455 4420
 Connection ~ 1455 4420
 Wire Wire Line
-	1305 4320 1605 4320
+	1305 4320 1455 4320
 Connection ~ 1455 4320
 Connection ~ 1455 4620
 Wire Wire Line
@@ -1094,7 +943,7 @@ Wire Wire Line
 Wire Wire Line
 	1605 6420 1530 6420
 Wire Wire Line
-	1530 6420 1530 6820
+	1530 6420 1530 6520
 Wire Wire Line
 	1605 6620 1530 6620
 Connection ~ 1530 6620
@@ -1104,7 +953,7 @@ Connection ~ 1530 6520
 Wire Wire Line
 	4855 5770 5005 5770
 Wire Wire Line
-	3505 5770 4655 5770
+	3505 5770 4530 5770
 Connection ~ 4530 5770
 Wire Wire Line
 	3505 5920 3680 5920
@@ -1123,7 +972,7 @@ Wire Wire Line
 Wire Notes Line
 	6975 5200 11225 5200
 Wire Wire Line
-	9650 5750 10125 5750
+	9650 5750 9825 5750
 Wire Wire Line
 	9825 5750 9825 5775
 Wire Wire Line
@@ -1132,9 +981,9 @@ Connection ~ 9825 5750
 Wire Wire Line
 	9050 5750 8775 5750
 Wire Wire Line
-	8775 5625 8775 5775
+	8775 5625 8775 5750
 Wire Wire Line
-	4530 5445 5355 5445
+	4530 5445 4830 5445
 Wire Wire Line
 	5775 1600 5600 1600
 Wire Wire Line
@@ -1160,7 +1009,7 @@ Wire Wire Line
 Wire Wire Line
 	3505 5370 4155 5370
 Wire Wire Line
-	6025 1175 6025 2400
+	6025 1175 6025 1600
 Connection ~ 6025 1600
 Connection ~ 6025 2000
 Wire Wire Line
@@ -1171,11 +1020,11 @@ Wire Wire Line
 Wire Notes Line
 	3375 2700 3375 475 
 Wire Wire Line
-	4530 5445 4530 5800
+	4530 5445 4530 5770
 Wire Wire Line
-	9200 3585 9200 3975
+	9200 3585 9200 3710
 Wire Wire Line
-	7600 3595 7600 3975
+	7600 3595 7600 3710
 Wire Wire Line
 	9140 3710 9200 3710
 Connection ~ 9200 3710
@@ -1183,16 +1032,16 @@ Wire Wire Line
 	7665 3710 7600 3710
 Connection ~ 7600 3710
 Wire Wire Line
-	10080 3470 10080 3675
+	10080 3470 10080 3605
 Wire Wire Line
 	10160 3605 10080 3605
 Connection ~ 10080 3605
 Wire Wire Line
-	9730 600  9730 815 
+	9730 600  9730 805 
 Wire Wire Line
 	9830 805  9830 815 
 Wire Wire Line
-	9640 805  9830 805 
+	9640 805  9730 805 
 Connection ~ 9730 805 
 Wire Notes Line
 	475  3085 11220 3085
@@ -1209,7 +1058,7 @@ Wire Wire Line
 Wire Wire Line
 	7740 2735 7870 2735
 Wire Wire Line
-	9200 4075 9530 4075
+	9200 4075 9395 4075
 Wire Wire Line
 	9530 4175 9200 4175
 Wire Wire Line
@@ -1223,8 +1072,6 @@ Wire Wire Line
 	7600 4075 7595 4075
 Wire Wire Line
 	7600 4175 7610 4175
-Wire Wire Line
-	7600 4275 7600 4275
 Wire Notes Line
 	6970 6535 6970 475 
 Connection ~ 8775 5750
@@ -1233,14 +1080,12 @@ Wire Wire Line
 Wire Wire Line
 	9200 4375 9530 4375
 Wire Wire Line
-	7600 4375 7600 4375
-Wire Wire Line
-	6300 3385 6300 3710
+	6300 3385 6300 3610
 Wire Wire Line
 	6405 3610 6300 3610
 Connection ~ 6300 3610
 Wire Wire Line
-	5775 4060 5950 4060
+	5775 4060 5905 4060
 Wire Wire Line
 	5905 3785 5905 4060
 Connection ~ 5905 4060
@@ -1253,9 +1098,9 @@ Wire Notes Line
 Wire Wire Line
 	8030 1115 7670 1115
 Wire Wire Line
-	8030 890  8030 1115
+	8030 890  8030 920 
 $Comp
-L L_Small L1
+L serial_gw_ATMEGA328P-archive:L_Small L1
 U 1 1 58CC3327
 P 8235 920
 F 0 "L1" V 8160 870 50  0000 L CNN
@@ -1270,9 +1115,9 @@ Wire Wire Line
 Wire Wire Line
 	8030 920  8135 920 
 Wire Wire Line
-	8335 920  8650 920 
+	8335 920  8440 920 
 $Comp
-L C_Small C5
+L serial_gw_ATMEGA328P-archive:C_Small C5
 U 1 1 58D10262
 P 8030 790
 F 0 "C5" H 7855 845 50  0000 C CNN
@@ -1283,7 +1128,7 @@ F 3 "" H 8030 790 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C15
+L serial_gw_ATMEGA328P-archive:C_Small C15
 U 1 1 58D1041E
 P 8440 795
 F 0 "C15" H 8295 870 50  0000 C CNN
@@ -1298,7 +1143,7 @@ Wire Wire Line
 	8440 895  8440 920 
 Connection ~ 8440 920 
 $Comp
-L GND #PWR039
+L serial_gw_ATMEGA328P-archive:GND #PWR039
 U 1 1 58D10771
 P 8030 690
 F 0 "#PWR039" H 8030 440 50  0001 C CNN
@@ -1309,7 +1154,7 @@ F 3 "" H 8030 690 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR040
+L serial_gw_ATMEGA328P-archive:GND #PWR040
 U 1 1 58D108C5
 P 8440 695
 F 0 "#PWR040" H 8440 445 50  0001 C CNN
@@ -1320,7 +1165,7 @@ F 3 "" H 8440 695 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R7
+L serial_gw_ATMEGA328P-archive:R_Small R7
 U 1 1 58D29B32
 P 7855 1315
 F 0 "R7" V 7785 1265 50  0000 C CNN
@@ -1335,7 +1180,7 @@ Wire Wire Line
 Wire Wire Line
 	7955 1315 8030 1315
 $Comp
-L R_Small R8
+L serial_gw_ATMEGA328P-archive:R_Small R8
 U 1 1 58D2B1AE
 P 7860 1415
 F 0 "R8" V 7935 1360 50  0000 C CNN
@@ -1349,4 +1194,52 @@ Wire Wire Line
 	7760 1415 7670 1415
 Wire Wire Line
 	7960 1415 8030 1415
+Wire Wire Line
+	1455 4420 1455 4620
+Wire Wire Line
+	1455 4420 1605 4420
+Wire Wire Line
+	1455 4320 1455 4420
+Wire Wire Line
+	1455 4320 1605 4320
+Wire Wire Line
+	1455 4620 1605 4620
+Wire Wire Line
+	1530 6620 1530 6820
+Wire Wire Line
+	1530 6520 1530 6620
+Wire Wire Line
+	4530 5770 4655 5770
+Wire Wire Line
+	4530 5770 4530 5800
+Wire Wire Line
+	9825 5750 10125 5750
+Wire Wire Line
+	6025 1600 6025 2000
+Wire Wire Line
+	6025 2000 6025 2400
+Wire Wire Line
+	4830 5445 5355 5445
+Wire Wire Line
+	9200 3710 9200 3975
+Wire Wire Line
+	7600 3710 7600 3975
+Wire Wire Line
+	10080 3605 10080 3675
+Wire Wire Line
+	9730 805  9730 815 
+Wire Wire Line
+	9730 805  9830 805 
+Wire Wire Line
+	9395 4075 9530 4075
+Wire Wire Line
+	8775 5750 8775 5775
+Wire Wire Line
+	6300 3610 6300 3710
+Wire Wire Line
+	5905 4060 5950 4060
+Wire Wire Line
+	8030 920  8030 1115
+Wire Wire Line
+	8440 920  8650 920 
 $EndSCHEMATC

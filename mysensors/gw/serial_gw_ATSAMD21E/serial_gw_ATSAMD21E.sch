@@ -1,154 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:holyiot_nrf52832
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -166,7 +16,7 @@ $EndDescr
 Text Notes 7080 3010 0    67   ~ 13
 USB
 $Comp
-L GND #PWR08
+L serial_gw_ATSAMD21E-archive:GND #PWR08
 U 1 1 575E9AE9
 P 2455 7205
 F 0 "#PWR08" H 2455 6955 50  0001 C CNN
@@ -177,7 +27,7 @@ F 3 "" H 2455 7205 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L serial_gw_ATSAMD21E-archive:R_Small R1
 U 1 1 575E9FD3
 P 1295 7115
 F 0 "R1" V 1120 7115 50  0000 C CNN
@@ -190,7 +40,7 @@ $EndComp
 Text Notes 7060 5120 0    67   ~ 13
 RFM69W radio module
 $Comp
-L GND #PWR037
+L serial_gw_ATSAMD21E-archive:GND #PWR037
 U 1 1 575F0AFE
 P 9350 6050
 F 0 "#PWR037" H 9350 5800 50  0001 C CNN
@@ -201,7 +51,7 @@ F 3 "" H 9350 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L serial_gw_ATSAMD21E-archive:GND #PWR040
 U 1 1 575F1464
 P 9825 5975
 F 0 "#PWR040" H 9825 5725 50  0001 C CNN
@@ -212,7 +62,7 @@ F 3 "" H 9825 5975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR041
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR041
 U 1 1 575F26F2
 P 10125 5600
 F 0 "#PWR041" H 10125 5450 50  0001 C CNN
@@ -225,7 +75,7 @@ $EndComp
 Text Notes 7045 6460 0    67   ~ 13
 3.3V supply
 $Comp
-L GND #PWR06
+L serial_gw_ATSAMD21E-archive:GND #PWR06
 U 1 1 575F5898
 P 2275 1685
 F 0 "#PWR06" H 2275 1435 50  0001 C CNN
@@ -242,7 +92,7 @@ RST
 Text Label 1480 1585 2    60   ~ 0
 SWCLK
 $Comp
-L LED_Small D1
+L serial_gw_ATSAMD21E-archive:LED_Small D1
 U 1 1 575EBC44
 P 5850 1175
 F 0 "D1" H 5920 1075 50  0000 C CNN
@@ -253,7 +103,7 @@ F 3 "" V 5850 1175 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Small D2
+L serial_gw_ATSAMD21E-archive:LED_Small D2
 U 1 1 575EC632
 P 5875 1600
 F 0 "D2" H 5970 1510 50  0000 C CNN
@@ -264,7 +114,7 @@ F 3 "" V 5875 1600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R2
+L serial_gw_ATSAMD21E-archive:R_Small R2
 U 1 1 575EC9AF
 P 5500 1175
 F 0 "R2" V 5325 1175 50  0000 C CNN
@@ -275,7 +125,7 @@ F 3 "" H 5500 1175 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R3
+L serial_gw_ATSAMD21E-archive:R_Small R3
 U 1 1 575ECFF3
 P 5500 1600
 F 0 "R3" V 5325 1600 50  0000 C CNN
@@ -286,7 +136,7 @@ F 3 "" H 5500 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Small D3
+L serial_gw_ATSAMD21E-archive:LED_Small D3
 U 1 1 575ED743
 P 5875 2000
 F 0 "D3" H 5960 1910 50  0000 C CNN
@@ -297,7 +147,7 @@ F 3 "" V 5875 2000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R4
+L serial_gw_ATSAMD21E-archive:R_Small R4
 U 1 1 575ED749
 P 5500 2000
 F 0 "R4" V 5325 2000 50  0000 C CNN
@@ -314,7 +164,7 @@ GW_TX_LED
 Text Label 5075 2000 2    60   ~ 0
 GW_ERR_LED
 $Comp
-L GND #PWR022
+L serial_gw_ATSAMD21E-archive:GND #PWR022
 U 1 1 575FB2A9
 P 6025 2400
 F 0 "#PWR022" H 6025 2150 50  0001 C CNN
@@ -331,7 +181,7 @@ LED panel
 Text Notes 570  7685 0    67   ~ 13
 MCU unit
 $Comp
-L SW_Push SW1
+L serial_gw_ATSAMD21E-archive:SW_Push SW1
 U 1 1 57FF786F
 P 1945 7350
 F 0 "SW1" V 1899 7437 50  0000 L CNN
@@ -342,7 +192,7 @@ F 3 "" H 1945 7550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R6
+L serial_gw_ATSAMD21E-archive:R_Small R6
 U 1 1 575ECDD9
 P 8395 3745
 F 0 "R6" H 8505 3715 50  0000 C CNN
@@ -353,7 +203,7 @@ F 3 "" H 8395 3745 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR034
+L serial_gw_ATSAMD21E-archive:GND #PWR034
 U 1 1 587DF039
 P 9095 4820
 F 0 "#PWR034" H 9095 4570 50  0001 C CNN
@@ -364,7 +214,7 @@ F 3 "" H 9095 4820 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L serial_gw_ATSAMD21E-archive:GND #PWR036
 U 1 1 587DF0D4
 P 9295 4820
 F 0 "#PWR036" H 9295 4570 50  0001 C CNN
@@ -375,7 +225,7 @@ F 3 "" H 9295 4820 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR035
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR035
 U 1 1 587DF4BE
 P 9195 3415
 F 0 "#PWR035" H 9195 3265 50  0001 C CNN
@@ -386,7 +236,7 @@ F 3 "" H 9195 3415 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C11
+L serial_gw_ATSAMD21E-archive:C_Small C11
 U 1 1 587DF8CC
 P 9375 3550
 F 0 "C11" V 9550 3550 50  0000 C CNN
@@ -397,7 +247,7 @@ F 3 "" H 9375 3550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR039
+L serial_gw_ATSAMD21E-archive:GND #PWR039
 U 1 1 587DFAFC
 P 9475 3550
 F 0 "#PWR039" H 9475 3300 50  0001 C CNN
@@ -408,7 +258,7 @@ F 3 "" H 9475 3550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L USB_A P1
+L serial_gw_ATSAMD21E-archive:USB_A P1
 U 1 1 587E0CED
 P 8250 1580
 F 0 "P1" V 7895 1535 50  0000 L CNN
@@ -419,7 +269,7 @@ F 3 "" V 8200 1480 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L serial_gw_ATSAMD21E-archive:GND #PWR029
 U 1 1 587E1899
 P 8150 1980
 F 0 "#PWR029" H 8150 1730 50  0001 C CNN
@@ -430,7 +280,7 @@ F 3 "" H 8150 1980 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L serial_gw_ATSAMD21E-archive:GND #PWR030
 U 1 1 587E9786
 P 8250 1980
 F 0 "#PWR030" H 8250 1730 50  0001 C CNN
@@ -441,7 +291,7 @@ F 3 "" H 8250 1980 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR031
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR031
 U 1 1 587FB28D
 P 8395 3595
 F 0 "#PWR031" H 8395 3445 50  0001 C CNN
@@ -458,7 +308,7 @@ NoConn ~ 9745 4170
 NoConn ~ 9745 4270
 NoConn ~ 9745 4370
 $Comp
-L Conn_01x01 P2
+L serial_gw_ATSAMD21E-archive:Conn_01x01 P2
 U 1 1 5880175E
 P 8645 3620
 F 0 "P2" V 8680 3430 50  0000 L CNN
@@ -469,7 +319,7 @@ F 3 "" H 8645 3620 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MCP1703A-3302_SOT89 U4
+L serial_gw_ATSAMD21E-archive:MCP1703A-3302_SOT89 U4
 U 1 1 588061E3
 P 9350 5750
 F 0 "U4" H 9350 6017 50  0000 C CNN
@@ -480,7 +330,7 @@ F 3 "" H 9350 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C12
+L serial_gw_ATSAMD21E-archive:C_Small C12
 U 1 1 58806914
 P 9825 5875
 F 0 "C12" H 9975 5895 50  0000 C CNN
@@ -491,7 +341,7 @@ F 3 "" H 9825 5875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C10
+L serial_gw_ATSAMD21E-archive:C_Small C10
 U 1 1 58806FE5
 P 8775 5875
 F 0 "C10" H 8925 5895 50  0000 C CNN
@@ -502,7 +352,7 @@ F 3 "" H 8775 5875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L serial_gw_ATSAMD21E-archive:GND #PWR033
 U 1 1 5880727F
 P 8775 5975
 F 0 "#PWR033" H 8775 5725 50  0001 C CNN
@@ -513,7 +363,7 @@ F 3 "" H 8775 5975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RFM69HW U3
+L serial_gw_ATSAMD21E-archive:RFM69HW U3
 U 1 1 587E1FFA
 P 9195 3970
 F 0 "U3" H 9455 3205 40  0000 C CNN
@@ -526,7 +376,7 @@ $EndComp
 NoConn ~ 9745 4470
 NoConn ~ 8645 4620
 $Comp
-L ATSHA204A U2
+L serial_gw_ATSAMD21E-archive:ATSHA204A U2
 U 1 1 587E20A4
 P 6500 4060
 F 0 "U2" H 6529 4098 40  0000 L CNN
@@ -537,7 +387,7 @@ F 3 "" H 6500 4060 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C9
+L serial_gw_ATSAMD21E-archive:C_Small C9
 U 1 1 587E254A
 P 6505 3610
 F 0 "C9" V 6680 3610 50  0000 C CNN
@@ -548,7 +398,7 @@ F 3 "" H 6505 3610 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR027
+L serial_gw_ATSAMD21E-archive:GND #PWR027
 U 1 1 587E2E85
 P 6605 3610
 F 0 "#PWR027" H 6605 3360 50  0001 C CNN
@@ -559,7 +409,7 @@ F 3 "" H 6605 3610 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR025
+L serial_gw_ATSAMD21E-archive:GND #PWR025
 U 1 1 587E2FB9
 P 6300 4410
 F 0 "#PWR025" H 6300 4160 50  0001 C CNN
@@ -572,7 +422,7 @@ $EndComp
 Text Label 5775 4060 2    60   ~ 0
 ATSHA204A
 $Comp
-L R_Small R5
+L serial_gw_ATSAMD21E-archive:R_Small R5
 U 1 1 587E3BF3
 P 5905 3685
 F 0 "R5" H 5790 3650 50  0000 C CNN
@@ -585,7 +435,7 @@ $EndComp
 Text Notes 5190 4640 0    67   ~ 13
 Signing module
 $Comp
-L C_Small C1
+L serial_gw_ATSAMD21E-archive:C_Small C1
 U 1 1 58C07269
 P 2105 3515
 F 0 "C1" H 1930 3575 50  0000 C CNN
@@ -596,7 +446,7 @@ F 3 "" H 2105 3515 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L serial_gw_ATSAMD21E-archive:GND #PWR04
 U 1 1 58C08023
 P 2105 3615
 F 0 "#PWR04" H 2105 3365 50  0001 C CNN
@@ -607,7 +457,7 @@ F 3 "" H 2105 3615 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR02
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR02
 U 1 1 58C02C4B
 P 1865 3375
 F 0 "#PWR02" H 1865 3225 50  0001 C CNN
@@ -618,7 +468,7 @@ F 3 "" H 1865 3375 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C3
+L serial_gw_ATSAMD21E-archive:C_Small C3
 U 1 1 58C03508
 P 2900 3625
 F 0 "C3" H 2735 3640 50  0000 C CNN
@@ -629,7 +479,7 @@ F 3 "" H 2900 3625 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L C_Small C2
+L serial_gw_ATSAMD21E-archive:C_Small C2
 U 1 1 58C03806
 P 2555 3625
 F 0 "C2" H 2390 3640 50  0000 C CNN
@@ -640,7 +490,7 @@ F 3 "" H 2555 3625 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L +3.3V #PWR09
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR09
 U 1 1 58C03D04
 P 2700 3375
 F 0 "#PWR09" H 2700 3225 50  0001 C CNN
@@ -651,7 +501,7 @@ F 3 "" H 2700 3375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR010
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR010
 U 1 1 58C0406F
 P 2800 3375
 F 0 "#PWR010" H 2800 3225 50  0001 C CNN
@@ -662,7 +512,7 @@ F 3 "" H 2800 3375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L serial_gw_ATSAMD21E-archive:GND #PWR011
 U 1 1 58C0458D
 P 3000 3625
 F 0 "#PWR011" H 3000 3375 50  0001 C CNN
@@ -673,7 +523,7 @@ F 3 "" H 3000 3625 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR07
+L serial_gw_ATSAMD21E-archive:GND #PWR07
 U 1 1 58C04A54
 P 2455 3625
 F 0 "#PWR07" H 2455 3375 50  0001 C CNN
@@ -692,7 +542,7 @@ USBDM
 Text Label 3610 6435 0    60   ~ 0
 USBDP
 $Comp
-L GND #PWR03
+L serial_gw_ATSAMD21E-archive:GND #PWR03
 U 1 1 58C0901F
 P 1945 7550
 F 0 "#PWR03" H 1945 7300 50  0001 C CNN
@@ -703,7 +553,7 @@ F 3 "" H 1945 7550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR01
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR01
 U 1 1 58C09941
 P 1195 7115
 F 0 "#PWR01" H 1195 6965 50  0001 C CNN
@@ -714,7 +564,7 @@ F 3 "" H 1195 7115 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Crystal_Small Y1
+L serial_gw_ATSAMD21E-archive:Crystal_Small Y1
 U 1 1 58C0A913
 P 4100 5435
 F 0 "Y1" H 4100 5660 50  0000 C CNN
@@ -725,7 +575,7 @@ F 3 "" H -95 -155 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L serial_gw_ATSAMD21E-archive:C_Small C4
 U 1 1 58C0BA2F
 P 3950 5580
 F 0 "C4" H 4085 5620 50  0000 C CNN
@@ -736,7 +586,7 @@ F 3 "" H 3950 5580 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L serial_gw_ATSAMD21E-archive:C_Small C5
 U 1 1 58C0C268
 P 4225 5580
 F 0 "C5" H 4085 5620 50  0000 C CNN
@@ -747,7 +597,7 @@ F 3 "" H 4225 5580 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L serial_gw_ATSAMD21E-archive:GND #PWR012
 U 1 1 58C0C819
 P 3950 5680
 F 0 "#PWR012" H 3950 5430 50  0001 C CNN
@@ -758,7 +608,7 @@ F 3 "" H 3950 5680 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L serial_gw_ATSAMD21E-archive:GND #PWR014
 U 1 1 58C0C90C
 P 4225 5680
 F 0 "#PWR014" H 4225 5430 50  0001 C CNN
@@ -777,7 +627,7 @@ SCK
 Text Label 3425 6135 0    60   ~ 0
 MISO
 $Comp
-L ATSAMD21E U1
+L serial_gw_ATSAMD21E-archive:ATSAMD21E U1
 U 1 1 58C11FA3
 P 2500 5285
 F 0 "U1" H 1922 5238 60  0000 R CNN
@@ -788,7 +638,7 @@ F 3 "" H -1075 -1535 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C6
+L serial_gw_ATSAMD21E-archive:C_Small C6
 U 1 1 58C148BB
 P 4150 4340
 F 0 "C6" H 3985 4355 50  0000 C CNN
@@ -799,7 +649,7 @@ F 3 "" H 4150 4340 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L serial_gw_ATSAMD21E-archive:GND #PWR013
 U 1 1 58C14C2E
 P 4150 4440
 F 0 "#PWR013" H 4150 4190 50  0001 C CNN
@@ -814,7 +664,7 @@ RFM69W_INT
 Text Label 3430 4635 0    60   ~ 0
 ATSHA204A
 $Comp
-L +3.3V #PWR024
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR024
 U 1 1 58C16EEE
 P 6300 3385
 F 0 "#PWR024" H 6300 3235 50  0001 C CNN
@@ -825,7 +675,7 @@ F 3 "" H 6300 3385 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR021
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR021
 U 1 1 58C16F8F
 P 5905 3585
 F 0 "#PWR021" H 5905 3435 50  0001 C CNN
@@ -836,7 +686,7 @@ F 3 "" H 5905 3585 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L serial_gw_ATSAMD21E-archive:C_Small C7
 U 1 1 58C180F4
 P 4550 4165
 F 0 "C7" H 4685 4205 50  0000 C CNN
@@ -847,7 +697,7 @@ F 3 "" H 4550 4165 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
+L serial_gw_ATSAMD21E-archive:C_Small C8
 U 1 1 58C180FC
 P 4825 4165
 F 0 "C8" H 4685 4205 50  0000 C CNN
@@ -858,7 +708,7 @@ F 3 "" H 4825 4165 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L serial_gw_ATSAMD21E-archive:GND #PWR015
 U 1 1 58C18103
 P 4550 4265
 F 0 "#PWR015" H 4550 4015 50  0001 C CNN
@@ -869,7 +719,7 @@ F 3 "" H 4550 4265 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L serial_gw_ATSAMD21E-archive:GND #PWR016
 U 1 1 58C18109
 P 4825 4265
 F 0 "#PWR016" H 4825 4015 50  0001 C CNN
@@ -880,7 +730,7 @@ F 3 "" H 4825 4265 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR05
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR05
 U 1 1 58C1A731
 P 2205 1480
 F 0 "#PWR05" H 2205 1330 50  0001 C CNN
@@ -897,7 +747,7 @@ SWDIO
 Text Label 1245 6760 2    60   ~ 0
 RST
 $Comp
-L Conn_02x03_Odd_Even J1
+L serial_gw_ATSAMD21E-archive:Conn_02x03_Odd_Even J1
 U 1 1 58C1DA9D
 P 1790 1685
 F 0 "J1" H 1790 2000 50  0000 C CNN
@@ -918,7 +768,7 @@ SCK
 NoConn ~ 3350 6535
 NoConn ~ 3350 6635
 $Comp
-L L_Small L1
+L serial_gw_ATSAMD21E-archive:L_Small L1
 U 1 1 58C2858E
 P 9025 1380
 F 0 "L1" V 9210 1380 50  0000 C CNN
@@ -931,7 +781,7 @@ $EndComp
 Wire Notes Line
 	6975 5200 11225 5200
 Wire Wire Line
-	9650 5750 10125 5750
+	9650 5750 9825 5750
 Wire Wire Line
 	9825 5750 9825 5775
 Wire Wire Line
@@ -940,7 +790,7 @@ Connection ~ 9825 5750
 Wire Wire Line
 	9050 5750 8775 5750
 Wire Wire Line
-	8775 5625 8775 5775
+	8775 5625 8775 5750
 Wire Wire Line
 	5775 1600 5600 1600
 Wire Wire Line
@@ -960,13 +810,13 @@ Wire Wire Line
 Wire Wire Line
 	5400 2000 5075 2000
 Wire Wire Line
-	6025 1175 6025 2400
+	6025 1175 6025 1600
 Connection ~ 6025 1600
 Connection ~ 6025 2000
 Wire Notes Line
 	3375 2700 3375 475 
 Wire Wire Line
-	9195 3415 9195 3620
+	9195 3415 9195 3550
 Wire Wire Line
 	9275 3550 9195 3550
 Connection ~ 9195 3550
@@ -986,12 +836,12 @@ Wire Notes Line
 	6970 6535 6970 475 
 Connection ~ 8775 5750
 Wire Wire Line
-	6300 3385 6300 3710
+	6300 3385 6300 3610
 Wire Wire Line
 	6405 3610 6300 3610
 Connection ~ 6300 3610
 Wire Wire Line
-	5775 4060 5950 4060
+	5775 4060 5905 4060
 Wire Wire Line
 	5905 3785 5905 4060
 Connection ~ 5905 4060
@@ -1000,7 +850,7 @@ Wire Notes Line
 Wire Notes Line
 	5150 4680 6970 4680
 Wire Wire Line
-	8180 4020 8645 4020
+	8180 4020 8395 4020
 Wire Wire Line
 	8645 4120 8180 4120
 Wire Wire Line
@@ -1010,33 +860,33 @@ Wire Wire Line
 Wire Wire Line
 	2400 7085 2400 7145
 Wire Wire Line
-	2400 7145 2500 7145
+	2400 7145 2455 7145
 Wire Wire Line
 	2500 7145 2500 7085
 Wire Wire Line
 	2455 7205 2455 7145
 Connection ~ 2455 7145
 Wire Wire Line
-	1865 3375 2300 3375
+	1865 3375 2105 3375
 Wire Wire Line
 	2105 3375 2105 3415
 Connection ~ 2105 3375
 Wire Wire Line
 	2300 3375 2300 3685
 Wire Wire Line
-	2800 3375 2800 3685
+	2800 3375 2800 3625
 Connection ~ 2800 3625
 Wire Wire Line
 	2655 3625 2700 3625
 Wire Wire Line
-	2700 3375 2700 3685
+	2700 3375 2700 3625
 Connection ~ 2700 3625
 Wire Wire Line
 	3350 6335 3610 6335
 Wire Wire Line
 	3350 6435 3610 6435
 Wire Wire Line
-	1395 7115 2250 7115
+	1395 7115 1660 7115
 Wire Wire Line
 	2250 7115 2250 7085
 Wire Wire Line
@@ -1045,9 +895,9 @@ Connection ~ 1945 7115
 Wire Wire Line
 	3350 5335 4225 5335
 Wire Wire Line
-	3350 5435 4000 5435
+	3350 5435 3950 5435
 Wire Wire Line
-	4225 5335 4225 5480
+	4225 5335 4225 5435
 Wire Wire Line
 	4225 5435 4200 5435
 Wire Wire Line
@@ -1071,9 +921,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 4635 3430 4635
 Wire Wire Line
-	4825 3860 4825 4065
+	4825 3860 4825 4035
 Wire Wire Line
-	3350 4035 4590 4035
+	3350 4035 4550 4035
 Wire Wire Line
 	3350 6735 3495 6735
 Wire Wire Line
@@ -1095,7 +945,7 @@ Wire Wire Line
 	8395 3845 8395 4020
 Connection ~ 8395 4020
 Wire Wire Line
-	9125 1380 9455 1380
+	9125 1380 9405 1380
 Text Label 3430 4135 0    60   ~ 0
 GW_RX_LED
 Text Label 3430 4335 0    60   ~ 0
@@ -1103,7 +953,7 @@ GW_TX_LED
 Text Label 3430 4535 0    60   ~ 0
 GW_ERR_LED
 Wire Wire Line
-	8550 1380 8925 1380
+	8550 1380 8650 1380
 NoConn ~ 3350 4735
 NoConn ~ 3350 4935
 NoConn ~ 3350 5035
@@ -1116,9 +966,9 @@ Wire Wire Line
 Wire Wire Line
 	1590 1685 1480 1685
 Wire Wire Line
-	2090 1685 2275 1685
+	2090 1685 2175 1685
 Wire Wire Line
-	2175 1680 2175 1785
+	2175 1680 2175 1685
 Wire Wire Line
 	2175 1785 2090 1785
 Connection ~ 2175 1685
@@ -1131,7 +981,7 @@ Wire Wire Line
 Text Label 8500 5625 2    60   ~ 0
 VBUS
 $Comp
-L Crystal_GND23_Small Y2
+L serial_gw_ATSAMD21E-archive:Crystal_GND23_Small Y2
 U 1 1 58C1BDA3
 P 4690 4035
 F 0 "Y2" H 4620 4320 50  0000 L CNN
@@ -1154,7 +1004,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3860 3350 3935
 $Comp
-L AT24CS64-MAHM U5
+L serial_gw_ATSAMD21E-archive:AT24CS64-MAHM U5
 U 1 1 58CFFE0D
 P 5830 6130
 F 0 "U5" H 5975 5815 50  0000 C CNN
@@ -1165,7 +1015,7 @@ F 3 "" H 5830 6130 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L serial_gw_ATSAMD21E-archive:GND #PWR020
 U 1 1 58D00C6B
 P 5830 6530
 F 0 "#PWR020" H 5830 6280 50  0001 C CNN
@@ -1176,7 +1026,7 @@ F 3 "" H 5830 6530 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L serial_gw_ATSAMD21E-archive:GND #PWR018
 U 1 1 58D01243
 P 5430 6330
 F 0 "#PWR018" H 5430 6080 50  0001 C CNN
@@ -1187,11 +1037,11 @@ F 3 "" H 5430 6330 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6230 6030 6555 6030
+	6230 6030 6465 6030
 Wire Wire Line
-	6230 6180 6785 6180
+	6230 6180 6730 6180
 $Comp
-L +3.3V #PWR019
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR019
 U 1 1 58D021BE
 P 5830 5620
 F 0 "#PWR019" H 5830 5470 50  0001 C CNN
@@ -1202,9 +1052,9 @@ F 3 "" H 5830 5620 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5830 5620 5830 5780
+	5830 5620 5830 5705
 $Comp
-L C_Small C13
+L serial_gw_ATSAMD21E-archive:C_Small C13
 U 1 1 58D02964
 P 5945 5705
 F 0 "C13" V 5840 5630 50  0000 C CNN
@@ -1215,7 +1065,7 @@ F 3 "" H 5945 5705 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR023
+L serial_gw_ATSAMD21E-archive:GND #PWR023
 U 1 1 58D02E38
 P 6045 5705
 F 0 "#PWR023" H 6045 5455 50  0001 C CNN
@@ -1226,19 +1076,19 @@ F 3 "" H 6045 5705 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5365 5705 5845 5705
+	5365 5705 5830 5705
 Connection ~ 5830 5705
 Wire Wire Line
 	5365 6180 5430 6180
 Wire Wire Line
-	5365 5705 5365 6180
+	5365 5705 5365 5980
 Wire Wire Line
 	5365 5980 5430 5980
 Connection ~ 5365 5980
 Wire Wire Line
 	5430 6080 5290 6080
 $Comp
-L GND #PWR017
+L serial_gw_ATSAMD21E-archive:GND #PWR017
 U 1 1 58D042A2
 P 5290 6080
 F 0 "#PWR017" H 5290 5830 50  0001 C CNN
@@ -1261,7 +1111,7 @@ SDA
 Text Label 6785 6180 0    60   ~ 0
 SCL
 $Comp
-L C_Small C14
+L serial_gw_ATSAMD21E-archive:C_Small C14
 U 1 1 58D00F05
 P 8650 1060
 F 0 "C14" H 8785 1105 50  0000 C CNN
@@ -1272,7 +1122,7 @@ F 3 "" H 8650 1060 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C15
+L serial_gw_ATSAMD21E-archive:C_Small C15
 U 1 1 58D0112D
 P 9405 1065
 F 0 "C15" H 9555 1115 50  0000 C CNN
@@ -1283,7 +1133,7 @@ F 3 "" H 9405 1065 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L serial_gw_ATSAMD21E-archive:GND #PWR032
 U 1 1 58D011DF
 P 8650 960
 F 0 "#PWR032" H 8650 710 50  0001 C CNN
@@ -1294,7 +1144,7 @@ F 3 "" H 8650 960 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR038
+L serial_gw_ATSAMD21E-archive:GND #PWR038
 U 1 1 58D012E6
 P 9405 965
 F 0 "#PWR038" H 9405 715 50  0001 C CNN
@@ -1311,7 +1161,7 @@ Wire Wire Line
 	9405 1165 9405 1380
 Connection ~ 9405 1380
 $Comp
-L R_Small R7
+L serial_gw_ATSAMD21E-archive:R_Small R7
 U 1 1 58D29E83
 P 8810 1580
 F 0 "R7" V 8735 1535 50  0000 C CNN
@@ -1322,7 +1172,7 @@ F 3 "" H 8810 1580 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R8
+L serial_gw_ATSAMD21E-archive:R_Small R8
 U 1 1 58D2A4C3
 P 8810 1680
 F 0 "R8" V 8880 1635 50  0000 C CNN
@@ -1337,7 +1187,7 @@ Wire Wire Line
 Wire Wire Line
 	8910 1680 8990 1680
 $Comp
-L R_Small R9
+L serial_gw_ATSAMD21E-archive:R_Small R9
 U 1 1 592553BE
 P 6465 5710
 F 0 "R9" H 6340 5680 50  0000 C CNN
@@ -1348,7 +1198,7 @@ F 3 "" H 6465 5710 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R10
+L serial_gw_ATSAMD21E-archive:R_Small R10
 U 1 1 59255F9A
 P 6730 5710
 F 0 "R10" H 6605 5680 50  0000 C CNN
@@ -1365,7 +1215,7 @@ Wire Wire Line
 	6730 5810 6730 6180
 Connection ~ 6730 6180
 $Comp
-L +3.3V #PWR026
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR026
 U 1 1 592573ED
 P 6465 5610
 F 0 "#PWR026" H 6465 5460 50  0001 C CNN
@@ -1376,7 +1226,7 @@ F 3 "" H 6465 5610 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR028
+L serial_gw_ATSAMD21E-archive:+3.3V #PWR028
 U 1 1 592574C0
 P 6730 5610
 F 0 "#PWR028" H 6730 5460 50  0001 C CNN
@@ -1388,4 +1238,58 @@ F 3 "" H 6730 5610 50  0000 C CNN
 $EndComp
 Wire Notes Line
 	5150 6765 6970 6765
+Wire Wire Line
+	9825 5750 10125 5750
+Wire Wire Line
+	6025 1600 6025 2000
+Wire Wire Line
+	6025 2000 6025 2400
+Wire Wire Line
+	9195 3550 9195 3620
+Wire Wire Line
+	8775 5750 8775 5775
+Wire Wire Line
+	6300 3610 6300 3710
+Wire Wire Line
+	5905 4060 5950 4060
+Wire Wire Line
+	2455 7145 2500 7145
+Wire Wire Line
+	2105 3375 2300 3375
+Wire Wire Line
+	2800 3625 2800 3685
+Wire Wire Line
+	2700 3625 2700 3685
+Wire Wire Line
+	1945 7115 2250 7115
+Wire Wire Line
+	3950 5435 4000 5435
+Wire Wire Line
+	4225 5435 4225 5480
+Wire Wire Line
+	1660 7115 1945 7115
+Wire Wire Line
+	8395 4020 8645 4020
+Wire Wire Line
+	2175 1685 2275 1685
+Wire Wire Line
+	2175 1685 2175 1785
+Wire Wire Line
+	4550 4035 4590 4035
+Wire Wire Line
+	4825 4035 4825 4065
+Wire Wire Line
+	5830 5705 5830 5780
+Wire Wire Line
+	5830 5705 5845 5705
+Wire Wire Line
+	5365 5980 5365 6180
+Wire Wire Line
+	8650 1380 8925 1380
+Wire Wire Line
+	9405 1380 9455 1380
+Wire Wire Line
+	6465 6030 6555 6030
+Wire Wire Line
+	6730 6180 6785 6180
 $EndSCHEMATC

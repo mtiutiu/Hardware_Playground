@@ -1,4 +1,4 @@
-update=Ma 29 mai 2018 12:16:06 +0300
+update=Ma 29 mai 2018 14:56:50 +0300
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,6 +38,4 @@ ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=livolo_1_channel_1way_eu_switch-archive
 

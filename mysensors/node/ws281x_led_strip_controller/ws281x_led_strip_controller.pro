@@ -1,4 +1,4 @@
-update=Ma 29 mai 2018 14:11:10 +0300
+update=Ma 29 mai 2018 14:58:34 +0300
 last_client=kicad
 [general]
 version=1
@@ -16,6 +16,4 @@ ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=ws281x_led_strip_controller-archive
 

@@ -1,4 +1,4 @@
-update=Ma 29 mai 2018 13:50:49 +0300
+update=Ma 29 mai 2018 14:51:22 +0300
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,6 +39,4 @@ ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=heater_actuator_node-archive
 

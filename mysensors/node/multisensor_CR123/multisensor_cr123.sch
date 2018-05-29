@@ -1,155 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:holyiot_nrf52832
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -165,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA328P-AU IC1
+L multisensor_cr123-archive:ATMEGA328P-AU IC1
 U 1 1 575E6E29
 P 3225 5075
 F 0 "IC1" H 2555 6435 50  0000 C CNN
@@ -176,7 +25,7 @@ F 3 "" H 3225 5075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_GND2_Small X1
+L multisensor_cr123-archive:Crystal_GND2_Small X1
 U 1 1 575E762B
 P 5200 4675
 F 0 "X1" H 5350 4600 50  0000 C CNN
@@ -187,7 +36,7 @@ F 3 "" H 5200 4675 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L multisensor_cr123-archive:GND #PWR01
 U 1 1 575E81CB
 P 5200 4800
 F 0 "#PWR01" H 5200 4550 50  0001 C CNN
@@ -198,7 +47,7 @@ F 3 "" H 5200 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L multisensor_cr123-archive:C_Small C4
 U 1 1 575E8444
 P 2150 4675
 F 0 "C4" H 2000 4660 50  0000 C CNN
@@ -209,7 +58,7 @@ F 3 "" H 2150 4675 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR02
+L multisensor_cr123-archive:GND #PWR02
 U 1 1 575E86DC
 P 2150 4850
 F 0 "#PWR02" H 2150 4600 50  0001 C CNN
@@ -220,7 +69,7 @@ F 3 "" H 2150 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L multisensor_cr123-archive:C_Small C2
 U 1 1 575E8F25
 P 1655 4275
 F 0 "C2" V 1505 4275 50  0000 C CNN
@@ -231,7 +80,7 @@ F 3 "" H 1655 4275 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C1
+L multisensor_cr123-archive:C_Small C1
 U 1 1 575E8F9B
 P 1655 4075
 F 0 "C1" V 1440 3925 50  0000 C CNN
@@ -242,7 +91,7 @@ F 3 "" H 1655 4075 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C3
+L multisensor_cr123-archive:C_Small C3
 U 1 1 575E8FDA
 P 1985 3850
 F 0 "C3" V 2110 3860 50  0000 C CNN
@@ -253,7 +102,7 @@ F 3 "" H 1985 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L multisensor_cr123-archive:GND #PWR03
 U 1 1 575E9378
 P 1985 3700
 F 0 "#PWR03" H 1985 3450 50  0001 C CNN
@@ -264,7 +113,7 @@ F 3 "" H 1985 3700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR04
+L multisensor_cr123-archive:GND #PWR04
 U 1 1 575E93D7
 P 1430 4075
 F 0 "#PWR04" H 1430 3825 50  0001 C CNN
@@ -275,7 +124,7 @@ F 3 "" H 1430 4075 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR05
+L multisensor_cr123-archive:GND #PWR05
 U 1 1 575E942A
 P 1430 4275
 F 0 "#PWR05" H 1430 4025 50  0001 C CNN
@@ -286,7 +135,7 @@ F 3 "" H 1430 4275 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR06
+L multisensor_cr123-archive:GND #PWR06
 U 1 1 575E9AE9
 P 2250 6475
 F 0 "#PWR06" H 2250 6225 50  0001 C CNN
@@ -297,7 +146,7 @@ F 3 "" H 2250 6475 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R2
+L multisensor_cr123-archive:R_Small R2
 U 1 1 575E9FD3
 P 5425 5425
 F 0 "R2" V 5250 5425 50  0000 C CNN
@@ -308,7 +157,7 @@ F 3 "" H 5425 5425 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C7
+L multisensor_cr123-archive:C_Small C7
 U 1 1 575EA846
 P 5100 5650
 F 0 "C7" V 5275 5650 50  0000 C CNN
@@ -319,7 +168,7 @@ F 3 "" H 5100 5650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR07
+L multisensor_cr123-archive:GND #PWR07
 U 1 1 575EAC84
 P 5100 5850
 F 0 "#PWR07" H 5100 5600 50  0001 C CNN
@@ -340,7 +189,7 @@ SCK
 Text Label 4400 5775 0    50   ~ 0
 INT
 $Comp
-L RFM69HW U2
+L multisensor_cr123-archive:RFM69HW U2
 U 1 1 575E7FD2
 P 9875 4025
 F 0 "U2" H 9490 4395 50  0000 C CNN
@@ -351,7 +200,7 @@ F 3 "" H 9875 4025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L multisensor_cr123-archive:GND #PWR08
 U 1 1 575E992B
 P 9775 4925
 F 0 "#PWR08" H 9775 4675 50  0001 C CNN
@@ -362,7 +211,7 @@ F 3 "" H 9775 4925 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L multisensor_cr123-archive:GND #PWR09
 U 1 1 575E996C
 P 9975 4925
 F 0 "#PWR09" H 9975 4675 50  0001 C CNN
@@ -390,7 +239,7 @@ Text Label 8125 4475 2    50   ~ 0
 SS
 NoConn ~ 9325 4575
 $Comp
-L Conn_01x01 P1
+L multisensor_cr123-archive:Conn_01x01 P1
 U 1 1 575EBBAD
 P 9325 3125
 F 0 "P1" V 9290 3037 50  0000 R CNN
@@ -401,7 +250,7 @@ F 3 "" H 9325 3125 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R3
+L multisensor_cr123-archive:R_Small R3
 U 1 1 575ECDD9
 P 8775 3575
 F 0 "R3" V 8700 3550 50  0000 C CNN
@@ -412,7 +261,7 @@ F 3 "" H 8775 3575 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR010
+L multisensor_cr123-archive:+3.3V #PWR010
 U 1 1 575EE685
 P 9875 3055
 F 0 "#PWR010" H 9875 2905 50  0001 C CNN
@@ -423,7 +272,7 @@ F 3 "" H 9875 3055 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L multisensor_cr123-archive:GND #PWR011
 U 1 1 575EE88A
 P 10275 3575
 F 0 "#PWR011" H 10275 3325 50  0001 C CNN
@@ -444,7 +293,7 @@ AVR ISP
 Text Notes 825  7450 0    67   ~ 13
 MCU unit
 $Comp
-L CP1_Small C10
+L multisensor_cr123-archive:CP1_Small C10
 U 1 1 576262E5
 P 10075 3575
 F 0 "C10" H 10166 3621 50  0000 L CNN
@@ -456,7 +305,7 @@ F 3 "" H 10075 3575 50  0000 C CNN
 $EndComp
 NoConn ~ 10195 1675
 $Comp
-L GND #PWR012
+L multisensor_cr123-archive:GND #PWR012
 U 1 1 576A50E7
 P 10945 1825
 F 0 "#PWR012" H 10945 1575 50  0001 C CNN
@@ -497,7 +346,7 @@ C6
 Text Notes 9645 2535 0    67   ~ 13
 Node ID configuration switch
 $Comp
-L +3.3V #PWR013
+L multisensor_cr123-archive:+3.3V #PWR013
 U 1 1 57D2F93C
 P 5655 5425
 F 0 "#PWR013" H 5655 5275 50  0001 C CNN
@@ -508,7 +357,7 @@ F 3 "" H 5655 5425 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR014
+L multisensor_cr123-archive:+3.3V #PWR014
 U 1 1 57D310C3
 P 2280 3690
 F 0 "#PWR014" H 2280 3540 50  0001 C CNN
@@ -519,7 +368,7 @@ F 3 "" H 2280 3690 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-ISP-6 CON1
+L multisensor_cr123-archive:AVR-ISP-6 CON1
 U 1 1 57D34506
 P 1340 1710
 F 0 "CON1" H 890 1820 50  0000 C CNN
@@ -538,7 +387,7 @@ RESET
 Text Label 1740 1810 0    50   ~ 0
 RESET
 $Comp
-L +3.3V #PWR015
+L multisensor_cr123-archive:+3.3V #PWR015
 U 1 1 57D38CA7
 P 1240 1210
 F 0 "#PWR015" H 1240 1060 50  0001 C CNN
@@ -551,7 +400,7 @@ $EndComp
 Text Label 1740 1610 0    50   ~ 0
 MOSI
 $Comp
-L GND #PWR016
+L multisensor_cr123-archive:GND #PWR016
 U 1 1 57D39745
 P 1240 2110
 F 0 "#PWR016" H 1240 1860 50  0001 C CNN
@@ -562,7 +411,7 @@ F 3 "" H 1240 2110 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_DIP_x08 S1
+L multisensor_cr123-archive:SW_DIP_x08 S1
 U 1 1 57D6A612
 P 10495 1375
 F 0 "S1" H 10485 2030 50  0000 C CNN
@@ -573,7 +422,7 @@ F 3 "" H 10445 1375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR017
+L multisensor_cr123-archive:+3.3V #PWR017
 U 1 1 57D7DD78
 P 8775 3400
 F 0 "#PWR017" H 8775 3250 50  0001 C CNN
@@ -584,7 +433,7 @@ F 3 "" H 8775 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L multisensor_cr123-archive:GND #PWR018
 U 1 1 57D7E0CF
 P 9645 6145
 F 0 "#PWR018" H 9645 5895 50  0001 C CNN
@@ -595,7 +444,7 @@ F 3 "" H 9645 6145 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR019
+L multisensor_cr123-archive:+3.3V #PWR019
 U 1 1 57D7C732
 P 1775 3900
 F 0 "#PWR019" H 1775 3750 50  0001 C CNN
@@ -606,7 +455,7 @@ F 3 "" H 1775 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR020
+L multisensor_cr123-archive:+3.3V #PWR020
 U 1 1 57D7D0EB
 P 1225 4730
 F 0 "#PWR020" H 1225 4580 50  0001 C CNN
@@ -617,7 +466,7 @@ F 3 "" H 1225 4730 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R4
+L multisensor_cr123-archive:R_Small R4
 U 1 1 57D7E783
 P 9000 5640
 F 0 "R4" V 8890 5640 50  0000 C CNN
@@ -628,7 +477,7 @@ F 3 "" H 9000 5640 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R_Small R5
+L multisensor_cr123-archive:R_Small R5
 U 1 1 57D7E9FE
 P 9000 5945
 F 0 "R5" V 8895 5945 50  0000 C CNN
@@ -639,7 +488,7 @@ F 3 "" H 9000 5945 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR021
+L multisensor_cr123-archive:GND #PWR021
 U 1 1 57D7EFB4
 P 9000 6120
 F 0 "#PWR021" H 9000 5870 50  0001 C CNN
@@ -654,7 +503,7 @@ V_BATT
 Text Label 4585 5025 0    50   ~ 0
 V_BATT
 $Comp
-L C_Small C11
+L multisensor_cr123-archive:C_Small C11
 U 1 1 57D80C84
 P 10080 3225
 F 0 "C11" V 10255 3225 50  0000 C CNN
@@ -665,7 +514,7 @@ F 3 "" H 10080 3225 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR022
+L multisensor_cr123-archive:GND #PWR022
 U 1 1 57D80FAD
 P 10295 3225
 F 0 "#PWR022" H 10295 2975 50  0001 C CNN
@@ -676,7 +525,7 @@ F 3 "" H 10295 3225 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L L6920 U1
+L multisensor_cr123-archive:L6920 U1
 U 1 1 57D8157F
 P 4930 1425
 F 0 "U1" H 4630 1825 50  0000 L CNN
@@ -689,7 +538,7 @@ $EndComp
 NoConn ~ 4430 1375
 NoConn ~ 4430 1475
 $Comp
-L CP1_Small C6
+L multisensor_cr123-archive:CP1_Small C6
 U 1 1 57D82090
 P 5630 1675
 F 0 "C6" H 5510 1595 50  0000 L CNN
@@ -700,7 +549,7 @@ F 3 "" H 5630 1675 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
+L multisensor_cr123-archive:C_Small C8
 U 1 1 57D82914
 P 5845 1675
 F 0 "C8" H 5980 1675 50  0000 C CNN
@@ -711,7 +560,7 @@ F 3 "" H 5845 1675 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L multisensor_cr123-archive:GND #PWR023
 U 1 1 57D82D00
 P 5630 1830
 F 0 "#PWR023" H 5630 1580 50  0001 C CNN
@@ -722,7 +571,7 @@ F 3 "" H 5630 1830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L multisensor_cr123-archive:GND #PWR024
 U 1 1 57D82DE7
 P 5845 1825
 F 0 "#PWR024" H 5845 1575 50  0001 C CNN
@@ -733,7 +582,7 @@ F 3 "" H 5845 1825 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L multisensor_cr123-archive:GND #PWR025
 U 1 1 57D82FEC
 P 5460 1835
 F 0 "#PWR025" H 5460 1585 50  0001 C CNN
@@ -744,7 +593,7 @@ F 3 "" H 5460 1835 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C9
+L multisensor_cr123-archive:CP1_Small C9
 U 1 1 57D83C67
 P 6220 1485
 F 0 "C9" H 6040 1440 50  0000 L CNN
@@ -755,7 +604,7 @@ F 3 "" H 6220 1485 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L multisensor_cr123-archive:GND #PWR026
 U 1 1 57D83E63
 P 6220 1640
 F 0 "#PWR026" H 6220 1390 50  0001 C CNN
@@ -766,7 +615,7 @@ F 3 "" H 6220 1640 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L multisensor_cr123-archive:C_Small C5
 U 1 1 57D84CE5
 P 4430 1725
 F 0 "C5" H 4565 1725 50  0000 C CNN
@@ -777,7 +626,7 @@ F 3 "" H 4430 1725 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L multisensor_cr123-archive:GND #PWR027
 U 1 1 57D84F90
 P 4430 1875
 F 0 "#PWR027" H 4430 1625 50  0001 C CNN
@@ -788,7 +637,7 @@ F 3 "" H 4430 1875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L multisensor_cr123-archive:R_Small R1
 U 1 1 57D86E54
 P 2905 1085
 F 0 "R1" H 3135 1040 50  0000 C CNN
@@ -799,7 +648,7 @@ F 3 "" H 2905 1085 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR028
+L multisensor_cr123-archive:+3.3V #PWR028
 U 1 1 57D88301
 P 2905 820
 F 0 "#PWR028" H 2905 670 50  0001 C CNN
@@ -812,7 +661,7 @@ $EndComp
 Text Label 6635 1375 0    50   ~ 0
 V_BOOST_IN
 $Comp
-L R_Small R6
+L multisensor_cr123-archive:R_Small R6
 U 1 1 57D89877
 P 10290 5560
 F 0 "R6" V 10385 5555 50  0000 C CNN
@@ -823,7 +672,7 @@ F 3 "" H 10290 5560 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R7
+L multisensor_cr123-archive:R_Small R7
 U 1 1 57D89F15
 P 10290 5925
 F 0 "R7" V 10375 5925 50  0000 C CNN
@@ -836,7 +685,7 @@ $EndComp
 Text Label 10600 5460 0    50   ~ 0
 V_BOOST_IN
 $Comp
-L +3.3V #PWR029
+L multisensor_cr123-archive:+3.3V #PWR029
 U 1 1 57D8D3EB
 P 10605 6025
 F 0 "#PWR029" H 10605 5875 50  0001 C CNN
@@ -850,7 +699,7 @@ NoConn ~ 4225 5675
 Text Notes 2400 2535 0    67   ~ 13
 Voltage Booster
 $Comp
-L Conn_01x04 P2
+L multisensor_cr123-archive:Conn_01x04 P2
 U 1 1 57D805CA
 P 9205 845
 F 0 "P2" H 9205 1095 50  0000 C CNN
@@ -861,7 +710,7 @@ F 3 "" H 9205 845 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR030
+L multisensor_cr123-archive:+3.3V #PWR030
 U 1 1 57D81562
 P 8690 945
 F 0 "#PWR030" H 8690 795 50  0001 C CNN
@@ -872,7 +721,7 @@ F 3 "" H 8690 945 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR031
+L multisensor_cr123-archive:GND #PWR031
 U 1 1 57D81703
 P 8925 845
 F 0 "#PWR031" H 8925 595 50  0001 C CNN
@@ -891,7 +740,7 @@ SDA
 Text Label 4480 5325 0    50   ~ 0
 SCL
 $Comp
-L MIC5205-3.3YM5TR U3
+L multisensor_cr123-archive:MIC5205-3.3YM5TR U3
 U 1 1 57D912BE
 P 3530 1475
 F 0 "U3" H 3735 1925 50  0000 L CNN
@@ -914,11 +763,11 @@ Wire Wire Line
 Wire Wire Line
 	2150 4775 2150 4850
 Wire Wire Line
-	1755 4275 2325 4275
+	1755 4275 1780 4275
 Wire Wire Line
-	1755 4075 2325 4075
+	1755 4075 1775 4075
 Wire Wire Line
-	1985 3975 2325 3975
+	1985 3975 2280 3975
 Wire Wire Line
 	1985 3975 1985 3950
 Wire Wire Line
@@ -930,7 +779,7 @@ Wire Wire Line
 Wire Wire Line
 	2325 6075 2250 6075
 Wire Wire Line
-	2250 6075 2250 6475
+	2250 6075 2250 6175
 Wire Wire Line
 	2325 6275 2250 6275
 Connection ~ 2250 6275
@@ -940,7 +789,7 @@ Connection ~ 2250 6175
 Wire Wire Line
 	5525 5425 5655 5425
 Wire Wire Line
-	4225 5425 5325 5425
+	4225 5425 5100 5425
 Wire Wire Line
 	5100 5750 5100 5850
 Wire Wire Line
@@ -966,7 +815,7 @@ Wire Wire Line
 Wire Wire Line
 	9325 4075 8775 4075
 Wire Wire Line
-	8775 3675 8775 4475
+	8775 3675 8775 4075
 Wire Wire Line
 	8775 4475 8125 4475
 Wire Wire Line
@@ -975,7 +824,7 @@ Connection ~ 8775 4075
 Wire Wire Line
 	8775 3475 8775 3400
 Wire Wire Line
-	9875 3055 9875 3675
+	9875 3055 9875 3225
 Connection ~ 9875 3575
 Wire Notes Line
 	7225 5200 11225 5200
@@ -990,7 +839,7 @@ Wire Wire Line
 Wire Wire Line
 	10175 3575 10275 3575
 Wire Wire Line
-	5100 5135 5100 5550
+	5100 5135 5100 5425
 Connection ~ 5100 5425
 Wire Wire Line
 	10195 975  9845 975 
@@ -1009,7 +858,7 @@ Wire Wire Line
 Wire Wire Line
 	10795 975  10945 975 
 Wire Wire Line
-	10945 975  10945 1825
+	10945 975  10945 1075
 Wire Wire Line
 	10795 1075 10945 1075
 Connection ~ 10945 1075
@@ -1063,7 +912,7 @@ Connection ~ 1780 4275
 Wire Wire Line
 	1460 4730 1225 4730
 Wire Wire Line
-	9000 5740 9000 5845
+	9000 5740 9000 5790
 Wire Wire Line
 	9000 6045 9000 6120
 Wire Wire Line
@@ -1077,9 +926,9 @@ Wire Wire Line
 	9980 3225 9875 3225
 Connection ~ 9875 3225
 Wire Wire Line
-	5430 1575 5845 1575
+	5430 1575 5630 1575
 Wire Wire Line
-	5630 980  5630 1575
+	5630 980  5630 1275
 Wire Wire Line
 	5630 1275 5430 1275
 Wire Wire Line
@@ -1095,7 +944,7 @@ Wire Wire Line
 Wire Wire Line
 	5430 1375 5870 1375
 Wire Wire Line
-	6070 1375 6635 1375
+	6070 1375 6220 1375
 Wire Wire Line
 	6220 1375 6220 1385
 Wire Wire Line
@@ -1110,14 +959,14 @@ Connection ~ 6220 1375
 Wire Wire Line
 	2905 985  2905 820 
 Wire Wire Line
-	10290 5660 10290 5825
+	10290 5660 10290 5700
 Wire Wire Line
 	9645 5700 10290 5700
 Connection ~ 10290 5700
 Wire Wire Line
 	10290 5460 10600 5460
 Wire Wire Line
-	9645 5540 9645 5745
+	9645 5540 9645 5700
 Wire Wire Line
 	10290 6025 10605 6025
 Wire Wire Line
@@ -1130,7 +979,7 @@ Wire Wire Line
 Wire Wire Line
 	4280 1375 4130 1375
 $Comp
-L C_Small C13
+L multisensor_cr123-archive:C_Small C13
 U 1 1 57D920A8
 P 4195 1680
 F 0 "C13" H 4035 1700 50  0000 C CNN
@@ -1145,7 +994,7 @@ Wire Wire Line
 Wire Wire Line
 	4195 1575 4195 1580
 $Comp
-L GND #PWR032
+L multisensor_cr123-archive:GND #PWR032
 U 1 1 57D92398
 P 4195 1845
 F 0 "#PWR032" H 4195 1595 50  0001 C CNN
@@ -1158,7 +1007,7 @@ $EndComp
 Wire Wire Line
 	4195 1780 4195 1845
 $Comp
-L GND #PWR033
+L multisensor_cr123-archive:GND #PWR033
 U 1 1 57D927B3
 P 3630 2025
 F 0 "#PWR033" H 3630 1775 50  0001 C CNN
@@ -1171,7 +1020,7 @@ $EndComp
 Wire Wire Line
 	3630 1975 3630 2025
 $Comp
-L CP1_Small C12
+L multisensor_cr123-archive:CP1_Small C12
 U 1 1 57D92B96
 P 2905 1380
 F 0 "C12" H 2645 1420 50  0000 L CNN
@@ -1184,9 +1033,9 @@ $EndComp
 Wire Wire Line
 	3030 1275 2905 1275
 Wire Wire Line
-	2905 1185 2905 1280
+	2905 1185 2905 1275
 $Comp
-L GND #PWR034
+L multisensor_cr123-archive:GND #PWR034
 U 1 1 57D92F6E
 P 2905 1540
 F 0 "#PWR034" H 2905 1290 50  0001 C CNN
@@ -1199,13 +1048,13 @@ $EndComp
 Wire Wire Line
 	2905 1480 2905 1540
 Wire Wire Line
-	4130 1275 4430 1275
+	4130 1275 4280 1275
 Wire Wire Line
-	4280 980  4280 1375
+	4280 980  4280 1275
 Connection ~ 4280 1275
 Connection ~ 2905 1275
 $Comp
-L Conn_01x03 P3
+L multisensor_cr123-archive:Conn_01x03 P3
 U 1 1 57D99714
 P 9205 1515
 F 0 "P3" H 9205 1715 50  0000 C CNN
@@ -1216,7 +1065,7 @@ F 3 "" H 9205 1515 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR035
+L multisensor_cr123-archive:+3.3V #PWR035
 U 1 1 57D998C8
 P 8800 1415
 F 0 "#PWR035" H 8800 1265 50  0001 C CNN
@@ -1227,7 +1076,7 @@ F 3 "" H 8800 1415 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR036
+L multisensor_cr123-archive:GND #PWR036
 U 1 1 57D99B25
 P 9000 1515
 F 0 "#PWR036" H 9000 1265 50  0001 C CNN
@@ -1238,7 +1087,7 @@ F 3 "" H 9000 1515 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8705 1615 9005 1615
+	8705 1615 8890 1615
 Text Label 8705 1615 2    50   ~ 0
 HALL_SENSOR
 Wire Wire Line
@@ -1246,7 +1095,7 @@ Wire Wire Line
 Wire Wire Line
 	9005 1515 9000 1515
 $Comp
-L R_Small R8
+L multisensor_cr123-archive:R_Small R8
 U 1 1 57D9A421
 P 8890 1780
 F 0 "R8" H 9035 1750 50  0000 C CNN
@@ -1260,7 +1109,7 @@ Wire Wire Line
 	8890 1680 8890 1615
 Connection ~ 8890 1615
 $Comp
-L +3.3V #PWR037
+L multisensor_cr123-archive:+3.3V #PWR037
 U 1 1 57D9A99F
 P 8890 1935
 F 0 "#PWR037" H 8890 1785 50  0001 C CNN
@@ -1281,7 +1130,7 @@ Wire Wire Line
 Text Label 4390 5125 0    50   ~ 0
 HALL_SENSOR
 $Comp
-L Conn_01x03 P4
+L multisensor_cr123-archive:Conn_01x03 P4
 U 1 1 57DA3706
 P 7815 1080
 F 0 "P4" H 7815 1280 50  0000 C CNN
@@ -1316,7 +1165,7 @@ A1
 Text Label 7490 1180 2    50   ~ 0
 D0
 $Comp
-L Battery BT1
+L multisensor_cr123-archive:Battery BT1
 U 1 1 57DA7173
 P 9645 5945
 F 0 "BT1" H 9745 5995 50  0000 L CNN
@@ -1335,7 +1184,7 @@ Wire Wire Line
 Wire Wire Line
 	9005 745  8650 745 
 $Comp
-L L_Core_Ferrite_Small L2
+L multisensor_cr123-archive:L_Core_Ferrite_Small L2
 U 1 1 5805E90E
 P 5970 1375
 F 0 "L2" V 6155 1375 50  0000 C CNN
@@ -1346,7 +1195,7 @@ F 3 "" H 5970 1375 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L L_Core_Ferrite_Small L1
+L multisensor_cr123-archive:L_Core_Ferrite_Small L1
 U 1 1 5805F6DD
 P 1560 4730
 F 0 "L1" V 1480 4750 50  0000 C CNN
@@ -1356,4 +1205,58 @@ F 3 "" H 1560 4730 50  0000 C CNN
 	1    1560 4730
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2250 6275 2250 6475
+Wire Wire Line
+	2250 6175 2250 6275
+Wire Wire Line
+	8775 4075 8775 4475
+Wire Wire Line
+	9875 3575 9875 3675
+Wire Wire Line
+	5100 5425 5325 5425
+Wire Wire Line
+	5100 5425 5100 5550
+Wire Wire Line
+	10945 1075 10945 1175
+Wire Wire Line
+	10945 1175 10945 1275
+Wire Wire Line
+	10945 1275 10945 1375
+Wire Wire Line
+	10945 1375 10945 1475
+Wire Wire Line
+	10945 1475 10945 1575
+Wire Wire Line
+	10945 1575 10945 1675
+Wire Wire Line
+	10945 1675 10945 1825
+Wire Wire Line
+	2280 3975 2325 3975
+Wire Wire Line
+	1775 4075 2325 4075
+Wire Wire Line
+	1780 4275 2325 4275
+Wire Wire Line
+	9000 5790 9000 5845
+Wire Wire Line
+	9875 3225 9875 3575
+Wire Wire Line
+	5630 1275 5630 1575
+Wire Wire Line
+	5630 1575 5845 1575
+Wire Wire Line
+	6220 1375 6635 1375
+Wire Wire Line
+	10290 5700 10290 5825
+Wire Wire Line
+	9645 5700 9645 5745
+Wire Wire Line
+	4280 1275 4430 1275
+Wire Wire Line
+	4280 1275 4280 1375
+Wire Wire Line
+	2905 1275 2905 1280
+Wire Wire Line
+	8890 1615 9005 1615
 $EndSCHEMATC

@@ -1,3 +1,3 @@
 (sym_lib_table
-    (lib (name archive)(type Legacy)(uri ${KIPRJMOD}/orange_pi_zero_node-archive.lib)(options "")(descr ""))
+  (lib (name orange_pi_zero_node-archive)(type Legacy)(uri ${KIPRJMOD}/orange_pi_zero_node-archive.lib)(options "")(descr ""))
 )

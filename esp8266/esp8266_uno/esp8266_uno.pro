@@ -1,4 +1,4 @@
-update=Ma 29 mai 2018 14:21:38 +0300
+update=Ma 29 mai 2018 14:49:13 +0300
 last_client=kicad
 [schematic_editor]
 version=1
@@ -13,6 +13,4 @@ ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=esp8266_uno-archive
 

@@ -1,146 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:holyiot_nrf52832
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -156,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L STM32F410RBTx U1
+L sd_wav_pcm5100-archive:STM32F410RBTx U1
 U 1 1 58233C31
 P 3760 3680
 F 0 "U1" H 1540 5830 50  0000 C CNN
@@ -167,7 +25,7 @@ F 3 "" H 3760 3680 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L sd_wav_pcm5100-archive:GND #PWR01
 U 1 1 58233E12
 P 3760 5765
 F 0 "#PWR01" H 3760 5515 50  0001 C CNN
@@ -180,20 +38,20 @@ $EndComp
 Wire Wire Line
 	3560 5680 3560 5710
 Wire Wire Line
-	3560 5710 3960 5710
+	3560 5710 3660 5710
 Wire Wire Line
 	3960 5710 3960 5680
 Wire Wire Line
 	3860 5680 3860 5710
 Connection ~ 3860 5710
 Wire Wire Line
-	3760 5680 3760 5765
+	3760 5680 3760 5710
 Connection ~ 3760 5710
 Wire Wire Line
 	3660 5680 3660 5710
 Connection ~ 3660 5710
 $Comp
-L MX-503398-1892 U4
+L sd_wav_pcm5100-archive:MX-503398-1892 U4
 U 1 1 5823405A
 P 9595 5765
 F 0 "U4" H 9605 6370 60  0000 C CNN
@@ -204,7 +62,7 @@ F 3 "" H 8905 6080 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L sd_wav_pcm5100-archive:C_Small C5
 U 1 1 58233F42
 P 3230 1490
 F 0 "C5" V 3075 1320 50  0000 C CNN
@@ -215,7 +73,7 @@ F 3 "" H 3230 1490 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C4
+L sd_wav_pcm5100-archive:C_Small C4
 U 1 1 58234461
 P 3230 1295
 F 0 "C4" V 3075 1125 50  0000 C CNN
@@ -226,7 +84,7 @@ F 3 "" H 3230 1295 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C6
+L sd_wav_pcm5100-archive:C_Small C6
 U 1 1 582345F9
 P 3235 1110
 F 0 "C6" V 3080 940 50  0000 C CNN
@@ -237,7 +95,7 @@ F 3 "" H 3235 1110 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C3
+L sd_wav_pcm5100-archive:C_Small C3
 U 1 1 5823465C
 P 3230 915
 F 0 "C3" V 3075 745 50  0000 C CNN
@@ -248,7 +106,7 @@ F 3 "" H 3230 915 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR02
+L sd_wav_pcm5100-archive:GND #PWR02
 U 1 1 582346F0
 P 2970 1490
 F 0 "#PWR02" H 2970 1240 50  0001 C CNN
@@ -259,7 +117,7 @@ F 3 "" H 2970 1490 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR03
+L sd_wav_pcm5100-archive:GND #PWR03
 U 1 1 582347CD
 P 2960 1295
 F 0 "#PWR03" H 2960 1045 50  0001 C CNN
@@ -270,7 +128,7 @@ F 3 "" H 2960 1295 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR04
+L sd_wav_pcm5100-archive:GND #PWR04
 U 1 1 582347EA
 P 2950 1110
 F 0 "#PWR04" H 2950 860 50  0001 C CNN
@@ -281,7 +139,7 @@ F 3 "" H 2950 1110 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR05
+L sd_wav_pcm5100-archive:GND #PWR05
 U 1 1 58234807
 P 2945 915
 F 0 "#PWR05" H 2945 665 50  0001 C CNN
@@ -292,7 +150,7 @@ F 3 "" H 2945 915 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C2
+L sd_wav_pcm5100-archive:C_Small C2
 U 1 1 58234938
 P 3230 710
 F 0 "C2" V 3075 540 50  0000 C CNN
@@ -303,7 +161,7 @@ F 3 "" H 3230 710 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR06
+L sd_wav_pcm5100-archive:GND #PWR06
 U 1 1 582349BF
 P 2945 710
 F 0 "#PWR06" H 2945 460 50  0001 C CNN
@@ -324,27 +182,27 @@ Wire Wire Line
 Wire Wire Line
 	3130 1490 2970 1490
 Wire Wire Line
-	3330 1490 4215 1490
+	3330 1490 3560 1490
 Wire Wire Line
 	3560 1490 3560 1680
 Wire Wire Line
-	3330 1295 4215 1295
+	3330 1295 3660 1295
 Wire Wire Line
 	3660 1295 3660 1680
 Wire Wire Line
-	3335 1110 4215 1110
+	3335 1110 3760 1110
 Wire Wire Line
 	3760 1110 3760 1680
 Wire Wire Line
 	3860 1680 3860 915 
 Wire Wire Line
-	3330 915  4215 915 
+	3330 915  3860 915 
 Wire Wire Line
-	3330 710  4215 710 
+	3330 710  3960 710 
 Wire Wire Line
 	3960 710  3960 1680
 $Comp
-L C_Small C1
+L sd_wav_pcm5100-archive:C_Small C1
 U 1 1 5823538B
 P 900 2580
 F 0 "C1" V 990 2460 50  0000 C CNN
@@ -357,7 +215,7 @@ $EndComp
 Wire Wire Line
 	1060 2580 1000 2580
 $Comp
-L GND #PWR07
+L sd_wav_pcm5100-archive:GND #PWR07
 U 1 1 582354BD
 P 715 2580
 F 0 "#PWR07" H 715 2330 50  0001 C CNN
@@ -370,7 +228,7 @@ $EndComp
 Wire Wire Line
 	800  2580 715  2580
 $Comp
-L PCM5100 U2
+L sd_wav_pcm5100-archive:PCM5100 U2
 U 1 1 58235969
 P 9460 1550
 F 0 "U2" H 9460 2290 60  0000 C CNN
@@ -391,7 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	8780 5750 8905 5750
 Wire Wire Line
-	8780 5240 8780 5750
+	8780 5240 8780 5295
 Wire Wire Line
 	8905 5850 8665 5850
 Wire Wire Line
@@ -407,7 +265,7 @@ SD_DO
 Wire Wire Line
 	8780 5950 8780 6320
 $Comp
-L GND #PWR08
+L sd_wav_pcm5100-archive:GND #PWR08
 U 1 1 5823697B
 P 8780 6320
 F 0 "#PWR08" H 8780 6070 50  0001 C CNN
@@ -418,7 +276,7 @@ F 3 "" H 8780 6320 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR09
+L sd_wav_pcm5100-archive:+3.3V #PWR09
 U 1 1 58236A67
 P 8780 5240
 F 0 "#PWR09" H 8780 5090 50  0001 C CNN
@@ -450,7 +308,7 @@ Connection ~ 3760 1110
 Connection ~ 3860 915 
 Connection ~ 3960 710 
 $Comp
-L +3.3V #PWR010
+L sd_wav_pcm5100-archive:+3.3V #PWR010
 U 1 1 58237C9E
 P 4215 710
 F 0 "#PWR010" H 4215 560 50  0001 C CNN
@@ -461,7 +319,7 @@ F 3 "" H 4215 710 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR011
+L sd_wav_pcm5100-archive:+3.3V #PWR011
 U 1 1 58237D27
 P 4215 915
 F 0 "#PWR011" H 4215 765 50  0001 C CNN
@@ -472,7 +330,7 @@ F 3 "" H 4215 915 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR012
+L sd_wav_pcm5100-archive:+3.3V #PWR012
 U 1 1 58237E0A
 P 4215 1110
 F 0 "#PWR012" H 4215 960 50  0001 C CNN
@@ -483,7 +341,7 @@ F 3 "" H 4215 1110 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR013
+L sd_wav_pcm5100-archive:+3.3V #PWR013
 U 1 1 58237ED2
 P 4215 1295
 F 0 "#PWR013" H 4215 1145 50  0001 C CNN
@@ -494,7 +352,7 @@ F 3 "" H 4215 1295 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR014
+L sd_wav_pcm5100-archive:+3.3V #PWR014
 U 1 1 58237FA3
 P 4215 1490
 F 0 "#PWR014" H 4215 1340 50  0001 C CNN
@@ -505,7 +363,7 @@ F 3 "" H 4215 1490 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PAM8403 U3
+L sd_wav_pcm5100-archive:PAM8403 U3
 U 1 1 58234D4E
 P 9530 3630
 F 0 "U3" H 9530 4270 60  0000 C CNN
@@ -516,7 +374,7 @@ F 3 "" H 8930 3980 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C10
+L sd_wav_pcm5100-archive:C_Small C10
 U 1 1 5846AA95
 P 8450 5295
 F 0 "C10" V 8221 5295 50  0000 C CNN
@@ -530,7 +388,7 @@ Wire Wire Line
 	8550 5295 8780 5295
 Connection ~ 8780 5295
 $Comp
-L GND #PWR015
+L sd_wav_pcm5100-archive:GND #PWR015
 U 1 1 5846AE13
 P 8350 5295
 F 0 "#PWR015" H 8350 5045 50  0001 C CNN
@@ -541,7 +399,7 @@ F 3 "" H 8350 5295 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C13
+L sd_wav_pcm5100-archive:C_Small C13
 U 1 1 5846BD51
 P 8695 920
 F 0 "C13" V 8525 795 50  0000 C CNN
@@ -552,9 +410,9 @@ F 3 "" H 8695 920 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8910 710  8910 1100
+	8910 710  8910 920 
 $Comp
-L +3.3V #PWR016
+L sd_wav_pcm5100-archive:+3.3V #PWR016
 U 1 1 5846C582
 P 8910 710
 F 0 "#PWR016" H 8910 560 50  0001 C CNN
@@ -568,7 +426,7 @@ Wire Wire Line
 	8795 920  8910 920 
 Connection ~ 8910 920 
 $Comp
-L GND #PWR017
+L sd_wav_pcm5100-archive:GND #PWR017
 U 1 1 5846CA20
 P 8595 920
 F 0 "#PWR017" H 8595 670 50  0001 C CNN
@@ -579,7 +437,7 @@ F 3 "" H 8595 920 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR018
+L sd_wav_pcm5100-archive:GND #PWR018
 U 1 1 5846CD83
 P 8910 1300
 F 0 "#PWR018" H 8910 1050 50  0001 C CNN
@@ -590,7 +448,7 @@ F 3 "" H 8910 1300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR019
+L sd_wav_pcm5100-archive:GND #PWR019
 U 1 1 5846CE5A
 P 8910 1900
 F 0 "#PWR019" H 8910 1650 50  0001 C CNN
@@ -601,7 +459,7 @@ F 3 "" H 8910 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C14
+L sd_wav_pcm5100-archive:C_Small C14
 U 1 1 5846CE89
 P 8700 1500
 F 0 "C14" V 8645 1610 50  0000 C CNN
@@ -614,7 +472,7 @@ $EndComp
 Wire Wire Line
 	8800 1500 8910 1500
 $Comp
-L C_Small C11
+L sd_wav_pcm5100-archive:C_Small C11
 U 1 1 5846D1E8
 P 8520 1300
 F 0 "C11" H 8675 1125 50  0000 C CNN
@@ -625,7 +483,7 @@ F 3 "" H 8520 1300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR020
+L sd_wav_pcm5100-archive:GND #PWR020
 U 1 1 5846D8FD
 P 8600 1500
 F 0 "#PWR020" H 8600 1250 50  0001 C CNN
@@ -644,9 +502,9 @@ Wire Wire Line
 Wire Wire Line
 	10125 1500 10125 1200
 Wire Wire Line
-	10010 1200 10195 1200
+	10010 1200 10125 1200
 $Comp
-L +3.3V #PWR021
+L sd_wav_pcm5100-archive:+3.3V #PWR021
 U 1 1 5846E2B5
 P 10010 710
 F 0 "#PWR021" H 10010 560 50  0001 C CNN
@@ -657,9 +515,9 @@ F 3 "" H 10010 710 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10010 710  10010 1100
+	10010 710  10010 915 
 $Comp
-L C_Small C17
+L sd_wav_pcm5100-archive:C_Small C17
 U 1 1 5846E3BA
 P 10215 915
 F 0 "C17" V 10040 975 50  0000 C CNN
@@ -673,7 +531,7 @@ Wire Wire Line
 	10115 915  10010 915 
 Connection ~ 10010 915 
 $Comp
-L GND #PWR022
+L sd_wav_pcm5100-archive:GND #PWR022
 U 1 1 5846E5FD
 P 10315 915
 F 0 "#PWR022" H 10315 665 50  0001 C CNN
@@ -684,7 +542,7 @@ F 3 "" H 10315 915 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR023
+L sd_wav_pcm5100-archive:GND #PWR023
 U 1 1 5846E8D5
 P 10195 1200
 F 0 "#PWR023" H 10195 950 50  0001 C CNN
@@ -698,7 +556,7 @@ Connection ~ 10125 1200
 Wire Wire Line
 	10010 1300 10490 1300
 $Comp
-L C_Small C20
+L sd_wav_pcm5100-archive:C_Small C20
 U 1 1 5846EAB2
 P 10590 1300
 F 0 "C20" V 10415 1360 50  0000 C CNN
@@ -709,7 +567,7 @@ F 3 "" H 10590 1300 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR024
+L sd_wav_pcm5100-archive:GND #PWR024
 U 1 1 5846EC25
 P 10690 1300
 F 0 "#PWR024" H 10690 1050 50  0001 C CNN
@@ -746,7 +604,7 @@ I2S_BCLK
 Text Label 10515 1900 0    60   ~ 0
 I2S_MCLK
 $Comp
-L R_Small R3
+L sd_wav_pcm5100-archive:R_Small R3
 U 1 1 58470327
 P 8300 1600
 F 0 "R3" V 8190 1465 50  0000 C CNN
@@ -757,7 +615,7 @@ F 3 "" H 8300 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R4
+L sd_wav_pcm5100-archive:R_Small R4
 U 1 1 58471020
 P 8455 1700
 F 0 "R4" V 8415 1840 50  0000 C CNN
@@ -772,7 +630,7 @@ Wire Wire Line
 Wire Wire Line
 	8910 1700 8555 1700
 $Comp
-L C_Small C12
+L sd_wav_pcm5100-archive:C_Small C12
 U 1 1 584726AC
 P 8605 2065
 F 0 "C12" H 8765 2070 50  0000 C CNN
@@ -783,11 +641,11 @@ F 3 "" H 8605 2065 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8525 1800 8910 1800
+	8525 1800 8605 1800
 Wire Wire Line
 	8605 1800 8605 1965
 $Comp
-L GND #PWR025
+L sd_wav_pcm5100-archive:GND #PWR025
 U 1 1 58472ABB
 P 8605 2165
 F 0 "#PWR025" H 8605 1915 50  0001 C CNN
@@ -798,7 +656,7 @@ F 3 "" H 8605 2165 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR026
+L sd_wav_pcm5100-archive:+3.3V #PWR026
 U 1 1 58473051
 P 8525 1800
 F 0 "#PWR026" H 8525 1650 50  0001 C CNN
@@ -810,7 +668,7 @@ F 3 "" H 8525 1800 50  0000 C CNN
 $EndComp
 Connection ~ 8605 1800
 $Comp
-L C_Small C8
+L sd_wav_pcm5100-archive:C_Small C8
 U 1 1 584736B6
 P 8205 1925
 F 0 "C8" H 8315 1870 50  0000 C CNN
@@ -821,7 +679,7 @@ F 3 "" H 8205 1925 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C7
+L sd_wav_pcm5100-archive:C_Small C7
 U 1 1 58473852
 P 7930 1930
 F 0 "C7" H 8060 1875 50  0000 C CNN
@@ -832,15 +690,15 @@ F 3 "" H 7930 1930 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7765 1700 8355 1700
+	7765 1700 8205 1700
 Wire Wire Line
 	8205 1700 8205 1825
 Wire Wire Line
-	7770 1600 8200 1600
+	7770 1600 7930 1600
 Wire Wire Line
 	7930 1600 7930 1830
 $Comp
-L GND #PWR027
+L sd_wav_pcm5100-archive:GND #PWR027
 U 1 1 58473C59
 P 8205 2025
 F 0 "#PWR027" H 8205 1775 50  0001 C CNN
@@ -851,7 +709,7 @@ F 3 "" H 8205 2025 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L sd_wav_pcm5100-archive:GND #PWR028
 U 1 1 58473CF7
 P 7930 2030
 F 0 "#PWR028" H 7930 1780 50  0001 C CNN
@@ -890,7 +748,7 @@ I2S_DATA
 Text Label 6640 2280 0    60   ~ 0
 PAM8403_STANDBY
 $Comp
-L C_Small C16
+L sd_wav_pcm5100-archive:C_Small C16
 U 1 1 58479863
 P 8930 4080
 F 0 "C16" H 8815 4135 50  0000 C CNN
@@ -901,7 +759,7 @@ F 3 "" H 8930 4080 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR029
+L sd_wav_pcm5100-archive:GND #PWR029
 U 1 1 58479E77
 P 8930 4180
 F 0 "#PWR029" H 8930 3930 50  0001 C CNN
@@ -912,7 +770,7 @@ F 3 "" H 8930 4180 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C9
+L sd_wav_pcm5100-archive:C_Small C9
 U 1 1 5847AB98
 P 8420 3880
 F 0 "C9" V 8540 3855 50  0000 C CNN
@@ -923,7 +781,7 @@ F 3 "" H 8420 3880 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R5
+L sd_wav_pcm5100-archive:R_Small R5
 U 1 1 5847AEE5
 P 8620 3880
 F 0 "R5" V 8710 3800 50  0000 C CNN
@@ -936,7 +794,7 @@ $EndComp
 Wire Wire Line
 	8720 3880 8930 3880
 $Comp
-L R_Small R6
+L sd_wav_pcm5100-archive:R_Small R6
 U 1 1 5847C513
 P 10295 3880
 F 0 "R6" V 10380 3820 50  0000 C CNN
@@ -947,7 +805,7 @@ F 3 "" H 10295 3880 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C18
+L sd_wav_pcm5100-archive:C_Small C18
 U 1 1 5847C8F2
 P 10495 3880
 F 0 "C18" V 10345 3885 50  0000 C CNN
@@ -960,7 +818,7 @@ $EndComp
 Wire Wire Line
 	10195 3880 10130 3880
 $Comp
-L POT_TRIM RV1
+L sd_wav_pcm5100-archive:POT_TRIM RV1
 U 1 1 5847D189
 P 8170 3880
 F 0 "RV1" H 8100 3926 50  0000 R CNN
@@ -971,7 +829,7 @@ F 3 "" H 8170 3880 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L sd_wav_pcm5100-archive:GND #PWR030
 U 1 1 5847D6F2
 P 8170 4030
 F 0 "#PWR030" H 8170 3780 50  0001 C CNN
@@ -982,7 +840,7 @@ F 3 "" H 8170 4030 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT_TRIM RV2
+L sd_wav_pcm5100-archive:POT_TRIM RV2
 U 1 1 5847DA5D
 P 10745 3880
 F 0 "RV2" H 10675 3834 50  0000 R CNN
@@ -993,7 +851,7 @@ F 3 "" H 10745 3880 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR031
+L sd_wav_pcm5100-archive:GND #PWR031
 U 1 1 5847E6C9
 P 10745 4030
 F 0 "#PWR031" H 10745 3780 50  0001 C CNN
@@ -1018,7 +876,7 @@ Wire Wire Line
 Text Label 6640 2180 0    60   ~ 0
 PAM8403_MUTE
 $Comp
-L GND #PWR032
+L sd_wav_pcm5100-archive:GND #PWR032
 U 1 1 58482C25
 P 8930 3380
 F 0 "#PWR032" H 8930 3130 50  0001 C CNN
@@ -1029,7 +887,7 @@ F 3 "" H 8930 3380 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR033
+L sd_wav_pcm5100-archive:GND #PWR033
 U 1 1 58482D64
 P 10130 3380
 F 0 "#PWR033" H 10130 3130 50  0001 C CNN
@@ -1040,7 +898,7 @@ F 3 "" H 10130 3380 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR034
+L sd_wav_pcm5100-archive:GND #PWR034
 U 1 1 58482FBB
 P 10130 3780
 F 0 "#PWR034" H 10130 3530 50  0001 C CNN
@@ -1051,7 +909,7 @@ F 3 "" H 10130 3780 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR035
+L sd_wav_pcm5100-archive:+3.3V #PWR035
 U 1 1 584836E2
 P 10615 3580
 F 0 "#PWR035" H 10615 3430 50  0001 C CNN
@@ -1062,7 +920,7 @@ F 3 "" H 10615 3580 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR036
+L sd_wav_pcm5100-archive:+3.3V #PWR036
 U 1 1 58484C4D
 P 8930 3580
 F 0 "#PWR036" H 8930 3430 50  0001 C CNN
@@ -1073,7 +931,7 @@ F 3 "" H 8930 3580 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR037
+L sd_wav_pcm5100-archive:+3.3V #PWR037
 U 1 1 584850FA
 P 8730 3780
 F 0 "#PWR037" H 8730 3630 50  0001 C CNN
@@ -1084,7 +942,7 @@ F 3 "" H 8730 3780 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR038
+L sd_wav_pcm5100-archive:GND #PWR038
 U 1 1 58485567
 P 10130 3980
 F 0 "#PWR038" H 10130 3730 50  0001 C CNN
@@ -1095,7 +953,7 @@ F 3 "" H 10130 3980 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C15
+L sd_wav_pcm5100-archive:C_Small C15
 U 1 1 58486131
 P 8810 4470
 F 0 "C15" H 8695 4525 50  0000 C CNN
@@ -1106,12 +964,12 @@ F 3 "" H 8810 4470 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8730 3780 8930 3780
+	8730 3780 8810 3780
 Wire Wire Line
 	8810 4370 8810 3780
 Connection ~ 8810 3780
 $Comp
-L GND #PWR039
+L sd_wav_pcm5100-archive:GND #PWR039
 U 1 1 58486DD3
 P 8810 4570
 F 0 "#PWR039" H 8810 4320 50  0001 C CNN
@@ -1122,7 +980,7 @@ F 3 "" H 8810 4570 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C21
+L sd_wav_pcm5100-archive:CP1_Small C21
 U 1 1 58487BA3
 P 10720 3210
 F 0 "C21" V 10605 3405 50  0000 R CNN
@@ -1133,11 +991,11 @@ F 3 "" H 10720 3210 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10130 3580 10615 3580
+	10130 3580 10500 3580
 Wire Wire Line
 	10720 3310 10720 3360
 $Comp
-L C_Small C19
+L sd_wav_pcm5100-archive:C_Small C19
 U 1 1 584882F4
 P 10500 3210
 F 0 "C19" H 10385 3130 50  0000 C CNN
@@ -1148,7 +1006,7 @@ F 3 "" H 10500 3210 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR040
+L sd_wav_pcm5100-archive:GND #PWR040
 U 1 1 58488456
 P 10500 3110
 F 0 "#PWR040" H 10500 2860 50  0001 C CNN
@@ -1159,7 +1017,7 @@ F 3 "" H 10500 3110 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR041
+L sd_wav_pcm5100-archive:GND #PWR041
 U 1 1 584884FC
 P 10720 3110
 F 0 "#PWR041" H 10720 2860 50  0001 C CNN
@@ -1170,7 +1028,7 @@ F 3 "" H 10720 3110 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10500 3310 10500 3580
+	10500 3310 10500 3360
 Wire Wire Line
 	10720 3360 10500 3360
 Wire Wire Line
@@ -1190,7 +1048,7 @@ Wire Wire Line
 Connection ~ 10500 3580
 Connection ~ 10500 3360
 $Comp
-L Conn_01x02 P2
+L sd_wav_pcm5100-archive:Conn_01x02 P2
 U 1 1 584907AD
 P 8685 2940
 F 0 "P2" V 8860 3030 50  0000 R CNN
@@ -1205,7 +1063,7 @@ Wire Wire Line
 Wire Wire Line
 	8785 3280 8785 3140
 $Comp
-L Conn_01x02 P3
+L sd_wav_pcm5100-archive:Conn_01x02 P3
 U 1 1 5849100C
 P 10260 2940
 F 0 "P3" V 10460 2930 50  0000 R CNN
@@ -1246,7 +1104,7 @@ PCM5100_OUTR
 Text Notes 7695 6510 0    60   ~ 12
 MICRO SD CARD
 $Comp
-L Jumper_NO_Small JP1
+L sd_wav_pcm5100-archive:Jumper_NO_Small JP1
 U 1 1 5849D182
 P 720 2035
 F 0 "JP1" H 720 2220 50  0000 C CNN
@@ -1257,14 +1115,14 @@ F 3 "" H 720 2035 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	720  2135 720  2185
+	720  2135 720  2160
 Wire Wire Line
 	805  2280 805  2160
 Wire Wire Line
 	805  2160 720  2160
 Connection ~ 720  2160
 $Comp
-L GND #PWR042
+L sd_wav_pcm5100-archive:GND #PWR042
 U 1 1 5849E95A
 P 720 2385
 F 0 "#PWR042" H 720 2135 50  0001 C CNN
@@ -1275,7 +1133,7 @@ F 3 "" H 720 2385 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR043
+L sd_wav_pcm5100-archive:+3.3V #PWR043
 U 1 1 5849EDAC
 P 720 1935
 F 0 "#PWR043" H 720 1785 50  0001 C CNN
@@ -1286,7 +1144,7 @@ F 3 "" H 720 1935 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L sd_wav_pcm5100-archive:R_Small R1
 U 1 1 5849F3EE
 P 910 2280
 F 0 "R1" V 770 2255 50  0000 C CNN
@@ -1301,7 +1159,7 @@ Wire Wire Line
 Wire Wire Line
 	810  2280 805  2280
 $Comp
-L R_Small R2
+L sd_wav_pcm5100-archive:R_Small R2
 U 1 1 584A1D5E
 P 950 1310
 F 0 "R2" V 875 1340 50  0000 C CNN
@@ -1314,9 +1172,9 @@ $EndComp
 Wire Wire Line
 	950  2080 1060 2080
 Wire Wire Line
-	950  1410 950  2080
+	950  1410 950  1530
 $Comp
-L +3.3V #PWR044
+L sd_wav_pcm5100-archive:+3.3V #PWR044
 U 1 1 584A26C1
 P 950 1210
 F 0 "#PWR044" H 950 1060 50  0001 C CNN
@@ -1340,7 +1198,7 @@ SWCLK
 Text Label 6690 4080 0    60   ~ 0
 SWO
 $Comp
-L Jumper_NC_Small JP2
+L sd_wav_pcm5100-archive:Jumper_NC_Small JP2
 U 1 1 584A4CAF
 P 720 2285
 F 0 "JP2" H 790 2470 50  0000 R CNN
@@ -1358,7 +1216,7 @@ Connection ~ 950  1530
 Text Label 790  1220 1    60   ~ 0
 nRST
 $Comp
-L Conn_01x06 P1
+L sd_wav_pcm5100-archive:Conn_01x06 P1
 U 1 1 584A748C
 P 6285 7040
 F 0 "P1" H 6362 7081 50  0000 L CNN
@@ -1385,7 +1243,7 @@ SWO
 Wire Wire Line
 	6085 7140 5925 7140
 $Comp
-L GND #PWR045
+L sd_wav_pcm5100-archive:GND #PWR045
 U 1 1 584AB3C2
 P 6085 7340
 F 0 "#PWR045" H 6085 7090 50  0001 C CNN
@@ -1396,7 +1254,7 @@ F 3 "" H 6085 7340 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR046
+L sd_wav_pcm5100-archive:+3.3V #PWR046
 U 1 1 584AB8D9
 P 6085 7240
 F 0 "#PWR046" H 6085 7090 50  0001 C CNN
@@ -1429,7 +1287,7 @@ Wire Wire Line
 Wire Wire Line
 	6460 3280 6640 3280
 $Comp
-L Screw_Terminal_01x04 J3
+L sd_wav_pcm5100-archive:Screw_Terminal_01x04 J3
 U 1 1 584B0FE5
 P 3040 7095
 F 0 "J3" H 3030 7465 50  0000 C CNN
@@ -1440,7 +1298,7 @@ F 3 "" H 3015 7295 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_01x03 J2
+L sd_wav_pcm5100-archive:Screw_Terminal_01x03 J2
 U 1 1 584B20EE
 P 2040 7080
 F 0 "J2" H 2065 7430 50  0000 C CNN
@@ -1451,7 +1309,7 @@ F 3 "" H 2015 7180 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_01x04 J1
+L sd_wav_pcm5100-archive:Screw_Terminal_01x04 J1
 U 1 1 584B22AA
 P 835 7095
 F 0 "J1" H 845 7450 50  0000 C CNN
@@ -1555,7 +1413,7 @@ NoConn ~ 6460 2080
 NoConn ~ 10305 6050
 NoConn ~ 10305 6150
 $Comp
-L Conn_01x02 P4
+L sd_wav_pcm5100-archive:Conn_01x02 P4
 U 1 1 58773E6D
 P 6260 6100
 F 0 "P4" V 6370 6140 50  0000 R CNN
@@ -1566,7 +1424,7 @@ F 3 "" H 6260 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L sd_wav_pcm5100-archive:GND #PWR047
 U 1 1 587745D8
 P 6060 6200
 F 0 "#PWR047" H 6060 5950 50  0001 C CNN
@@ -1577,7 +1435,7 @@ F 3 "" H 6060 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR048
+L sd_wav_pcm5100-archive:+3.3V #PWR048
 U 1 1 58774661
 P 6060 6100
 F 0 "#PWR048" H 6060 5950 50  0001 C CNN
@@ -1587,4 +1445,46 @@ F 3 "" H 6060 6100 50  0000 C CNN
 	1    6060 6100
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3860 5710 3960 5710
+Wire Wire Line
+	3760 5710 3860 5710
+Wire Wire Line
+	3760 5710 3760 5765
+Wire Wire Line
+	3660 5710 3760 5710
+Wire Wire Line
+	3560 1490 4215 1490
+Wire Wire Line
+	3660 1295 4215 1295
+Wire Wire Line
+	3760 1110 4215 1110
+Wire Wire Line
+	3860 915  4215 915 
+Wire Wire Line
+	3960 710  4215 710 
+Wire Wire Line
+	8780 5295 8780 5750
+Wire Wire Line
+	8910 920  8910 1100
+Wire Wire Line
+	10010 915  10010 1100
+Wire Wire Line
+	10125 1200 10195 1200
+Wire Wire Line
+	8605 1800 8910 1800
+Wire Wire Line
+	8205 1700 8355 1700
+Wire Wire Line
+	7930 1600 8200 1600
+Wire Wire Line
+	8810 3780 8930 3780
+Wire Wire Line
+	10500 3580 10615 3580
+Wire Wire Line
+	10500 3360 10500 3580
+Wire Wire Line
+	720  2160 720  2185
+Wire Wire Line
+	950  1530 950  2080
 $EndSCHEMATC

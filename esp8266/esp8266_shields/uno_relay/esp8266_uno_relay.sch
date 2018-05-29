@@ -1,156 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:holyiot_nrf52832
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -166,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Arduino_UNO_R3 A1
+L esp8266_uno_relay-archive:Arduino_UNO_R3 A1
 U 1 1 5A6F6AF7
 P 2800 3750
 F 0 "A1" H 2200 4900 50  0000 C CNN
@@ -181,11 +29,11 @@ Wire Notes Line
 Wire Wire Line
 	2700 4850 2700 4900
 Wire Wire Line
-	2700 4900 2900 4900
+	2700 4900 2800 4900
 Wire Wire Line
 	2900 4900 2900 4850
 Wire Wire Line
-	2800 4850 2800 5000
+	2800 4850 2800 4900
 Connection ~ 2800 4900
 NoConn ~ 3300 4050
 NoConn ~ 3300 3950
@@ -194,7 +42,7 @@ NoConn ~ 3300 3350
 NoConn ~ 3300 3550
 NoConn ~ 2700 2750
 $Comp
-L SW_Push SW1
+L esp8266_uno_relay-archive:SW_Push SW1
 U 1 1 5A70C0BC
 P 3500 3550
 F 0 "SW1" V 3454 3698 50  0000 L CNN
@@ -205,7 +53,7 @@ F 3 "" H 3500 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR03
+L esp8266_uno_relay-archive:GND #PWR03
 U 1 1 5A70C311
 P 3500 3750
 F 0 "#PWR03" H 3500 3500 50  0001 C CNN
@@ -225,7 +73,7 @@ NoConn ~ 2300 4250
 NoConn ~ 2300 4350
 NoConn ~ 2300 4450
 $Comp
-L GND #PWR01
+L esp8266_uno_relay-archive:GND #PWR01
 U 1 1 5A706411
 P 2800 5000
 F 0 "#PWR01" H 2800 4750 50  0001 C CNN
@@ -238,7 +86,7 @@ $EndComp
 NoConn ~ 3300 4450
 NoConn ~ 3300 4550
 $Comp
-L +5V #PWR02
+L esp8266_uno_relay-archive:+5V #PWR02
 U 1 1 5A70B804
 P 3000 2750
 F 0 "#PWR02" H 3000 2600 50  0001 C CNN
@@ -249,7 +97,7 @@ F 3 "" H 3000 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L G5LE-1 K1
+L esp8266_uno_relay-archive:G5LE-1 K1
 U 1 1 5A7869B1
 P 8300 2400
 F 0 "K1" H 8730 2446 50  0000 L CNN
@@ -260,7 +108,7 @@ F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 8300 2000 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1N4148 D1
+L esp8266_uno_relay-archive:1N4148 D1
 U 1 1 5A786DA7
 P 7400 2400
 F 0 "D1" V 7354 2479 50  0000 L CNN
@@ -271,7 +119,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7400 2400 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L BC817 Q1
+L esp8266_uno_relay-archive:BC817 Q1
 U 1 1 5A7861BD
 P 7300 3100
 F 0 "Q1" H 7491 3146 50  0000 L CNN
@@ -282,12 +130,12 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 7300 3100 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 2550 7400 2900
+	7400 2550 7400 2700
 Wire Wire Line
-	7400 1900 7400 2250
+	7400 1900 7400 2100
 Connection ~ 7400 2700
 $Comp
-L GND #PWR05
+L esp8266_uno_relay-archive:GND #PWR05
 U 1 1 5A786455
 P 7400 3300
 F 0 "#PWR05" H 7400 3050 50  0001 C CNN
@@ -298,7 +146,7 @@ F 3 "" H 7400 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L esp8266_uno_relay-archive:R_Small R1
 U 1 1 5A7865AF
 P 6950 3100
 F 0 "R1" V 6754 3100 50  0000 C CNN
@@ -315,7 +163,7 @@ Wire Wire Line
 Text Label 6750 3100 2    60   ~ 0
 RELAY_CMD
 $Comp
-L GS2 J1
+L esp8266_uno_relay-archive:GS2 J1
 U 1 1 5A786C66
 P 3350 1500
 F 0 "J1" H 3418 1546 50  0000 L CNN
@@ -326,7 +174,7 @@ F 3 "" H 3350 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J2
+L esp8266_uno_relay-archive:GS2 J2
 U 1 1 5A78746B
 P 3650 1500
 F 0 "J2" H 3718 1546 50  0000 L CNN
@@ -337,7 +185,7 @@ F 3 "" H 3650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J3
+L esp8266_uno_relay-archive:GS2 J3
 U 1 1 5A787529
 P 3950 1500
 F 0 "J3" H 4018 1546 50  0000 L CNN
@@ -348,7 +196,7 @@ F 3 "" H 3950 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J4
+L esp8266_uno_relay-archive:GS2 J4
 U 1 1 5A787551
 P 4250 1500
 F 0 "J4" H 4318 1546 50  0000 L CNN
@@ -359,7 +207,7 @@ F 3 "" H 4250 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J5
+L esp8266_uno_relay-archive:GS2 J5
 U 1 1 5A787693
 P 4550 1500
 F 0 "J5" H 4618 1546 50  0000 L CNN
@@ -370,7 +218,7 @@ F 3 "" H 4550 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J6
+L esp8266_uno_relay-archive:GS2 J6
 U 1 1 5A7876BF
 P 4850 1500
 F 0 "J6" H 4918 1546 50  0000 L CNN
@@ -381,7 +229,7 @@ F 3 "" H 4850 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J7
+L esp8266_uno_relay-archive:GS2 J7
 U 1 1 5A787989
 P 5150 1500
 F 0 "J7" H 5218 1546 50  0000 L CNN
@@ -392,7 +240,7 @@ F 3 "" H 5150 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J8
+L esp8266_uno_relay-archive:GS2 J8
 U 1 1 5A7879C1
 P 5450 1500
 F 0 "J8" H 5518 1546 50  0000 L CNN
@@ -403,7 +251,7 @@ F 3 "" H 5450 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GS2 J9
+L esp8266_uno_relay-archive:GS2 J9
 U 1 1 5A787AD5
 P 5750 1500
 F 0 "J9" H 5818 1546 50  0000 L CNN
@@ -416,7 +264,7 @@ $EndComp
 Wire Wire Line
 	3350 1300 3350 1200
 Wire Wire Line
-	3350 1200 6100 1200
+	3350 1200 3650 1200
 Wire Wire Line
 	5750 1200 5750 1300
 Wire Wire Line
@@ -499,7 +347,7 @@ Text Label 2200 3950 2    60   ~ 0
 D8
 Connection ~ 7400 2100
 $Comp
-L +5V #PWR04
+L esp8266_uno_relay-archive:+5V #PWR04
 U 1 1 5A789056
 P 7400 1900
 F 0 "#PWR04" H 7400 1750 50  0001 C CNN
@@ -510,7 +358,7 @@ F 3 "" H 7400 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_01x03 J10
+L esp8266_uno_relay-archive:Screw_Terminal_01x03 J10
 U 1 1 5A789880
 P 10200 2400
 F 0 "J10" H 10280 2442 50  0000 L CNN
@@ -540,4 +388,28 @@ NoConn ~ 2900 2750
 NoConn ~ 3300 3750
 NoConn ~ 3300 4250
 NoConn ~ 3300 4150
+Wire Wire Line
+	2800 4900 2900 4900
+Wire Wire Line
+	2800 4900 2800 5000
+Wire Wire Line
+	7400 2700 7400 2900
+Wire Wire Line
+	5450 1200 5750 1200
+Wire Wire Line
+	5150 1200 5450 1200
+Wire Wire Line
+	4850 1200 5150 1200
+Wire Wire Line
+	4550 1200 4850 1200
+Wire Wire Line
+	4250 1200 4550 1200
+Wire Wire Line
+	3950 1200 4250 1200
+Wire Wire Line
+	3650 1200 3950 1200
+Wire Wire Line
+	5750 1200 6100 1200
+Wire Wire Line
+	7400 2100 7400 2250
 $EndSCHEMATC

@@ -1,5 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:led_strip_actuator_node-archive
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA328P-AU IC1
+L led_strip_actuator_node-archive:ATMEGA328P-AU IC1
 U 1 1 575E6E29
 P 2575 5975
 F 0 "IC1" H 2625 7432 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "" H 2575 5975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L led_strip_actuator_node-archive:GND #PWR01
 U 1 1 575E81CB
 P 4550 5700
 F 0 "#PWR01" H 4550 5450 50  0001 C CNN
@@ -37,7 +36,7 @@ F 3 "" H 4550 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L led_strip_actuator_node-archive:C_Small C3
 U 1 1 575E8444
 P 1500 5575
 F 0 "C3" H 1650 5625 50  0000 C CNN
@@ -48,7 +47,7 @@ F 3 "" H 1500 5575 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR02
+L led_strip_actuator_node-archive:GND #PWR02
 U 1 1 575E86DC
 P 1500 5750
 F 0 "#PWR02" H 1500 5500 50  0001 C CNN
@@ -59,7 +58,7 @@ F 3 "" H 1500 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L led_strip_actuator_node-archive:C_Small C1
 U 1 1 575E8F25
 P 1325 5175
 F 0 "C1" V 1175 5175 50  0000 C CNN
@@ -70,7 +69,7 @@ F 3 "" H 1325 5175 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C2
+L led_strip_actuator_node-archive:C_Small C2
 U 1 1 575E8FDA
 P 1375 4750
 F 0 "C2" V 1175 4750 50  0000 C CNN
@@ -81,7 +80,7 @@ F 3 "" H 1375 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L led_strip_actuator_node-archive:GND #PWR03
 U 1 1 575E9378
 P 1375 4600
 F 0 "#PWR03" H 1375 4350 50  0001 C CNN
@@ -92,7 +91,7 @@ F 3 "" H 1375 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR04
+L led_strip_actuator_node-archive:GND #PWR04
 U 1 1 575E942A
 P 1100 5175
 F 0 "#PWR04" H 1100 4925 50  0001 C CNN
@@ -103,7 +102,7 @@ F 3 "" H 1100 5175 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR05
+L led_strip_actuator_node-archive:GND #PWR05
 U 1 1 575E9AE9
 P 1600 7375
 F 0 "#PWR05" H 1600 7125 50  0001 C CNN
@@ -114,7 +113,7 @@ F 3 "" H 1600 7375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R3
+L led_strip_actuator_node-archive:R_Small R3
 U 1 1 575E9FD3
 P 5295 6325
 F 0 "R3" V 5120 6325 50  0000 C CNN
@@ -125,7 +124,7 @@ F 3 "" H 5295 6325 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR06
+L led_strip_actuator_node-archive:GND #PWR06
 U 1 1 575EACF8
 P 4945 6775
 F 0 "#PWR06" H 4945 6525 50  0001 C CNN
@@ -142,7 +141,7 @@ MISO
 Text Label 4000 5375 0    60   ~ 0
 SCK
 $Comp
-L RFM69HW U4
+L led_strip_actuator_node-archive:RFM69HW U4
 U 1 1 575E7FD2
 P 9575 3970
 F 0 "U4" H 9350 4345 40  0000 C CNN
@@ -153,7 +152,7 @@ F 3 "" H 9575 3970 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L led_strip_actuator_node-archive:GND #PWR07
 U 1 1 575E992B
 P 9475 4870
 F 0 "#PWR07" H 9475 4620 50  0001 C CNN
@@ -164,7 +163,7 @@ F 3 "" H 9475 4870 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L led_strip_actuator_node-archive:GND #PWR08
 U 1 1 575E996C
 P 9675 4870
 F 0 "#PWR08" H 9675 4620 50  0001 C CNN
@@ -189,7 +188,7 @@ SCK
 Text Label 10295 3970 0    60   ~ 0
 RFM69W_INT
 $Comp
-L R_Small R5
+L led_strip_actuator_node-archive:R_Small R5
 U 1 1 575EB7DA
 P 8800 3870
 F 0 "R5" H 8950 3825 50  0000 C CNN
@@ -201,7 +200,7 @@ F 3 "" H 8800 3870 50  0000 C CNN
 $EndComp
 NoConn ~ 9025 4520
 $Comp
-L Conn_01x01 P1
+L led_strip_actuator_node-archive:Conn_01x01 P1
 U 1 1 575EBBAD
 P 9025 3070
 F 0 "P1" V 8990 2982 50  0000 R CNN
@@ -212,7 +211,7 @@ F 3 "" H 9025 3070 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR09
+L led_strip_actuator_node-archive:+3.3V #PWR09
 U 1 1 575EE685
 P 9575 3170
 F 0 "#PWR09" H 9575 3020 50  0001 C CNN
@@ -223,7 +222,7 @@ F 3 "" H 9575 3170 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L led_strip_actuator_node-archive:GND #PWR010
 U 1 1 575EE88A
 P 9975 3520
 F 0 "#PWR010" H 9975 3270 50  0001 C CNN
@@ -244,7 +243,7 @@ AVR ISP
 Text Notes 555  7705 0    67   ~ 13
 MCU unit
 $Comp
-L CP1_Small C8
+L led_strip_actuator_node-archive:CP1_Small C8
 U 1 1 576262E5
 P 9775 3520
 F 0 "C8" H 9866 3566 50  0000 L CNN
@@ -255,7 +254,7 @@ F 3 "" H 9775 3520 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_Push SW1
+L led_strip_actuator_node-archive:SW_Push SW1
 U 1 1 5763EF10
 P 4945 6575
 F 0 "SW1" H 5095 6685 50  0000 C CNN
@@ -268,7 +267,7 @@ $EndComp
 Text Notes 3905 2585 0    67   ~ 13
 LED SW relay
 $Comp
-L D_Small D1
+L led_strip_actuator_node-archive:D_Small D1
 U 1 1 57648B5B
 P 4355 1335
 F 0 "D1" H 4305 1415 50  0000 L CNN
@@ -279,7 +278,7 @@ F 3 "" V 4355 1335 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R2
+L led_strip_actuator_node-archive:R_Small R2
 U 1 1 5764B95F
 P 4330 1885
 F 0 "R2" V 4155 1885 50  0000 C CNN
@@ -290,7 +289,7 @@ F 3 "" H 4330 1885 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L led_strip_actuator_node-archive:GND #PWR011
 U 1 1 5764BE27
 P 4755 2135
 F 0 "#PWR011" H 4755 1885 50  0001 C CNN
@@ -303,7 +302,7 @@ $EndComp
 Text Label 4055 1885 1    60   ~ 0
 LED_RELAY_CMD
 $Comp
-L Screw_Terminal_01x02 X1
+L led_strip_actuator_node-archive:Screw_Terminal_01x02 X1
 U 1 1 5764D957
 P 5830 805
 F 0 "X1" V 6020 755 50  0000 C CNN
@@ -318,7 +317,7 @@ Power supply
 Text Label 3830 6125 0    60   ~ 0
 LED_RELAY_CMD
 $Comp
-L RM50-SP RL1
+L led_strip_actuator_node-archive:RM50-SP RL1
 U 1 1 5763FA25
 P 4955 1310
 F 0 "RL1" H 5560 1340 60  0000 C CNN
@@ -329,7 +328,7 @@ F 3 "" H 4955 1310 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_GND2_Small Y1
+L led_strip_actuator_node-archive:Crystal_GND2_Small Y1
 U 1 1 5880BF3E
 P 4550 5575
 F 0 "Y1" H 4550 5800 50  0000 C CNN
@@ -340,7 +339,7 @@ F 3 "" H 4550 5575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR012
+L led_strip_actuator_node-archive:+3.3V #PWR012
 U 1 1 588BBCC6
 P 1525 4450
 F 0 "#PWR012" H 1525 4300 50  0001 C CNN
@@ -351,7 +350,7 @@ F 3 "" H 1525 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR013
+L led_strip_actuator_node-archive:+3.3V #PWR013
 U 1 1 588BCF8C
 P 8800 3770
 F 0 "#PWR013" H 8800 3620 50  0001 C CNN
@@ -362,7 +361,7 @@ F 3 "" H 8800 3770 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AT25DF512C U1
+L led_strip_actuator_node-archive:AT25DF512C U1
 U 1 1 588C2C80
 P 4180 3405
 F 0 "U1" H 3875 3770 40  0000 C CNN
@@ -373,7 +372,7 @@ F 3 "" H -235 -540 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATSHA204A U2
+L led_strip_actuator_node-archive:ATSHA204A U2
 U 1 1 588C2D7C
 P 6780 3410
 F 0 "U2" H 6809 3448 40  0000 L CNN
@@ -384,7 +383,7 @@ F 3 "" H 2370 460 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR014
+L led_strip_actuator_node-archive:+3.3V #PWR014
 U 1 1 588C5DF6
 P 4785 2955
 F 0 "#PWR014" H 4785 2805 50  0001 C CNN
@@ -395,7 +394,7 @@ F 3 "" H 4785 2955 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR015
+L led_strip_actuator_node-archive:+3.3V #PWR015
 U 1 1 588C602D
 P 6580 2980
 F 0 "#PWR015" H 6580 2830 50  0001 C CNN
@@ -406,7 +405,7 @@ F 3 "" H 6580 2980 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L led_strip_actuator_node-archive:GND #PWR016
 U 1 1 588C6D02
 P 4180 3755
 F 0 "#PWR016" H 4180 3505 50  0001 C CNN
@@ -417,7 +416,7 @@ F 3 "" H 4180 3755 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L led_strip_actuator_node-archive:GND #PWR017
 U 1 1 588C6E25
 P 6580 3760
 F 0 "#PWR017" H 6580 3510 50  0001 C CNN
@@ -428,7 +427,7 @@ F 3 "" H 6580 3760 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L led_strip_actuator_node-archive:C_Small C4
 U 1 1 588C7E75
 P 4955 3055
 F 0 "C4" V 4860 2985 50  0000 C CNN
@@ -439,7 +438,7 @@ F 3 "" H 4955 3055 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR018
+L led_strip_actuator_node-archive:GND #PWR018
 U 1 1 588C8654
 P 5055 3055
 F 0 "#PWR018" H 5055 2805 50  0001 C CNN
@@ -450,7 +449,7 @@ F 3 "" H 5055 3055 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C5
+L led_strip_actuator_node-archive:C_Small C5
 U 1 1 588C8ED9
 P 6870 3045
 F 0 "C5" V 6775 2975 50  0000 C CNN
@@ -461,7 +460,7 @@ F 3 "" H 6870 3045 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR019
+L led_strip_actuator_node-archive:GND #PWR019
 U 1 1 588C9311
 P 6970 3045
 F 0 "#PWR019" H 6970 2795 50  0001 C CNN
@@ -472,7 +471,7 @@ F 3 "" H 6970 3045 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R4
+L led_strip_actuator_node-archive:R_Small R4
 U 1 1 588C9F12
 P 6170 3130
 F 0 "R4" H 6320 3085 50  0000 C CNN
@@ -483,7 +482,7 @@ F 3 "" H 6170 3130 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R1
+L led_strip_actuator_node-archive:R_Small R1
 U 1 1 588CA394
 P 3520 3040
 F 0 "R1" H 3670 2995 50  0000 C CNN
@@ -494,7 +493,7 @@ F 3 "" H 3520 3040 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR020
+L led_strip_actuator_node-archive:+3.3V #PWR020
 U 1 1 588CB19F
 P 3520 2940
 F 0 "#PWR020" H 3520 2790 50  0001 C CNN
@@ -505,7 +504,7 @@ F 3 "" H 3520 2940 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR021
+L led_strip_actuator_node-archive:+3.3V #PWR021
 U 1 1 588CB5A0
 P 6170 3030
 F 0 "#PWR021" H 6170 2880 50  0001 C CNN
@@ -556,11 +555,11 @@ Wire Wire Line
 Wire Wire Line
 	1500 5675 1500 5750
 Wire Wire Line
-	1425 5175 1675 5175
+	1425 5175 1525 5175
 Wire Wire Line
-	1525 4450 1525 5175
+	1525 4450 1525 4875
 Wire Wire Line
-	1375 4875 1675 4875
+	1375 4875 1525 4875
 Connection ~ 1525 4875
 Connection ~ 1525 5175
 Wire Wire Line
@@ -572,7 +571,7 @@ Wire Wire Line
 Wire Wire Line
 	1675 6975 1600 6975
 Wire Wire Line
-	1600 6975 1600 7375
+	1600 6975 1600 7075
 Wire Wire Line
 	1675 7175 1600 7175
 Connection ~ 1600 7175
@@ -582,7 +581,7 @@ Connection ~ 1600 7075
 Wire Wire Line
 	5395 6325 5495 6325
 Wire Wire Line
-	3575 6325 5195 6325
+	3575 6325 4945 6325
 Wire Wire Line
 	3575 5375 4000 5375
 Wire Wire Line
@@ -602,7 +601,7 @@ Wire Wire Line
 Wire Wire Line
 	9025 3270 9025 3820
 Wire Wire Line
-	9575 3170 9575 3620
+	9575 3170 9575 3520
 Connection ~ 9575 3520
 Wire Notes Line
 	7225 5145 11225 5145
@@ -617,7 +616,7 @@ Wire Wire Line
 Wire Wire Line
 	9875 3520 9975 3520
 Wire Wire Line
-	4945 6000 4945 6375
+	4945 6000 4945 6325
 Connection ~ 4945 6325
 Wire Wire Line
 	3575 6025 3835 6025
@@ -626,7 +625,7 @@ Wire Wire Line
 Wire Wire Line
 	4355 1435 4355 1635
 Wire Wire Line
-	4755 1610 4755 1685
+	4755 1610 4755 1635
 Wire Wire Line
 	4355 1635 4755 1635
 Connection ~ 4755 1635
@@ -644,9 +643,9 @@ Wire Wire Line
 Wire Wire Line
 	4945 6000 5595 6000
 Wire Wire Line
-	4180 3055 4855 3055
+	4180 3055 4785 3055
 Wire Wire Line
-	4785 2955 4785 3405
+	4785 2955 4785 3055
 Wire Wire Line
 	4785 3405 4730 3405
 Wire Wire Line
@@ -658,14 +657,14 @@ Wire Notes Line
 Wire Notes Line
 	5325 2705 5325 4045
 Wire Wire Line
-	6580 2980 6580 3060
+	6580 2980 6580 3045
 Wire Wire Line
 	6770 3045 6580 3045
 Connection ~ 6580 3045
 Wire Wire Line
-	6020 3410 6230 3410
+	6020 3410 6170 3410
 Wire Wire Line
-	3425 3255 3630 3255
+	3425 3255 3520 3255
 Wire Wire Line
 	3630 3355 3425 3355
 Wire Wire Line
@@ -690,14 +689,14 @@ Wire Wire Line
 Text Label 4005 5075 0    60   ~ 0
 RFM69W_SS
 Wire Wire Line
-	8370 4020 9025 4020
+	8370 4020 8800 4020
 Wire Wire Line
 	8800 3970 8800 4020
 Connection ~ 8800 4020
 Text Label 8370 4020 2    60   ~ 0
 RFM69W_SS
 $Comp
-L Screw_Terminal_01x02 X2
+L led_strip_actuator_node-archive:Screw_Terminal_01x02 X2
 U 1 1 58D90F4F
 P 7790 1680
 F 0 "X2" V 7890 1625 50  0000 C CNN
@@ -708,7 +707,7 @@ F 3 "" H 7790 1680 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR022
+L led_strip_actuator_node-archive:GND #PWR022
 U 1 1 58D910B7
 P 7990 1740
 F 0 "#PWR022" H 7990 1490 50  0001 C CNN
@@ -719,16 +718,16 @@ F 3 "" H 7990 1740 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8535 1540 8890 1540
+	8535 1540 8795 1540
 Connection ~ 9595 1540
 Wire Wire Line
 	9815 1540 9815 1390
 Wire Wire Line
 	9595 1540 9595 1565
 Wire Wire Line
-	9490 1540 9815 1540
+	9490 1540 9595 1540
 $Comp
-L +3.3V #PWR023
+L led_strip_actuator_node-archive:+3.3V #PWR023
 U 1 1 575F26F2
 P 9815 1390
 F 0 "#PWR023" H 9815 1240 50  0001 C CNN
@@ -739,7 +738,7 @@ F 3 "" H 9815 1390 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L led_strip_actuator_node-archive:GND #PWR024
 U 1 1 575F1464
 P 9595 1765
 F 0 "#PWR024" H 9595 1515 50  0001 C CNN
@@ -750,7 +749,7 @@ F 3 "" H 9595 1765 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C7
+L led_strip_actuator_node-archive:CP1_Small C7
 U 1 1 575F10FB
 P 9595 1665
 F 0 "C7" H 9686 1711 50  0000 L CNN
@@ -761,7 +760,7 @@ F 3 "" H 9595 1665 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L led_strip_actuator_node-archive:GND #PWR025
 U 1 1 575F0AFE
 P 9190 1790
 F 0 "#PWR025" H 9190 1540 50  0001 C CNN
@@ -772,7 +771,7 @@ F 3 "" H 9190 1790 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMS1117 U3
+L led_strip_actuator_node-archive:AMS1117 U3
 U 1 1 575F06BF
 P 9290 1540
 F 0 "U3" H 9080 1900 50  0000 L CNN
@@ -783,7 +782,7 @@ F 3 "" H 9290 1540 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C6
+L led_strip_actuator_node-archive:CP1_Small C6
 U 1 1 58D94560
 P 8795 1670
 F 0 "C6" H 8580 1710 50  0000 L CNN
@@ -797,7 +796,7 @@ Wire Wire Line
 	8795 1570 8795 1540
 Connection ~ 8795 1540
 $Comp
-L GND #PWR026
+L led_strip_actuator_node-archive:GND #PWR026
 U 1 1 58D947E5
 P 8795 1770
 F 0 "#PWR026" H 8795 1520 50  0001 C CNN
@@ -808,7 +807,7 @@ F 3 "" H 8795 1770 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1
+L led_strip_actuator_node-archive:Conn_01x02 J1
 U 1 1 58D952B5
 P 8435 1310
 F 0 "J1" V 8660 1355 50  0000 R CNN
@@ -819,13 +818,13 @@ F 3 "" H 8435 1310 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7990 1540 8435 1540
+	7990 1540 8195 1540
 Wire Wire Line
 	8435 1540 8435 1510
 Wire Wire Line
 	8535 1510 8535 1540
 $Comp
-L +3.3V #PWR027
+L led_strip_actuator_node-archive:+3.3V #PWR027
 U 1 1 58D95FFD
 P 4520 785
 F 0 "#PWR027" H 4520 635 50  0001 C CNN
@@ -840,7 +839,7 @@ NoConn ~ 3575 5825
 NoConn ~ 3575 5925
 NoConn ~ 3575 6225
 $Comp
-L MMBT3904 Q1
+L led_strip_actuator_node-archive:MMBT3904 Q1
 U 1 1 58D983C4
 P 4655 1885
 F 0 "Q1" H 4846 1931 50  0000 L CNN
@@ -851,7 +850,7 @@ F 3 "" H 4655 1885 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-ISP-6 CON1
+L led_strip_actuator_node-archive:AVR-ISP-6 CON1
 U 1 1 58DA1E18
 P 1520 1650
 F 0 "CON1" H 1110 1800 50  0000 C CNN
@@ -862,7 +861,7 @@ F 3 "" H 1495 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L led_strip_actuator_node-archive:GND #PWR028
 U 1 1 58DA26D2
 P 1420 2050
 F 0 "#PWR028" H 1420 1800 50  0001 C CNN
@@ -881,7 +880,7 @@ SCK
 Text Label 1920 1750 0    60   ~ 0
 RST
 $Comp
-L +3.3V #PWR029
+L led_strip_actuator_node-archive:+3.3V #PWR029
 U 1 1 58DA4A94
 P 1420 1150
 F 0 "#PWR029" H 1420 1000 50  0001 C CNN
@@ -901,7 +900,7 @@ LED_12V
 Text Label 6220 1010 0    60   ~ 0
 LED_12V
 $Comp
-L GND #PWR030
+L led_strip_actuator_node-archive:GND #PWR030
 U 1 1 58DA5F8B
 P 5155 1610
 F 0 "#PWR030" H 5155 1360 50  0001 C CNN
@@ -922,7 +921,7 @@ Wire Wire Line
 Text Label 3800 7175 0    60   ~ 0
 LED_BTN
 $Comp
-L +3.3V #PWR031
+L led_strip_actuator_node-archive:+3.3V #PWR031
 U 1 1 58D9657B
 P 5495 6325
 F 0 "#PWR031" H 5495 6175 50  0001 C CNN
@@ -937,7 +936,7 @@ Wire Wire Line
 Text Label 3800 7075 0    60   ~ 0
 LED_BTN_SIGNALING
 $Comp
-L Conn_01x03 J2
+L led_strip_actuator_node-archive:Conn_01x03 J2
 U 1 1 58D95F6E
 P 8065 5815
 F 0 "J2" H 7984 5490 50  0000 C CNN
@@ -948,7 +947,7 @@ F 3 "" H 8065 5815 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR032
+L led_strip_actuator_node-archive:GND #PWR032
 U 1 1 58D96668
 P 8265 5915
 F 0 "#PWR032" H 8265 5665 50  0001 C CNN
@@ -965,7 +964,7 @@ Wire Wire Line
 Text Label 8405 5715 0    60   ~ 0
 LED_BTN_SIGNALING
 $Comp
-L Jumper_NC_Small JP2
+L led_strip_actuator_node-archive:Jumper_NC_Small JP2
 U 1 1 58DA022C
 P 4890 785
 F 0 "JP2" H 4890 965 50  0000 C CNN
@@ -976,7 +975,7 @@ F 3 "" H 4890 785 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP1
+L led_strip_actuator_node-archive:Jumper_NO_Small JP1
 U 1 1 58DA0461
 P 4620 785
 F 0 "JP1" H 4620 970 50  0000 C CNN
@@ -987,9 +986,9 @@ F 3 "" H 4620 785 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4755 785  4755 1010
+	4755 785  4755 960 
 Wire Wire Line
-	4720 785  4790 785 
+	4720 785  4755 785 
 Connection ~ 4755 785 
 Text Label 5025 785  0    60   ~ 0
 LED_12V
@@ -1003,4 +1002,48 @@ Wire Wire Line
 	5830 1010 5830 1005
 Wire Wire Line
 	5730 1010 5730 1005
+Wire Wire Line
+	1525 4875 1525 4975
+Wire Wire Line
+	1525 4875 1675 4875
+Wire Wire Line
+	1525 5175 1675 5175
+Wire Wire Line
+	1600 7175 1600 7375
+Wire Wire Line
+	1600 7075 1600 7175
+Wire Wire Line
+	9575 3520 9575 3620
+Wire Wire Line
+	4945 6325 5195 6325
+Wire Wire Line
+	4945 6325 4945 6375
+Wire Wire Line
+	4755 1635 4755 1685
+Wire Wire Line
+	4755 960  4755 1010
+Wire Wire Line
+	4785 3255 4785 3405
+Wire Wire Line
+	4785 3055 4855 3055
+Wire Wire Line
+	4785 3055 4785 3255
+Wire Wire Line
+	6580 3045 6580 3060
+Wire Wire Line
+	3520 3255 3630 3255
+Wire Wire Line
+	6170 3410 6230 3410
+Wire Wire Line
+	1525 4975 1525 5175
+Wire Wire Line
+	8800 4020 9025 4020
+Wire Wire Line
+	9595 1540 9815 1540
+Wire Wire Line
+	8795 1540 8890 1540
+Wire Wire Line
+	8195 1540 8435 1540
+Wire Wire Line
+	4755 785  4790 785 
 $EndSCHEMATC

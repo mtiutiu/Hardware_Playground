@@ -1,156 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:holyiot_nrf52832
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -166,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MAPLEMINI U1
+L serial_gw_maple_mini-archive:MAPLEMINI U1
 U 1 1 596DF31E
 P 3235 4360
 F 0 "U1" H 3235 5527 60  0000 C CNN
@@ -177,7 +25,7 @@ F 3 "" H 3235 4360 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NRF24L01 U3
+L serial_gw_maple_mini-archive:NRF24L01 U3
 U 1 1 596DF41F
 P 8820 2040
 F 0 "U3" H 8530 2490 60  0000 C CNN
@@ -188,7 +36,7 @@ F 3 "" H 8820 1890 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMS1117-3.3 U2
+L serial_gw_maple_mini-archive:AMS1117-3.3 U2
 U 1 1 596E012A
 P 8800 5010
 F 0 "U2" H 8800 5375 50  0000 C CNN
@@ -201,11 +49,11 @@ $EndComp
 Wire Wire Line
 	4335 5360 4540 5360
 Wire Wire Line
-	7975 5010 8200 5010
+	7975 5010 8090 5010
 Wire Wire Line
 	9400 5010 9605 5010
 $Comp
-L GND #PWR01
+L serial_gw_maple_mini-archive:GND #PWR01
 U 1 1 596E08B9
 P 8800 5410
 F 0 "#PWR01" H 8800 5160 50  0001 C CNN
@@ -220,7 +68,7 @@ MAPLE_VIN
 Text Label 7975 5010 2    60   ~ 0
 MAPLE_VIN
 $Comp
-L GND #PWR02
+L serial_gw_maple_mini-archive:GND #PWR02
 U 1 1 596E0A2A
 P 8820 2390
 F 0 "#PWR02" H 8820 2140 50  0001 C CNN
@@ -251,7 +99,7 @@ Wire Wire Line
 Text Label 4545 4960 0    60   ~ 0
 SPI_CE
 $Comp
-L CP1_Small C2
+L serial_gw_maple_mini-archive:CP1_Small C2
 U 1 1 596E1000
 P 9440 1635
 F 0 "C2" H 9531 1681 50  0000 L CNN
@@ -262,7 +110,7 @@ F 3 "" H 9440 1635 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L serial_gw_maple_mini-archive:C_Small C4
 U 1 1 596E115C
 P 10040 1630
 F 0 "C4" H 10132 1676 50  0000 L CNN
@@ -275,14 +123,14 @@ $EndComp
 Wire Wire Line
 	8820 1690 8820 1475
 Wire Wire Line
-	8820 1475 10040 1475
+	8820 1475 9440 1475
 Wire Wire Line
 	10040 1475 10040 1530
 Wire Wire Line
-	9440 1260 9440 1535
+	9440 1260 9440 1475
 Connection ~ 9440 1475
 $Comp
-L GND #PWR03
+L serial_gw_maple_mini-archive:GND #PWR03
 U 1 1 596E1507
 P 9440 1735
 F 0 "#PWR03" H 9440 1485 50  0001 C CNN
@@ -293,7 +141,7 @@ F 3 "" H 9440 1735 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L serial_gw_maple_mini-archive:GND #PWR04
 U 1 1 596E1530
 P 10040 1730
 F 0 "#PWR04" H 10040 1480 50  0001 C CNN
@@ -304,7 +152,7 @@ F 3 "" H 10040 1730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR05
+L serial_gw_maple_mini-archive:+3V3 #PWR05
 U 1 1 596E1605
 P 9440 1260
 F 0 "#PWR05" H 9440 1110 50  0001 C CNN
@@ -315,7 +163,7 @@ F 3 "" H 9440 1260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR06
+L serial_gw_maple_mini-archive:+3V3 #PWR06
 U 1 1 596E17CE
 P 9605 4830
 F 0 "#PWR06" H 9605 4680 50  0001 C CNN
@@ -326,9 +174,9 @@ F 3 "" H 9605 4830 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9605 4830 9605 5075
+	9605 4830 9605 5010
 $Comp
-L CP1_Small C3
+L serial_gw_maple_mini-archive:CP1_Small C3
 U 1 1 596E1A90
 P 9605 5175
 F 0 "C3" H 9696 5221 50  0000 L CNN
@@ -340,7 +188,7 @@ F 3 "" H 9605 5175 50  0001 C CNN
 $EndComp
 Connection ~ 9605 5010
 $Comp
-L CP1_Small C1
+L serial_gw_maple_mini-archive:CP1_Small C1
 U 1 1 596E1E59
 P 8090 5170
 F 0 "C1" H 8181 5216 50  0000 L CNN
@@ -354,7 +202,7 @@ Wire Wire Line
 	8090 5070 8090 5010
 Connection ~ 8090 5010
 $Comp
-L GND #PWR07
+L serial_gw_maple_mini-archive:GND #PWR07
 U 1 1 596E208E
 P 8090 5270
 F 0 "#PWR07" H 8090 5020 50  0001 C CNN
@@ -365,7 +213,7 @@ F 3 "" H 8090 5270 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L serial_gw_maple_mini-archive:GND #PWR08
 U 1 1 596E20BC
 P 9605 5275
 F 0 "#PWR08" H 9605 5025 50  0001 C CNN
@@ -404,7 +252,7 @@ NRF24_IRQ
 Text Label 9485 2040 0    60   ~ 0
 NRF24_IRQ
 $Comp
-L R_Small R1
+L serial_gw_maple_mini-archive:R_Small R1
 U 1 1 596E4805
 P 5070 4460
 F 0 "R1" V 4874 4460 50  0000 C CNN
@@ -460,7 +308,7 @@ Radio module supply
 Text Notes 1100 6810 0    71   ~ 14
 Maple mini STM32 board
 $Comp
-L GND #PWR09
+L serial_gw_maple_mini-archive:GND #PWR09
 U 1 1 596F061A
 P 2135 3560
 F 0 "#PWR09" H 2135 3310 50  0001 C CNN
@@ -471,7 +319,7 @@ F 3 "" H 2135 3560 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R4
+L serial_gw_maple_mini-archive:R_Small R4
 U 1 1 596F0E65
 P 6030 1560
 F 0 "R4" V 5834 1560 50  0000 C CNN
@@ -482,7 +330,7 @@ F 3 "" H 6030 1560 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Small D3
+L serial_gw_maple_mini-archive:LED_Small D3
 U 1 1 596F0FF4
 P 6350 1560
 F 0 "D3" H 6350 1355 50  0000 C CNN
@@ -495,7 +343,7 @@ $EndComp
 Wire Wire Line
 	6130 1560 6250 1560
 $Comp
-L R_Small R3
+L serial_gw_maple_mini-archive:R_Small R3
 U 1 1 596F159C
 P 6025 1900
 F 0 "R3" V 5829 1900 50  0000 C CNN
@@ -506,7 +354,7 @@ F 3 "" H 6025 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Small D2
+L serial_gw_maple_mini-archive:LED_Small D2
 U 1 1 596F15A2
 P 6345 1900
 F 0 "D2" H 6345 1695 50  0000 C CNN
@@ -519,7 +367,7 @@ $EndComp
 Wire Wire Line
 	6125 1900 6245 1900
 $Comp
-L R_Small R2
+L serial_gw_maple_mini-archive:R_Small R2
 U 1 1 596F1A96
 P 6020 2255
 F 0 "R2" V 5824 2255 50  0000 C CNN
@@ -530,7 +378,7 @@ F 3 "" H 6020 2255 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_Small D1
+L serial_gw_maple_mini-archive:LED_Small D1
 U 1 1 596F1A9C
 P 6340 2255
 F 0 "D1" H 6340 2050 50  0000 C CNN
@@ -543,7 +391,7 @@ $EndComp
 Wire Wire Line
 	6120 2255 6240 2255
 $Comp
-L GND #PWR010
+L serial_gw_maple_mini-archive:GND #PWR010
 U 1 1 596F1D9D
 P 6450 1560
 F 0 "#PWR010" H 6450 1310 50  0001 C CNN
@@ -554,7 +402,7 @@ F 3 "" H 6450 1560 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR011
+L serial_gw_maple_mini-archive:GND #PWR011
 U 1 1 596F1E34
 P 6445 1900
 F 0 "#PWR011" H 6445 1650 50  0001 C CNN
@@ -565,7 +413,7 @@ F 3 "" H 6445 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR012
+L serial_gw_maple_mini-archive:GND #PWR012
 U 1 1 596F1F3B
 P 6440 2255
 F 0 "#PWR012" H 6440 2005 50  0001 C CNN
@@ -603,4 +451,12 @@ Wire Notes Line
 	5090 475  5090 3430
 Text Notes 5205 3350 0    71   ~ 14
 Panel LEDs
+Wire Wire Line
+	9440 1475 10040 1475
+Wire Wire Line
+	9440 1475 9440 1535
+Wire Wire Line
+	9605 5010 9605 5075
+Wire Wire Line
+	8090 5010 8200 5010
 $EndSCHEMATC

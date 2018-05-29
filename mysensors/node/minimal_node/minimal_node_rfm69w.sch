@@ -1,156 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:AMS1117
-LIBS:BLUE_PILL
-LIBS:ch340
-LIBS:cp2102
-LIBS:current_transf
-LIBS:E73-2G4M04S
-LIBS:ESP8266
-LIBS:hlk-pm01
-LIBS:hlk-pm03
-LIBS:holyiot_nrf52832
-LIBS:l6920
-LIBS:linear_tech
-LIBS:MAPLE_MINI
-LIBS:max44009
-LIBS:MIC5205
-LIBS:mtch102
-LIBS:mtch105
-LIBS:mx-503398-1892
-LIBS:nanopi_duo
-LIBS:ncp1402
-LIBS:onion_omega2
-LIBS:orangepi-zero
-LIBS:pam8403
-LIBS:pcm5100
-LIBS:ptr5518
-LIBS:rfm12
-LIBS:rfm69cw
-LIBS:RM50_SP
-LIBS:touch
-LIBS:ttp223
-LIBS:txb010x
-LIBS:v23079-e1208-b301
-LIBS:WT51822-S4AT
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -166,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C_Small C5
+L minimal_node_rfm69w-archive:C_Small C5
 U 1 1 575E8444
 P 3820 4445
 F 0 "C5" H 3970 4495 50  0000 C CNN
@@ -177,7 +25,7 @@ F 3 "" H 3820 4445 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR01
+L minimal_node_rfm69w-archive:GND #PWR01
 U 1 1 575E86DC
 P 3820 4620
 F 0 "#PWR01" H 3820 4370 50  0001 C CNN
@@ -188,7 +36,7 @@ F 3 "" H 3820 4620 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L minimal_node_rfm69w-archive:C_Small C3
 U 1 1 575E8F25
 P 3645 4045
 F 0 "C3" V 3745 4195 50  0000 C CNN
@@ -199,7 +47,7 @@ F 3 "" H 3645 4045 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C4
+L minimal_node_rfm69w-archive:C_Small C4
 U 1 1 575E8FDA
 P 3695 3620
 F 0 "C4" H 3520 3750 50  0000 C CNN
@@ -210,7 +58,7 @@ F 3 "" H 3695 3620 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L minimal_node_rfm69w-archive:GND #PWR02
 U 1 1 575E942A
 P 3420 4045
 F 0 "#PWR02" H 3420 3795 50  0001 C CNN
@@ -221,7 +69,7 @@ F 3 "" H 3420 4045 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR03
+L minimal_node_rfm69w-archive:GND #PWR03
 U 1 1 575E9AE9
 P 3920 6245
 F 0 "#PWR03" H 3920 5995 50  0001 C CNN
@@ -232,7 +80,7 @@ F 3 "" H 3920 6245 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R3
+L minimal_node_rfm69w-archive:R_Small R3
 U 1 1 575E9FD3
 P 6845 5195
 F 0 "R3" V 6930 5160 50  0000 C CNN
@@ -259,7 +107,7 @@ RST
 Text Notes 825  7450 0    67   ~ 13
 MCU unit
 $Comp
-L R_Small R4
+L minimal_node_rfm69w-archive:R_Small R4
 U 1 1 575ECDD9
 P 8100 1350
 F 0 "R4" H 8210 1320 50  0000 C CNN
@@ -270,7 +118,7 @@ F 3 "" H 8100 1350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR04
+L minimal_node_rfm69w-archive:GND #PWR04
 U 1 1 587DF039
 P 8785 2425
 F 0 "#PWR04" H 8785 2175 50  0001 C CNN
@@ -281,7 +129,7 @@ F 3 "" H 8785 2425 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L minimal_node_rfm69w-archive:GND #PWR05
 U 1 1 587DF0D4
 P 8985 2425
 F 0 "#PWR05" H 8985 2175 50  0001 C CNN
@@ -292,7 +140,7 @@ F 3 "" H 8985 2425 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR06
+L minimal_node_rfm69w-archive:+3.3V #PWR06
 U 1 1 587DF4BE
 P 8885 1220
 F 0 "#PWR06" H 8885 1070 50  0001 C CNN
@@ -303,7 +151,7 @@ F 3 "" H 8885 1220 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L minimal_node_rfm69w-archive:C_Small C7
 U 1 1 587DF8CC
 P 9065 1355
 F 0 "C7" V 9240 1355 50  0000 C CNN
@@ -314,7 +162,7 @@ F 3 "" H 9065 1355 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR07
+L minimal_node_rfm69w-archive:GND #PWR07
 U 1 1 587DFAFC
 P 9165 1355
 F 0 "#PWR07" H 9165 1105 50  0001 C CNN
@@ -325,7 +173,7 @@ F 3 "" H 9165 1355 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR08
+L minimal_node_rfm69w-archive:+3.3V #PWR08
 U 1 1 587FB28D
 P 8100 1200
 F 0 "#PWR08" H 8100 1050 50  0001 C CNN
@@ -343,7 +191,7 @@ NoConn ~ 9535 1925
 NoConn ~ 9535 2075
 NoConn ~ 9535 2225
 $Comp
-L Conn_01x01 P1
+L minimal_node_rfm69w-archive:Conn_01x01 P1
 U 1 1 5880175E
 P 8035 2225
 F 0 "P1" H 7995 2320 50  0000 L CNN
@@ -354,7 +202,7 @@ F 3 "" H 8035 2225 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ATSHA204A U3
+L minimal_node_rfm69w-archive:ATSHA204A U3
 U 1 1 587E20A4
 P 5610 1800
 F 0 "U3" H 5639 1838 40  0000 L CNN
@@ -365,7 +213,7 @@ F 3 "" H 5610 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C6
+L minimal_node_rfm69w-archive:C_Small C6
 U 1 1 587E254A
 P 5615 1350
 F 0 "C6" V 5790 1350 50  0000 C CNN
@@ -376,7 +224,7 @@ F 3 "" H 5615 1350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR09
+L minimal_node_rfm69w-archive:GND #PWR09
 U 1 1 587E2E85
 P 5715 1350
 F 0 "#PWR09" H 5715 1100 50  0001 C CNN
@@ -387,7 +235,7 @@ F 3 "" H 5715 1350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR010
+L minimal_node_rfm69w-archive:GND #PWR010
 U 1 1 587E2FB9
 P 5410 2150
 F 0 "#PWR010" H 5410 1900 50  0001 C CNN
@@ -400,7 +248,7 @@ $EndComp
 Text Label 4885 1800 2    60   ~ 0
 ATSHA204A
 $Comp
-L R_Small R2
+L minimal_node_rfm69w-archive:R_Small R2
 U 1 1 587E3BF3
 P 5015 1425
 F 0 "R2" H 4900 1390 50  0000 C CNN
@@ -413,7 +261,7 @@ $EndComp
 Text Notes 4360 2980 0    67   ~ 13
 Signing module
 $Comp
-L +3.3V #PWR011
+L minimal_node_rfm69w-archive:+3.3V #PWR011
 U 1 1 58822473
 P 5410 1125
 F 0 "#PWR011" H 5410 975 50  0001 C CNN
@@ -424,7 +272,7 @@ F 3 "" H 5410 1125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR012
+L minimal_node_rfm69w-archive:+3.3V #PWR012
 U 1 1 58822550
 P 5015 1325
 F 0 "#PWR012" H 5015 1175 50  0001 C CNN
@@ -443,7 +291,7 @@ MISO
 Text Label 7930 1925 2    60   ~ 0
 SCK
 $Comp
-L GND #PWR013
+L minimal_node_rfm69w-archive:GND #PWR013
 U 1 1 575E93D7
 P 3420 3845
 F 0 "#PWR013" H 3420 3595 50  0001 C CNN
@@ -454,7 +302,7 @@ F 3 "" H 3420 3845 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C2
+L minimal_node_rfm69w-archive:C_Small C2
 U 1 1 575E8F9B
 P 3645 3845
 F 0 "C2" V 3515 3750 50  0000 C CNN
@@ -467,7 +315,7 @@ $EndComp
 Text Label 6110 4895 0    60   ~ 0
 ATSHA204A
 $Comp
-L +3.3V #PWR014
+L minimal_node_rfm69w-archive:+3.3V #PWR014
 U 1 1 58826291
 P 6960 5195
 F 0 "#PWR014" H 6960 5045 50  0001 C CNN
@@ -478,7 +326,7 @@ F 3 "" H 6960 5195 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR015
+L minimal_node_rfm69w-archive:+3.3V #PWR015
 U 1 1 5882E00B
 P 3845 3320
 F 0 "#PWR015" H 3845 3170 50  0001 C CNN
@@ -489,7 +337,7 @@ F 3 "" H 3845 3320 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L minimal_node_rfm69w-archive:GND #PWR016
 U 1 1 575E9378
 P 3695 3520
 F 0 "#PWR016" H 3695 3270 50  0001 C CNN
@@ -500,7 +348,7 @@ F 3 "" H 3695 3520 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AT25DF512C U1
+L minimal_node_rfm69w-archive:AT25DF512C U1
 U 1 1 5885BCFB
 P 2560 1720
 F 0 "U1" H 2225 2155 40  0000 C CNN
@@ -511,7 +359,7 @@ F 3 "" H 2560 1720 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR017
+L minimal_node_rfm69w-archive:+3.3V #PWR017
 U 1 1 588627AF
 P 3195 1150
 F 0 "#PWR017" H 3195 1000 50  0001 C CNN
@@ -522,7 +370,7 @@ F 3 "" H 3195 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L minimal_node_rfm69w-archive:C_Small C1
 U 1 1 5886280B
 P 3025 1210
 F 0 "C1" V 3200 1210 50  0000 C CNN
@@ -533,7 +381,7 @@ F 3 "" H 3025 1210 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR018
+L minimal_node_rfm69w-archive:GND #PWR018
 U 1 1 58862B14
 P 2925 1210
 F 0 "#PWR018" H 2925 960 50  0001 C CNN
@@ -544,7 +392,7 @@ F 3 "" H 2925 1210 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR019
+L minimal_node_rfm69w-archive:GND #PWR019
 U 1 1 58862EED
 P 2560 2070
 F 0 "#PWR019" H 2560 1820 50  0001 C CNN
@@ -555,7 +403,7 @@ F 3 "" H 2560 2070 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L minimal_node_rfm69w-archive:R_Small R1
 U 1 1 58863426
 P 1925 1225
 F 0 "R1" H 2050 1200 50  0000 C CNN
@@ -566,7 +414,7 @@ F 3 "" H 1925 1225 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR020
+L minimal_node_rfm69w-archive:+3.3V #PWR020
 U 1 1 58863F25
 P 1925 1125
 F 0 "#PWR020" H 1925 975 50  0001 C CNN
@@ -589,7 +437,7 @@ SPI_FLASH_SS
 Text Notes 1290 2965 0    67   ~ 13
 SPI Flash Module
 $Comp
-L Ferrite_Bead L1
+L minimal_node_rfm69w-archive:Ferrite_Bead L1
 U 1 1 588714A4
 P 3515 4245
 F 0 "L1" V 3620 4050 50  0000 C CNN
@@ -600,7 +448,7 @@ F 3 "" H 3515 4245 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR021
+L minimal_node_rfm69w-archive:+3.3V #PWR021
 U 1 1 5887266A
 P 3130 4245
 F 0 "#PWR021" H 3130 4095 50  0001 C CNN
@@ -615,12 +463,12 @@ Wire Wire Line
 Wire Wire Line
 	3820 4545 3820 4620
 Wire Wire Line
-	3745 4045 3995 4045
+	3745 4045 3845 4045
 Wire Wire Line
-	3745 3845 3995 3845
+	3745 3845 3845 3845
 Connection ~ 3845 3845
 Wire Wire Line
-	3695 3745 3995 3745
+	3695 3745 3845 3745
 Connection ~ 3845 3745
 Connection ~ 3845 4045
 Wire Wire Line
@@ -630,7 +478,7 @@ Wire Wire Line
 Wire Wire Line
 	3995 5845 3920 5845
 Wire Wire Line
-	3920 5845 3920 6245
+	3920 5845 3920 5945
 Wire Wire Line
 	3995 6045 3920 6045
 Connection ~ 3920 6045
@@ -640,7 +488,7 @@ Connection ~ 3920 5945
 Wire Wire Line
 	6945 5195 6960 5195
 Wire Wire Line
-	5895 5195 6745 5195
+	5895 5195 6710 5195
 Connection ~ 6710 5195
 Wire Wire Line
 	5895 3945 6320 3945
@@ -649,7 +497,7 @@ Wire Wire Line
 Wire Wire Line
 	6710 4895 8110 4895
 Wire Wire Line
-	8885 1220 8885 1425
+	8885 1220 8885 1355
 Wire Wire Line
 	8965 1355 8885 1355
 Connection ~ 8885 1355
@@ -661,17 +509,17 @@ Connection ~ 8100 1625
 Wire Wire Line
 	8100 1250 8100 1200
 Wire Wire Line
-	5410 1125 5410 1450
+	5410 1125 5410 1350
 Wire Wire Line
 	5515 1350 5410 1350
 Connection ~ 5410 1350
 Wire Wire Line
-	4885 1800 5060 1800
+	4885 1800 5015 1800
 Wire Wire Line
 	5015 1525 5015 1800
 Connection ~ 5015 1800
 Wire Wire Line
-	7930 1625 8235 1625
+	7930 1625 8100 1625
 Wire Wire Line
 	8235 1725 7930 1725
 Wire Wire Line
@@ -687,7 +535,7 @@ Wire Notes Line
 Wire Wire Line
 	3195 1720 3110 1720
 Wire Wire Line
-	3195 1150 3195 1720
+	3195 1150 3195 1210
 Wire Wire Line
 	3195 1570 3110 1570
 Wire Wire Line
@@ -698,7 +546,7 @@ Wire Wire Line
 	3125 1210 3195 1210
 Connection ~ 3195 1210
 Wire Wire Line
-	1875 1570 2010 1570
+	1875 1570 1925 1570
 Wire Wire Line
 	2010 1670 1815 1670
 Wire Wire Line
@@ -711,7 +559,7 @@ Connection ~ 1925 1570
 Wire Wire Line
 	5895 3745 6320 3745
 Wire Wire Line
-	3845 3320 3845 3845
+	3845 3320 3845 3745
 Wire Wire Line
 	3845 4045 3845 4245
 Wire Wire Line
@@ -723,7 +571,7 @@ Wire Wire Line
 Wire Notes Line
 	6120 475  6120 3085
 $Comp
-L RFM69CW U4
+L minimal_node_rfm69w-archive:RFM69CW U4
 U 1 1 58DABF5F
 P 8885 1875
 F 0 "U4" H 9235 1325 60  0000 C CNN
@@ -736,7 +584,7 @@ $EndComp
 Wire Wire Line
 	9535 1625 9575 1625
 $Comp
-L ATMEGA328P-AU U2
+L minimal_node_rfm69w-archive:ATMEGA328P-AU U2
 U 1 1 58DA832C
 P 4895 4845
 F 0 "U2" H 4945 6212 50  0000 C CNN
@@ -747,7 +595,7 @@ F 3 "" H 4895 4845 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x06 J2
+L minimal_node_rfm69w-archive:Conn_01x06 J2
 U 1 1 58DA9028
 P 7865 5295
 F 0 "J2" H 7943 5336 50  0000 L CNN
@@ -758,7 +606,7 @@ F 3 "" H 7865 5295 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x06 J4
+L minimal_node_rfm69w-archive:Conn_01x06 J4
 U 1 1 58DA9218
 P 8310 4695
 F 0 "J4" H 8388 4736 50  0000 L CNN
@@ -769,7 +617,7 @@ F 3 "" H 8310 4695 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x06 J1
+L minimal_node_rfm69w-archive:Conn_01x06 J1
 U 1 1 58DA93A3
 P 7855 4045
 F 0 "J1" H 7933 4086 50  0000 L CNN
@@ -780,7 +628,7 @@ F 3 "" H 7855 4045 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x06 J3
+L minimal_node_rfm69w-archive:Conn_01x06 J3
 U 1 1 58DA9437
 P 7865 6145
 F 0 "J3" H 7943 6186 50  0000 L CNN
@@ -895,7 +743,7 @@ Wire Wire Line
 Wire Wire Line
 	6820 6045 5895 6045
 $Comp
-L GND #PWR022
+L minimal_node_rfm69w-archive:GND #PWR022
 U 1 1 58DC0813
 P 7655 4345
 F 0 "#PWR022" H 7655 4095 50  0001 C CNN
@@ -906,7 +754,7 @@ F 3 "" H 7655 4345 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR023
+L minimal_node_rfm69w-archive:+3.3V #PWR023
 U 1 1 58DC0A16
 P 7665 5595
 F 0 "#PWR023" H 7665 5445 50  0001 C CNN
@@ -917,7 +765,7 @@ F 3 "" H 7665 5595 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR024
+L minimal_node_rfm69w-archive:+3.3V #PWR024
 U 1 1 58DC0DF1
 P 7665 6445
 F 0 "#PWR024" H 7665 6295 50  0001 C CNN
@@ -927,4 +775,34 @@ F 3 "" H 7665 6445 50  0000 C CNN
 	1    7665 6445
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3845 3845 3995 3845
+Wire Wire Line
+	3845 3745 3995 3745
+Wire Wire Line
+	3845 3745 3845 3845
+Wire Wire Line
+	3845 4045 3995 4045
+Wire Wire Line
+	3920 6045 3920 6245
+Wire Wire Line
+	3920 5945 3920 6045
+Wire Wire Line
+	6710 5195 6745 5195
+Wire Wire Line
+	8885 1355 8885 1425
+Wire Wire Line
+	8100 1625 8235 1625
+Wire Wire Line
+	5410 1350 5410 1450
+Wire Wire Line
+	5015 1800 5060 1800
+Wire Wire Line
+	3195 1570 3195 1720
+Wire Wire Line
+	3195 1370 3195 1570
+Wire Wire Line
+	3195 1210 3195 1370
+Wire Wire Line
+	1925 1570 2010 1570
 $EndSCHEMATC

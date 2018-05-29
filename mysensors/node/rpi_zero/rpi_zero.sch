@@ -1,122 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:RF_Bluetooth
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
-LIBS:mysensors_arduino
-LIBS:mysensors_connectors
-LIBS:mysensors_logic
-LIBS:mysensors_mcu
-LIBS:mysensors_memories
-LIBS:mysensors_network
-LIBS:mysensors_radios
-LIBS:mysensors_regulators
-LIBS:mysensors_security
-LIBS:mysensors_sensors
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -132,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RFM69HW U1
+L rpi_zero-archive:RFM69HW U1
 U 1 1 59DB9656
 P 3430 5895
 F 0 "U1" H 3125 6325 40  0000 C CNN
@@ -143,7 +25,7 @@ F 3 "" H 3430 5895 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR019
+L rpi_zero-archive:+5V #PWR019
 U 1 1 59DB92F2
 P 4975 1135
 F 0 "#PWR019" H 4975 985 50  0001 C CNN
@@ -174,7 +56,7 @@ RFM69_MISO
 Text Label 2620 6245 2    60   ~ 0
 RFM69_SCK
 $Comp
-L GND #PWR01
+L rpi_zero-archive:GND #PWR01
 U 1 1 59DB9DDC
 P 3330 6745
 F 0 "#PWR01" H 3330 6495 50  0001 C CNN
@@ -185,7 +67,7 @@ F 3 "" H 3330 6745 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L rpi_zero-archive:GND #PWR03
 U 1 1 59DB9DFC
 P 3530 6745
 F 0 "#PWR03" H 3530 6495 50  0001 C CNN
@@ -196,7 +78,7 @@ F 3 "" H 3530 6745 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J2
+L rpi_zero-archive:Conn_01x01 J2
 U 1 1 59DB9F5B
 P 2680 5745
 F 0 "J2" H 2600 5520 50  0000 C CNN
@@ -213,7 +95,7 @@ NoConn ~ 3980 6295
 NoConn ~ 2880 6445
 NoConn ~ 2880 6545
 $Comp
-L AMS1117 U2
+L rpi_zero-archive:AMS1117 U2
 U 1 1 59DBA359
 P 9150 5285
 F 0 "U2" H 9050 5600 50  0000 C CNN
@@ -224,7 +106,7 @@ F 3 "" H 9050 5335 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C4
+L rpi_zero-archive:CP1_Small C4
 U 1 1 59DBA6D1
 P 8560 5420
 F 0 "C4" H 8651 5466 50  0000 L CNN
@@ -235,7 +117,7 @@ F 3 "" H 8560 5420 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C5
+L rpi_zero-archive:CP1_Small C5
 U 1 1 59DBA8D7
 P 9515 5420
 F 0 "C5" H 9606 5466 50  0000 L CNN
@@ -246,7 +128,7 @@ F 3 "" H 9515 5420 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L rpi_zero-archive:GND #PWR08
 U 1 1 59DBAB4A
 P 8560 5520
 F 0 "#PWR08" H 8560 5270 50  0001 C CNN
@@ -257,7 +139,7 @@ F 3 "" H 8560 5520 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L rpi_zero-archive:GND #PWR012
 U 1 1 59DBAB91
 P 9050 5535
 F 0 "#PWR012" H 9050 5285 50  0001 C CNN
@@ -268,7 +150,7 @@ F 3 "" H 9050 5535 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L rpi_zero-archive:GND #PWR018
 U 1 1 59DBABE4
 P 9515 5520
 F 0 "#PWR018" H 9515 5270 50  0001 C CNN
@@ -279,7 +161,7 @@ F 3 "" H 9515 5520 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR06
+L rpi_zero-archive:+5V #PWR06
 U 1 1 59DBAE88
 P 8160 5285
 F 0 "#PWR06" H 8160 5135 50  0001 C CNN
@@ -290,7 +172,7 @@ F 3 "" H 8160 5285 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR021
+L rpi_zero-archive:+3.3V #PWR021
 U 1 1 59DBB4B5
 P 9975 5285
 F 0 "#PWR021" H 9975 5135 50  0001 C CNN
@@ -301,7 +183,7 @@ F 3 "" H 9975 5285 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR02
+L rpi_zero-archive:+3.3V #PWR02
 U 1 1 59DBB865
 P 3430 5390
 F 0 "#PWR02" H 3430 5240 50  0001 C CNN
@@ -312,7 +194,7 @@ F 3 "" H 3430 5390 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C1
+L rpi_zero-archive:CP1_Small C1
 U 1 1 59DBBBA5
 P 3765 5470
 F 0 "C1" V 3993 5470 50  0000 C CNN
@@ -323,7 +205,7 @@ F 3 "" H 3765 5470 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR04
+L rpi_zero-archive:GND #PWR04
 U 1 1 59DBBF5D
 P 3865 5470
 F 0 "#PWR04" H 3865 5220 50  0001 C CNN
@@ -334,7 +216,7 @@ F 3 "" H 3865 5470 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR09
+L rpi_zero-archive:GND #PWR09
 U 1 1 59DBC1F1
 P 4385 1770
 F 0 "#PWR09" H 4385 1520 50  0001 C CNN
@@ -345,7 +227,7 @@ F 3 "" H 4385 1770 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR010
+L rpi_zero-archive:GND #PWR010
 U 1 1 59DBC425
 P 4385 2570
 F 0 "#PWR010" H 4385 2320 50  0001 C CNN
@@ -356,7 +238,7 @@ F 3 "" H 4385 2570 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L rpi_zero-archive:GND #PWR011
 U 1 1 59DBC4A0
 P 4385 3270
 F 0 "#PWR011" H 4385 3020 50  0001 C CNN
@@ -367,7 +249,7 @@ F 3 "" H 4385 3270 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR017
+L rpi_zero-archive:GND #PWR017
 U 1 1 59DBC673
 P 4885 2970
 F 0 "#PWR017" H 4885 2720 50  0001 C CNN
@@ -378,7 +260,7 @@ F 3 "" H 4885 2970 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR016
+L rpi_zero-archive:GND #PWR016
 U 1 1 59DBC75E
 P 4885 2770
 F 0 "#PWR016" H 4885 2520 50  0001 C CNN
@@ -389,7 +271,7 @@ F 3 "" H 4885 2770 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR015
+L rpi_zero-archive:GND #PWR015
 U 1 1 59DBC8A9
 P 4885 2270
 F 0 "#PWR015" H 4885 2020 50  0001 C CNN
@@ -400,7 +282,7 @@ F 3 "" H 4885 2270 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR014
+L rpi_zero-archive:GND #PWR014
 U 1 1 59DBC932
 P 4885 1970
 F 0 "#PWR014" H 4885 1720 50  0001 C CNN
@@ -411,7 +293,7 @@ F 3 "" H 4885 1970 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR013
+L rpi_zero-archive:GND #PWR013
 U 1 1 59DBCAB6
 P 4885 1570
 F 0 "#PWR013" H 4885 1320 50  0001 C CNN
@@ -431,7 +313,7 @@ NoConn ~ 4885 1870
 NoConn ~ 4885 1770
 NoConn ~ 4885 1670
 $Comp
-L C_Small C2
+L rpi_zero-archive:C_Small C2
 U 1 1 59DBD514
 P 3775 5095
 F 0 "C2" V 3546 5095 50  0000 C CNN
@@ -442,7 +324,7 @@ F 3 "" H 3775 5095 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR05
+L rpi_zero-archive:GND #PWR05
 U 1 1 59DBD90B
 P 3875 5095
 F 0 "#PWR05" H 3875 4845 50  0001 C CNN
@@ -453,7 +335,7 @@ F 3 "" H 3875 5095 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C6
+L rpi_zero-archive:C_Small C6
 U 1 1 59DBD975
 P 9815 5440
 F 0 "C6" H 9723 5394 50  0000 R CNN
@@ -464,7 +346,7 @@ F 3 "" H 9815 5440 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C3
+L rpi_zero-archive:C_Small C3
 U 1 1 59DBE003
 P 8360 5450
 F 0 "C3" H 8560 5415 50  0000 R CNN
@@ -475,7 +357,7 @@ F 3 "" H 8360 5450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR07
+L rpi_zero-archive:GND #PWR07
 U 1 1 59DBE2B0
 P 8360 5550
 F 0 "#PWR07" H 8360 5300 50  0001 C CNN
@@ -486,7 +368,7 @@ F 3 "" H 8360 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L rpi_zero-archive:GND #PWR020
 U 1 1 59DBE2CF
 P 9815 5540
 F 0 "#PWR020" H 9815 5290 50  0001 C CNN
@@ -497,7 +379,7 @@ F 3 "" H 9815 5540 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HDSP-4850_2 BAR1
+L rpi_zero-archive:HDSP-4850_2 BAR1
 U 1 1 59DC80FC
 P 2465 3070
 F 0 "BAR1" H 2465 3737 50  0000 C CNN
@@ -508,7 +390,7 @@ F 3 "" H 465 3270 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R10
+L rpi_zero-archive:R_Small R10
 U 1 1 59DC8568
 P 1830 3470
 F 0 "R10" V 1895 3635 50  0000 C CNN
@@ -519,7 +401,7 @@ F 3 "" H 1830 3470 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R9
+L rpi_zero-archive:R_Small R9
 U 1 1 59DC8EC1
 P 1830 3370
 F 0 "R9" V 1895 3535 50  0000 C CNN
@@ -530,7 +412,7 @@ F 3 "" H 1830 3370 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R8
+L rpi_zero-archive:R_Small R8
 U 1 1 59DC95A1
 P 1830 3270
 F 0 "R8" V 1895 3435 50  0000 C CNN
@@ -541,7 +423,7 @@ F 3 "" H 1830 3270 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R7
+L rpi_zero-archive:R_Small R7
 U 1 1 59DC9A29
 P 1830 3170
 F 0 "R7" V 1895 3335 50  0000 C CNN
@@ -552,7 +434,7 @@ F 3 "" H 1830 3170 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R6
+L rpi_zero-archive:R_Small R6
 U 1 1 59DC9A87
 P 1830 3070
 F 0 "R6" V 1895 3235 50  0000 C CNN
@@ -563,7 +445,7 @@ F 3 "" H 1830 3070 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R5
+L rpi_zero-archive:R_Small R5
 U 1 1 59DC9AF1
 P 1830 2970
 F 0 "R5" V 1895 3135 50  0000 C CNN
@@ -574,7 +456,7 @@ F 3 "" H 1830 2970 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R4
+L rpi_zero-archive:R_Small R4
 U 1 1 59DC9B51
 P 1830 2870
 F 0 "R4" V 1895 3035 50  0000 C CNN
@@ -585,7 +467,7 @@ F 3 "" H 1830 2870 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R3
+L rpi_zero-archive:R_Small R3
 U 1 1 59DC9BB3
 P 1830 2770
 F 0 "R3" V 1895 2935 50  0000 C CNN
@@ -596,7 +478,7 @@ F 3 "" H 1830 2770 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R2
+L rpi_zero-archive:R_Small R2
 U 1 1 59DC9C19
 P 1830 2670
 F 0 "R2" V 1895 2835 50  0000 C CNN
@@ -607,7 +489,7 @@ F 3 "" H 1830 2670 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R1
+L rpi_zero-archive:R_Small R1
 U 1 1 59DC9C79
 P 1825 2570
 F 0 "R1" V 1890 2735 50  0000 C CNN
@@ -618,7 +500,7 @@ F 3 "" H 1825 2570 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_02x20_Odd_Even J1
+L rpi_zero-archive:Conn_02x20_Odd_Even J1
 U 1 1 59DB9215
 P 4585 2270
 F 0 "J1" H 4635 3387 50  0000 C CNN
@@ -629,7 +511,7 @@ F 3 "" H 4585 2270 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR023
+L rpi_zero-archive:+3.3V #PWR023
 U 1 1 59DD2372
 P 3075 2570
 F 0 "#PWR023" H 3075 2420 50  0001 C CNN
@@ -640,7 +522,7 @@ F 3 "" H 3075 2570 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR022
+L rpi_zero-archive:GND #PWR022
 U 1 1 59DD449A
 P 1460 2405
 F 0 "#PWR022" H 1460 2155 50  0001 C CNN
@@ -653,7 +535,7 @@ $EndComp
 NoConn ~ 4385 1870
 NoConn ~ 4385 2070
 $Comp
-L DS18B20 U3
+L rpi_zero-archive:DS18B20 U3
 U 1 1 59DD7751
 P 2995 1670
 F 0 "U3" H 2765 1716 50  0000 R CNN
@@ -664,7 +546,7 @@ F 3 "" H 2845 1920 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R11
+L rpi_zero-archive:R_Small R11
 U 1 1 59DD868B
 P 3510 1455
 F 0 "R11" H 3630 1510 50  0000 C CNN
@@ -675,7 +557,7 @@ F 3 "" H 3510 1455 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L rpi_zero-archive:GND #PWR026
 U 1 1 59DD947F
 P 2995 1970
 F 0 "#PWR026" H 2995 1720 50  0001 C CNN
@@ -686,7 +568,7 @@ F 3 "" H 2995 1970 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR025
+L rpi_zero-archive:+3.3V #PWR025
 U 1 1 59DD9A7E
 P 2995 1215
 F 0 "#PWR025" H 2995 1065 50  0001 C CNN
@@ -697,7 +579,7 @@ F 3 "" H 2995 1215 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L rpi_zero-archive:C_Small C7
 U 1 1 59DD9EBF
 P 2685 1275
 F 0 "C7" V 2456 1275 50  0000 C CNN
@@ -708,7 +590,7 @@ F 3 "" H 2685 1275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR024
+L rpi_zero-archive:GND #PWR024
 U 1 1 59DDA2C4
 P 2585 1275
 F 0 "#PWR024" H 2585 1025 50  0001 C CNN
@@ -719,7 +601,7 @@ F 3 "" H 2585 1275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR027
+L rpi_zero-archive:+3.3V #PWR027
 U 1 1 59DDA8FF
 P 3510 1355
 F 0 "#PWR027" H 3510 1205 50  0001 C CNN
@@ -730,7 +612,7 @@ F 3 "" H 3510 1355 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x04 J3
+L rpi_zero-archive:Conn_01x04 J3
 U 1 1 59DCA4B8
 P 9255 1385
 F 0 "J3" H 9334 1377 50  0000 L CNN
@@ -741,7 +623,7 @@ F 3 "" H 9255 1385 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L rpi_zero-archive:GND #PWR028
 U 1 1 59DCC05A
 P 9055 1285
 F 0 "#PWR028" H 9055 1035 50  0001 C CNN
@@ -752,7 +634,7 @@ F 3 "" H 9055 1285 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR029
+L rpi_zero-archive:+3.3V #PWR029
 U 1 1 59DCC47F
 P 8610 1305
 F 0 "#PWR029" H 8610 1155 50  0001 C CNN
@@ -771,7 +653,7 @@ SSD_SDA
 Text Label 4175 1570 2    60   ~ 0
 SSD_SCL
 $Comp
-L R_Small R13
+L rpi_zero-archive:R_Small R13
 U 1 1 59DCE4D5
 P 8970 1790
 F 0 "R13" H 9090 1845 50  0000 C CNN
@@ -782,7 +664,7 @@ F 3 "" H 8970 1790 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R12
+L rpi_zero-archive:R_Small R12
 U 1 1 59DCE8E7
 P 8870 1790
 F 0 "R12" H 8990 1845 50  0000 C CNN
@@ -793,7 +675,7 @@ F 3 "" H 8870 1790 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR030
+L rpi_zero-archive:+3.3V #PWR030
 U 1 1 59DCFBEB
 P 8870 1890
 F 0 "#PWR030" H 8870 1740 50  0001 C CNN
@@ -804,7 +686,7 @@ F 3 "" H 8870 1890 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR031
+L rpi_zero-archive:+3.3V #PWR031
 U 1 1 59DCFF25
 P 8970 1890
 F 0 "#PWR031" H 8970 1740 50  0001 C CNN
@@ -818,7 +700,7 @@ NoConn ~ 3980 6395
 Wire Wire Line
 	4975 1470 4885 1470
 Wire Wire Line
-	4975 1135 4975 1470
+	4975 1135 4975 1370
 Wire Wire Line
 	4975 1370 4885 1370
 Connection ~ 4975 1370
@@ -843,19 +725,19 @@ Wire Wire Line
 Wire Wire Line
 	2880 6245 2620 6245
 Wire Wire Line
-	8160 5285 8750 5285
+	8160 5285 8360 5285
 Wire Wire Line
 	8560 5285 8560 5320
 Wire Wire Line
-	9350 5285 9975 5285
+	9350 5285 9515 5285
 Wire Wire Line
 	9515 5285 9515 5320
 Connection ~ 8560 5285
 Connection ~ 9515 5285
 Wire Wire Line
-	3430 5390 3430 5545
+	3430 5390 3430 5470
 Wire Wire Line
-	3430 5470 3665 5470
+	3430 5470 3605 5470
 Connection ~ 3430 5470
 Wire Wire Line
 	3605 5470 3605 5095
@@ -929,34 +811,28 @@ Wire Wire Line
 Wire Wire Line
 	2665 2570 3075 2570
 Wire Wire Line
-	1460 2405 1460 3470
+	1460 2405 1460 2570
 Connection ~ 1460 2570
 Connection ~ 1460 2670
-Wire Wire Line
-	1460 2770 1460 2775
-Connection ~ 1460 2775
 Connection ~ 1460 2870
-Wire Wire Line
-	1460 2970 1460 2975
-Connection ~ 1460 2975
 Connection ~ 1460 3070
 Connection ~ 1460 3170
 Connection ~ 1460 3270
 Connection ~ 1460 3370
 Wire Wire Line
-	3295 1670 4385 1670
+	3295 1670 3510 1670
 Wire Wire Line
 	3510 1555 3510 1670
 Connection ~ 3510 1670
 Wire Wire Line
-	2995 1215 2995 1370
+	2995 1215 2995 1275
 Wire Wire Line
 	2785 1275 2995 1275
 Connection ~ 2995 1275
 Wire Wire Line
-	8825 1485 9055 1485
+	8825 1485 8970 1485
 Wire Wire Line
-	8825 1585 9055 1585
+	8825 1585 8870 1585
 Wire Wire Line
 	9055 1385 8610 1385
 Wire Wire Line
@@ -996,7 +872,7 @@ Wire Wire Line
 Wire Wire Line
 	1925 2570 2265 2570
 $Comp
-L SW_Push SW1
+L rpi_zero-archive:SW_Push SW1
 U 1 1 59DDBB6D
 P 8745 3470
 F 0 "SW1" V 8699 3618 50  0000 L CNN
@@ -1007,7 +883,7 @@ F 3 "" H 8745 3670 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R14
+L rpi_zero-archive:R_Small R14
 U 1 1 59DDC06E
 P 8745 3065
 F 0 "R14" H 8865 3120 50  0000 C CNN
@@ -1018,7 +894,7 @@ F 3 "" H 8745 3065 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR032
+L rpi_zero-archive:+3.3V #PWR032
 U 1 1 59DDC868
 P 8745 2965
 F 0 "#PWR032" H 8745 2815 50  0001 C CNN
@@ -1029,7 +905,7 @@ F 3 "" H 8745 2965 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L rpi_zero-archive:GND #PWR033
 U 1 1 59DDD07E
 P 8745 3670
 F 0 "#PWR033" H 8745 3420 50  0001 C CNN
@@ -1039,12 +915,8 @@ F 3 "" H 8745 3670 50  0001 C CNN
 	1    8745 3670
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8745 3165 8745 3270
-Wire Wire Line
-	8745 3255 8745 3260
 $Comp
-L R_Small R15
+L rpi_zero-archive:R_Small R15
 U 1 1 59DE242E
 P 9270 3045
 F 0 "R15" H 9390 3100 50  0000 C CNN
@@ -1055,7 +927,7 @@ F 3 "" H 9270 3045 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR034
+L rpi_zero-archive:+3.3V #PWR034
 U 1 1 59DE2434
 P 9270 2945
 F 0 "#PWR034" H 9270 2795 50  0001 C CNN
@@ -1066,7 +938,7 @@ F 3 "" H 9270 2945 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L rpi_zero-archive:GND #PWR035
 U 1 1 59DE243A
 P 9270 3650
 F 0 "#PWR035" H 9270 3400 50  0001 C CNN
@@ -1077,11 +949,11 @@ F 3 "" H 9270 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9270 3145 9270 3250
+	9270 3145 9270 3240
 Wire Wire Line
 	9270 3235 9270 3240
 $Comp
-L SW_Push SW2
+L rpi_zero-archive:SW_Push SW2
 U 1 1 59DE2428
 P 9270 3450
 F 0 "SW2" V 9224 3598 50  0000 L CNN
@@ -1092,7 +964,6 @@ F 3 "" H 9270 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 9270 3240
-Connection ~ 8745 3260
 Wire Wire Line
 	8575 3255 8745 3255
 Wire Wire Line
@@ -1127,4 +998,44 @@ Text Notes 610  4250 0    60   ~ 12
 Raspberry PI Zero W Board/LED Bargraph/Temperature Sensor
 Text Notes 615  7645 0    60   ~ 12
 RFM69W Radio Module
+Wire Wire Line
+	4975 1370 4975 1470
+Wire Wire Line
+	8560 5285 8750 5285
+Wire Wire Line
+	9515 5285 9815 5285
+Wire Wire Line
+	3430 5470 3430 5545
+Wire Wire Line
+	3605 5470 3665 5470
+Wire Wire Line
+	9815 5285 9975 5285
+Wire Wire Line
+	8360 5285 8560 5285
+Wire Wire Line
+	1460 2570 1460 2670
+Wire Wire Line
+	1460 3070 1460 3170
+Wire Wire Line
+	1460 3170 1460 3270
+Wire Wire Line
+	1460 3270 1460 3370
+Wire Wire Line
+	1460 3370 1460 3470
+Wire Wire Line
+	3510 1670 4385 1670
+Wire Wire Line
+	2995 1275 2995 1370
+Wire Wire Line
+	8970 1485 9055 1485
+Wire Wire Line
+	8870 1585 9055 1585
+Wire Wire Line
+	9270 3240 9270 3250
+Wire Wire Line
+	1460 2670 1460 2870
+Wire Wire Line
+	1460 2870 1460 3070
+Wire Wire Line
+	8745 3165 8745 3270
 $EndSCHEMATC

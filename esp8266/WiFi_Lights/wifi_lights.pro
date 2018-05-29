@@ -1,4 +1,4 @@
-update=Ma 29 mai 2018 14:25:30 +0300
+update=Ma 29 mai 2018 14:50:06 +0300
 version=1
 last_client=kicad
 [cvpcb]
@@ -38,5 +38,3 @@ ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=wifi_lights-archive

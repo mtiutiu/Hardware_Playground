@@ -1,4 +1,4 @@
-update=Ma 29 mai 2018 13:56:44 +0300
+update=Ma 29 mai 2018 14:57:37 +0300
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,6 +38,4 @@ ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=minimal_node_rfm69w-archive
 
