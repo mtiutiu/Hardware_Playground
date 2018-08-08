@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.0-fee4fd1~66~ubuntu16.04.1*
-G04 #@! TF.CreationDate,2018-08-08T16:17:55+03:00*
+G04 #@! TF.CreationDate,2018-08-08T16:47:19+03:00*
 G04 #@! TF.ProjectId,rpi_zero_ws2812,7270695F7A65726F5F7773323831322E,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.0-fee4fd1~66~ubuntu16.04.1) date Wed Aug  8 16:17:55 2018*
+G04 Created by KiCad (PCBNEW 5.0.0-fee4fd1~66~ubuntu16.04.1) date Wed Aug  8 16:47:19 2018*
 %MOMM*%
 %LPD*%
 G01*
@@ -28,6 +28,18 @@ G04 APERTURE LIST*
 %ADD24C,2.999740*%
 G04 APERTURE END LIST*
 D10*
+G04 #@! TO.C,REF\002A\002A*
+X155911880Y-95259420D03*
+G04 #@! TD*
+G04 #@! TO.C,REF\002A\002A*
+X149911880Y-95259420D03*
+G04 #@! TD*
+G04 #@! TO.C,REF\002A\002A*
+X151911880Y-95259420D03*
+G04 #@! TD*
+G04 #@! TO.C,REF\002A\002A*
+X153911880Y-95259420D03*
+G04 #@! TD*
 G04 #@! TO.C,REF\002A\002A*
 X155911880Y-87259420D03*
 G04 #@! TD*
