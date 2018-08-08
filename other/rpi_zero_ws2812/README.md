@@ -7,8 +7,6 @@ Top view | Bottom view
 ![Alt text](3d/renderings/rpi_zero_ws2812_top.png?raw=true "top view") | ![Alt text](3d/renderings/rpi_zero_ws2812_bottom.png?raw=true "bottom view")
 
 
-![Alt text](3d/renderings/rpi_zero_snapshot.png?raw=true "Perspective view")
-
 **Description:**
 
 This is a WS28xx shield(or HAT) for the Raspberry Pi Zero(W) Linux SBC
