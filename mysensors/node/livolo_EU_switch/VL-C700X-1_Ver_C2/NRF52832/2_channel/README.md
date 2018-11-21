@@ -20,7 +20,7 @@ This is a Mysensors replica of the Livolo EU Switch(2 channels 1 way) front plat
 **Firmware programming and testing steps for MySensors:**
 1. Install Arduino IDE
 2. Install nrf5 arduino core from here: https://github.com/sandeepmistry/arduino-nRF5
-3. Select the **nrf51 generic board (16K ram and 256K flash)** variant(or nrf52 generic if you have a nrf52832 device)
+3. Select the **nrf52 generic board** variant
 4. The low frequency oscillator needs to be set to **RC oscillator** in the Arduino menu
 5. **NO Softdevice** needs to be selected
 6. Use a st-link v2 programmer
