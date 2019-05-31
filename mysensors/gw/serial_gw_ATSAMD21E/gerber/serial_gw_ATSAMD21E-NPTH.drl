@@ -1,11 +1,13 @@
 M48
-;DRILL file {KiCad no-vcs-found-44b118f~58~ubuntu16.04.1} date Mon Jun 12 09:03:09 2017
-;FORMAT={-:-/ absolute / metric / decimal}
+; DRILL file {KiCad 5.1.2-f72e74a~84~ubuntu16.04.1} date Fri 31 May 2019 10:16:49 EEST
+; FORMAT={-:-/ absolute / metric / decimal}
+; #@! TF.CreationDate,2019-05-31T10:16:49+03:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,5.1.2-f72e74a~84~ubuntu16.04.1
+; #@! TF.FileFunction,NonPlated,1,2,NPTH
 FMAT,2
-METRIC,TZ
+METRIC
 %
 G90
 G05
-M71
 T0
 M30

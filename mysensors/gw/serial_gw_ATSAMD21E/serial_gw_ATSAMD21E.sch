@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -501,17 +501,6 @@ F 3 "" H 2700 3375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial_gw_ATSAMD21E-archive:+3.3V #PWR010
-U 1 1 58C0406F
-P 2800 3375
-F 0 "#PWR010" H 2800 3225 50  0001 C CNN
-F 1 "+3.3V" H 2860 3545 50  0000 C CNN
-F 2 "" H 2800 3375 50  0000 C CNN
-F 3 "" H 2800 3375 50  0000 C CNN
-	1    2800 3375
-	1    0    0    -1  
-$EndComp
-$Comp
 L serial_gw_ATSAMD21E-archive:GND #PWR011
 U 1 1 58C0458D
 P 3000 3625
@@ -873,9 +862,6 @@ Wire Wire Line
 Connection ~ 2105 3375
 Wire Wire Line
 	2300 3375 2300 3685
-Wire Wire Line
-	2800 3375 2800 3625
-Connection ~ 2800 3625
 Wire Wire Line
 	2655 3625 2700 3625
 Wire Wire Line
