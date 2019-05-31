@@ -1,7 +1,7 @@
 ## Mysensors RFM69W Serial Gateway(ATSAMD21E)
 
 
-**IMPORTANT NOTICE: this project proved not to work - the USB interface doesn't work!**
+**IMPORTANT NOTICE: this project proved not to work - Found the issue - VDDCORE was tied to the 3.3V supply rail by accident! - Fixed in REV 0.5**
 
 
 ##### 3D renderings of pcb
@@ -34,6 +34,7 @@ This is a Mysensors serial GW using **RFM69W** radio module and **ATSAMD21E** 32
  - 0.2 - added I2C EEPROM and VUSB filtering caps
  - 0.3 - added USB lines termination resistors
  - 0.4 - added I2C EEPROM pull-up resistors
+ - 0.5 - fixed VDDCORE mistake
 
 **Credits:**
   
