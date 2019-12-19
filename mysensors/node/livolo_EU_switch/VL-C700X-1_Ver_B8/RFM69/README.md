@@ -45,6 +45,7 @@ One another thing that I noticed is that the relays are bistable so I modified t
  - 0.4 - fixed leds orientation and added touch pads silkscreen
  - 0.5 - added tantalum caps for better power supply and radio stability(removed MCU reset pin cap)
  
-**Credits:**
-  
-  All credits go to **MySensors** team for the great work and to the opensource community
+
+If this project was of any help you can buy me a beer or at least support my effort by using the below button. Thanks.
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ELNC7T6XRJ74&source=url)
