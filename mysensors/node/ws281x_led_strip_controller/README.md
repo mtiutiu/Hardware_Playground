@@ -32,6 +32,7 @@ This is a Mysensors RFM69W RGB controller node for controlling a WS281x LED stri
  - 0.1 - initial hw design
  - 0.2 - replaced atmega328p with atmega644p for more RAM/Flash
 
-**Credits:**
-  
-  All credits go to **MySensors** team for the great work and to the opensource community
+
+The only thing I ask if using this project is to at least mention my name and if I don't ask too much you can also support my effort using the below button. Thanks.
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ELNC7T6XRJ74&source=url)

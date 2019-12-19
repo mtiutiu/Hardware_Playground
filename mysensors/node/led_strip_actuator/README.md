@@ -32,6 +32,10 @@ This is a Mysensors RFM69W actuator node for controlling a 12V LED strip using a
 **HW Revisions:**
  - 0.1 - initial hw design
 
-**Credits:**
-  
-  All credits go to **MySensors** team for the great work and to the opensource community
+
+
+**Kindly notice:**
+
+The only thing I ask if using this project is to at least mention my name and if I don't ask too much you can also support my effort using the below button. Thanks for buying me a beer :).
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ELNC7T6XRJ74&source=url)

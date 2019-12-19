@@ -10,4 +10,3 @@ Top view | Bottom view
 **Description:**
 
 This is a simple USB shield for the Nano Pi Duo Linux SBC
-

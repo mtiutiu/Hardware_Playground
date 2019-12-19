@@ -26,3 +26,8 @@ This is a shield(or HAT) for the Orange Pi Zero Linux SBC
 
 **HW Revisions:**
  - 0.1 - initial design
+
+
+The only thing I ask if using this project is to at least mention my name and if I don't ask too much you can also support my effort using the below button. Thanks.
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ELNC7T6XRJ74&source=url)
