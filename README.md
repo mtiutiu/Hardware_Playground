@@ -1,2 +1,2 @@
 # Hardware_Playground
-Various hardware designs.
+Personal hardware designs.
