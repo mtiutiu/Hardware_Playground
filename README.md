@@ -1,2 +1,2 @@
-# KiCAD_Playground
-Hardware projects created using KiCAD.
+# Hardware_Playground
+Various hardware designs.
