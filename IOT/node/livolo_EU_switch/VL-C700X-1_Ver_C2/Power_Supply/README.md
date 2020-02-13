@@ -1,6 +1,6 @@
 **Intro**
 
-This is the control board (including power supply) for the touch switch plates that I made for Livolo.
+This is the power board (including relays) for the touch switch plates that I made for Livolo.
 
 The project complements the previous touch switch plates that I made a long time ago providing a full solution for creating a custom in wall RF switch which **works with no neutral line**.
 
