@@ -25,6 +25,7 @@ And yes, it took some effort to finish the custom board as it has to be pretty c
 
 1. Although there is a possibility to use loads that draw several amps I don't advise you to do so because it wasn't quite designed for it. Saying this because of the heat dissipation and pcb traces. Max current that can be drawn should be limited to **1.5 - 2 amps**.
 2. The touch sensing board including radio/mcu must not draw more than **10mA**.
+3. Initial design was made using **EasyEDA** but was ported to **KiCAD** with the help of the [easyeda2kicad](https://github.com/wokwi/easyeda2kicad) awesome tool. Only the PCB was ported as exporting schematics is not supported yet by the tool.
 
 Next step is to design the enclosure which will be 3D printed with PETG. The front side will be a glass plate which I'm thinking now how to make it look and fit better.
 
