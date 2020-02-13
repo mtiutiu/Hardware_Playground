@@ -13,10 +13,10 @@ Why I did this? I wanted to see that it can be done and not impossible to make i
 
 **And now the how**
 
-All I did on my side was to customize it a little bit by changing the stand-by power supply with another one based on the **LNK364 **chip which is a solution provided also by **Power Integrations**. The PCB was made so that it has the same dimensions as the one from the original Livolo switch except the screw terminals which are not aligned/positioned the same way. 
+All I did on my side was to customize it a little bit by changing the stand-by power supply with another one based on the **LNK364** chip which is a solution provided also by **Power Integrations**. The PCB was made so that it has the same dimensions as the one from the original Livolo switch except the screw terminals which are not aligned/positioned the same way. 
 The pin header is also positioned so that the custom touch plates that I made should fit and uses the same pinout.
 
-**V_SENSE **functionality is there but not used on the custom touch plates as it wasn't planned at that time (the only thing that it does is to signal whenever the switch changes the internal power supply used or when the series MOSFET regulator kicks in).
+**V_SENSE** functionality is there but not used on the custom touch plates as it wasn't planned at that time (the only thing that it does is to signal whenever the switch changes the internal power supply used or when the series MOSFET regulator kicks in).
 
 And yes, it took some effort to finish the custom board as it has to be pretty compact and also to take care of keeping as much as possible the minimum distance between tracks where high voltages are implied. Also for high current paths to make sure that the traces are more wide and mirror on both sides of the PCB (using via stitching). 
 
