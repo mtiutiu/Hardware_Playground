@@ -11,7 +11,7 @@ Initial design was made using **EasyEDA** but was ported to **KiCAD** with the h
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](screenshots/board_top.jpg?raw=true "top view") | ![Alt text](screenshots/board_bottom.jpg?raw=true "bottom view")
+![Alt text](screenshots/board_top.png?raw=true "top view") | ![Alt text](screenshots/board_bottom.png?raw=true "bottom view")
 
 **Revisions:**
  - 0.1 - initial design
