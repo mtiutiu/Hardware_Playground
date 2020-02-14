@@ -1,3 +1,4 @@
 *.bak
 *-bak
 *-cache.lib
+fp-info-cache
