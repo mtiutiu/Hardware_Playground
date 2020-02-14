@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc1-44a33f2~62~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -39,8 +39,6 @@
     (zone_clearance 0.8)
     (zone_45_only yes)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.15)
     (via_size 1)
     (via_drill 0.5)
     (via_min_size 0.4)
@@ -50,6 +48,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -74,7 +74,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -2047,7 +2047,7 @@
     (pad 1 thru_hole rect (at 0 0 180) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask)
       (net 4 /V_REG_IN))
     (model ${KIPRJMOD}/shapes3D/Diode_Bridge_Vishay_GBU.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 11))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
