@@ -29,11 +29,18 @@ And yes, it took some effort to finish the custom board as it has to be pretty c
 
 Next step is to design the enclosure which will be 3D printed with PETG. The front side will be a glass plate which I'm thinking now how to make it look and fit better.
 
-##### 3D renderings of pcb
+#### 3D renderings of pcb
 
 Top view | Bottom view
 ------------ | -------------
 ![Alt text](screenshots/board_top.png?raw=true "top view") | ![Alt text](screenshots/board_bottom.png?raw=true "bottom view")
+
+#### Mechanical assembly
+
+Normal view | Exploded view
+------------ | -------------
+![Alt text](screenshots/one_piece.png?raw=true "normal view") | ![Alt text](screenshots/exploded_view.png?raw=true "exploded view")
+
 
 **Revisions:**
  - 0.1 - initial design
