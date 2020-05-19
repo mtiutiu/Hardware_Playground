@@ -36,8 +36,8 @@ This is a Mysensors node using **RFM69W** radio module, **I2C based** temperatur
 This module has been in production for about 2 months now and it's working stable. This is my first stable node created and I didn't provided any other features as signing support and SPI flash for OTA - so please bear this in mind. This is the final version of it and I won't invest any time/money or other resources to upgrade it. The project is open hardware anyway so anyone can do that if he/she wants.
 
 
-**Kindly notice:**
+ **Kindly notice:**
 
 The only thing I ask if using this project is to at least mention my name and if I don't ask too much you can also support my effort using the below button. Thanks for buying me a beer :).
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ELNC7T6XRJ74&source=url)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FWQ6WCAPBEDM4&source=url)
