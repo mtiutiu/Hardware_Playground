@@ -65,6 +65,8 @@ This is a Mysensors replica of the Livolo EU Switch(1 channel 1 way) front plate
  - 0.3 - added 3V line jumper
  
 
-The only thing I ask if using this project is to at least mention my name and if I don't ask too much you can also support my effort using the below button. Thanks.
+**Kindly notice:**
+
+The only thing I ask if using this project is to at least mention my name and if I don't ask too much you can also support my effort using the below button. Thanks for buying me a beer :).
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ELNC7T6XRJ74&source=url)
