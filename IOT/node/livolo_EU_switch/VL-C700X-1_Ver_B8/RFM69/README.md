@@ -46,6 +46,8 @@ One another thing that I noticed is that the relays are bistable so I modified t
  - 0.5 - added tantalum caps for better power supply and radio stability(removed MCU reset pin cap)
  
 
-The only thing I ask if using this project is to at least mention my name and if I don't ask too much you can also support my effort using the below button. Thanks.
+ **Kindly notice:**
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ELNC7T6XRJ74&source=url)
+The only thing I ask if using this project is to at least mention my name and if I don't ask too much you can also support my effort using the below button. Thanks for buying me a beer :).
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FWQ6WCAPBEDM4&source=url)
