@@ -4,4 +4,4 @@
 
 Top view | Bottom view
 ------------ | -------------
-![Alt text](project/kicad/renderings/bl_top.png?raw=true "top view") | ![Alt text](project/kicad/renderings/bl_bottom.png?raw=true "bottom view")
+![Alt text](kicad/renderings/bl_top.png?raw=true "top view") | ![Alt text](kicad/renderings/bl_bottom.png?raw=true "bottom view")
