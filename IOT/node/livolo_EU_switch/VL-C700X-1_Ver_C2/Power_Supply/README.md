@@ -46,6 +46,7 @@ Normal view | Exploded view
  - 0.1 - initial design
  - 0.2 - fixed/optimized some traces
  - 0.3 - added mounting holes (for M1.4 small screws), updated schematic
+ - 0.4 - optimized traces for more clearance in the high voltage area
  
  **Kindly notice:**
 
