@@ -17,6 +17,7 @@ Top view | Bottom view
  - 0.1 - initial design
  - 0.2 - fixed/optimized some traces
  - 0.3 - some minor silkscreen fixes
+ - 0.4 - fixed NRF52840 footprint
  
  **Kindly notice:**
 

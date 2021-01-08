@@ -15,6 +15,7 @@ Top view | Bottom view
 
 **Revisions:**
  - 0.1 - initial design
+ - 0.2 - fixed NRF52840 footprint
  
  **Kindly notice:**
 
